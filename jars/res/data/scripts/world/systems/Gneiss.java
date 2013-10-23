@@ -114,7 +114,7 @@ public class Gneiss {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
                 
@@ -122,7 +122,7 @@ public class Gneiss {
                 
                 FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, pirateBase, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
                         UsSData.PPBR_CS, UsSData.PPBR_C, UsSData.PPBR_D, UsSData.PPBR_F, UsSData.PPBR_W, UsSData.PP_B, "",
-                        0f,0f,50f,25f,50f,
+                        0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
 		system.addScript(PIRsmallRaiders);
                 
@@ -141,8 +141,8 @@ public class Gneiss {
                 //--------------------------------------------------- 
                 
                 EliteSpawnPoint PIRlead = new EliteSpawnPoint(sector, system, 1, 3, pirateBase, "pirates", "scout", "merc", "raider", "friendly", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PPBR_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(PIRlead);
 		

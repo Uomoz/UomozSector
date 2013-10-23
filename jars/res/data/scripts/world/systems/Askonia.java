@@ -16,7 +16,6 @@ import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
 import data.scripts.uss.UsSUtils;
 import java.awt.Color;
-import java.util.List;
 
 public class Askonia {
 
@@ -151,7 +150,7 @@ public class Askonia {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
                 
@@ -178,8 +177,8 @@ public class Askonia {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint sinboss = new EliteSpawnPoint(sector, system, 1, 1, station, "sindrian_diktat", "patrol", "merc", "hunter", "friendly", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.SIN_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(sinboss);
                 

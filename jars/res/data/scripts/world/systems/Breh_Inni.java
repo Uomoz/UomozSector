@@ -115,8 +115,8 @@ public class Breh_Inni {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint jpboss = new EliteSpawnPoint(sector, system, 1, 1, station, "junk_pirates", "scout", "Mendonca", "hunter", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.JP_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(jpboss);
                 
@@ -150,7 +150,7 @@ public class Breh_Inni {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
                 

@@ -90,7 +90,7 @@ public class Corvus {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint HEboss = new EliteSpawnPoint(sector, system, 1, 1, hegemonyStation, "hegemony", "patrol", "merc", "defender", "friendly", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.HE_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
                         25f,50f,75f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(HEboss);
@@ -99,7 +99,7 @@ public class Corvus {
                 
                 FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 8, pirateStation, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
                         UsSData.PP_CS, UsSData.PP_C, UsSData.PP_D, UsSData.PP_F, UsSData.PP_W, UsSData.PP_B, "",
-                        0f,0f,50f,25f,50f,
+                        0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
 		system.addScript(PIRsmallRaiders);
                 
@@ -118,8 +118,8 @@ public class Corvus {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint PIRlead = new EliteSpawnPoint(sector, system, 1, 3, pirateStation, "pirates", "scout", "merc", "raider", "friendly", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PP_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(PIRlead);
                                 
@@ -146,8 +146,8 @@ public class Corvus {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint TTboss = new EliteSpawnPoint(sector, system, 1, 1, tritachyonStation, "tritachyon", "scout", "merc", "hunter", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.TT_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(TTboss);
                 
@@ -187,7 +187,7 @@ public class Corvus {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
 	}

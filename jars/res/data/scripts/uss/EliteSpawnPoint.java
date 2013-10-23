@@ -48,7 +48,7 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
                 if (getFlagship().endsWith("_Hull")) {
                     AddShip(getFlagship());
                 } else {
-                    AddShip(UsSUtils.getRandomMapMember(UsSData.ALL_D_FINAL));
+                    AddShip(UsSUtils.getRandomMapMember(getDestroyers()));
                 }
                 
                 UsSUtils.SetLevel(fleet, 5, getAptitudeFocus_1(), getAptitudeFocus_2(), getAptitudeFocus_3());
@@ -76,9 +76,9 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
 
                                 if (lvl < 30)   {
                                     UsSUtils.LevelUp(fleet, getAptitudeFocus_1(), getAptitudeFocus_2(), getAptitudeFocus_3());
-                                    if (lvl != 5) {
-                                        Global.getSector().addMessage("" + fleet.getName() + " :" + lvl);
-                                    }
+//                                    if (lvl != 5) {
+//                                        Global.getSector().addMessage("" + fleet.getName() + " :" + lvl);
+//                                    }
                                 }
                                 Trading(station);
                                 UsSUtils.RandomizeAndSortAndFill(fleet, getVariants(),(int) lvl);
@@ -162,34 +162,34 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
             }
             if (new_station == null) {
                 new_station = station;
-                Global.getSector().addMessage("Elite Assignment NULL new station");
+                Global.getSector().addMessage("Elite Assignment NULL new station, REPORT!");
             }
             fleet.setPreferredResupplyLocation(new_station);
             fleet.addAssignment(FleetAssignment.RESUPPLY, station, 100);
             int duration = (int) (Math.random()*3 + lvl/2);
-            if (getFleetType() == "defender")   {
+            if ("defender".equals(getFleetType()))   {
                 if (Math.random() > 0.50) {
                     fleet.addAssignment(FleetAssignment.DEFEND_LOCATION, new_station, duration);
                 } else {
                     fleet.addAssignment(FleetAssignment.PATROL_SYSTEM, new_station, duration);
                 }
-            } else if (getFleetType() == "hunter")  {                
+            } else if ("hunter".equals(getFleetType()))  {                
                 CampaignFleetAPI enemy = UsSUtils.getHostileFleet(fleet);
                 if (enemy != null) {
-                    Global.getSector().addMessage(fleet.getNameWithFaction() + " attacking " + enemy.getNameWithFaction());
-                    for (int i = 0; i < duration; i++) {
-                    fleet.addAssignment(FleetAssignment.ATTACK_LOCATION, enemy, 1);
+                    if (fleet.isInCurrentLocation()) {
+                        Global.getSector().addMessage(fleet.getNameWithFaction().replace(" [xXx]", "") + " is attacking " + enemy.getNameWithFaction().replace(" [xXx]", "") + "!");
                     }
+                    fleet.addAssignment(FleetAssignment.ATTACK_LOCATION, enemy, duration);
                 } else {
                 fleet.addAssignment(FleetAssignment.RAID_SYSTEM, new_station, duration);
                 }
-            } else if (getFleetType() == "raider")  {
+            } else if ("raider".equals(getFleetType()))  {
                 fleet.addAssignment(FleetAssignment.RAID_SYSTEM, UsSUtils.getRandomSystem(getSector()).getStar(), duration);
             } else {
                 fleet.addAssignment(FleetAssignment.PATROL_SYSTEM, new_station, duration);
             }
 
-            fleet.addAssignment(FleetAssignment.GO_TO_LOCATION, new_station, 1, EliteAI(fleet, new_station));   
+            fleet.addAssignment(FleetAssignment.GO_TO_LOCATION, new_station, 100, EliteAI(fleet, new_station));   
                                 
         }
         

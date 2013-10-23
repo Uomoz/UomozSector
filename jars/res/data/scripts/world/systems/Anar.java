@@ -16,7 +16,6 @@ import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
 import data.scripts.uss.UsSUtils;
 import java.awt.Color;
-import java.util.List;
 
 @SuppressWarnings("unchecked")
 public class Anar { //implements SectorGeneratorPlugin {
@@ -95,8 +94,8 @@ public class Anar { //implements SectorGeneratorPlugin {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint SHIlead = new EliteSpawnPoint(sector, system, 1, 1, shadowShipyards, "shadow_industry", "scout", "merc", "hunter", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.SHI_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(SHIlead);
                 
@@ -104,7 +103,7 @@ public class Anar { //implements SectorGeneratorPlugin {
                 
                 FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, shadowResearchBase, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
                         UsSData.PPSHI_CS, UsSData.PPSHI_C, UsSData.PPSHI_D, UsSData.PPSHI_F, UsSData.PPSHI_W, UsSData.PP_B, "",
-                        0f,0f,50f,25f,50f,
+                        0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
 		system.addScript(PIRsmallRaiders);
                 
@@ -123,8 +122,8 @@ public class Anar { //implements SectorGeneratorPlugin {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint PIRlead = new EliteSpawnPoint(sector, system, 1, 3, shadowResearchBase, "pirates", "scout", "merc", "raider", "friendly", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PPSHI_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(PIRlead);
                 
@@ -158,7 +157,7 @@ public class Anar { //implements SectorGeneratorPlugin {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
 	}
@@ -267,6 +266,8 @@ public class Anar { //implements SectorGeneratorPlugin {
 		cargo.addMothballedShip(FleetMemberType.SHIP, "hound_Hull", null);
 		cargo.addMothballedShip(FleetMemberType.SHIP, "lasher_Hull", null);
 		cargo.addMothballedShip(FleetMemberType.SHIP, "buffalo2_Hull", null);
+		cargo.addMothballedShip(FleetMemberType.SHIP, "ms_potniaBis_Hull", null);
+		cargo.addMothballedShip(FleetMemberType.SHIP, "ms_potniaBis_Hull", null);
 		//cargo.addMothballedShip(FleetMemberType.SHIP, "buffalo2_Hull", null);
 		//cargo.addMothballedShip(FleetMemberType.SHIP, "condor_Hull", null);
 		//cargo.addMothballedShip(FleetMemberType.SHIP, "tarsus_Hull", null);

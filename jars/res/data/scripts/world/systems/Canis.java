@@ -15,7 +15,6 @@ import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
 import data.scripts.uss.UsSUtils;
 import java.awt.Color;
-import java.util.List;
 
 public class Canis {
 
@@ -96,7 +95,7 @@ public class Canis {
 
                 EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
                         UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(indeMerc);
                 
@@ -123,7 +122,7 @@ public class Canis {
                 //---------------------------------------------------
                 
                 EliteSpawnPoint packboss = new EliteSpawnPoint(sector, system, 1, 2, station, "pack", "miners", "Wolf", "defender", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PCK_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
                         0f,0f,50f,33f,0f,
                         "combat", "technology", "leadership");
 		system.addScript(packboss);
