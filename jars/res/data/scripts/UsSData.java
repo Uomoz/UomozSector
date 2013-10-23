@@ -360,6 +360,7 @@ public class UsSData {
     D.put("buffalo2_Hull", 3f);
     D.put("ms_morningstar_Hull", 1.5f);
     D.put("ms_sargasso_Hull", 0.5f);
+    D.put("ms_potniaBis_Hull", 3f);
     PPSHI_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
@@ -731,6 +732,7 @@ public class UsSData {
     Map TR = new HashMap();
     TR.put("ms_lambent_Hull", 1f);
     TR.put("ms_solidarity_Hull", 1f);
+    TR.put("ms_potnia_Hull", 1f);
     SHI_TR = Collections.unmodifiableMap(TR);
     
     Map U = new HashMap();
@@ -968,6 +970,7 @@ public class UsSData {
         allVariantsTemp.put("ms_tartarus",createVariantList(new String[]{"ms_tartarus_AF", "ms_tartarus_Assault", "ms_tartarus_CS", "ms_tartarus_Standard"}));
         allVariantsTemp.put("ms_scylla",createVariantList(new String[]{"ms_scylla_Assault", "ms_scylla_Beam", "ms_scylla_Standard"}));
         allVariantsTemp.put("ms_solidarity",createVariantList(new String[]{"ms_solidarity_Standard","ms_solidarity_Fast"}));
+        allVariantsTemp.put("ms_potnia",createVariantList(new String[]{"ms_potnia_Standard"}));
         Variants_SHI = Collections.unmodifiableMap(allVariantsTemp);
     }
         static
@@ -1051,6 +1054,7 @@ public class UsSData {
         allVariantsTemp.put("ms_seski",createVariantList(new String[]{"ms_seski_Attack", "ms_seski_BR", "ms_seski_CS", "ms_seski_Standard"}));
         allVariantsTemp.put("ms_shamash",createVariantList(new String[]{"ms_shamash_Attack", "ms_shamash_CS", "ms_shamash_EMP", "ms_shamash_Standard"}));
         allVariantsTemp.put("ms_solidarity",createVariantList(new String[]{"ms_solidarity_Standard"}));
+        allVariantsTemp.put("ms_potniaBis",createVariantList(new String[]{"ms_potniaBis_AS", "ms_potniaBis_Attack", "ms_potniaBis_CS", "ms_potniaBis_FS"}));
         Variants_PIR = Collections.unmodifiableMap(allVariantsTemp);
     }
         
