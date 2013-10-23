@@ -1068,6 +1068,7 @@ public class UsSData {
         allVariantsTemp.put("doom",createVariantList(new String[]{"doom_ass", "doom_hun", "doom_sho", "doom_str"}));
         allVariantsTemp.put("aurora",createVariantList(new String[]{"aurora_ass", "aurora_att", "aurora_bal", "aurora_sta", "aurora_str"}));
         allVariantsTemp.put("buffalo",createVariantList(new String[]{"buffaloi_ass", "buffaloi_pd", "buffaloi_sta", "buffaloi_str", "buffaloi_sup"}));
+        allVariantsTemp.put("sunder",createVariantList(new String[]{"sunderi_ass", "vbul", "sunderi_cs", "sunderi_hun", "sunderi_pla", "sunderi_pul", "sunderi_str"}));
         Variants_TT = Collections.unmodifiableMap(allVariantsTemp);
     }
         
