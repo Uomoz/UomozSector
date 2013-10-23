@@ -1,0 +1,41 @@
+{
+    "displayName": "Support P",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "hullId": "venture",
+    "hullMods": [
+        "unstable_injector",
+        "eccm"
+    ],
+    "variantId": "venturep_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 003": "dualflak"
+            }
+        }
+    ]
+}

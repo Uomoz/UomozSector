@@ -1,0 +1,35 @@
+{
+    "displayName": "Strike I",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "hullId": "buffalo",
+    "hullMods": [],
+    "variantId": "buffaloi_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

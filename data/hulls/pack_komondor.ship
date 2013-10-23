@@ -1,0 +1,252 @@
+{
+  "bounds": [
+    79,
+    -15,
+    64,
+    -40,
+    36,
+    -45,
+    -1,
+    -45,
+    -26,
+    -36,
+    -67,
+    -51,
+    -84,
+    -28,
+    -84,
+    28,
+    -67,
+    51,
+    -26,
+    36,
+    -1,
+    45,
+    36,
+    45,
+    64,
+    40,
+    79,
+    15
+  ],
+  "center": [
+    57.5,
+    92.5
+  ],
+  "collisionRadius": 85.211502,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 46.5,
+      "location": [
+        -93.5,
+        22.5
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 46.5,
+      "location": [
+        -93.5,
+        -22.5
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 27,
+      "location": [
+        -94,
+        40
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 27,
+      "location": [
+        -94,
+        -40
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 46.5,
+      "location": [
+        -92.5,
+        31.5
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 46.5,
+      "location": [
+        -92.5,
+        -31.5
+      ],
+      "style": "MIDLINE",
+      "width": 7
+    }
+  ],
+  "height": 185,
+  "hullId": "pack_komondor",
+  "hullName": "Komondor",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 125.143921,
+  "spriteName": "graphics/pack/ships/pack_komondor.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        77,
+        26.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        77,
+        -26.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 133.94902,
+      "id": "WS0003",
+      "locations": [
+        11.5,
+        38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 133.94902,
+      "id": "WS0004",
+      "locations": [
+        11.5,
+        -38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 103.657646,
+      "arc": 124.467964,
+      "id": "WS0005",
+      "locations": [
+        -15.5,
+        33
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -103.657646,
+      "arc": 124.467964,
+      "id": "WS0006",
+      "locations": [
+        -15.5,
+        -33
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 56.17384,
+      "arc": 166.282578,
+      "id": "WS0007",
+      "locations": [
+        46,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -56.17384,
+      "arc": 166.282578,
+      "id": "WS0008",
+      "locations": [
+        46,
+        -25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0009",
+      "locations": [
+        83,
+        9.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0010",
+      "locations": [
+        83,
+        -9.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0011",
+      "locations": [
+        55,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 115
+}

@@ -1,0 +1,38 @@
+{
+    "displayName": "Support I",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "vigilance",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks"
+    ],
+    "variantId": "vigilancei_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 002": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyburst"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

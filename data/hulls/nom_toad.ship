@@ -1,0 +1,158 @@
+{
+  "bounds": [
+    -3.5,
+    23,
+    11,
+    12,
+    3.5,
+    -0,
+    10,
+    -11,
+    0.5,
+    -25.5,
+    -15.5,
+    -6.5,
+    -15,
+    7.5
+  ],
+  "builtInWeapons": {
+    "left_gun": "nom_light_electron_maser",
+    "right_gun": "nom_light_electron_maser",
+    "missile_1": "swarmer",
+  },
+  "center": [
+    25.5,
+    18
+  ],
+  "collisionRadius": 29.004311,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 17.5,
+      "location": [
+        -18,
+        -6.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 17.5,
+      "location": [
+        -18,
+        6
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 9,
+      "location": [
+        -16.5,
+        -1.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 7.5,
+      "location": [
+        -16,
+        -9.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 7,
+      "location": [
+        -11,
+        -12.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 7.5,
+      "location": [
+        -11,
+        12.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 3,
+      "length": 4.5,
+      "location": [
+        -16.5,
+        8.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 3
+    }
+  ],
+  "height": 48,
+  "hullId": "nom_toad",
+  "hullName": "Toad",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 28.004463,
+  "spriteName": "graphics/nom/ships/nom_toad.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 135,
+      "arc": 0,
+      "id": "missile_1",
+      "locations": [
+        -7,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 25,
+      "id": "left_gun",
+      "locations": [
+        25,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 25,
+      "id": "right_gun",
+      "locations": [
+        25,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 54
+}

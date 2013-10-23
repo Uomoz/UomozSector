@@ -1,0 +1,38 @@
+{
+    "displayName": "Storm I",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "hullId": "gemini",
+    "hullMods": [],
+    "variantId": "geminii_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyneedler",
+                "WS 002": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

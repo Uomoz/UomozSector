@@ -1,0 +1,38 @@
+{
+    "displayName": "Sniper I",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "brawler",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "brawleri_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 002": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

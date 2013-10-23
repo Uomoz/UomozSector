@@ -1,0 +1,38 @@
+{
+    "displayName": "Outdated I",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "gemini",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "geminii_out",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "shredder",
+                "WS 002": "shredder"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

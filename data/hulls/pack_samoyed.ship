@@ -1,0 +1,136 @@
+{
+  "bounds": [
+    45,
+    -12.5,
+    8.5,
+    -26.5,
+    13,
+    -36.5,
+    8.5,
+    -44,
+    -33,
+    -41,
+    -28.5,
+    -27,
+    -44.5,
+    -25,
+    -44.5,
+    25,
+    -28.5,
+    27,
+    -33,
+    41,
+    8.5,
+    44,
+    13,
+    36.5,
+    8.5,
+    26.5,
+    45,
+    12.5
+  ],
+  "center": [
+    50,
+    52.5
+  ],
+  "collisionRadius": 47.981766,
+  "engineSlots": [
+    {
+      "angle": 177.540955,
+      "contrailSize": 9,
+      "length": 54,
+      "location": [
+        -37.5,
+        -38.5
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    },
+    {
+      "angle": -177.540955,
+      "contrailSize": 9,
+      "length": 54,
+      "location": [
+        -37.5,
+        38.5
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    }
+  ],
+  "height": 105,
+  "hullId": "pack_samoyed",
+  "hullName": "Samoyed",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 76.840744,
+  "spriteName": "graphics/pack/ships/pack_samoyed.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        24,
+        31.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        24,
+        -31.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 204.450241,
+      "id": "WS0003",
+      "locations": [
+        4.5,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 204.450241,
+      "id": "WS0004",
+      "locations": [
+        4.5,
+        -13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 88.339371,
+      "id": "WS0005",
+      "locations": [
+        33.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 100
+}

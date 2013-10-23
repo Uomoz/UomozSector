@@ -1,0 +1,41 @@
+{
+    "displayName": "Outdated T",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "hyperion",
+    "hullMods": ["stabilizedshieldemitter"],
+    "variantId": "hyperion_out",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "miningblaster",
+                "WS 004": "miningblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "amblaster",
+                "WS 002": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

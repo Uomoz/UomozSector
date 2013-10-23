@@ -1,0 +1,18 @@
+{
+    "displayName": "Standard P",
+    "fluxCapacitors": 5,
+    "fluxVents": 3,
+    "hullId": "tarsus",
+    "hullMods": ["unstable_injector"],
+    "variantId": "tarsusp_sta",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "lightmg",
+            "WS 002": "lightmg",
+            "WS 003": "lightmg",
+            "WS 004": "lightmg"
+        }
+    }]
+}

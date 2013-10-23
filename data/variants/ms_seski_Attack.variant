@@ -1,0 +1,34 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "hullId": "ms_seski",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "extendedshieldemitter"
+    ],
+    "variantId": "ms_seski_Attack",
+    "weaponGroups": [
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "phasebeam"
+            }
+        },
+        {
+            "autofire": "false",
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0002": "amblaster"
+	        }
+        },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "pdlaser"
+	        }
+	    }
+    ]
+}

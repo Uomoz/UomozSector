@@ -1,0 +1,18 @@
+{
+    "displayName": "Standard I",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "hullId": "phaeton",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "phaetoni_sta",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "lightdualmg",
+            "WS 002": "lightdualmg",
+            "WS 003": "lightdualmg",
+            "WS 004": "lightdualmg"
+        }
+    }]
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Long Range Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+	    "missleracks"
+    ],
+    "variantId": "ms_enlil_LRM",
+    "weaponGroups": [
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "irpulse",
+                "WS0003": "irpulse"
+            }
+        },
+        {
+            "autofire": "false",
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "pilum"
+	        }
+        },
+        {
+            "autofire": "true",
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser"
+            }
+        }
+    ]
+}

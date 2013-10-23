@@ -1,0 +1,16 @@
+{
+	"id":"ms_phzdn_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":5.0,
+	"width":3.0,
+	"hitGlowRadius":9,
+	"fadeTime":0.25,
+	"fringeColor":[255,135,195,255],
+	"coreColor":[155,20,75,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/shadow_weapons/missiles/ms_phzdn_shot.png"
+}

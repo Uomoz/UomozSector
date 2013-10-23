@@ -1,0 +1,47 @@
+{
+    "displayName": "Support I",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "hullId": "venture",
+    "hullMods": [
+        "missleracks",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "venturei_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "pilum",
+                "WS 006": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyneedler",
+                "WS 003": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "harpoon",
+                "WS 007": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

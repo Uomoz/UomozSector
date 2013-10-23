@@ -1,0 +1,59 @@
+{
+    "displayName": "Hunter T",
+    "fluxCapacitors": 43,
+    "fluxVents": 50,
+    "hullId": "paragon",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "variantId": "paragon_hun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "autopulse",
+                "WS 002": "autopulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "sabot",
+                "WS 014": "sabot",
+                "WS 018": "sabot",
+                "WS 020": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "plasma",
+                "WS 004": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 010": "heavyburst",
+                "WS 015": "pdburst",
+                "WS 021": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavymauler",
+                "WS 008": "heavymauler"
+            }
+        }
+    ]
+}

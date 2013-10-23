@@ -1,0 +1,57 @@
+{
+    "displayName": "Superior",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "variantId": "dominatorhe_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hephag",
+                "WS 013": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavyneedler",
+                "WS 011": "heavyneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightneedler",
+                "WS 006": "lightneedler",
+                "WS 007": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler"
+            }
+        }
+    ]
+}

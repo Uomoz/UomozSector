@@ -1,0 +1,41 @@
+{
+    "displayName": "Sniper I",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "hullId": "shade",
+    "hullMods": ["targetingunit"],
+    "variantId": "shadei_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "railgun",
+                "WS 002": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "irpulse",
+                "WS 005": "irpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

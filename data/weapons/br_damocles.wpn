@@ -1,0 +1,29 @@
+{
+	"id":"br_damocles",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"turretGlowSprite":"",
+	"hardpointSprite":"graphics/BR/weapons/amlance_dummy.png",
+	"hardpointGlowSprite":"graphics/BR/weapons/damocles_glow.png",
+	"glowColor":[255,250,235,55],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[5, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":43.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":7.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":42,
+					   "particleColor":[255,210,215,115]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"projectileSpecId":"br_damoclesproj",  # projectile that will be fired
+	"fireSoundTwo":"brdy_damocles_fire",
+}

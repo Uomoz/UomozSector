@@ -1,0 +1,41 @@
+{
+    "displayName": "CS I",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "gemini",
+    "hullMods": [
+        "missleracks",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "geminii_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "annihilatorpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

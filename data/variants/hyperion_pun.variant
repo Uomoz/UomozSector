@@ -1,0 +1,38 @@
+{
+    "displayName": "Puncher T",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+    "hullId": "hyperion",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "advancedshieldemitter"
+    ],
+    "variantId": "hyperion_pun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

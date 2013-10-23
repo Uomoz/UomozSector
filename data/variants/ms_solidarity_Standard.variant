@@ -1,0 +1,37 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 15,
+  "fluxVents": 5,
+  "hullId": "ms_solidarity",
+  "hullMods": [
+    "reinforcedhull",
+    "magazines"
+  ],
+  "variantId": "ms_solidarity_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ms_mcepc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ms_shrike_rack",
+        "WS0002": "ms_shrike_rack",
+        "WS0003": "ms_shrike_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ms_pdcepc",
+        "WS0006": "ms_pdcepc"
+      }
+    }
+  ]
+}

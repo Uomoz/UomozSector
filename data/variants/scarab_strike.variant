@@ -1,0 +1,34 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 3,
+    "fluxVents": 0,
+    "hullId": "brdy_scarab",
+    "hullMods": [],
+    "variantId": "scarab_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "br_pde",
+                "WS0002": "br_fpde"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brdy_volley",
+                "WS0006": "brdy_volley"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall"
+            }
+        }
+    ]
+}

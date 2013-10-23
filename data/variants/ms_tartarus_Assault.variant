@@ -1,0 +1,48 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 2,
+  "fluxVents": 30,
+  "hullId": "ms_tartarus",
+  "hullMods": [
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter"
+  ],
+  "variantId": "ms_tartarus_Assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser"
+      }
+    }
+  ]
+}

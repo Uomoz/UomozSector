@@ -1,0 +1,11 @@
+{
+  	"id":"UomozSector", # internal id
+	"name":"Uomoz's Sector", # displayed to the player
+	"author":"Uomoz",
+	"version":"1.0 Journey",
+	"description":"WIP",
+        "gameVersion":"0.6.1a",
+	"utility":"false",
+	"modPlugin":"data.scripts.UsSModPlugin",
+	"jars":["jars/UomozJAR.jar"],
+}

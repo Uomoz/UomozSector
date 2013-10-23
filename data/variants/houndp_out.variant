@@ -1,0 +1,23 @@
+{
+    "displayName": "Outdated P",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "hound",
+    "hullMods": [
+        "unstable_injector",
+        "augmentedengines"
+    ],
+    "variantId": "houndp_out",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "shredder"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

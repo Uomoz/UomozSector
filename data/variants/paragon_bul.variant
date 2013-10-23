@@ -1,0 +1,55 @@
+{
+    "displayName": "Bull T",
+    "fluxCapacitors": 45,
+    "fluxVents": 50,
+    "hullId": "paragon",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "targetingunit"
+    ],
+    "variantId": "paragon_bul",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "plasma",
+                "WS 002": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "dualflak",
+                "WS 008": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "plasma",
+                "WS 004": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyblaster",
+                "WS 006": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "heavyburst",
+                "WS 010": "heavyburst",
+                "WS 015": "pdburst",
+                "WS 021": "pdburst"
+            }
+        }
+    ]
+}

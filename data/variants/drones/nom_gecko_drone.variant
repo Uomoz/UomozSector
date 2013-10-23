@@ -1,0 +1,17 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "nom_gecko",
+  "hullMods": [],
+  "variantId": "nom_gecko_drone",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "nom_ultralight_electron_maser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Shocker P",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": ["unstable_injector"],
+    "variantId": "dominatorp_sho",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mjolnir",
+                "WS 013": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavyac",
+                "WS 011": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

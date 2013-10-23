@@ -1,0 +1,54 @@
+{
+    "displayName": "Strike I",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": [
+        "missleracks",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "odysseyi_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "annihilatorpod",
+                "WS 005": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdburst",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 011": "pdburst",
+                "WS 012": "pdlaser",
+                "WS 013": "pdlaser",
+                "WS 014": "pdlaser",
+                "WS 015": "pdlaser",
+                "WS 016": "pdburst",
+                "WS 017": "pdlaser",
+                "WS 018": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavyblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "sabotpod"}
+        }
+    ]
+}

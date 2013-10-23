@@ -1,0 +1,61 @@
+{
+    "displayName": "Puncher H",
+    "fluxCapacitors": 37,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "reinforcedhull",
+        "targetingunit"
+    ],
+    "variantId": "onslaught_pun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyneedler",
+                "WS 003": "heavyneedler",
+                "WS 008": "railgun",
+                "WS 009": "railgun",
+                "WS 019": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "dualflak",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "hellbore",
+                "WS 020": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "heavymauler",
+                "WS 013": "heavymauler"
+            }
+        }
+    ]
+}

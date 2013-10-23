@@ -1,0 +1,29 @@
+{
+	"id":"br_iwbattery",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/BR/weapons/iwbatt_turret.png",
+	"turretGunSprite":"graphics/BR/weapons/iwbatt_tbarrel.png",
+	"hardpointSprite":"graphics/BR/weapons/iwbatt_hp.png",
+	"hardpointGunSprite":"graphics/BR/weapons/iwbatt_hpbarrel.png",
+	"renderHints":[RENDER_BARREL_BELOW],
+	"visualRecoil":2,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[12, -7, 12, -4, 12, 7, 12, 4],
+	"turretAngleOffsets":[0, 0, 0, 0],
+	"hardpointOffsets":[10, -7, 10, -4, 10, 7, 10, 4],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
+	"barrelMode":"LINKED", # or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":22.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.17,
+					   "particleCount":7,
+					   "particleColor":[255,240,165,250]},
+	"projectileSpecId":"brvulcan_shot",  # projectile that will be fired
+	#"fireSoundOne":"gunservo",
+	"fireSoundTwo":"iwfire",
+}

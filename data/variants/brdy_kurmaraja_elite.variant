@@ -1,0 +1,57 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "hullId": "brdy_kurmaraja",
+    "hullMods": [
+        "targetingunit",
+        "fluxbreakers"
+    ],
+    "variantId": "brdy_kurmaraja_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "achilles_mrm",
+                "WS0010": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall",
+                "WS0011": "brvulcan",
+                "WS0012": "brvulcan",
+                "WS0013": "brvulcan",
+                "WS0014": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_linear",
+                "WS0008": "brdy_linear",
+                "WS0015": "brdy_ag",
+                "WS0016": "brdy_ag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_galecannon",
+                "WS0005": "brdy_galecannon",
+                "WS0006": "brdy_galecannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_solenoidlarge"}
+        }
+    ]
+}

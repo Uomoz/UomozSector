@@ -1,0 +1,35 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "hullId": "dram",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "drami_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightdualac"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

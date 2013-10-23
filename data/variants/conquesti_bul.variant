@@ -1,0 +1,61 @@
+{
+    "displayName": "Bull I",
+    "fluxCapacitors": 0,
+    "fluxVents": 32,
+    "hullId": "conquest",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "variantId": "conquesti_bul",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hurricane",
+                "WS 002": "hurricane",
+                "WS 019": "sabotpod",
+                "WS 020": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "mark9",
+                "WS 012": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "mark9",
+                "WS 014": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "heavyac",
+                "WS 016": "heavymauler",
+                "WS 017": "heavyac",
+                "WS 018": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+  "bounds": [
+    -39.0,
+    12.0,
+    -42.0,
+    -12.5,
+    -8.5,
+    -23.0,
+    31.0,
+    -23.0,
+    33.0,
+    -9.0,
+    51.0,
+    -5.5,
+    51.5,
+    4.0,
+    29.0,
+    11.5,
+    29.0,
+    26.0,
+    -2.5,
+    26.0
+  ],
+  "center": [
+    30.5,
+    52.5
+  ],
+  "collisionRadius": 57.21888,
+  "engineSlots": [
+    {
+      "angle": 180.0,
+      "contrailSize": 30.0,
+      "length": 30.0,
+      "location": [
+        -44.0,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 10.0
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 13.0,
+      "length": 48.5,
+      "location": [
+        -50.5,
+        -7.0
+      ],
+      "style": "MIDLINE",
+      "width": 13.0
+    }
+  ],
+  "height": 108.0,
+  "width": 58.0,
+  "hullId": "pack_bedlington",
+  "hullName": "Bedlington",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0.0,
+    -0.0
+  ],
+  "shieldRadius": 74.928299,
+  "spriteName": "graphics/pack/ships/pack_bedlington.png",
+  "style": "MIDLINE",
+  "viewOffset": 0.0,
+  "weaponSlots": [
+    {
+      "angle": -146.309937,
+      "arc": 295.090942,
+      "id": "WS0001",
+      "locations": [
+        -20.0,
+        7.0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -135.0,
+      "arc": 324.871307,
+      "id": "WS0002",
+      "locations": [
+        -20.5,
+        -11.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0.0,
+      "arc": 5.452622,
+      "id": "WS0003",
+      "locations": [
+        52.0,
+        -1.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ]
+}

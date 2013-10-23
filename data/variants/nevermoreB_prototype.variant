@@ -1,0 +1,50 @@
+{
+  "displayName": "Prototype",
+  "fluxCapacitors": 20,
+  "fluxVents": 14,
+  "hullId": "nevermoreB",
+  "hullMods": [
+    "targetingunit",
+    "adaptiveshields"
+  ],
+  "variantId": "nevermoreB_prototype",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "brdy_amlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "br_pde",
+        "WS0003": "br_pde",
+        "WS0006": "br_pde",
+        "WS0007": "br_pde"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "brdy_ac",
+        "WS0005": "brdy_ac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "brburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ]
+}

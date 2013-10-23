@@ -1,0 +1,45 @@
+{
+    "displayName": "PD H",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "lasher",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks"
+    ],
+    "variantId": "lasher_pd",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

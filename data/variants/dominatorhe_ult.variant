@@ -1,0 +1,59 @@
+{
+    "displayName": "Ultimate",
+    "fluxCapacitors": 25,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "extendedshieldemitter",
+        "targetingunit",
+        "reinforcedhull",
+        "advancedshieldemitter"
+    ],
+    "variantId": "dominatorhe_ult",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mjolnir",
+                "WS 013": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "hveldriver",
+                "WS 011": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "railgun",
+                "WS 007": "railgun",
+                "WS 008": "railgun",
+                "WS 009": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "railgun",
+                "WS 003": "railgun",
+                "WS 004": "railgun",
+                "WS 005": "railgun",
+                "WS 006": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

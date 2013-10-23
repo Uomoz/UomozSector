@@ -1,0 +1,40 @@
+{
+
+    "SHADOW_TECH":{
+        "hyperspaceJitterColor":[210,125,105,200],
+		"baseCampaignExplosionColor":[95,205,140,255],
+		"baseCombatExplosionColor":[95,205,140,255],
+		"fighterRepairFlickerColor":[75,165,110,255],
+		"weaponDisabledExplosionColor":[210,125,105,255],
+		##"shieldRingColor":[150,70,255,255],
+		##"shieldInnerColor":[78,60,156,75],
+		"shieldRingColor":[255,190,205,255],
+		"shieldInnerColor":[165,115,120,75],
+		"fluxVentCoreColor":[95,205,140,255],
+		"fluxVentFringeColor":[50,110,74,255],
+    },
+
+	"BLACKROCKHULL":{
+		"hyperspaceJitterColor":[135,145,125,200],
+		"baseCampaignExplosionColor":[135,145,125,255],
+		"baseCombatExplosionColor":[135,145,125,255],
+		"fighterRepairFlickerColor":[255,125,25,255],
+		"weaponDisabledExplosionColor":[119,200,137,225],
+		"shieldRingColor":[119,200,167,255],
+		"shieldInnerColor":[119,200,157,54],
+		"fluxVentCoreColor":[62,69,63,215],
+		"fluxVentFringeColor":[100,230,167,45],	
+	},
+
+	"ANCIENT_NAERAN":{
+		"hyperspaceJitterColor":       [196,196,173,200],
+		"baseCampaignExplosionColor":  [196,196,173,255],
+		"baseCombatExplosionColor":    [196,196,173,255],
+		"fighterRepairFlickerColor":   [196,196,173,255],
+		"weaponDisabledExplosionColor":[196,196,173,255],
+		"shieldRingColor":             [255,255,255,255],
+		"shieldInnerColor":            [194,194, 54, 75],
+		"fluxVentCoreColor":           [255,255,255,255],
+		"fluxVentFringeColor":         [194,194, 54,220],
+	},
+}

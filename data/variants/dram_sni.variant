@@ -1,0 +1,35 @@
+{
+    "displayName": "Sniper H",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "dram",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "dram_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightmg"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

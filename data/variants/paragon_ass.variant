@@ -1,0 +1,63 @@
+{
+    "displayName": "Assault T",
+    "fluxCapacitors": 30,
+    "fluxVents": 50,
+    "hullId": "paragon",
+    "hullMods": [
+        "eccm",
+        "targetingunit",
+        "missleracks",
+        "stabilizedshieldemitter"
+    ],
+    "variantId": "paragon_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pulselaser",
+                "WS 002": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "harpoon",
+                "WS 014": "harpoon",
+                "WS 018": "harpoon",
+                "WS 020": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "autopulse",
+                "WS 004": "autopulse",
+                "WS 011": "ioncannon",
+                "WS 017": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 010": "heavyburst",
+                "WS 015": "pdburst",
+                "WS 021": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyneedler",
+                "WS 008": "heavyneedler"
+            }
+        }
+    ]
+}

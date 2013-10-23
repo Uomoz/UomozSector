@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault T",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "wolf",
+    "hullMods": [
+        "augmentedengines",
+        "magazines"
+    ],
+    "variantId": "wolf_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "taclaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "taclaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

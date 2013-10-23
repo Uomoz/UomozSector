@@ -1,0 +1,26 @@
+{
+	"id":"burstjets",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.BurstJetsStats",
+	
+	"engineGlowColor":[140,250,200,185],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.8,
+	"engineGlowWidthMult":0.75,
+	"engineGlowGlowMult":2.3,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"burstjetfire",
+	"loopSound":"burstjetunderlay",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":155,
+	}
+}

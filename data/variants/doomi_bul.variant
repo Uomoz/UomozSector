@@ -1,0 +1,45 @@
+{
+    "displayName": "Bull I",
+    "fluxCapacitors": 30,
+    "fluxVents": 28,
+    "hullId": "doom",
+    "hullMods": [],
+    "variantId": "doomi_bul",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "amblaster",
+                "WS 004": "amblaster",
+                "WS 005": "amblaster",
+                "WS 006": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "amblaster",
+                "WS 008": "amblaster",
+                "WS 011": "amblaster",
+                "WS 012": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

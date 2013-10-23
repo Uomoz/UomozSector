@@ -1,0 +1,47 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 10,
+    "fluxVents": 20,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+	    "armoredweapons",
+	    "targetingunit"
+    ],
+    "variantId": "ms_charybdis_CS",
+    "weaponGroups": [
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0003": "taclaser",
+		        "WS0004": "taclaser",
+		        "WS0005": "taclaser"
+	        }
+	    },
+	    {
+	        "autofire": "false",
+	        "mode": "ALTERNATING",
+	        "weapons": {
+		        "WS0009": "heatseeker",
+		        "WS0010": "heatseeker"
+	        }
+	    },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0008": "autopulse"
+	        }
+	    },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0001": "pdburst",
+		        "WS0002": "pdburst",
+		        "WS0006": "gravitonbeam",
+		        "WS0007": "gravitonbeam"
+	        }
+	    }
+    ]
+}

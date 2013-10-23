@@ -1,0 +1,38 @@
+{
+    "displayName": "Outdated P",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "hullId": "mule",
+    "hullMods": ["unstable_injector"],
+    "variantId": "mulep_out",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightdualac",
+                "WS 006": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "lightdualmg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "miningblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

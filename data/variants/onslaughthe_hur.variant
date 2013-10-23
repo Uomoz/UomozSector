@@ -1,0 +1,69 @@
+{
+    "displayName": "Hurricane",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "reinforcedhull",
+        "targetingunit",
+        "heavyarmor",
+        "auxiliarythrusters"
+    ],
+    "variantId": "onslaughthe_hur",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 021": "annihilatorpod",
+                "WS 022": "annihilatorpod",
+                "WS 023": "annihilatorpod",
+                "WS 024": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyneedler",
+                "WS 002": "railgun",
+                "WS 003": "heavyneedler",
+                "WS 004": "railgun",
+                "WS 005": "railgun",
+                "WS 006": "railgun",
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler",
+                "WS 018": "hephag",
+                "WS 020": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hveldriver",
+                "WS 013": "hveldriver",
+                "WS 019": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "dualflak",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak",
+                "WS 014": "hveldriver",
+                "WS 015": "hveldriver"
+            }
+        }
+    ]
+}

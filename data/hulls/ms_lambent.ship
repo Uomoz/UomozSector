@@ -1,0 +1,240 @@
+{
+  "bounds": [
+    -87.5,
+    -5.5,
+    -68.5,
+    -35,
+    -15.5,
+    -41.5,
+    46.5,
+    -26,
+    62.5,
+    -32.5,
+    78,
+    -27.5,
+    78,
+    27.5,
+    62.5,
+    32.5,
+    46.5,
+    26,
+    -15.5,
+    41.5,
+    -68.5,
+    35,
+    -87.5,
+    5.5
+  ],
+  "builtInWeapons": {
+    "WS0005": "ms_blinky",
+    "WS0006": "ms_blinky",
+    "WS0007": "ms_blinkyB",
+    "WS0008": "ms_blinkyB",
+    "WS0009": "ms_blinkyB",
+    "WS0010": "ms_blinkyB",
+    "WS0011": "ms_blinky",
+    "WS0012": "ms_blinky"
+  },
+  "center": [
+    47,
+    90
+  ],
+  "collisionRadius": 124.084648,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -84,
+        -15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -84,
+        15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -89,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 180,
+  "hullId": "ms_lambent",
+  "hullName": "Lambent",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 106.887794,
+  "spriteName": "graphics/shadow_ships/ships/ms_lambent.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 190,
+      "id": "WS0001",
+      "locations": [
+        62,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 160,
+      "id": "WS0002",
+      "locations": [
+        -67,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 130,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        60,
+        26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -130,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        60,
+        -26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        80.5,
+        -18.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        80.5,
+        18.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        -0.5,
+        -38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        -0.5,
+        38.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        -30,
+        -35
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        -30,
+        35
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -135,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        -68,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 135,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        -68,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 94
+}

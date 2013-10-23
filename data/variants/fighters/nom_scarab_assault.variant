@@ -1,0 +1,16 @@
+{
+	"displayName":"Interceptor",
+	"hullId":"nom_scarab",
+	"variantId":"nom_scarab_assault",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[
+		"naeran_flux_shunts",
+	],
+	"weaponGroups":[{
+		"mode":"LINKED",
+		"weapons":{
+			"WS 001":"nom_ultralight_electron_maser",
+		},
+	}],
+}

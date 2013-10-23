@@ -1,0 +1,35 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "tarsus",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "tarsusi_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "lightag"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

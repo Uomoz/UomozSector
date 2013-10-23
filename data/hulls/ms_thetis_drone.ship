@@ -1,0 +1,70 @@
+{
+  "bounds": [
+    -11,
+    -7,
+    12.5,
+    -6,
+    12.5,
+    6,
+    -11,
+    7
+  ],
+  "center": [
+    10,
+    14
+  ],
+  "collisionRadius": 17.755281,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -13,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 28,
+  "hullId": "ms_thetis_drone",
+  "hullName": "Thetis Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 18.580904,
+  "spriteName": "graphics/shadow_ships/ships/drones/ms_fighterdrone.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        13.5,
+        3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        -4
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 20
+}

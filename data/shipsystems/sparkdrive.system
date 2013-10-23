@@ -1,0 +1,28 @@
+{
+	"id":"sparkdrive",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[119,200,137,135],
+	#"jitterColor":[255,100,255,150],
+	"jitterCopies":12,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0.6,
+	
+	"weaponGlowColor":[100,165,255,0],
+	"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[100,165,255,125],
+
+	"range":130,
+	"randomRange":95,
+	
+	"fadeActivationSoundOnChargedown":false,	
+	"useSound":"spark_use",
+	#"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"averageSpeedIncrease":15,
+	}
+}

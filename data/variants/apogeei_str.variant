@@ -1,0 +1,44 @@
+{
+    "displayName": "Strike I",
+    "fluxCapacitors": 0,
+    "fluxVents": 30,
+    "hullId": "apogee",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "apogeei_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "amblaster",
+                "WS 007": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 002": "heavyburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

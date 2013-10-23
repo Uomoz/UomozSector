@@ -1,0 +1,39 @@
+{
+    "displayName": "Balanced P",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "hullId": "venture",
+    "hullMods": ["unstable_injector"],
+    "variantId": "venturep_bal",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "harpoonpod",
+                "WS 006": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "sabot",
+                "WS 007": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 003": "flak"
+            }
+        }
+    ]
+}

@@ -1,0 +1,334 @@
+{
+  "bounds": [
+    -124.5,
+    -9.5,
+    -131,
+    -27,
+    -157,
+    -28,
+    -159,
+    -44,
+    -110.5,
+    -51,
+    -69.5,
+    -47,
+    -60,
+    -52,
+    12.5,
+    -27.5,
+    9.5,
+    -47,
+    23,
+    -55.5,
+    -42,
+    -86.5,
+    24.5,
+    -75,
+    2.5,
+    -96,
+    7.5,
+    -104.5,
+    37,
+    -89,
+    65,
+    -64.5,
+    73,
+    -69,
+    105,
+    -50.5,
+    122.5,
+    -35,
+    115,
+    -31,
+    161.5,
+    -9,
+    153,
+    -5,
+    153,
+    5,
+    161.5,
+    9,
+    115,
+    31,
+    122.5,
+    35,
+    105,
+    50.5,
+    73,
+    69,
+    65,
+    64.5,
+    37,
+    89,
+    7.5,
+    104.5,
+    2.5,
+    96,
+    24.5,
+    75,
+    -42,
+    86.5,
+    23,
+    55.5,
+    9.5,
+    47,
+    12.5,
+    27.5,
+    -60,
+    52,
+    -69.5,
+    47,
+    -110.5,
+    51,
+    -159,
+    44,
+    -157,
+    28,
+    -131,
+    27,
+    -124.5,
+    9.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "br_damocles",
+  },
+  "center": [
+    125,
+    200
+  ],
+  "collisionRadius": 206.451569,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 76.5,
+      "location": [
+        -125.5,
+        10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 76.5,
+      "location": [
+        -125.5,
+        -10.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": 170.38028,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": -170.38028,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        -20.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": 170.811157,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        18
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": -170.811157,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        -18
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": 170.537674,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": -170.537674,
+      "contrailSize": 4,
+      "length": 38.5,
+      "location": [
+        -131.5,
+        -15.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 94.5,
+      "location": [
+        -109,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 94.5,
+      "location": [
+        -109,
+        0
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 16
+    }
+  ],
+  "height": 400,
+  "hullId": "nevermoreB",
+  "hullName": "Nevermore Beta",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    2,
+    -0.5
+  ],
+  "shieldRadius": 202.220795,
+  "spriteName": "graphics/BR/ships/nevermoreB.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        105,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        115,
+        44
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        115,
+        -44
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 208.072495,
+      "id": "WS0004",
+      "locations": [
+        31,
+        65
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 208.072495,
+      "id": "WS0005",
+      "locations": [
+        31,
+        -65
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 71.075356,
+      "id": "WS0006",
+      "locations": [
+        11,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 71.075356,
+      "id": "WS0007",
+      "locations": [
+        11,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 247.380142,
+      "id": "WS0008",
+      "locations": [
+        -68,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 250,
+  "builtInMods":["brfluxmod"],  
+}

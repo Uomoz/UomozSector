@@ -1,0 +1,23 @@
+{
+    "displayName": "Heavy Strike I",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "hound",
+    "hullMods": [
+        "frontshield",
+        "adaptiveshields"
+    ],
+    "variantId": "houndi_hes",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

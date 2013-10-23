@@ -1,0 +1,18 @@
+{
+	"id":"brdy_amlance_shot",
+	"specClass":"projectile",
+    "onHitEffect":"data.scripts.weapons.AMLanceOnHitEffect",	
+	"spawnType":"BALLISTIC_AS_BEAM",	
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"hitGlowRadius":393,
+	"width":80.0,
+	"fadeTime":0.2,
+	"fringeColor":[150,130,255,205],
+	"coreColor":[255,255,255,255],
+	"glowColor":[160,140,255,75],
+	"glowRadius":220,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/amlanceshot.png"	
+}

@@ -1,0 +1,33 @@
+{
+	"id":"nom_gecko_drone",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	"droneVariant":"nom_gecko_drone",
+	"allowFreeRoam":false,
+	"launchSpeed":300,
+	"launchDelay":0.125,
+	"maxDrones":50,
+	"droneBehavior":[{
+		"droneIndex": [
+				 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+				10,11,12,13,14,15,16,17,18,19,
+				20,21,22,23,24,25,26,27,28,29,
+				30,31,32,33,34,35,36,37,38,39,
+				40,41,42,43,44,45,46,47,48,49
+			],
+			"defaultFacing":"AWAY_FROM_SHIP",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+			"faceEnemy":true,
+			"holdRoamRange":100,
+			"freeRoamRange":500,
+			"targetPriority":[MISSILE, FIGHTER, SHIP],
+			"initialOrbitAngle":0,
+			"orbitRadius":100, 				# plus ship radius
+			"orbitDir":1, 					# -1 or 1
+ 			"orbitSpeed":100, 				# pixels/second
+		}
+	],
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"aiHints":{}
+}
+

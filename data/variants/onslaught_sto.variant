@@ -1,0 +1,59 @@
+{
+    "displayName": "Storm H",
+    "fluxCapacitors": 25,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "reinforcedhull",
+        "targetingunit"
+    ],
+    "variantId": "onslaught_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler",
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler",
+                "WS 012": "heavyneedler",
+                "WS 013": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 003": "dualflak",
+                "WS 007": "dualflak",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 019": "hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "hephag",
+                "WS 020": "hephag"
+            }
+        }
+    ]
+}

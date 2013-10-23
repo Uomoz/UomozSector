@@ -1,0 +1,51 @@
+{
+    "displayName": "Standard T",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "hullId": "aurora",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "variantId": "aurora_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "hurricane",
+                "WS 010": "sabot",
+                "WS 011": "sabot",
+                "WS 012": "sabot",
+                "WS 013": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "pulselaser",
+                "WS 008": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 003": "pdburst",
+                "WS 005": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "pulselaser"}
+        }
+    ]
+}

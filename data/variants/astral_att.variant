@@ -1,0 +1,52 @@
+{
+    "displayName": "Attack T",
+    "fluxCapacitors": 0,
+    "fluxVents": 36,
+    "hullId": "astral",
+    "hullMods": ["augmentedengines"],
+    "variantId": "astral_att",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "heatseeker",
+                "WS 010": "heatseeker",
+                "WS 011": "harpoonpod",
+                "WS 012": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "pulselaser",
+                "WS 014": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 015": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

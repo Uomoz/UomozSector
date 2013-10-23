@@ -1,0 +1,54 @@
+{
+    "displayName": "Shocker I",
+    "fluxCapacitors": 35,
+    "fluxVents": 50,
+    "hullId": "conquest",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "conquesti_sho",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "multineedler",
+                "WS 012": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "multineedler",
+                "WS 014": "mjolnir"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "dualflak",
+                "WS 016": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "dualflak",
+                "WS 018": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        }
+    ]
+}

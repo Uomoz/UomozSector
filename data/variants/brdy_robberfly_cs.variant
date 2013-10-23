@@ -1,0 +1,25 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 7,
+    "hullId": "brdy_robberfly",
+    "hullMods": ["armoredweapons"],
+    "variantId": "brdy_robberfly_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_quill",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0005": "brdy_ac"
+            }
+        }
+    ]
+}

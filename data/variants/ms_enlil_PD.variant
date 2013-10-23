@@ -1,0 +1,35 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "ms_enlil",
+    "hullMods": [
+	"pointdefenseai"
+    ],
+    "variantId": "ms_enlil_PD",
+    "weaponGroups": [
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightneedler",
+                "WS0003": "lightneedler"
+            }
+        },
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "dualflak"
+            }
+        },
+        {
+            "autofire": "true",
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "lrpdlaser",
+                "WS0005": "lrpdlaser"
+            }
+        }
+    ]
+}

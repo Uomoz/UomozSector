@@ -1,0 +1,43 @@
+{
+    "displayName": "Support P",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "hullId": "buffalo2",
+    "hullMods": ["unstable_injector"],
+    "variantId": "buffalo2p_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "heatseeker",
+                "WS 005": "heatseeker",
+                "WS 006": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lrpdlaser",
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "pilum"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

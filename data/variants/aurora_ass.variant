@@ -1,0 +1,54 @@
+{
+    "displayName": "Assault T",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "aurora",
+    "hullMods": [
+        "missleracks",
+        "eccm"
+    ],
+    "variantId": "aurora_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "hurricane",
+                "WS 011": "sabot",
+                "WS 012": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "miningblaster",
+                "WS 007": "miningblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "miningblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "harpoon",
+                "WS 013": "harpoon"
+            }
+        }
+    ]
+}

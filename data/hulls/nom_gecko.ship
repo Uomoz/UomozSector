@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    0,
+    -4.5,
+    -10,
+    -4.5,
+    -5,
+    9,
+    3.5,
+    8.5
+  ],
+  "center": [
+    11,
+    11.5
+  ],
+  "collisionRadius": 13.9,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 11,
+      "location": [
+        -10.5,
+        -2
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 6
+    }
+  ],
+  "height": 17,
+  "hullId": "nom_gecko",
+  "hullName": "Gecko",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 14.2,
+  "spriteName": "graphics/nom/ships/nom_gecko.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 339.399994,
+      "id": "WS 001",
+      "locations": [
+        -1,
+        2
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 19
+}

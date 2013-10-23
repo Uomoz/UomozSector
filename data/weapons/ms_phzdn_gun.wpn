@@ -1,0 +1,28 @@
+{
+	"id":"ms_phzdn_gun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/shadow_weapons/weapons/ms_phzdn_gun.png",
+	"hardpointSprite":"graphics/shadow_weapons/weapons/ms_phzdn_gun.png",		
+	#"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	#"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[11, -0.5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[11, -0.5],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":8.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":4.0,
+					   "particleDuration":0.12,
+					   "particleCount":6,
+					   "particleColor":[220,140,190,255]},	
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"ms_phzdn_shot",  # projectile that will be fired
+	"fireSoundTwo":"cepc_small",
+}

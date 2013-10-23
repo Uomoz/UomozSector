@@ -1,0 +1,162 @@
+name,id,tier,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ripsaw,pack_ripsaw,1,5000,700,,24,,3,10,10,600,,KINETIC,28,,0,0.1,2,0.1,0,10,2,9,,900,,,20,"SYSTEM, SHOW_IN_CODEX",691901
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cutlass,junk_pirates_cutlass,1,1350,390,,55,10,0,22,9,,,ENERGY,65,,0,0.4,4,0.1,,,,,,1000,,,,,51
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scatter PD Laser,junk_pirates_scatterpd,2,750,200,,40,,,60,5,,,FRAGMENTATION,20,,0,0.2,6,0.1,5,35,5,15,,800,,,,PD,52
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Excimer,junk_pirates_lexcimer,1,450,400,200,,,0,40,6,,,ENERGY,,300,0.1,0.1,0.25,0.1,,,,,2400,,,,,,53
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grape Cannon,junk_pirates_grapeshot,2,8000,800,,400,,100,10,20,16,,FRAGMENTATION,0,,0,8,2,0.5,0,0,0,0,,250,100,8,250,"DO_NOT_AIM, ANTI_FTR",54
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grape Launcher,junk_pirates_grapeshot_m,2,2800,800,,400,,100,10,10,8,,FRAGMENTATION,0,,0,8,1,0,0,0,0,0,,250,75,8,250,"DO_NOT_AIM, ANTI_FTR",55
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grapeshot,junk_pirates_grapeshot_s,2,280,800,,400,,100,10,3,1,,FRAGMENTATION,0,,0,8,1,0,0,0,0,0,,250,65,8,250,"DO_NOT_AIM, ANTI_FTR",56
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scorpion,junk_pirates_scorpion,1,5000,800,,175,50,,,0,6,0.5,ENERGY,250,,0,0.2,1,0,0,0,0,0,,900,,,,"SYSTEM, SHOW_IN_CODEX",57
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Haymaker,junk_pirates_haymaker,1,5000,900,,500,200,,,0,2,0.2,ENERGY,650,,0,0.5,1,0,0,0,0,0,,1000,,,,"SYSTEM, SHOW_IN_CODEX",58
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stygian Drill,junk_pirates_welder,2,20000,500,1500,,25,,,0,,,KINETIC,,3000,1,1,,,,,,,2400,,,,,"SYSTEM, SHOW_IN_CODEX",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Blackcap Rotary Launcher,ms_blackcap_3x,1,150,1200,,550,,25,60,2,3,,FRAGMENTATION,0,,0,3,1,,0,0,0,0,,325,100,6,35,ANTI_FTR,5201.1
+Blackcap Rotary Launcher,ms_blackcap_6x,2,150,1200,,550,,25,60,4,6,,FRAGMENTATION,0,,0,3,1,,0,0,0,0,,325,100,6,35,ANTI_FTR,5201.2
+Blackcap Pod,ms_blackcap_pod,3,1200,1200,,550,,25,60,10,20,,FRAGMENTATION,0,,0,3,2,0.5,0,0,0,0,,325,100,6,35,ANTI_FTR,5201.3
+Shrike ASM (Single),ms_shrike_single,1,150,1500,,700,150,300,30,1,1,,KINETIC,0,,0,1,1,,0,0,0,,,750,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR",5202.1
+Shrike ASM (Rack),ms_shrike_rack,2,250,1500,,700,150,300,30,5,3,,KINETIC,0,,0,1,1,,0,0,0,,,750,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR",5202.2
+Shrike ASM Pod,ms_shrike_pod,3,1200,1500,,700,150,300,30,10,12,,KINETIC,0,,0,8,2,0.5,0,0,0,0,,750,250,3,100,"STRIKE,USE_VS_FRIGATES,GUIDED_POOR",5202.3
+Tusk Torpedo (Single),ms_tusk_single,2,200,1200,,100,,50,10,2,1,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,150,75,12,200,"STRIKE, DO_NOT_AIM",5208.1
+Tusk Torpedo (Rack),ms_tusk_rack,2,800,1200,,100,,50,10,7,2,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,150,75,12,200,"STRIKE, DO_NOT_AIM",5208.1
+Light CEPC,ms_pdcepc,2,200,450,,25,,2,50,5,40,2.5,ENERGY,40,,0,0.2,5,0.1,4,10,0,15,,800,,,10,"PD, ANTI_FTR",5203
+CEPC,ms_cepc,2,300,650,,50,,3,40,5,10,2,ENERGY,65,,0,0.3,3,0.2,0,1,0,10,,800,,,30,,5204
+Medium CEPC,ms_mcepc,2,2250,750,,100,,8,15,10,12,1.5,ENERGY,140,,0,0.4,2,0.2,0,0,0,10,,800,,,30,,5205
+Scatter CEPC,ms_scattercepc,2,2500,600,,45,,8,14,12,40,4,ENERGY,1500,,0.2,3.65,1,0,18,28,0,40,,800,,,30,,5206
+Wavebeam,ms_wamgun,2,7500,900,,200,,25,15,20,,,ENERGY,300,,,0.75,,,0,0,0,10,,800,,,30,STRIKE,5207
+ﾓChaingangﾔ CEPC,ms_chaingang,2,1750,450,,25,,2,30,10,40,5,ENERGY,40,,0,0.75,20,0.025,4,10,0,15,,800,,,10,"PD, ANTI_FTR",5203
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Energy Projector,ms_phasegun,0,8000,600,,350,,100,0,0,,0,ENERGY,300,,0.2,0.8,1,0,0,0,0,0,,1000,,,30,"STRIKE, USE_VS_FRIGATES, SYSTEM, SHOW_IN_CODEX",5501
+Pandora Array,ms_pandora,0,20000,900,,200,,0,0,,,0,ENERGY,1000,,5.5,4.5,1,0,0,0,0,0,,1000,,,30,"STRIKE, SYSTEM, SHOW_IN_CODEX",5502
+Phase Mine,ms_phasemine1,0,3000,5000,,750,,0,0,,,0,KINETIC,200,,0,0,0,0,0,0,0,0,,,,,500,SYSTEM,5503
+Particle Cannon,ms_pbc,0,150,500,400,1,,2,50,0,200,0,ENERGY,,200,0,0.1,0.1,0.1,0,0,0,,4000,,,,30,SYSTEM,5504
+Nídhöggr Lance,ms_rhpbc,0,25000,2000,,4000,750,1000,,0,,0,HIGH_EXPLOSIVE,6000,,4,12,,,0,0,,,,1000,,,30,"SYSTEM, SHOW_IN_CODEX",5505
+Mini Flak,ms_miniflak,0,150,400,,8,,2,50,0,400,0,FRAGMENTATION,3,,0,0.25,1,0,6,12,1,,,900,,,30,"SYSTEM, PD",5506
+WavebeamComp,ms_2wave,0,7500,750,,45,,25,20,20,,,KINETIC,0,,0.5,,,,,,0,10,,800,,,30,SYSTEM,Wavebeam Component
+Phased Graviton Beam,ms_phasebeam,0,9000,1150,100,,20,,10,0,,,KINETIC,,125,0.25,0.75,,,,,,,4000,,,,,SYSTEM,5507
+Phase Drone Gun,ms_phzdn_gun,0,200,450,,30,,2,50,5,300,,HIGH_EXPLOSIVE,50,,0,0.2,5,0.1,3,7,0,15,,1000,,,10,"SYSTEM, PD",5203
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spark,ms_spark,0,400,,,150,,50,85,,,,ENERGY,,,,,,,0,0,0,,,150,250,20,99999,SYSTEM,Pandora Sparks
+Arc,ms_pandoraEmitter,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,ElysiumEMPSpawner
+ArcTarget,ms_pandoraEmitterTarg,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,ElysiumEMPTarget
+Pod,ms_swpod,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,Skinwalker Command Pod
+Pod,ms_rakpod,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,Raksasha Command Pod
+Blinky,ms_blinky,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,blinkinlights
+BlinkyB,ms_blinkyB,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,blinkinlights
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dreamcatcher Flare Launcher,ms_swflares,,,300,,10,50,,,,,0,ENERGY,0,0,0,0.1,1,0.1,30,30,0,0,,150,200,5,1,SYSTEM,37
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Lance,brdy_amlance,0,100000,700,,2500,300,50,0,,2,0.07,ENERGY,800,,0.9,8,1,,0,1,2,5,,1500,,,,"STRIKE, USE_VS_FRIGATES, SYSTEM, SHOW_IN_CODEX",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Squall Cannon,brdy_squallgun,2,2100,550,,520,0,10,13,9,60,0,HIGH_EXPLOSIVE,320,,0,3.2,1,,0,3,7,5,,900,,,,"STRIKE, USE_VS_FRIGATES",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hammerclaw,brdy_hammerclaw,0,0,1400,,2800,0,2500,0,,1,0,KINETIC,0,,0,30,1,0,1,1,1,1,,400,400,6,5500,"SYSTEM, SHOW_IN_CODEX, STRIKE, USE_VS_FRIGATES, GUIDED_POOR",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shard Cannon,brdy_ac,1,490,700,,44,0,2,18,7,220,0,KINETIC,64,,0,1.9,4,0.13,1,7,5,6,,750,,,10,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Firewing SRM Array,sachumodo_weapon,0,100000,600,,330,0,0,0,,150,0,FRAGMENTATION,0,,0,15,30,0,180,360,2,5,,320,180,6,100,"SYSTEM, DO_NOT_AIM",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quill Rocket Launcher,brdy_quill,1,640,800,,150,,15,40,5,24,,HIGH_EXPLOSIVE,0,,0,5,3,0.2,0,0,0,0,,1000,350,2.2,75,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Achilles MRM,achilles_mrm,2,700,4000,,350,,50,30,6,3,,FRAGMENTATION,0,,0,1,1,,0,0,0,,,240,50,25,160,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Achilles MRM Pod,achillespod,2,2300,4000,,350,,50,13,14,12,,FRAGMENTATION,0,,0,8,2,0.5,0,0,0,,,240,50,25,160,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solenoid Quench Gun,brdy_solenoid,2,2400,680,,300,,30,13,10,100,0,KINETIC,420,,0,2.75,1,,0,1,2,5,,1400,,,,"STRIKE, USE_VS_FRIGATES",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ichneumon Attack Gun,brdy_ag,1,470,550,,80,,,18,7,175,,HIGH_EXPLOSIVE,60,,0.16,2.6,4,0.17,2,6,0.8,2,,750,,,10,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Argus PD Array,brburst,2,2450,450,1200,,,0,35,15,4,0.6,FRAGMENTATION,,1100,0,0.1,0.15,0.08,,,,,1000000000,,,,,PD,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Anti-Plasma Blaster,brdy_plasma,2,3000,650,,1350,,0,10,12,40,0,ENERGY,1500,,0.1,11,1,,0,3,2,5,,500,,,,"STRIKE,USE_VS_FRIGATES",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shredder MG,brvulcan,1,400,420,,24,,1,120,5,1600,,FRAGMENTATION,11,,0,1.5,10,0.05,0,9,3,3,,1000,,,10,PD,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fury-class Torpedo (Single),brdy_fury,1,670,1200,,2500,,300,10,2,1,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,280,4,550,STRIKE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Volley Gun,brdy_volley,1,750,450,,24,0,3,14,9,600,0,KINETIC,330,,0,3.7,1,0,1,2,0,40,,800,,,5,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solenoid Quench Cannon,brdy_solenoidlarge,2,9100,1100,,800,,500,10,25,60,0,KINETIC,1500,,0.5,7,1,,0,1,2,5,,3000,,,,"STRIKE, USE_VS_FRIGATES",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Squall Battery,brdy_squallbattery,2,7800,650,,500,0,10,8,20,140,0,HIGH_EXPLOSIVE,370,,0,4.1,3,0.12,1,4,7,5,,850,,,,"STRIKE, USE_VS_FRIGATES",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dual Shard Cannon,brdy_dualac,2,2800,700,,44,0,2,10,12,380,0,KINETIC,64,,0,1.8,8,0.1,1,7,5,6,,750,,,10,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sunfire PDE,br_pde,2,3350,700,500,,,0,18,12,,,HIGH_EXPLOSIVE,,600,0.1,0.55,1.1,4,,,,,5000,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fury-class Torpedo Rack,brdy_2xfury,1,970,1200,,2500,,300,10,6,2,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,280,4,550,STRIKE,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sunjet PPDE,br_fpde,2,1900,500,450,,,0,0,8,25,,HIGH_EXPLOSIVE,,500,0.1,0.95,0.7,11,,,,,5000,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sword of Damocles,br_damocles,2,1200,850,,300,,25,35,6,,,ENERGY,340,,0.1,0.17,1,,1,2,1,1,9000,650,,,,SYSTEM,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Argus Particle Beam,brdy_argussmall,1,800,375,600,,,0,90,7,2,0.6,FRAGMENTATION,,350,0,0.12,0.15,0.1,,,,,1000000000,,,,,PD,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shredder Battery,br_iwbattery,1,900,420,,24,,1,50,11,3600,,FRAGMENTATION,15,,0,2,20,0.05,0,9,3,3,,1000,,,10,PD,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Linear Pulse Gun,brdy_linear,2,1200,400,,70,,25,35,6,6,0.7,ENERGY,110,,0.1,0.13,1,,1,9,2,0.5,9000,1300,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gale Cannon,brdy_galecannon,2,2650,950,,550,0,10,12,13,60,0,HIGH_EXPLOSIVE,420,,0,5.2,1,,0,6,7,5,,1250,,,,"STRIKE, USE_VS_FRIGATES",666420666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Micro Shard Cannon,br_minishard,1,490,700,,40,0,2,18,7,220,0,KINETIC,60,,0,0.5,1,0,1,7,5,6,,800,,,10,SYSTEM,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blinker,blinker,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Blinker 2,blinker2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lens Flare,brlensflare,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lens Flare,brlensflare2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lens Flare,brlensflaresmall,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lens Flare,brlensflaresmall2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ultralight Electron Maser,nom_ultralight_electron_maser,1,150,280,,12,,10,75,2,,,ENERGY,17,,,0.18,,,,,,,,1050,,,75,PD,1337103
+Twin Ultralight Electron Maser,nom_twin_ultralight_electron_maser,1,310,295,,15,,10,75,3,,,ENERGY,17,,,0.1,2,0.07,,,,,,1050,,,75,PD,1337106
+Light Electron Maser,nom_light_electron_maser,1,350,400,,33,,15,65,4,,,ENERGY,32,,,0.3,,,,,,,,820,,,100,PD,1337100
+Heavy Electron Maser,nom_heavy_electron_maser,1,1100,600,,60,,30,45,8,,,ENERGY,60,,,0.435,,,,,,,,675,,,200,,1337101
+Twin Electron Maser,nom_twin_electron_maser,1,4000,815,,68,,30,45,18,,,ENERGY,60,,,0.289,2,0.2,,,,,,675,,,200,,1337104
+Maser Pulse Beam,nom_maser_pulse_beam,1,3000,1250,,240,,80,15,20,,,ENERGY,800,,,1.8,,,,,,,,3000,,,100,,1337105
+Solar Crucible,nom_solar_crucible,1,5500,800,1100,,20,0,5,30,,,ENERGY,,2500,0.05,2,1,3,,,,,10000,,,,,,1337999
+Doom Cannon,nom_doom_cannon,1,12500,1100,,1750,,6000,5,75,30,,ENERGY,2000,,0.12,0.35,,,,,,,,360,,,99999,,1337102
+Habitat Ring,nom_decorative_oasis_habitat_ring,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337099
+Structural Support,nom_decorative_oasis_habitat_ring_structural_support_beam,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337098

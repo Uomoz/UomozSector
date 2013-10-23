@@ -1,0 +1,41 @@
+{
+    "displayName": "Plasma I",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "sunder",
+    "hullMods": ["targetingunit"],
+    "variantId": "sunderi_pla",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "sabot",
+                "WS 005": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "railgun",
+                "WS 007": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "lightdualmg"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

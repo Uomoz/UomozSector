@@ -1,0 +1,60 @@
+{
+    "displayName": "Sniper H",
+    "fluxCapacitors": 25,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "onslaught_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "heavyneedler",
+                "WS 015": "heavyneedler",
+                "WS 018": "gauss",
+                "WS 020": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 007": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hveldriver",
+                "WS 013": "hveldriver",
+                "WS 019": "gauss"
+            }
+        }
+    ]
+}

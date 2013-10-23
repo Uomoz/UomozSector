@@ -1,0 +1,66 @@
+{
+    "displayName": "Alex's Ultimate",
+    "fluxCapacitors": 47,
+    "fluxVents": 50,
+    "hullId": "paragon",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "auxiliarythrusters",
+        "heavyarmor",
+        "armoredweapons"
+    ],
+    "variantId": "paragonte_ult",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "plasma",
+                "WS 002": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "plasma",
+                "WS 004": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "pdburst",
+                "WS 013": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdburst",
+                "WS 017": "pdburst",
+                "WS 019": "pdburst",
+                "WS 021": "pdburst",
+                "WS 022": "pdburst",
+                "WS 023": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 006": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 010": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavymauler",
+                "WS 008": "heavymauler"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "displayName": "Storm I",
+    "fluxCapacitors": 43,
+    "fluxVents": 50,
+    "hullId": "conquest",
+    "hullMods": ["targetingunit"],
+    "variantId": "conquesti_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "multineedler",
+                "WS 012": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 015": "dualflak",
+                "WS 017": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "multineedler",
+                "WS 014": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "heavymauler",
+                "WS 018": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

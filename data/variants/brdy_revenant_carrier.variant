@@ -1,0 +1,48 @@
+{
+    "displayName": "Tactical",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "brdy_revenant",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "variantId": "brdy_revenant_carrier",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "achilles_mrm",
+                "WS0010": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brvulcan",
+                "WS0006": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "br_pde",
+                "WS0002": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall",
+                "WS0007": "brvulcan",
+                "WS0008": "brvulcan",
+                "WS0011": "brdy_argussmall"
+            }
+        }
+    ]
+}

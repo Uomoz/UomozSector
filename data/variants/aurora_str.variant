@@ -1,0 +1,42 @@
+{
+    "displayName": "Strike T",
+    "fluxCapacitors": 19,
+    "fluxVents": 30,
+    "hullId": "aurora",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter"
+    ],
+    "variantId": "aurora_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "heavyblaster",
+                "WS 008": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pdburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "amblaster"}
+        }
+    ]
+}

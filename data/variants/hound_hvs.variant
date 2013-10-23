@@ -1,0 +1,35 @@
+{
+    "displayName": "Heavy Strike H",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "hound",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "hound_hvs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightmg"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

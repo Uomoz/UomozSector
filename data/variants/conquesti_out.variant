@@ -1,0 +1,65 @@
+{
+    "displayName": "Outdated I",
+    "fluxCapacitors": 12,
+    "fluxVents": 50,
+    "hullId": "conquest",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "variantId": "conquesti_out",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "pilum",
+                "WS 002": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "mark9",
+                "WS 012": "mark9",
+                "WS 015": "chaingun",
+                "WS 016": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "mark9",
+                "WS 014": "mark9",
+                "WS 017": "chaingun",
+                "WS 018": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "annihilatorpod",
+                "WS 020": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser",
+                "WS 006": "pdlaser",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 010": "pdlaser",
+                "WS 022": "pdburst",
+                "WS 023": "pdburst"
+            }
+        }
+    ]
+}

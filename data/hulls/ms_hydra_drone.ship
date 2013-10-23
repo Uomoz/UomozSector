@@ -1,0 +1,82 @@
+{
+  "bounds": [
+    -2,
+    8,
+    12.5,
+    -0,
+    -2,
+    -8,
+    -15.5,
+    -0
+  ],
+  "center": [
+    10,
+    16
+  ],
+  "collisionRadius": 16.324827,
+  "engineSlots": [
+    {
+      "angle": 163.072495,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -7.5,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -163.072495,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -7.5,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 28,
+  "hullId": "ms_hydra_drone",
+  "hullName": "Phasedrone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/shadow_ships/ships/drones/ms_phasedrone.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        5,
+        -4
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        2,
+        5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 20
+}

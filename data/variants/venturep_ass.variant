@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault P",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "hullId": "venture",
+    "hullMods": ["unstable_injector"],
+    "variantId": "venturep_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "harpoonpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "sabot"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "sabot"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyac",
+                "WS 003": "chaingun"
+            }
+        }
+    ]
+}

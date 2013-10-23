@@ -1,0 +1,28 @@
+{
+  "variantId": "nom_death_bloom_strike",
+  "displayName": "Strike",
+  "fluxCapacitors": 10,
+  "fluxVents": 6,
+  "hullId": "nom_death_bloom",
+  "hullMods": [
+    "naeran_flux_shunts",
+    "fluxbreakers",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "main_gun": "nom_solar_crucible"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "PD1": "nom_twin_ultralight_electron_maser"
+      }
+    }
+  ]
+}

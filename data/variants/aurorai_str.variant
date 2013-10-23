@@ -1,0 +1,50 @@
+{
+    "displayName": "Strike I",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "hullId": "aurora",
+    "hullMods": ["augmentedengines"],
+    "variantId": "aurorai_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "hurricane",
+                "WS 010": "sabot",
+                "WS 011": "harpoon",
+                "WS 012": "sabot",
+                "WS 013": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "heavyblaster",
+                "WS 007": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdlaser",
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "heavyblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "Punch I",
+    "fluxCapacitors": 2,
+    "fluxVents": 20,
+    "hullId": "hammerhead",
+    "hullMods": ["missleracks"],
+    "variantId": "hammerheadi_pun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymauler",
+                "WS 002": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "annihilator",
+                "WS 004": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pdburst",
+                "WS 006": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

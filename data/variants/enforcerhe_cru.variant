@@ -1,0 +1,47 @@
+{
+    "displayName": "Crusher",
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "hullId": "enforcer",
+    "hullMods": [
+        "heavyarmor",
+        "extendedshieldemitter",
+        "hardenedshieldemitter",
+        "advancedshieldemitter",
+        "targetingunit"
+    ],
+    "variantId": "enforcerhe_cru",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hveldriver",
+                "WS 004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymauler",
+                "WS 005": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "hveldriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

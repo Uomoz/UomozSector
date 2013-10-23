@@ -1,0 +1,50 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 0,
+    "fluxVents": 29,
+    "hullId": "aurora",
+    "hullMods": [
+        "augmentedengines",
+        "missleracks"
+    ],
+    "variantId": "aurorai_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "annihilatorpod",
+                "WS 010": "annihilator",
+                "WS 011": "annihilator",
+                "WS 012": "annihilator",
+                "WS 013": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "irpulse",
+                "WS 002": "irpulse",
+                "WS 003": "irpulse",
+                "WS 004": "irpulse",
+                "WS 005": "irpulse"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Shocker I",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "odysseyi_sho",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "sabotpod",
+                "WS 005": "sabotpod",
+                "WS 006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "ioncannon",
+                "WS 010": "ioncannon",
+                "WS 011": "ioncannon",
+                "WS 013": "ioncannon",
+                "WS 016": "ioncannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "guardian"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 015": "pdburst",
+                "WS 017": "pdburst",
+                "WS 018": "pdburst"
+            }
+        }
+    ]
+}

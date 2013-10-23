@@ -1,0 +1,33 @@
+{
+    "displayName": "Anti Phase",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "fluxbreakers"
+    ],
+    "variantId": "ms_enlil_AF",
+    "weaponGroups": [
+        {
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "phasebeam"
+	        }
+        },
+        {
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "railgun",
+                "WS0003": "railgun"
+            }
+        },
+        {
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ]
+}

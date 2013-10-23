@@ -1,0 +1,64 @@
+{
+  "displayName": "Anti-Battleship",
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "hullId": "nom_gila_monster",
+  "hullMods": [
+    "naeran_flux_shunts",
+    "fluxbreakers",
+    "magazines"
+  ],
+  "variantId": "nom_gila_monster_antibattleship",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "nom_doom_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "nom_twin_electron_maser",
+        "WS0026": "nom_twin_electron_maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "nom_light_electron_maser",
+        "WS0003": "nom_light_electron_maser",
+        "WS0004": "nom_light_electron_maser",
+        "WS0005": "nom_light_electron_maser",
+        "WS0006": "nom_light_electron_maser",
+        "WS0007": "nom_light_electron_maser",
+        "WS0008": "nom_light_electron_maser",
+        "WS0009": "nom_light_electron_maser",
+        "WS0010": "nom_light_electron_maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "nom_ultralight_electron_maser",
+        "WS0012": "nom_ultralight_electron_maser",
+        "WS0013": "nom_ultralight_electron_maser",
+        "WS0014": "nom_ultralight_electron_maser",
+        "WS0015": "nom_ultralight_electron_maser",
+        "WS0016": "nom_ultralight_electron_maser",
+        "WS0017": "nom_ultralight_electron_maser",
+        "WS0018": "nom_ultralight_electron_maser",
+        "WS0019": "nom_ultralight_electron_maser",
+        "WS0020": "nom_ultralight_electron_maser",
+        "WS0021": "nom_ultralight_electron_maser",
+        "WS0022": "nom_ultralight_electron_maser",
+        "WS0023": "nom_ultralight_electron_maser",
+        "WS0024": "nom_ultralight_electron_maser"
+      }
+    }
+  ]
+}

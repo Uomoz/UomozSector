@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 0,
+    "fluxVents": 16,
+    "hullId": "mule",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "mulei_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "lightdualmg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "railgun",
+                "WS 006": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

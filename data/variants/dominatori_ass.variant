@@ -1,0 +1,53 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "hullId": "dominator",
+    "hullMods": [
+        "heavyarmor",
+        "auxiliarythrusters"
+    ],
+    "variantId": "dominatori_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hephag",
+                "WS 013": "hephag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "typhoon",
+                "WS 015": "typhoon",
+                "WS 016": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavyac",
+                "WS 011": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        }
+    ]
+}

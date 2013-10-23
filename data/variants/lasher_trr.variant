@@ -1,0 +1,42 @@
+{
+    "displayName": "Triple Rail H",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "lasher",
+    "hullMods": [
+        "reinforcedhull",
+        "blast_doors"
+    ],
+    "variantId": "lasher_trr",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "railgun",
+                "WS 006": "railgun",
+                "WS 007": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

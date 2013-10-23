@@ -1,0 +1,52 @@
+{
+    "displayName": "Puncher H",
+    "fluxCapacitors": 30,
+    "fluxVents": 7,
+    "hullId": "dominator",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks"
+    ],
+    "variantId": "dominator_pun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hephag",
+                "WS 013": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "sabotpod",
+                "WS 015": "sabotpod",
+                "WS 016": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg",
+                "WS 010": "heavymg",
+                "WS 011": "heavymg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

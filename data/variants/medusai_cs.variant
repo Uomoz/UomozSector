@@ -1,0 +1,37 @@
+{
+    "displayName": "CS I",
+    "fluxCapacitors": 20,
+    "fluxVents": 5,
+    "hullId": "medusa",
+    "hullMods": ["advancedoptics"],
+    "variantId": "medusai_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "gravitonbeam",
+                "WS 007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "harpoon",
+                "WS 009": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "taclaser",
+                "WS 002": "taclaser",
+                "WS 003": "taclaser",
+                "WS 004": "taclaser",
+                "WS 005": "taclaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "brdy_scarab",
+    "hullMods": ["targetingunit"],
+    "variantId": "scarab_firesupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "brdy_galecannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_ac",
+                "WS0005": "brdy_ac",
+                "WS0006": "brdy_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall"
+            }
+        }
+    ]
+}

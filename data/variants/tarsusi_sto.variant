@@ -1,0 +1,35 @@
+{
+    "displayName": "Storm I",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "tarsus",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "tarsusi_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "lightneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

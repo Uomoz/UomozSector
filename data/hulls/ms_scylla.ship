@@ -1,0 +1,269 @@
+{
+  "bounds": [
+    -108.5,
+    -13,
+    -79,
+    -46,
+    -30,
+    -63.5,
+    22,
+    -88.5,
+    75,
+    -76.5,
+    63.5,
+    -28.5,
+    63.5,
+    28.5,
+    75,
+    76.5,
+    22,
+    88.5,
+    -30,
+    63.5,
+    -79,
+    46,
+    -108.5,
+    13
+  ],
+  "builtInWeapons": {
+    "WS0001": "ms_phasebeam"
+  },
+  "center": [
+    92.5,
+    119.5
+  ],
+  "collisionRadius": 138.067017,
+  "engineSlots": [
+    {
+      "angle": -130,
+      "contrailSize": 80,
+      "length": 65,
+      "location": [
+        -86,
+        -37.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 30
+    },
+    {
+      "angle": 130,
+      "contrailSize": 80,
+      "length": 65,
+      "location": [
+        -86,
+        37.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 30
+    },
+    {
+      "angle": -145,
+      "contrailSize": 65,
+      "length": 55,
+      "location": [
+        -97.5,
+        -27.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 20
+    },
+    {
+      "angle": 145,
+      "contrailSize": 65,
+      "length": 55,
+      "location": [
+        -97.5,
+        27.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 20
+    },
+    {
+      "angle": -170,
+      "contrailSize": 50,
+      "length": 40,
+      "location": [
+        -102,
+        -21
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 170,
+      "contrailSize": 50,
+      "length": 40,
+      "location": [
+        -102,
+        21
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 210,
+  "hullId": "ms_scylla",
+  "hullName": "Scylla",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 138.13942,
+  "spriteName": "graphics/shadow_ships/ships/phase/ms_scylla.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        59,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        69,
+        -25
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        69,
+        25
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        75,
+        -46
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        75,
+        46
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 200,
+      "id": "WS0006",
+      "locations": [
+        7,
+        29.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 200,
+      "id": "WS0007",
+      "locations": [
+        7,
+        -29.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -22.5,
+      "arc": 225,
+      "id": "WS0008",
+      "locations": [
+        -16,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 135,
+      "arc": 200,
+      "id": "WS0009",
+      "locations": [
+        -48,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -135,
+      "arc": 200,
+      "id": "WS0010",
+      "locations": [
+        -48,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        67,
+        -55.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        67,
+        55.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 185
+}

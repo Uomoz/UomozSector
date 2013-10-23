@@ -1,0 +1,46 @@
+{
+    "displayName": "Superior",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "hullId": "hammerhead",
+    "hullMods": [
+        "augmentedengines",
+        "targetingunit"
+    ],
+    "variantId": "hammerheadie_sup",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymauler",
+                "WS 002": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "displayName": "Standard I",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "hullId": "buffalo",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "buffaloi_sta",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lrpdlaser"}
+    }]
+}

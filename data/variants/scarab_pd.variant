@@ -1,0 +1,35 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "hullId": "brdy_scarab",
+    "hullMods": [
+        "advancedoptics",
+        "turretgyros"
+    ],
+    "variantId": "scarab_pd",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0002": "achilles_mrm"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "br_iwbattery",
+                "WS0005": "brvulcan",
+                "WS0006": "brvulcan"
+            }
+        }
+    ]
+}

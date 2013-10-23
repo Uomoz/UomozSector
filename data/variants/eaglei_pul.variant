@@ -1,0 +1,50 @@
+{
+    "displayName": "Pulsar I",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "hullId": "eagle",
+    "hullMods": [
+        "targetingunit",
+        "pointdefenseai"
+    ],
+    "variantId": "eaglei_pul",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "harpoon",
+                "WS 002": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "irpulse",
+                "WS 004": "irpulse",
+                "WS 010": "irpulse",
+                "WS 011": "irpulse",
+                "WS 012": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pulselaser",
+                "WS 006": "pulselaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Attack T",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "hyperion",
+    "hullMods": ["fluxbreakers"],
+    "variantId": "hyperion_att",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pulselaser",
+                "WS 004": "pulselaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "harpoon",
+                "WS 006": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst"
+            }
+        }
+    ]
+}

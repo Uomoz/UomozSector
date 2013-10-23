@@ -1,0 +1,41 @@
+{
+    "displayName": "Storm I",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "hullId": "shade",
+    "hullMods": [
+        "targetingunit",
+        "magazines"
+    ],
+    "variantId": "shadei_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightneedler",
+                "WS 002": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "irpulse"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

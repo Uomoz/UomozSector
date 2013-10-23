@@ -1,0 +1,29 @@
+{
+  "displayName": "Phase",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_hydra_drone",
+  "hullMods": [
+      "magazines",
+      "advancedoptics",
+      "fluxbreakers",
+      "turretgyros"
+  ],
+  "variantId": "ms_hydra_drone",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ms_phzdn_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ms_miniflak"
+      }
+    }
+  ]
+}

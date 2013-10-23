@@ -1,0 +1,211 @@
+{
+  "bounds": [
+    56,
+    5,
+    43.5,
+    -21,
+    30.5,
+    -24,
+    21,
+    -45,
+    11.5,
+    -47.5,
+    -19.5,
+    -32.5,
+    -13,
+    -19.5,
+    -31.5,
+    -27,
+    -34,
+    -19,
+    -44,
+    -15.5,
+    -37,
+    -10.5,
+    -46,
+    -9,
+    -44.5,
+    6,
+    -37.5,
+    6.5,
+    -37.5,
+    6.5,
+    -33.5,
+    20.5,
+    -14.5,
+    21.5,
+    -9,
+    42.5,
+    -16,
+    55.5,
+    -37.5,
+    57.5,
+    -31,
+    66.5,
+    1,
+    67,
+    7,
+    58.5,
+    -5,
+    55.5,
+    -0.5,
+    27.5,
+    15,
+    20.5,
+    21,
+    24,
+    30.5,
+    15.5,
+    25,
+    7.5
+  ],
+  "center": [
+    93,
+    74
+  ],
+  "collisionRadius": 87.547127,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -48,
+        -10
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 15.5,
+      "location": [
+        -45.5,
+        4.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 6
+    },
+    {
+      "angle": 147,
+      "contrailSize": 6.2,
+      "length": 19.5,
+      "location": [
+        -43.5,
+        17
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 6.2
+    },
+    {
+      "angle": -139.800003,
+      "contrailSize": 6.9,
+      "length": 19.9,
+      "location": [
+        -42,
+        -26
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 6.9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 35.5,
+      "location": [
+        -50,
+        -5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 21.5,
+      "location": [
+        -48,
+        -0.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 10.5,
+      "location": [
+        -38.5,
+        -7
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 10.5,
+      "location": [
+        -43,
+        -13
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 11.5,
+      "location": [
+        -39,
+        7
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    }
+  ],
+  "height": 140,
+  "hullId": "nom_yellowjacket",
+  "hullName": "Yellowjacket",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -2.5,
+    9.5
+  ],
+  "shieldRadius": 75.506622,
+  "spriteName": "graphics/nom/ships/nom_yellowjacket.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 1",
+      "locations": [
+        -7,
+        40
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -28.217356,
+      "arc": 318.307983,
+      "id": "WS 2",
+      "locations": [
+        34,
+        -14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 147,
+  "builtInWeapons": {
+    "WS 1": "nom_maser_pulse_beam",
+    "WS 2": "nom_ultralight_electron_maser"
+  },
+}

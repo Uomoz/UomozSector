@@ -1,0 +1,16 @@
+name,id,unlocked,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,sprite
+Blackrock Flux Core (Built-in),brfluxmod,,0,0,0,0,data.hullmods.BlackrockFlux,"Blackrock hulls are built around semi-ejectable powerplants and capacitor arrays, favoring active removal of flux instead of passive dissipation. Doubles the ship's active flux vent rate.",graphics/BR/hullmods/br_fluxcore.png
+Enhanced Ejector System,ms_enjector,,0,0,0,0,data.hullmods.ms_enjector,"Nearly universal on shadowyards fighters, this ejection system provides additional crew protection through strategically placed buffer plates and a somewhat improved auto-ejector, increasing crew survival rates by 66%%.",graphics/hullmods/armored_weapon_emplacements.png
+Biosphere,biosphere,,100,100,100,100,data.hullmods.TheNomadsBiosphere,"An onboard closed ecosystem used to grow assorted flora and fauna, and provide necessities for long-term journeys. Reduces externally-sourced supply consumption to near-zero.
+
+Can only be installed on capital ships.",graphics/nom/hullmods/biosphere.png
+Cloning Vats,cloning_vats,,80,80,80,80,data.hullmods.TheNomadsCloningVats,"Installs a delicate system of sealed cellular vats used in fast-maturation human cloning. Produces green crew at regular intervals.
+
+Can only be installed on capital ships.",graphics/nom/hullmods/cloning_vats.png
+Nanobot Fabricators,automated_nanobot_fabricators,,120,120,120,120,data.hullmods.TheNomadsAutomatedNanobotFabricators,"Allows for the remote instruction of nanoscale robots, used in an industrial-scale parts fabrication and assembly factory. Produces supplies at regular intervals.
+
+Can only be installed on capital ships.",graphics/nom/hullmods/automated_nanobot_fabricators.png
+Logistical Drone Control,logistical_distribution_drones,,60,60,60,60,data.hullmods.TheNomadsLogisticalDistributionDrones,"Provides mechanical assistance with near-range interfleet supply transfers, and eases the storage and organization requirements associated with large fleet logistics operations.
+
+Can only be installed on capital ships.",graphics/nom/hullmods/logistical_distribution_drones.png
+Naeran Flux Shunts,naeran_flux_shunts,TRUE,20,75,135,215,data.hullmods.TheNomadsNaeranFluxShunts,"Ancient Naeran technology that provides all Nomad ships with a way to dissipate flux internally by converting it into multi-spectrum EM radiation. Required for basic functioning of Nomad weapon systems, and not compatible with modern ships or technology due to its outdated design.",graphics/nom/hullmods/naeran_flux_shunts.png

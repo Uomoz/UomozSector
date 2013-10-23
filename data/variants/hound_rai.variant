@@ -1,0 +1,20 @@
+{
+    "displayName": "Railer H",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "hullId": "hound",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "hound_rai",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "railgun"}
+        }
+    ]
+}

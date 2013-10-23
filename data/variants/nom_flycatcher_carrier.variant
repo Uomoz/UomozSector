@@ -1,0 +1,31 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "hullId": "nom_flycatcher",
+  "hullMods": [
+    "naeran_flux_shunts",
+    "insulatedengine",
+    "augmentedengines"
+  ],
+  "variantId": "nom_flycatcher_carrier",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "swarmer",
+        "WS0005": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "nom_light_electron_maser",
+        "WS0002": "nom_twin_ultralight_electron_maser",
+        "WS0003": "nom_twin_ultralight_electron_maser"
+      }
+    }
+  ]
+}

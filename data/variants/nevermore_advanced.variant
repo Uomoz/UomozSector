@@ -1,0 +1,52 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 14,
+    "fluxVents": 16,
+    "hullId": "brdy_nevermore",
+    "hullMods": ["targetingunit"],
+    "variantId": "nevermore_advanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_amlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "achilles_mrm",
+                "WS0012": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "br_pde",
+                "WS0002": "br_pde"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brvulcan",
+                "WS0004": "brvulcan",
+                "WS0005": "brdy_solenoid",
+                "WS0006": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "brdy_argussmall",
+                "WS0008": "brdy_argussmall",
+                "WS0009": "brburst",
+                "WS0013": "brvulcan",
+                "WS0014": "brvulcan"
+            }
+        }
+    ]
+}

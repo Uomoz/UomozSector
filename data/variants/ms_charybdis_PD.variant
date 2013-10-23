@@ -1,0 +1,48 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 5,
+    "fluxVents": 15,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "augmentedengines",
+        "turretgyros"
+    ],
+    "variantId": "ms_charybdis_PD",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ms_chaingang",
+                "WS0007": "ms_chaingang",
+                "WS0003": "ms_pdcepc",
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0008": "hil"
+	        }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "ms_shrike_rack",
+                "WS0010": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_cepc",
+                "WS0002": "ms_cepc",
+            }
+        },
+    ]
+}

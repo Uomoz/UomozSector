@@ -1,0 +1,37 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "fluxbreakers",
+        "magazines",
+        "insulatedengine"
+    ],
+    "variantId": "ms_enlil_Standard",
+    "weaponGroups": [
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ms_cepc",
+                "WS0003": "ms_cepc"
+            }
+        },
+        {
+            "autofire": "false",
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "ms_shrike_pod"
+	        }
+        },
+        {
+            "autofire": "true",
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

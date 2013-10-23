@@ -1,0 +1,46 @@
+{
+    "displayName": "Storm H",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "dominator_sto",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "multineedler",
+                "WS 013": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 015": "typhoon"}
+        }
+    ]
+}

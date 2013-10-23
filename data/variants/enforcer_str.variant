@@ -1,0 +1,48 @@
+{
+    "displayName": "Strike H",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "hullId": "enforcer",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks",
+        "eccm"
+    ],
+    "variantId": "enforcer_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "harpoon",
+                "WS 007": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyneedler",
+                "WS 005": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "harpoon",
+                "WS 009": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

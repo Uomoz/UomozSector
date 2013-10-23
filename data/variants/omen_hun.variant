@@ -1,0 +1,41 @@
+{
+    "displayName": "Hunter T",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "omen",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "augmentedengines"
+    ],
+    "variantId": "omen_hun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "irpulse",
+                "WS 002": "irpulse"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

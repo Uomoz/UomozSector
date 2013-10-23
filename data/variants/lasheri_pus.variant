@@ -1,0 +1,42 @@
+{
+    "displayName": "Pusher I",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "hullId": "lasher",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "heavyarmor"
+    ],
+    "variantId": "lasheri_pus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "heatseeker",
+                "WS 004": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "lightneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

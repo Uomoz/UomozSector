@@ -1,0 +1,56 @@
+{
+    "displayName": "Sniper I",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "hullId": "conquest",
+    "hullMods": ["targetingunit"],
+    "variantId": "conquesti_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "gauss",
+                "WS 012": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "gauss",
+                "WS 014": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "hveldriver",
+                "WS 016": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "hveldriver",
+                "WS 018": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 022": "heavyburst",
+                "WS 023": "heavyburst"
+            }
+        }
+    ]
+}

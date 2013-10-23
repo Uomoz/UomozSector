@@ -1,0 +1,51 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 3,
+    "fluxVents": 30,
+    "hullId": "doom",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "variantId": "doomi_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "harpoonpod",
+                "WS 002": "harpoonpod",
+                "WS 003": "annihilator",
+                "WS 004": "annihilator",
+                "WS 005": "annihilator",
+                "WS 006": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pulselaser",
+                "WS 008": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

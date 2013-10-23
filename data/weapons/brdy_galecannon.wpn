@@ -1,0 +1,28 @@
+{
+	"id":"brdy_galecannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":900,
+	"turretSprite":"graphics/BR/weapons/galecannon_tbase.png",
+	"turretGunSprite":"graphics/BR/weapons/galecannon_tbarrel.png",
+	"hardpointSprite":"graphics/BR/weapons/galecannon_hpbase.png",
+	"hardpointGunSprite":"graphics/BR/weapons/galecannon_hpbarrel.png",	
+	"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[25, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[30, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":65.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":8.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.3,
+					   "particleCount":46,
+					   "particleColor":[255,195,95,215]},
+	"projectileSpecId":"brdy_gale_shot",  # projectile that will be fired	
+	"fireSoundTwo":"brdy_gale_fire",
+}

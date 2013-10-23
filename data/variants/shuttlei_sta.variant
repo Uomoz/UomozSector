@@ -1,0 +1,16 @@
+{
+    "displayName": "Standard I",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "hullId": "shuttle",
+    "hullMods": [],
+    "variantId": "shuttlei_sta",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "pdlaser",
+            "WS 002": "pdlaser"
+        }
+    }]
+}

@@ -1,0 +1,56 @@
+{
+    "displayName": "Cheap P",
+    "fluxCapacitors": 14,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": ["unstable_injector"],
+    "variantId": "dominatorp_che",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "chaingun",
+                "WS 013": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "pilum",
+                "WS 015": "pilum",
+                "WS 016": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualac",
+                "WS 002": "lightdualac",
+                "WS 003": "lightdualac",
+                "WS 004": "lightdualac",
+                "WS 005": "lightdualac",
+                "WS 006": "lightdualac",
+                "WS 007": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "shredder",
+                "WS 011": "shredder"
+            }
+        }
+    ]
+}

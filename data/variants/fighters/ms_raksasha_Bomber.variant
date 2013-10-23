@@ -1,0 +1,27 @@
+{
+	"displayName":"Bomber",
+	"hullId":"ms_raksasha",
+	"variantId":"ms_raksasha_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"ms_tusk_single",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0002":"ms_rakpod",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0003":"ms_miniflak",
+		 		   },
+		}
+	]
+}

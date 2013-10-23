@@ -1,0 +1,25 @@
+{
+	"id":"ms_drivecharger",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.ms_drivechargerstats",
+	
+	"engineGlowColor":[207,123,103,125],
+	"engineGlowContrailColor":[160,80,105,25],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":1.5,
+	
+	"flameoutOnImpactChance":0.4,
+
+	"clampMaxSpeedAfter":false,
+	
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	}
+}

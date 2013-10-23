@@ -1,0 +1,58 @@
+{
+    "displayName": "Assault I",
+    "fluxCapacitors": 29,
+    "fluxVents": 50,
+    "hullId": "conquest",
+    "hullMods": ["targetingunit"],
+    "variantId": "conquesti_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "harpoonpod",
+                "WS 002": "harpoonpod",
+                "WS 019": "harpoonpod",
+                "WS 020": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "mark9",
+                "WS 012": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "mark9",
+                "WS 014": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "heavyneedler",
+                "WS 018": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "ioncannon",
+                "WS 006": "ioncannon",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 015": "dualflak",
+                "WS 017": "dualflak"
+            }
+        }
+    ]
+}

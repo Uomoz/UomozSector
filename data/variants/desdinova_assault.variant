@@ -1,0 +1,50 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "brdy_desdinova",
+    "hullMods": ["turretgyros"],
+    "variantId": "desdinova_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brdy_volley",
+                "WS0003": "brdy_volley",
+                "WS0006": "brdy_volley",
+                "WS0007": "brdy_volley"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "brdy_quill",
+                "WS0009": "brdy_quill"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "brdy_plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "brdy_squallgun",
+                "WS0005": "brdy_squallgun",
+                "WS0012": "brdy_linear"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "brvulcan",
+                "WS0011": "brvulcan"
+            }
+        }
+    ]
+}

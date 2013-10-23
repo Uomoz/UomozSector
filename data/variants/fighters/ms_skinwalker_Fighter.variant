@@ -1,0 +1,38 @@
+{
+  "displayName": "Space Superiority Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_skinwalker",
+  "hullMods": [  ],
+  "variantId": "ms_skinwalker_Fighter",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+            "WS0002": "ms_pbc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+            "WS0003": "ms_blackcap_6x"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+            "WS0001": "ms_shrike_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+            "WS0004": "ms_swpod"
+      }
+    }
+  ]
+}

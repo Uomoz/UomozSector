@@ -1,0 +1,50 @@
+{
+    "displayName": "Sniper H",
+    "fluxCapacitors": 16,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "reinforcedhull",
+        "targetingunit"
+    ],
+    "variantId": "dominator_sni",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "gauss",
+                "WS 013": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavymauler",
+                "WS 011": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 007": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

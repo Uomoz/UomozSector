@@ -1,0 +1,35 @@
+{
+    "displayName": "Hunter I",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "vigilance",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "vigilancei_hun",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 002": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

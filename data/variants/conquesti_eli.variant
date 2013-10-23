@@ -1,0 +1,56 @@
+{
+    "displayName": "Elite I",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "hullId": "conquest",
+    "hullMods": [],
+    "variantId": "conquesti_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "mjolnir",
+                "WS 012": "mjolnir",
+                "WS 013": "mjolnir",
+                "WS 014": "mjolnir",
+                "WS 015": "heavyac",
+                "WS 016": "heavyac",
+                "WS 017": "heavyac",
+                "WS 018": "heavyac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "cyclone",
+                "WS 002": "cyclone"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "pilum",
+                "WS 020": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 007": "pdburst",
+                "WS 008": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst",
+                "WS 022": "heavyburst",
+                "WS 023": "heavyburst"
+            }
+        }
+    ]
+}

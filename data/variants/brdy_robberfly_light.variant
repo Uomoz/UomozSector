@@ -1,0 +1,23 @@
+{
+    "displayName": "Light",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "hullId": "brdy_robberfly",
+    "hullMods": ["armoredweapons"],
+    "variantId": "brdy_robberfly_light",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "br_fpde"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "brvulcan",
+                "WS0005": "brdy_ag"
+            }
+        }
+    ]
+}

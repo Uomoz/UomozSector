@@ -1,0 +1,36 @@
+{
+	"id":"achilles_stage2",
+	"specClass":"missile",
+    "onHitEffect":"data.scripts.weapons.AchillesOnHitEffect",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/missiles/missile_sabot_warhead.png",
+	"glowColor":[135,255,180,165],
+	"glowRadius":6,
+	"size":[7,14],	
+	"center":[3.5,7],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[235,255,215,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":65, # purely visual
+	"maxFlightTime":8.7,
+	"engineSpec":{"turnAcc":294,
+				  "turnRate":360,
+				  "maxSpeed":360,
+				  "acc":1200,
+				  "dec":220},
+				  "engineSlots":[{"id":"ES1",
+					"loc":[-9, 0],
+				    "style":"CUSTOM",
+               "styleSpec":{
+                  "engineColor":[135,255,180,255],
+                  "contrailParticleSizeMult":4,
+                  "contrailParticleDuration":6,
+                  "contrailMaxSpeedMult":0.1f,
+                  "contrailAngularVelocityMult":0f,
+                  "contrailColor":[50,85,60,80],
+                  "type":"GLOW" # GLOW or SMOKE
+               },
+				    "width":5.0,
+				    "length":28.0,
+				    "angle":180.0}]
+} 

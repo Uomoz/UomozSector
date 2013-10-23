@@ -1,0 +1,17 @@
+{
+	"id":"br_linearproj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":60.0,
+	"width":17.5,
+	"fadeTime":0.2,
+	"fringeColor":[135,255,130,75],
+	"coreColor":[200,225,220,145],
+	"hitGlowRadius":35,
+	"textureScrollSpeed":14.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/linearp.png",
+	
+}

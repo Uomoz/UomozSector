@@ -1,0 +1,34 @@
+{
+    "displayName": "Strike T",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "hullId": "hyperion",
+    "hullMods": [],
+    "variantId": "hyperion_str",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "amblaster",
+                "WS 004": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "atropos",
+                "WS 006": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst"
+            }
+        }
+    ]
+}

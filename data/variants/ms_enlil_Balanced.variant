@@ -1,0 +1,43 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "unstable_injector",
+        "targetingunit"
+    ],
+    "variantId": "ms_enlil_Balanced",
+    "weaponGroups": [        
+        {
+            "autofire": "false",
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "heavymauler"
+	        }
+        },
+        {
+            "autofire": "false",
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "ms_shrike_rack"
+            }
+        },
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_cepc"
+            }
+        },
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "ms_pdcepc",
+                "WS0005": "ms_pdcepc"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "displayName": "Patrol I",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "vigilance",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "vigilancei_pat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 002": "phasecl"}
+        }
+    ]
+}

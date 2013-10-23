@@ -1,0 +1,23 @@
+{
+	"id":"ms_tusk_empty",
+	"specClass":"missile",	
+	"missileType":"NO_AI",
+	"sprite":"graphics/shadow_weapons/missiles/ms_tusk_empty.png",
+	"size":[11,21],	
+	"center":[5.5,10.5],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"engineSpec":{"turnAcc":200,
+				  "turnRate":100,
+				  "acc":100,
+				  "dec":50},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    "style":"CUSTOM",
+                    "styleId":"ShadowyardsFlare",
+				    "width":12.0,
+				    "length":60.0,
+				    "angle":180.0}]	    
+}

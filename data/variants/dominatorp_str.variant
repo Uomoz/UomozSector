@@ -1,0 +1,52 @@
+{
+    "displayName": "Strike P",
+    "fluxCapacitors": 18,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": ["unstable_injector"],
+    "variantId": "dominatorp_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mark9",
+                "WS 013": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightag",
+                "WS 004": "lightag",
+                "WS 007": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightag",
+                "WS 003": "lightag",
+                "WS 005": "lightag",
+                "WS 006": "lightag"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

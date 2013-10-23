@@ -1,0 +1,42 @@
+{
+    "displayName": "PD T",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "shade",
+    "hullMods": [
+        "augmentedengines",
+        "advancedoptics"
+    ],
+    "variantId": "shade_pd",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

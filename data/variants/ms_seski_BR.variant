@@ -1,0 +1,28 @@
+{
+    "displayName": "Blockade Runner",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "ms_seski",
+    "hullMods": [
+        "targetingunit",
+        "augmentedengines"
+    ],
+    "variantId": "ms_seski_BR",
+    "weaponGroups": [
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "ms_pdcepc",
+		        "WS0002": "ms_pdcepc"
+	        }
+	    },
+        {
+            "autofire": "true",
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ms_mcepc"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "displayName": "Machiner I",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "hullId": "hound",
+    "hullMods": [
+        "frontshield",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "houndi_mac",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavymg"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightag"}
+        }
+    ]
+}

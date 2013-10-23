@@ -1,0 +1,46 @@
+{
+    "displayName": "Outdated I",
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
+    "hullId": "hammerhead",
+    "hullMods": ["missleracks"],
+    "variantId": "hammerheadi_out",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "shredder",
+                "WS 002": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "sabot",
+                "WS 004": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lrpdlaser",
+                "WS 006": "lrpdlaser",
+                "WS 007": "lrpdlaser",
+                "WS 008": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

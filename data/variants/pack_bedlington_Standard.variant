@@ -1,0 +1,25 @@
+{
+  "displayName": "Standard",
+  "hullId": "pack_bedlington",
+  "variantId": "pack_bedlington_Standard",
+  "fluxVents": 5,
+  "fluxCapacitors": 0,
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser",
+      }
+    },
+	{
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pulselaser"
+      }
+    }
+  ]
+}

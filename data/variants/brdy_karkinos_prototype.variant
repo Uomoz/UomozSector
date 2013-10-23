@@ -1,0 +1,64 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 0,
+    "fluxVents": 40,
+    "hullId": "brdy_karkinos",
+    "hullMods": ["turretgyros"],
+    "variantId": "brdy_karkinos_prototype",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "achilles_mrm",
+                "WS0016": "achilles_mrm",
+                "WS0017": "achilles_mrm",
+                "WS0018": "achilles_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_squallbattery",
+                "WS0004": "brdy_squallbattery",
+                "WS0009": "brdy_galecannon",
+                "WS0010": "brdy_galecannon",
+                "WS0019": "brdy_solenoid",
+                "WS0020": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_solenoidlarge",
+                "WS0002": "brdy_solenoidlarge"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brvulcan",
+                "WS0008": "brvulcan",
+                "WS0011": "brvulcan",
+                "WS0012": "brvulcan",
+                "WS0013": "br_iwbattery",
+                "WS0014": "br_iwbattery",
+                "WS0021": "brdy_argussmall",
+                "WS0022": "brdy_argussmall",
+                "WS0044": "brvulcan",
+                "WS0045": "brvulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "br_pde",
+                "WS0006": "br_pde"
+            }
+        }
+    ]
+}

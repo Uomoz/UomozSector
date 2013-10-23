@@ -1,0 +1,45 @@
+{
+    "displayName": "Balanced T",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "hullId": "aurora",
+    "hullMods": ["targetingunit"],
+    "variantId": "aurora_bal",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 009": "hurricane"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "sabot",
+                "WS 011": "sabot",
+                "WS 012": "sabot",
+                "WS 013": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "heavyblaster",
+                "WS 007": "heavyblaster",
+                "WS 008": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst"
+            }
+        }
+    ]
+}

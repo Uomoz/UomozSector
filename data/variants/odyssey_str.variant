@@ -1,0 +1,46 @@
+{
+    "displayName": "Strike T",
+    "fluxCapacitors": 36,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": ["targetingunit"],
+    "variantId": "odyssey_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "amblaster",
+                "WS 011": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyburst",
+                "WS 007": "pdburst",
+                "WS 013": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdburst",
+                "WS 017": "pdburst",
+                "WS 018": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "plasma"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

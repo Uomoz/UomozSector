@@ -1,0 +1,22 @@
+{
+	"displayName": "Dogfighter",
+	"hullId": "nom_toad",
+	"variantId": "nom_toad_assault",
+	"fluxVents": 0,
+	"fluxCapacitors": 0,
+	"hullMods": [
+		"naeran_flux_shunts",
+	],
+	"weaponGroups": [{
+		"mode": "ALTERNATING",
+		"weapons": {
+			"left_gun": "nom_light_electron_maser",
+			"right_gun": "nom_light_electron_maser",
+		}
+	},{
+		"mode": "LINKED",
+		"weapons": {
+			"missile_1": "swarmer",
+		}
+	},]
+}

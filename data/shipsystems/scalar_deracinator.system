@@ -1,0 +1,23 @@
+{
+	"id":"deracinator",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER",
+	"statsScript":"data.shipsystems.scripts.DeracinatorStats",
+
+	"jitterColor":[15,60,38,250],
+	"jitterCopies":12,
+	"jitterRange":90,
+	"jitterRangeRadiusFraction":0.4,
+
+	"range":1300,
+	"randomRange":50,
+
+	"fadeActivationSoundOnChargedown":false,
+	#"useSound":"system_teleport",
+	"useSound":"system_lucifergenactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"averageSpeedIncrease":350,
+	}
+}

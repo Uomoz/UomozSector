@@ -1,0 +1,34 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "hullId": "ms_enlil",
+    "hullMods": [
+        "magazines",
+        "missleracks",
+        "reinforcedhull"
+    ],
+    "variantId": "ms_enlil_Attack",
+    "weaponGroups": [
+        {
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "annihilator",
+                "WS0003": "annihilator"
+            }
+        },
+        {
+            "mode": "LINKED",
+            "weapons": {
+		        "WS0001": "chaingun"
+	    }
+        },
+        {
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdlaser",
+                "WS0005": "pdlaser"
+            }
+        }
+    ]
+}

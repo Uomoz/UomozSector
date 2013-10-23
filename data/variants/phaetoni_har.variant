@@ -1,0 +1,39 @@
+{
+    "displayName": "Hardened I",
+    "fluxCapacitors": 16,
+    "fluxVents": 0,
+    "hullId": "phaeton",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "phaetoni_har",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 003": "lightac",
+                "WS 004": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

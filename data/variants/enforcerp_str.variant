@@ -1,0 +1,46 @@
+{
+    "displayName": "Strike P",
+    "fluxCapacitors": 1,
+    "fluxVents": 20,
+    "hullId": "enforcer",
+    "hullMods": ["unstable_injector"],
+    "variantId": "enforcerp_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "harpoon",
+                "WS 007": "harpoon",
+                "WS 008": "harpoon",
+                "WS 009": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavyac",
+                "WS 005": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "flak",
+                "WS 004": "flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "arbalest"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

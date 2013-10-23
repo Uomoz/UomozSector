@@ -1,0 +1,53 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 9,
+    "fluxVents": 16,
+    "hullId": "ms_charybdis",
+    "hullMods": [
+	    "stabilizedshieldemitter",
+	    "fluxbreakers"
+    ],
+    "variantId": "ms_charybdis_Attack",
+    "weaponGroups": [
+	    {
+	        "autofire": "false",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0001": "amblaster",
+		        "WS0002": "amblaster"
+	        }
+	    },
+	    {
+	        "autofire": "false",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0006": "heavyblaster",
+		        "WS0007": "heavyblaster"
+	        }
+	    },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0008": "autopulse"
+	        }
+	    },
+	    {
+	        "autofire": "false",
+	        "mode": "ALTERNATING",
+	        "weapons": {
+		        "WS0009": "atropos",
+		        "WS0010": "atropos"
+	        }
+	    },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0003": "lrpdlaser",
+		        "WS0004": "lrpdlaser",
+		        "WS0005": "lrpdlaser"
+	        }
+	    }
+    ]
+}

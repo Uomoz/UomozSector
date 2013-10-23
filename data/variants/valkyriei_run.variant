@@ -1,0 +1,43 @@
+{
+    "displayName": "Runner I",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "valkyrie",
+    "hullMods": [
+        "augmentedengines",
+        "unstable_injector"
+    ],
+    "variantId": "valkyriei_run",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightmg",
+                "WS 002": "lightmg",
+                "WS 003": "lightmg",
+                "WS 004": "lightmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

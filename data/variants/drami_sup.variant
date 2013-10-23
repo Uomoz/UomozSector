@@ -1,0 +1,38 @@
+{
+    "displayName": "Support I",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "hullId": "dram",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks"
+    ],
+    "variantId": "drami_sup",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "harpoon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

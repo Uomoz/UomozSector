@@ -1,0 +1,50 @@
+{
+    "displayName": "Assault H",
+    "fluxCapacitors": 27,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks"
+    ],
+    "variantId": "dominator_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hellbore",
+                "WS 013": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "sabotpod",
+                "WS 015": "sabotpod",
+                "WS 016": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "displayName": "Tsunami",
+    "fluxCapacitors": 43,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "reinforcedhull",
+        "heavyarmor",
+        "targetingunit",
+        "auxiliarythrusters",
+        "magazines",
+        "pointdefenseai",
+        "turretgyros"
+    ],
+    "variantId": "onslaughthe_tsu",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "multineedler",
+                "WS 020": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "heavymauler",
+                "WS 013": "heavymauler",
+                "WS 019": "hellbore"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 002": "lightneedler",
+                "WS 003": "dualflak",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler",
+                "WS 007": "dualflak",
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "heavyneedler",
+                "WS 015": "heavyneedler"
+            }
+        }
+    ]
+}

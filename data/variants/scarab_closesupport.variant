@@ -1,0 +1,32 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "hullId": "brdy_scarab",
+    "hullMods": ["targetingunit"],
+    "variantId": "scarab_closesupport",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "brdy_linear"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_solenoid",
+                "WS0005": "brdy_ac",
+                "WS0006": "brdy_ac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "brdy_argussmall",
+                "WS0004": "brdy_argussmall"
+            }
+        }
+    ]
+}

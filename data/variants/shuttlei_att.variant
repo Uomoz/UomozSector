@@ -1,0 +1,16 @@
+{
+    "displayName": "Attack I",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "shuttle",
+    "hullMods": [],
+    "variantId": "shuttlei_att",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "ALTERNATING",
+        "weapons": {
+            "WS 001": "irpulse",
+            "WS 002": "irpulse"
+        }
+    }]
+}

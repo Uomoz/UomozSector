@@ -1,0 +1,44 @@
+{
+    "displayName": "BULL T",
+    "fluxCapacitors": 28,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": ["targetingunit"],
+    "variantId": "odyssey_bul",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdburst",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 013": "pdburst",
+                "WS 015": "pdburst",
+                "WS 016": "pdburst",
+                "WS 017": "pdburst",
+                "WS 018": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

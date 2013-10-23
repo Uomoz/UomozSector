@@ -1,0 +1,16 @@
+{
+    "displayName": "PD I",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "hullId": "shuttle",
+    "hullMods": [],
+    "variantId": "shuttlei_pd",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "lrpdlaser",
+            "WS 002": "lrpdlaser"
+        }
+    }]
+}

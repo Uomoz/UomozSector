@@ -1,0 +1,46 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 13,
+    "hullId": "ms_morningstar",
+    "hullMods": [
+	"turretgyros",
+	    "advancedshieldemitter",
+	    "fluxbreakers"
+    ],
+    "variantId": "ms_morningstar_Standard",
+    "weaponGroups": [
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0001": "ms_cepc",
+		        "WS0002": "ms_cepc",
+		        "WS0003": "ms_cepc"
+	        }
+	    },
+	    {
+	        "autofire": "false",
+	        "mode": "ALTERNATING",
+	        "weapons": {
+		        "WS0007": "ms_shrike_rack",
+		        "WS0008": "ms_shrike_rack"
+	        }
+	    },
+	    {
+	        "autofire": "false",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0006": "ms_scattercepc"
+	        }
+	    },
+	    {
+	        "autofire": "true",
+	        "mode": "LINKED",
+	        "weapons": {
+		        "WS0004": "ms_pdcepc",
+		        "WS0005": "ms_pdcepc"
+	        }
+	    }	
+    ]
+}

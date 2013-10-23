@@ -1,0 +1,18 @@
+{
+	"id":"ms_3wave",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":22.0,
+	"width":12,
+	"hitGlowRadius":30,
+	"fadeTime":0.3,
+	"fringeColor":[165,215,145,255],
+	"coreColor":[125,155,115,150],
+	"glowColor":[70,120,50,75],
+	"darkCore":true,
+	"textureType":WEAVE,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+}

@@ -1,0 +1,58 @@
+{
+    "displayName": "Beamer I",
+    "fluxCapacitors": 30,
+    "fluxVents": 50,
+    "hullId": "odyssey",
+    "hullMods": [
+        "missleracks",
+        "pointdefenseai"
+    ],
+    "variantId": "odysseyi_bea",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "pilum",
+                "WS 005": "pilum",
+                "WS 006": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "taclaser",
+                "WS 008": "taclaser",
+                "WS 009": "taclaser",
+                "WS 010": "taclaser",
+                "WS 011": "taclaser",
+                "WS 012": "taclaser",
+                "WS 013": "taclaser",
+                "WS 014": "taclaser",
+                "WS 015": "taclaser",
+                "WS 016": "taclaser",
+                "WS 017": "taclaser",
+                "WS 018": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hil",
+                "WS 003": "hil"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

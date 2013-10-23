@@ -1,0 +1,60 @@
+{
+    "displayName": "DOmP 2",
+    "fluxCapacitors": 23,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "unstable_injector",
+        "augmentedengines",
+        "auxiliarythrusters"
+    ],
+    "variantId": "dominatorpe_dev",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "multineedler",
+                "WS 013": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "harpoonpod",
+                "WS 015": "annihilatorpod",
+                "WS 016": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavyac",
+                "WS 011": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "railgun",
+                "WS 007": "railgun"
+            }
+        }
+    ]
+}

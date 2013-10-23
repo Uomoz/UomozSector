@@ -1,0 +1,26 @@
+{
+	"id":"desdinovajets",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.scripts.DesdinovaBurstJetsStats",
+	
+	"engineGlowColor":[140,230,200,185],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.8,
+	"engineGlowWidthMult":0.55,
+	"engineGlowGlowMult":2.4,
+	
+	"flameoutOnImpactChance":0.1,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"burstjetfire",
+	"loopSound":"burstjetunderlay",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":135,
+	}
+}

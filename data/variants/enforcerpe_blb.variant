@@ -1,0 +1,51 @@
+{
+    "displayName": "Blood Bath",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "enforcer",
+    "hullMods": [
+        "unstable_injector",
+        "augmentedengines",
+        "targetingunit"
+    ],
+    "variantId": "enforcerpe_blb",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "annihilator",
+                "WS 007": "annihilator",
+                "WS 008": "annihilator",
+                "WS 009": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavyneedler",
+                "WS 003": "heavyneedler",
+                "WS 004": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 005": "dualflak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

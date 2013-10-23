@@ -1,0 +1,52 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 20,
+    "fluxVents": 5,
+    "hullId": "brdy_nevermore",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "nevermore_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "brdy_amlance"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "brdy_2xfury",
+                "WS0012": "brdy_2xfury"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "brdy_plasma",
+                "WS0002": "brdy_plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "brdy_volley",
+                "WS0004": "brdy_volley",
+                "WS0005": "brdy_squallgun",
+                "WS0006": "brdy_squallgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "brdy_argussmall",
+                "WS0008": "brdy_argussmall",
+                "WS0009": "br_iwbattery",
+                "WS0013": "brvulcan",
+                "WS0014": "brvulcan"
+            }
+        }
+    ]
+}

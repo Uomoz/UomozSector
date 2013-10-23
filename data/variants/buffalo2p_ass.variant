@@ -1,0 +1,39 @@
+{
+    "displayName": "Assault P",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "buffalo2",
+    "hullMods": ["unstable_injector"],
+    "variantId": "buffalo2p_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "irpulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "irpulse",
+                "WS 002": "lightag",
+                "WS 003": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "heatseeker"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "salamanderpod"}
+        }
+    ]
+}

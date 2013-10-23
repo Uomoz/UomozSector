@@ -1,0 +1,23 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "ms_thetis_drone",
+  "hullMods": [
+      "magazines",
+      "advancedoptics",
+      "fluxbreakers",
+      "turretgyros"
+  ],
+  "variantId": "ms_thetis_drone",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ms_pbc",
+        "WS0002": "ms_miniflak"
+      }
+    }
+  ]
+}

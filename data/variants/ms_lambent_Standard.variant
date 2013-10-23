@@ -1,0 +1,18 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "hullId": "ms_lambent",
+    "hullMods": [],
+    "variantId": "ms_lambent_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ms_pdcepc",
+                "WS0002": "ms_pdcepc"
+            }
+        }
+    ]
+}

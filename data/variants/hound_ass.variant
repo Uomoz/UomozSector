@@ -1,0 +1,20 @@
+{
+    "displayName": "Assaulter H",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "hullId": "hound",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "hound_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "chaingun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "railgun"}
+        }
+    ]
+}

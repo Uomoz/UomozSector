@@ -1,0 +1,35 @@
+{
+    "displayName": "Combi I",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "hullId": "tarsus",
+    "hullMods": ["hardenedshieldemitter"],
+    "variantId": "tarsusi_com",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "railgun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

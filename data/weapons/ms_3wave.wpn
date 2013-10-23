@@ -1,0 +1,23 @@
+{
+	"id":"ms_3wave",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":1250,
+	"turretSprite":"graphics/shadow_weapons/weapons/ms_wave_turret_base.png",
+	"hardpointSprite":"graphics/shadow_weapons/weapons/ms_wave_turret_base.png",			
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW",
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"ms_3wave",  # projectile that will be fired
+	"fireSoundOne":"beam_light_intro",
+	"fireSoundTwo":"energy_pulse",
+}

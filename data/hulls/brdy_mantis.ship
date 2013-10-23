@@ -1,0 +1,278 @@
+{
+  "bounds": [
+    -57,
+    -15.5,
+    -21.5,
+    -17,
+    -16,
+    -33,
+    9,
+    -16.5,
+    49.5,
+    -14.5,
+    34,
+    -0,
+    49.5,
+    14.5,
+    9,
+    16.5,
+    -16,
+    33,
+    -21.5,
+    17,
+    -57,
+    15.5,
+    -23.5,
+    -0
+  ],
+  "center": [
+    37.5,
+    64
+  ],
+  "collisionRadius": 86.669869,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 43.5,
+      "location": [
+        -36,
+        24.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 43.5,
+      "location": [
+        -36,
+        -24.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 66,
+      "location": [
+        -40.5,
+        -0
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 20
+    }
+  ],
+  "height": 125,
+  "hullId": "brdy_mantis",
+  "hullName": "Mantis",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 85.239334,
+  "spriteName": "graphics/BR/ships/brdymantis.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 28.072487,
+      "id": "WS0001",
+      "locations": [
+        -4,
+        27.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 191.608917,
+      "id": "WS0002",
+      "locations": [
+        -8.5,
+        -28.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 26,
+      "id": "WS0003",
+      "locations": [
+        54,
+        10.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 26,
+      "id": "WS0004",
+      "locations": [
+        54,
+        -11.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 45,
+      "arc": 204.529541,
+      "id": "WS0005",
+      "locations": [
+        -5.5,
+        8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 134.760269,
+      "id": "WS0006",
+      "locations": [
+        29,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        37.5,
+        12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        38,
+        -13.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        24.5,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        40.5,
+        6
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        40.5,
+        -6
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        -53,
+        14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0013",
+      "locations": [
+        -53,
+        -14.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0014",
+      "locations": [
+        -17,
+        32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        -17,
+        -32
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 76,
+    "builtInMods":["brfluxmod"],  
+    "builtInWeapons":{
+    	"WS0007":"blinker",	
+    	"WS0008":"blinker",
+    	"WS0009":"blinker2",
+    	"WS0010":"blinker2",
+    	"WS0011":"blinker2",		
+    	"WS0012":"blinker",		
+    	"WS0013":"blinker",
+    	"WS0014":"blinker2",
+    	"WS0015":"blinker2",
+},
+}

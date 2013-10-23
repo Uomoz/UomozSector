@@ -1,0 +1,51 @@
+{
+    "displayName": "Attack I",
+    "fluxCapacitors": 17,
+    "fluxVents": 30,
+    "hullId": "aurora",
+    "hullMods": [],
+    "variantId": "aurorai_att",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "sabotpod",
+                "WS 010": "sabot",
+                "WS 011": "sabot",
+                "WS 012": "sabot",
+                "WS 013": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "amblaster",
+                "WS 004": "amblaster",
+                "WS 005": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "gravitonbeam",
+                "WS 007": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "gravitonbeam"}
+        }
+    ]
+}

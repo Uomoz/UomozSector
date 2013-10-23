@@ -1,0 +1,62 @@
+{
+    "displayName": "Bull H",
+    "fluxCapacitors": 12,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "reinforcedhull",
+        "missleracks",
+        "targetingunit"
+    ],
+    "variantId": "onslaught_bul",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 021": "typhoon",
+                "WS 022": "typhoon",
+                "WS 023": "typhoon",
+                "WS 024": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hveldriver",
+                "WS 013": "hveldriver",
+                "WS 018": "hveldriver",
+                "WS 020": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 003": "dualflak",
+                "WS 007": "dualflak",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightneedler",
+                "WS 009": "lightneedler",
+                "WS 019": "multineedler"
+            }
+        }
+    ]
+}

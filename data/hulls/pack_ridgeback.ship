@@ -1,0 +1,250 @@
+{
+  "bounds": [
+    65.0,
+    -12.0,
+    35.0,
+    -31.0,
+    6.0,
+    -42.0,
+    58.0,
+    -50.0,
+    60.0,
+    -61.0,
+    -22.0,
+    -65.0,
+    -41.0,
+    -77.0,
+    -65.0,
+    -56.0,
+    -57.0,
+    -39.0,
+    -89.0,
+    -14.0,
+    -89.0,
+    14.0,
+    -57.0,
+    39.0,
+    -65.0,
+    56.0,
+    -41.0,
+    77.0,
+    -22.0,
+    65.0,
+    60.0,
+    61.0,
+    58.0,
+    50.0,
+    6.0,
+    42.0,
+    35.0,
+    31.0,
+    65.0,
+    12.0
+  ],
+  "center": [
+    86.5,
+    96.0
+  ],
+  "collisionRadius": 103.469803,
+  "engineSlots": [
+    {
+      "angle": 180.0,
+      "contrailSize": 20.0,
+      "length": 27.5,
+      "location": [
+        -91.5,
+        13.0
+      ],
+      "style": "MIDLINE",
+      "width": 20.0
+    },
+    {
+      "angle": -180.0,
+      "contrailSize": 20.0,
+      "length": 27.5,
+      "location": [
+        -91.5,
+        -13.0
+      ],
+      "style": "MIDLINE",
+      "width": 20.0
+    },
+    {
+      "angle": -153.904572,
+      "contrailSize": 15.175422,
+      "length": 25.429836,
+      "location": [
+        -79.5,
+        -67.0
+      ],
+      "style": "MIDLINE",
+      "width": 15.175422
+    },
+    {
+      "angle": 153.904572,
+      "contrailSize": 15.175422,
+      "length": 25.429836,
+      "location": [
+        -79.5,
+        67.0
+      ],
+      "style": "MIDLINE",
+      "width": 15.175422
+    },
+    {
+      "angle": -143.343887,
+      "contrailSize": 7.873088,
+      "length": 43.814995,
+      "location": [
+        -57.0,
+        -83.0
+      ],
+      "style": "MIDLINE",
+      "width": 7.873088
+    },
+    {
+      "angle": 143.343887,
+      "contrailSize": 7.873088,
+      "length": 43.814995,
+      "location": [
+        -57.0,
+        83.0
+      ],
+      "style": "MIDLINE",
+      "width": 7.873088
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 4.0,
+      "length": 45.0,
+      "location": [
+        -64.0,
+        33.0
+      ],
+      "style": "MIDLINE",
+      "width": 4.0
+    },
+    {
+      "angle": -180.0,
+      "contrailSize": 4.0,
+      "length": 45.0,
+      "location": [
+        -64.0,
+        -33.0
+      ],
+      "style": "MIDLINE",
+      "width": 4.0
+    }
+  ],
+  "height": 180.0,
+  "width": 177.0,
+  "hullId": "pack_ridgeback",
+  "hullName": "Ridgeback",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0.0,
+    -0.0
+  ],
+  "shieldRadius": 115.67627,
+  "spriteName": "graphics/pack/ships/pack_ridgeback.png",
+  "style": "MIDLINE",
+  "viewOffset": 0.0,
+  "weaponSlots": [
+    {
+      "angle": 29.054604,
+      "arc": 112.691521,
+      "id": "WS0001",
+      "locations": [
+        -44.0,
+        55.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -29.054604,
+      "arc": 112.691521,
+      "id": "WS0002",
+      "locations": [
+        -44.0,
+        -57.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 37.661392,
+      "arc": 149.636078,
+      "id": "WS0003",
+      "locations": [
+        -6.0,
+        55.0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -37.661392,
+      "arc": 149.636078,
+      "id": "WS0004",
+      "locations": [
+        -6.0,
+        -57.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0.0,
+      "arc": 10.586398,
+      "id": "WS0005",
+      "locations": [
+        11.5,
+        20.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0.0,
+      "arc": 10.586398,
+      "id": "WS0006",
+      "locations": [
+        11.5,
+        -21.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0.0,
+      "arc": 10.586398,
+      "id": "WS0007",
+      "locations": [
+        63.0,
+        55.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0.0,
+      "arc": 10.586398,
+      "id": "WS0008",
+      "locations": [
+        63.0,
+        -57.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ]
+}

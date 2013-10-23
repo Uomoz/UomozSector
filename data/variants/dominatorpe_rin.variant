@@ -1,0 +1,61 @@
+{
+    "displayName": "Rhino",
+    "fluxCapacitors": 12,
+    "fluxVents": 30,
+    "hullId": "dominator",
+    "hullMods": [
+        "unstable_injector",
+        "augmentedengines",
+        "targetingunit",
+        "missleracks"
+    ],
+    "variantId": "dominatorpe_rin",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mark9",
+                "WS 013": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "annihilatorpod",
+                "WS 015": "annihilatorpod",
+                "WS 016": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "heavymauler",
+                "WS 011": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 006": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        }
+    ]
+}

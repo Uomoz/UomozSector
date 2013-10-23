@@ -1,0 +1,232 @@
+{
+  "bounds": [
+    50,
+    -19.5,
+    33,
+    -26.5,
+    -2.5,
+    -28.5,
+    -6,
+    -37.5,
+    -36,
+    -20.5,
+    -42,
+    -21,
+    -54,
+    -11,
+    -42.5,
+    -6,
+    -54,
+    7,
+    -40.5,
+    20.5,
+    -8,
+    19,
+    -4,
+    24,
+    10.5,
+    18,
+    14.5,
+    10,
+    31.5,
+    9.5,
+    34,
+    22,
+    39,
+    22,
+    53.5,
+    -9
+  ],
+  "builtInWeapons": {
+    "WS0001": "nom_light_electron_maser",
+    "WS0002": "nom_twin_ultralight_electron_maser",
+    "WS0003": "nom_twin_ultralight_electron_maser",
+    "WS0004": "swarmer",
+    "WS0005": "swarmer"
+  },
+  "center": [
+    39,
+    56.5
+  ],
+  "collisionRadius": 65.501907,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 24,
+      "location": [
+        -55.5,
+        -11
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 19,
+      "location": [
+        -46,
+        -20
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 10,
+      "location": [
+        -56.5,
+        6.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 21,
+      "location": [
+        -51,
+        1.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 11,
+      "location": [
+        -46.5,
+        -5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 26,
+      "location": [
+        -52,
+        11.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 13,
+      "location": [
+        -45.5,
+        16.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 5
+    }
+  ],
+  "height": 113,
+  "hullId": "nom_flycatcher",
+  "hullName": "Flycatcher",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 63.001984,
+  "spriteName": "graphics/nom/ships/nom_flycatcher.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 278.797424,
+      "id": "WS0001",
+      "locations": [
+        37,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -40.364536,
+      "arc": 341.198456,
+      "id": "WS0002",
+      "locations": [
+        16.5,
+        -24.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 58.392498,
+      "arc": 340.387817,
+      "id": "WS0003",
+      "locations": [
+        0,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -23,
+        17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        22.5,
+        11,
+        27.5,
+        13.5,
+        17.5,
+        13.5,
+        22.5,
+        15,
+        18.5,
+        17.5,
+        26.5,
+        17.5,
+        22.5,
+        20,
+        22.5,
+        24
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -14,
+        17
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 78
+}

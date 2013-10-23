@@ -1,0 +1,251 @@
+{
+  "bounds": [
+    73,
+    -20,
+    68,
+    -35.5,
+    61,
+    -35.5,
+    59,
+    -17.5,
+    41,
+    -16.5,
+    31.5,
+    -39,
+    19,
+    -49.5,
+    15.5,
+    -23,
+    -13,
+    -43,
+    -67.5,
+    -36.5,
+    -67.5,
+    36.5,
+    -13,
+    43,
+    15.5,
+    23,
+    19,
+    49.5,
+    31.5,
+    39,
+    41,
+    16.5,
+    59,
+    17.5,
+    61,
+    35.5,
+    68,
+    35.5,
+    73,
+    20
+  ],
+  "center": [
+    52,
+    78.5
+  ],
+  "collisionRadius": 81.501533,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 34.5,
+      "location": [
+        -78,
+        16
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 34.5,
+      "location": [
+        -78,
+        -16
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -77,
+        21
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -77,
+        -21
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -77.5,
+        11.5
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 22,
+      "location": [
+        -77.5,
+        -11.5
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 55.5,
+      "location": [
+        -75,
+        -0.5
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    }
+  ],
+  "height": 157,
+  "hullId": "pack_BRT",
+  "hullName": "BRT",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 115.351639,
+  "spriteName": "graphics/pack/ships/pack_BRT.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 148.67131,
+      "arc": 134.074387,
+      "id": "WS0001",
+      "locations": [
+        -58.5,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -145.375839,
+      "arc": 134.074387,
+      "id": "WS0002",
+      "locations": [
+        -58.5,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 33.146996,
+      "arc": 113.572037,
+      "id": "WS0003",
+      "locations": [
+        29.5,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -33.146996,
+      "arc": 113.572037,
+      "id": "WS0004",
+      "locations": [
+        29.5,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 27.18111,
+      "arc": 130.449722,
+      "id": "WS0005",
+      "locations": [
+        64.5,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -27.18111,
+      "arc": 130.449722,
+      "id": "WS0006",
+      "locations": [
+        64.5,
+        -12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 33.690067,
+      "arc": 134.468628,
+      "id": "WS0007",
+      "locations": [
+        -18.5,
+        35.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -33.690067,
+      "arc": 134.468628,
+      "id": "WS0008",
+      "locations": [
+        -18.5,
+        -35.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 6.603731,
+      "id": "WS0009",
+      "locations": [
+        31,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 104
+}

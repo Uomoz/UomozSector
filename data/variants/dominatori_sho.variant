@@ -1,0 +1,52 @@
+{
+    "displayName": "Shocker I",
+    "fluxCapacitors": 0,
+    "fluxVents": 23,
+    "hullId": "dominator",
+    "hullMods": ["pointdefenseai"],
+    "variantId": "dominatori_sho",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mjolnir",
+                "WS 013": "mjolnir"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "sabotpod",
+                "WS 016": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightneedler",
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 007": "lightneedler",
+                "WS 010": "chaingun",
+                "WS 011": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        }
+    ]
+}

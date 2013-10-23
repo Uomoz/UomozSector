@@ -1,0 +1,8 @@
+{
+	"id":"ms_swflares",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"ms_swflares",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

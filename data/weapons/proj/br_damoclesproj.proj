@@ -1,0 +1,19 @@
+{
+	"id":"br_damoclesproj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":60.0,
+	"width":24.5,
+	"fadeTime":0.3,
+	"glowColor":[255,135,135,55],
+	"glowRadius":65,
+	"fringeColor":[255,135,180,235],
+	"coreColor":[255,250,235,255],
+	"hitGlowRadius":95,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/BR/missiles/amlanceshot.png",
+	
+}

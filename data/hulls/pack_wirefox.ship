@@ -1,0 +1,133 @@
+{
+  "bounds": [
+    28.0,
+    -23.0,
+    6.0,
+    -14.5,
+    -5.5,
+    -28.0,
+    -30.0,
+    -27.0,
+    -30.5,
+    21.0,
+    -8.0,
+    21.0,
+    4.0,
+    8.5,
+    28.5,
+    18.0
+  ],
+  "center": [
+    26.5,
+    40.0
+  ],
+  "collisionRadius": 50.159744,
+  "engineSlots": [
+    {
+      "angle": 180.0,
+      "contrailSize": 30.0,
+      "length": 30.0,
+      "location": [
+        -40.0,
+        16.0
+      ],
+      "style": "MIDLINE",
+      "width": 10.0
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 30.0,
+      "length": 30.0,
+      "location": [
+        -41.0,
+        -25.0
+      ],
+      "style": "MIDLINE",
+      "width": 10.0
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 4.0,
+      "length": 22.0,
+      "location": [
+        -40.0,
+        -6.5
+      ],
+      "style": "MIDLINE",
+      "width": 4.0
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 2.0,
+      "length": 31.0,
+      "location": [
+        -39.5,
+        -2.0
+      ],
+      "style": "MIDLINE",
+      "width": 2.0
+    },
+    {
+      "angle": 180.0,
+      "contrailSize": 2.0,
+      "length": 29.5,
+      "location": [
+        -40.5,
+        -11.0
+      ],
+      "style": "MIDLINE",
+      "width": 2.0
+    }
+  ],
+  "height": 82.0,
+  "width": 59.0,
+  "hullId": "pack_wirefox",
+  "hullName": "Wirefox",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0.0,
+    -0.0
+  ],
+  "shieldRadius": 63.0,
+  "spriteName": "graphics/pack/ships/pack_wirefox.png",
+  "style": "MIDLINE",
+  "viewOffset": 0.0,
+  "weaponSlots": [
+    {
+      "angle": -88.85424,
+      "arc": 205.533478,
+      "id": "WS0001",
+      "locations": [
+        -14.5,
+        -11.0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0.403485,
+      "arc": 5.351869,
+      "id": "WS0002",
+      "locations": [
+        36.0,
+        10.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0.0,
+      "arc": 5.351869,
+      "id": "WS0003",
+      "locations": [
+        34.5,
+        -16.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ]
+}

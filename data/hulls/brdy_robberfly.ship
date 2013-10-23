@@ -1,0 +1,154 @@
+{
+  "bounds": [
+    27.5,
+    14,
+    2,
+    14,
+    -28,
+    15.5,
+    -40,
+    -0,
+    -30,
+    -14.5,
+    14,
+    -15,
+    15,
+    -4,
+    33.5,
+    -3.5
+  ],
+  "center": [
+    23,
+    50.5
+  ],
+  "collisionRadius": 65.484734,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 17,
+      "length": 58,
+      "location": [
+        -42,
+        -1.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 17
+    },
+    {
+      "angle": 156.447739,
+      "contrailSize": 7.968204,
+      "length": 24.645018,
+      "location": [
+        -31,
+        17
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7.968204
+    },
+    {
+      "angle": -156.447739,
+      "contrailSize": 7.968204,
+      "length": 24.645018,
+      "location": [
+        -31.5,
+        -16.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "BlackrockFlare",
+      "width": 7.968204
+    }
+  ],
+  "height": 101,
+  "hullId": "brdy_robberfly",
+  "hullName": "Robberfly",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 64.072227,
+  "spriteName": "graphics/BR/ships/robberfly.png",
+  "style": "BLACKROCKHULL",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        13.5,
+        -8
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 45,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -10.5,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 122.471191,
+      "arc": 0.000002,
+      "id": "WS0003",
+      "locations": [
+        -17,
+        14.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -122.471191,
+      "arc": 0.000002,
+      "id": "WS0004",
+      "locations": [
+        -17,
+        -14.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0005",
+      "locations": [
+        25,
+        11
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        6,
+        3.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 46,
+  "builtInMods":["brfluxmod"],  
+    "builtInWeapons":{
+    	"WS0006":"blinker",
+		},
+}

@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard H",
+    "fluxCapacitors": 9,
+    "fluxVents": 50,
+    "hullId": "onslaught",
+    "hullMods": [
+        "dedicated_targeting_core",
+        "reinforcedhull"
+    ],
+    "variantId": "onslaught_sta",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 021": "annihilatorpod",
+                "WS 022": "annihilatorpod",
+                "WS 023": "annihilatorpod",
+                "WS 024": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "mark9",
+                "WS 019": "mark9",
+                "WS 020": "mark9"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "lightag",
+                "WS 003": "flak",
+                "WS 004": "lightag",
+                "WS 005": "lightag",
+                "WS 006": "lightag",
+                "WS 007": "heavyac",
+                "WS 008": "lightdualac",
+                "WS 009": "lightdualac",
+                "WS 010": "flak",
+                "WS 011": "flak",
+                "WS 012": "heavyac",
+                "WS 013": "heavyac",
+                "WS 014": "heavyac",
+                "WS 015": "heavyac"
+            }
+        }
+    ]
+}

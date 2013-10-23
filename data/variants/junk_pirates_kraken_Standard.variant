@@ -1,0 +1,57 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 16,
+  "hullId": "junk_pirates_kraken",
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "fluxbreakers"
+  ],
+  "variantId": "junk_pirates_kraken_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "dualflak",
+        "WS 11": "vulcan",
+        "WS 12": "vulcan",
+        "WS 15": "mark9",
+        "WS 17": "pdburst",
+        "WS 18": "pdburst",
+        "WS 19": "mark9",
+        "WS 20": "heavyneedler",
+        "WS 4": "heavyburst",
+        "WS 5": "heavyburst",
+        "WS 6": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 10": "lightag",
+        "WS 2": "heavymauler",
+        "WS 3": "heavymauler",
+        "WS 8": "lightag",
+        "WS 9": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 7": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 13": "harpoonpod",
+        "WS 14": "harpoonpod",
+        "WS 16": "harpoonpod"
+      }
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "bounds": [
+    283.5,
+    59,
+    274,
+    51,
+    281,
+    22.5,
+    298,
+    20,
+    282,
+    12.5,
+    336.5,
+    8.5,
+    284,
+    -1.5,
+    302,
+    -10.5,
+    282.5,
+    -26.5,
+    303.5,
+    -31.5,
+    278.5,
+    -37,
+    277,
+    -42.5,
+    288,
+    -44,
+    275,
+    -48.5,
+    242.5,
+    -98.5,
+    198.5,
+    -132.5,
+    147.5,
+    -148.5,
+    -94.5,
+    -147.5,
+    -117.5,
+    -137,
+    -160.5,
+    -137,
+    -189.5,
+    -124.5,
+    -55.5,
+    -119,
+    -149.5,
+    -103,
+    -95.5,
+    -100.5,
+    -82,
+    -91,
+    0.5,
+    -89,
+    -22,
+    -74,
+    -4.5,
+    -73,
+    -17.5,
+    -30.5,
+    -42.5,
+    -29.5,
+    -64,
+    -17.5,
+    -299,
+    -18.5,
+    -263,
+    -43.5,
+    -215.5,
+    -45,
+    -223.5,
+    -75,
+    -291.5,
+    -81,
+    -303.5,
+    -106.5,
+    -327.5,
+    -115,
+    -346,
+    -102.5,
+    -347.5,
+    -88,
+    -359.5,
+    -86.5,
+    -362,
+    -76,
+    -385.5,
+    -77,
+    -392,
+    -67.5,
+    -400,
+    -58.5,
+    -416.5,
+    -59,
+    -417.5,
+    -48.5,
+    -388.5,
+    -43.5,
+    -414,
+    -37.5,
+    -414.5,
+    -29.5,
+    -389.5,
+    -25.5,
+    -428.5,
+    -18,
+    -449,
+    -6,
+    -434.5,
+    5,
+    -416.5,
+    5.5,
+    -410,
+    18,
+    -378,
+    22.5,
+    -414,
+    30,
+    -395.5,
+    36,
+    -395.5,
+    44.5,
+    -381,
+    46.5,
+    -379.5,
+    61.5,
+    -367.5,
+    81.5,
+    -343.5,
+    87,
+    -339.5,
+    70,
+    -328,
+    84.5,
+    -152,
+    85.5,
+    -147,
+    62.5,
+    -129.5,
+    83.5,
+    -91.5,
+    83,
+    -80,
+    68.5,
+    -60.5,
+    67.5,
+    -58,
+    45,
+    -33,
+    45.5,
+    -30,
+    59,
+    20.5,
+    58,
+    44,
+    90.5,
+    86.5,
+    115.5,
+    103.5,
+    119.5,
+    111.5,
+    84.5,
+    113.5,
+    122,
+    142,
+    122,
+    146,
+    116,
+    184,
+    101.5,
+    190,
+    103.5,
+    214.5,
+    83,
+    232,
+    59
+  ],
+  "center": [
+    134,
+    455
+  ],
+  "collisionRadius": 460.635437,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 25,
+      "location": [
+        -451,
+        -5.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 38.5,
+      "location": [
+        -438.5,
+        -12.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 17,
+      "location": [
+        -440,
+        2
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 13.5,
+      "location": [
+        -419.5,
+        9.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 40,
+      "location": [
+        -418,
+        -33.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 40,
+      "location": [
+        -419,
+        -54
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 17.5,
+      "location": [
+        -397.5,
+        -43
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 17.5,
+      "location": [
+        -399.5,
+        -64.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 32,
+      "location": [
+        -390,
+        -73
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 19,
+      "location": [
+        -361.5,
+        -83.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 19,
+      "location": [
+        -415.5,
+        28.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 19,
+      "location": [
+        -399.5,
+        39.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 38.5,
+      "location": [
+        -384,
+        55.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 13.5,
+      "location": [
+        -394.5,
+        21
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 7
+    }
+  ],
+  "width": 288,
+  "height": 880,
+  "hullId": "nom_oasis",
+  "hullName": "Oasis",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    -51,
+    2
+  ],
+  "shieldRadius": 405.019745,
+  "spriteName": "graphics/nom/ships/nom_oasis.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS_habitat_ring",
+      "locations": [
+        130.5,
+        2.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS_support_beam",
+      "locations": [
+        129.5,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    }
+  ],
+  "builtInWeapons":{
+    "WS_habitat_ring": "nom_decorative_oasis_habitat_ring",
+    "WS_support_beam": "nom_decorative_oasis_habitat_ring_structural_support_beam",
+  },
+  "builtInMods":[
+    "biosphere",
+    "cloning_vats",
+    "automated_nanobot_fabricators",
+    "logistical_distribution_drones",
+  ]
+}

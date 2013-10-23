@@ -1,0 +1,58 @@
+{
+    "displayName": "Elite H",
+    "fluxCapacitors": 0,
+    "fluxVents": 37,
+    "hullId": "onslaught",
+    "hullMods": ["reinforcedhull"],
+    "variantId": "onslaught_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 021": "typhoon",
+                "WS 022": "typhoon",
+                "WS 023": "typhoon",
+                "WS 024": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "mjolnir",
+                "WS 019": "mjolnir",
+                "WS 020": "mjolnir"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 002": "railgun",
+                "WS 003": "hveldriver",
+                "WS 004": "railgun",
+                "WS 005": "railgun",
+                "WS 006": "railgun",
+                "WS 007": "dualflak",
+                "WS 008": "railgun",
+                "WS 009": "railgun",
+                "WS 010": "dualflak",
+                "WS 011": "dualflak",
+                "WS 012": "hveldriver",
+                "WS 013": "hveldriver",
+                "WS 014": "hveldriver",
+                "WS 015": "hveldriver"
+            }
+        }
+    ]
+}

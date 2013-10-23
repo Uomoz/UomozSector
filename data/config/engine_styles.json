@@ -1,0 +1,43 @@
+{
+	"ShadowyardsFlare":{
+		"engineColor":[210,125,105,215],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":4,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[85,35,50,30],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"ShadowyardsFlareTeal":{
+		"engineColor":[75,165,110,215],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":4,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[50,110,74,30],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+
+	"BlackrockFlare":{
+		"engineColor":[119,200,137,130],
+		"contrailParticleSizeMult":7,
+		"contrailParticleDuration":1.5,
+		"contrailMaxSpeedMult":0.1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[46,68,51,30],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+
+	"ANCIENT_NAERAN":{
+		"type":"SMOKE", # GLOW or SMOKE
+		"engineColor":   [194,194, 54,255],
+		"contrailColor": [ 50, 50, 50, 50],
+		"contrailParticleSizeMult":1.9,
+		"contrailParticleDuration":2.75,
+		"contrailParticleFinalSizeMult":2.45,
+		"contrailMaxSpeedMult":0.45,
+		"contrailAngularVelocityMult":0.45,
+	},
+}

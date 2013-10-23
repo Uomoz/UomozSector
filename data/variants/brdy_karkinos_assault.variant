@@ -1,0 +1,58 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 0,
+    "fluxVents": 38,
+    "hullId": "brdy_karkinos",
+    "hullMods": ["targetingunit"],
+    "variantId": "brdy_karkinos_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "brdy_fury",
+                "WS0016": "brdy_fury",
+                "WS0017": "brdy_fury",
+                "WS0018": "brdy_fury"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "brdy_squallbattery",
+                "WS0002": "brdy_squallbattery",
+                "WS0003": "brdy_squallbattery",
+                "WS0004": "brdy_squallbattery",
+                "WS0009": "brdy_solenoid",
+                "WS0010": "brdy_solenoid",
+                "WS0019": "brdy_solenoid",
+                "WS0020": "brdy_solenoid"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "brdy_ag",
+                "WS0008": "brdy_ag",
+                "WS0044": "brdy_ag",
+                "WS0045": "brdy_ag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "brburst",
+                "WS0006": "brburst",
+                "WS0011": "brvulcan",
+                "WS0012": "brvulcan",
+                "WS0013": "br_iwbattery",
+                "WS0014": "br_iwbattery",
+                "WS0021": "brdy_argussmall",
+                "WS0022": "brdy_argussmall"
+            }
+        }
+    ]
+}

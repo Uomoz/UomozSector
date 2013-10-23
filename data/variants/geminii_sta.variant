@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard I",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "hullId": "gemini",
+    "hullMods": [],
+    "variantId": "geminii_sta",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 003": "pilum"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+                "WS 002": "dualflak"
+            }
+        }
+    ]
+}

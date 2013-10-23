@@ -1,0 +1,476 @@
+id,type,text1,text2,text3,notes
+brdy_squallgun,WEAPON,"A chemical/magnetic co-propellant cannon by Blackrock, designed to threaten ships at close range with large caliber rounds.
+
+Most of the turret house consists of recoil-absorbing servoes and gel reservoirs, making it feasible to mount the cannon on fairly small-sized vessels without impairing their maneuvering ability.",Strike,,
+brdy_nevermore,SHIP,"The symbol of Blackrock Interstellar Authority's space fleets, this cruiser is known for its surprising mobility and enormous destructive potential.
+
+As a deterrent, the Nevermore is quite useful, but the ship's real tactical value has been debated: it's expensive, tactically inflexible, and maintenance service has to be bought directly from Blackrock due to the secrecy associated with key components. Still, none can debate the effect the ship has on enemy morale. Just ask anyone who's been slagged by a blast of antimatter moving at relativistic speeds. Or better yet, ask their wingman.",,,
+brdy_desdinova,SHIP,"A cutting-edge destroyer with monstrous engines that can quickly and effectively eliminate key targets from the battlefield. Its overtuned systems can break down during long engagements.
+
+Lacking the reach and resources needed to mass-produce phase technology, Blackrock still required a flexible mid line option that can outmaneuver other destroyers and avoid fighter wings. The result is a design that has mobility unheard of for a hull of its size - bristling with Blackrock-custom ballistic guns and sporting a gas-bleeding flux core built directly into the engine, this menacing, insectoid vessel has quickly ascended to notoriety. ",,,
+brdy_scarab,SHIP,"The Scarab is a large, flexible frigate. Its somewhat outdated shield generator is offset by an impressive armament, ample cargo holds, and large ordnance capacity.",,,
+brdy_revenant,SHIP,"The Revenant-class is designed to round out any task force it is assigned to, being well capable of servicing fighters, carrying supplies, and defending itself against strike craft and frigates. 
+
+Its Barracuda Drones allow it to intercept small threats, or leave fighters open for other tasks in lieu of needing to escort their carrier.",,,
+brdy_gonodactylus,SHIP,"A re-tooled variant of a pre-Collapse asteroid smasher. While its asymmetry leaves parts of the hull very exposed, this ship was originally armored to withstand asteroid impacts.
+
+Featuring a built-in kinetic asteroid disintegrator and several gun batteries, this ship is suitable to a no-nonsense, straight-forward role in combat. Able to turn on a dime to cover its weak flanks and featuring powerful engines to lug its considerable mass around, this scruffy crustacean is no pushover in fleet battles.",,,
+brdy_ac,WEAPON,"Fires solid-core rounds that oscillate between P-space and normal space, sometimes causing an explosive plasma reaction when striking armor/hull.",Close Support,,
+brdy_krait,SHIP,"One of the largest flight deck-compatible craft in the Sector. Designed as a shieldless fighter of the newest generation, it features tuned flux dissipation bleed lines and heavy ballistic weapons.",,,
+brdy_locust,SHIP,"This flexible, nimble gunship is widely used to guard assets and escort larger ships. ",,,
+brdy_amlance,WEAPON,"The Nevermore is built around this terrifying weapon. Its weakness is the fact that it's part of the ship, and cannot aim independently.",,,
+achilles_mrm,WEAPON,A highly advanced medium range missile that maneuvers into close range and then fires a trio of shard-headed heatseekers.,Fire Support,,
+achillespod,WEAPON,A pod of advanced medium range missiles that maneuver into close range and fires a trio of shard-headed heatseekers.,Fire Support,,
+brdy_quill,WEAPON,"Launches high-payload, miniaturized rockets that accelerate to great speeds.",Close Support,,
+brdy_solenoid,WEAPON,"The SQG fires a glob of molten ferrofluid at relativistic speeds. While the projectile disintegrates rapidly, the velocity and impact force is unmatched.",Close Support,,
+revenantdrones,SHIP_SYSTEM,"Deploys four advanced fighter drones that can protect the mothership or attack a target at medium range.
+
+Little more than a cluster of outsize guns huddled around an enormous variable thrust vector engine, the Barracuda drone is like its namesake - sleek, with a powerful bite, and well-suited for finishing off wounded prey.
+
+Each drone features an extremely strong phase comm-array built into the entire hull of the drone, allowing its weak gamma-level AI personality to be slaved to the Revenant's main AI. In addition, the nanofactory aboard the Revenant can slowly manufacture new drones over time.",Drones (high tech),,
+lucifergenerator,SHIP_SYSTEM,"The unique Lucifer Generator runs along the entire skeletal structure of the ship, being nestled around the Antimatter Lance array, like veins and arteries around the heart of a human being.
+
+When needed, the power flow to the aft section of the ship can simply be shunted off, and flux buildup is then cycled in a resonant pattern inside the weapon compartments fore on the vessel, allowing for an enormous increase in the potential damage done by the ship's energy weapons ﾖ including the Antimatter Lance. ",Special,,
+desdinovaburstjets,SHIP_SYSTEM,"Feeds excess flux from the entire shield powerplant into the drives, venting the resulting energy out with the engine torch to produce an astonishing volume of temporary acceleration. 
+
+Magnetic coils that run alongside catch and redirect instabilities, allowing the crew to maneuver the ship even at peak specific thrust.",Mobility,,
+brdy_mantis,SHIP,"A state-of-the-art attack frigate, designed with short battles in mind. The Mantis is capable of maneuvers that rival instant relocation systems like the Phase Skimmer in swiftness.",,,
+brdy_squilla,SHIP,"The Squilla is a shielded attack bomber, agile next to most comparable ships, yet capable of carrying a respectable loadout.",,,
+brdy_kurmaraja,SHIP,"A light, fast capital ship that controls the flow of battle. The physics-defying devices that shroud the Kurmaraja have become iconic of Blackrock innovation.",,,
+brdy_serket,SHIP,Few who sortied against this cutting-edge fighter have lived to tell the tale. Serket pilots develop altered reality perception from repeated dips into P-space.,,,
+brdy_ag,WEAPON,The 'BR-2' model Assault Cannon. Fires bursts of solid penetrators that detonate inside the armor of the enemy vessel. ,Assault,,
+brburst,WEAPON,Three particle beams form the core of this precise defensive weapon.,Point Defense,,
+brdy_plasma,WEAPON,Shoots an antiplasma pulse that annihilates when it impacts the enemy. The projectile dissipates more slowly than standard AM blaster bolts.,Strike,,
+brdy_cetonia,SHIP,"A resilient and fast cargo ship designed to escape or survive direct confrontation with hostiles, used as transports and blockade runners by Blackrock.",,,
+brdy_fury,WEAPON,"A plasma torpedo with an extremely powerful engine, the Fury's internal powerplant also functions as the warhead.",Strike,,
+brvulcan,WEAPON,"A small-caliber cannon with a high-saturation firing pattern, known for rending apart incoming missiles and fighters.",Point Defense,,
+brdy_stenos,SHIP,"This self-sufficient, armed science vessel is infamous for serving as the ship that enables most of Blackrock's exploitative techmining.",,,
+brdy_volley,WEAPON,A brutal close-range weapon that fires a fan-shaped blast of depleted Infernium flechettes.,Assault,,
+brdy_solenoidlarge,WEAPON,The heaviest accelerator cannon in the sector. The coils require direct exposure to vacuum in order to radiate away excess heat.,Close Support,,
+brdy_squallbattery,WEAPON,Nothing saps crew morale as much as seeing this monstrous weapon pointing at your ship with the clarity offered by a lack of shielding.,Assault,,
+brdy_hammerclaw,WEAPON,What was once a tool for moving enormous space rocks has turned into a means of obliterating spaceships.,,,
+brdy_dualac,WEAPON,A dual-mounted version of the Shard AC. Fires a large fusillade of phasic shards.,Close Support,,
+brdy_typheus,SHIP,"Over generations of blueprint mutation, this dedicated combat conversion of the Cetonia is starting to resemble its ancestor less and less.",,,
+brdy_2xfury,WEAPON,A rack of plasma torpedoes with extremely powerful engines.,Strike,,
+br_pde,WEAPON,"The PDE, or Plasma Discharge Emitter, fires a stream of high-energy particles that melts armor and hull. Less effective against shields.",Assault,,
+br_fpde,WEAPON,"High-performance capacitors enables small hardpoints to power a PDE, but the weapon cannot turn, and the ray dissipates faster.",Strike,,
+brdy_stormcrow,SHIP,"A monstrous amalgamation of Blackrock hardware that has served many masters, the infamous Stormcrow is said to take on capital ships alone.",,,
+brdy_robberfly,SHIP,"An ubiquitous Blackrock corvette, capable of atmospheric skimming, light shipping, recon and combat support.",,,
+br_iwbattery,WEAPON,Two Shredders on a high-performance mount: a potent close-in weapon system.,Point Defense,,
+brdy_linear,WEAPON,"A plasma weapon that retains an oscillating charge in the firing chamber, allowing for a massive, if unsustainable, burst of fire.",Close Support,,
+brdy_galecannon,WEAPON,"Derived from the Squall Cannon, but with a longer barrel and a more sophisticated firing suite integration.",Assault,,
+brdy_argussmall,WEAPON,Fires a short-ranged ray of phased particles that atomizes incoming missiles and fighters.,Point Defense,,
+br_blackrockplanet,PLANET,"A geologically unstable planet due to the constant tidal pull of Lodestone, Blackrock is an inhospitable ball of molten rock covered in a thick atmosphere. An orbital mirror is part of a long-abandoned terraforming project, but the surface is dotted with industrial complexes, and there are several space elevators with spacedocks.",,,
+br_lodestone,PLANET,"Verdant Lodestone posesses an extremely compact interior that stabilizes the crust, but makes for a weak magnetic field. The crustacean-like life on the planet is extremely resistant to radiation and barely evolves. Human settlements are widespread, and Port Augustmoon, near the equator, is one of the biggest space elevators in the Sector.",,,
+br_nanoplanet,PLANET,"Verge is a gas giant whose entire atmosphere is permeated by a rampant, competitive ecosystem of nanocellular pseudolife. Its orbit is clogged with the debris of warships, coffin vessels from the Exodus, and semi-active void-compatible pseudolife. Blackrock security sentries surround the planet and obliterate anything trying to exit or enter low orbit.",,,
+brdy_karkinos,SHIP,"Laid out in immaculate secrecy, the Karkinos is Blackrock's final stake in the struggle for Sector dominance. Its Scalar Deracinator can rip a hole in the dimensional grid of the universe and bathe enemy fleets in the raw ether of phase space.
+
+The corona of energy that surrounds the main flux sink of the Karkinos is bleedthrough from phase space: it forms a permanent link, similar to a common drive anchor, but massively upscaled. Each Karkinos is laid down when this link is first created; the rest of the ship then has to be carefully built around it. Only one in nine projects lead to spaceworthy stages. The rest fail, either because they do not meet safety spacifications, or ending in a disaster involving the destruction and disappearance of an entire dry dock. These incidents are publicly reported by Blackrock Drive Yards, branded as a ""necessary evil"" -  which, of course, does nothing to change the fate met by the involved engineers and workers, their minds and bodies rent asunder on the trillion invisible fractal blades of an imploding scalar gateway.",,,
+,,,,,
+burstjets,SHIP_SYSTEM,Engages auxiliary thrust nozzles that generate enormous temporary acceleration. Compensatory thrust is automatically applied afterward to stabilize the ship's heading.,Mobility,,
+arcjetburner,SHIP_SYSTEM,"By disengaging the shield emitter and aux thrusters and feeding the resulting power into the main torch, the ship can attain an enormous speed without having to run through the travel drive coupling routine.",Mobility,,
+brdy_sentineldrone,SHIP_SYSTEM,"The Sentinel Drone is a defensive auxiliary unit commonly carried by slower Blackrock vessels to distract and engage threats at medium-close range. Unlike the Barracuda drone, the controlling AI is entirely housed in the drone itself, and is capable of adaptive conditioning. 
+
+Swarms of the drones are also used for perimeter defense and in planetside security applications.",Drone (combative),,
+sparkdrive,SHIP_SYSTEM,"A modified phase skimmer designed for ultra-brief jaunts into p-space, the Spark Drive can be engaged multiple times in quick succession to confuse enemies - but compared to Domain phase skimmers, its reach and accuracy is notably worse.",Mobility,,
+deracinator,SHIP_SYSTEM,"Most phase teleportation systems are understood to gradually ""bleed"" the constituent particles of a vessel through the thin veil of p-space. In contrast, the Scalar Deracinator simply uses scalar energy to tear a hole into spacetime: the resulting dimensional vacuum sucks the ship through to its target destination, carrying with it a bow-shock of phase plasma and poorly-understood multidimensional energy filaments.",Special,,
+gravityfield,SHIP_SYSTEM,"By extradimensionally ""puppeteering"" graviton fields, the Interdiction Array can stop enemy projectiles and spaceships in their tracks. The side effect is a gradual flux buildup that cannot be avoided.
+
+Crew aboard a Kurmaraja-class sometimes report altered reality perception while the Interdiction Array is engaged, to the extent that it's common to almost entirely relegate targeting to AI while the system is running.",Interdiction,,
+desdinovajets,SHIP_SYSTEM,"Engages auxiliary thrust nozzles that generate enormous temporary acceleration. Compensatory thrust is automatically applied afterward to stabilize the ship's heading.
+
+The Desdinova's Burst Jets can be pushed further than the baseline specification, at the risk of eventual breakdown in a lengthy deployment. ",Mobility,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+ms_charybdis,SHIP,"Swift and possessed of a large weapons battery for her class, the Charybdis-class Strike Carrier is capable of fielding large numbers of fighter craft while fighting back with surprising ferocity. 
+
+Combined with a generous fuel bunker and decent sensor suite, she is well regarded as an exploration cruiser and generally considered a good choice as a self-reliant vessel, provided she has fighter wings to provide cover.  However, these vessels advantages have come at rather severe cost; the Charybdis suffered from severely conflicting development goals and her design is marred by a number of potentially fatal compromises.
+
+Her large hangar bays and strong offensive abilities have come at the cost of having a worryingly thin armor belt, and her hull is markedly fragile for her mass.  Worse, her point defense coverage is poor, and only partially shored up by the 'Thetis' drones whose blueprints come with every Charybdis produced.
+
+While the vessels flux capacity is good, and her shield systems are reasonably strong, her capacitors are bulky and have trouble adjusting to combat loads in an efficient manner.  Adding to all this is the ships great cost, in large part due to the twin 'Novalith' reactors needed to efficiently power the ship and her engines.
+
+As such, the Charybdis is only rarely seen outside of Shadowyards battlegroups, and is most commonly used otherwise by unusually successful Mercenary captains.",,,
+,,,,,
+ms_morningstar,SHIP,"The Morningstar is Shadowyards Heavy Industries 'flagship' class; a small, slightly assymetric destroyer with a solid array of energy mounts and two small missile hardpoints.
+
+The ship is named for her highly distinctive sensor system, the spines near the front of the hull.  In the past they were fitted with extended range combat sensors, but are now commonly fitted with tech scanners; as such, the vessel is commonly seen in the hands of middling tech mining operations.
+
+While lacking redundancy, the ships unusual extended drive system provides good speed, and is remarkably fuel efficient.  An array of potent thrusters, combined with the ships length, offer excellent agility for her size.  Her shields, while not a straight up match for the Medusa, are paired with one of the best flux dissipation systems in the sector, giving her good battlefield longevity.  Unfortunately, however, like most S.H.I. vessels her advantages come at the cost of a middling armor belt and fragile hull. 
+
+A small hangar bay allows the Morningstar to support a limited number of fighters or drones, enhancing her self-sufficiency.",,,
+,,,,,
+ms_enlil,SHIP,"The Enlil is among the most flexible vessels in existence; designed to be a true multi-role frigate, her three forward Universal hardpoints allow her to fit nearly any mission role, while two small energy hardpoints provide rearward defense.
+
+Comparatively more sturdily built than most S.H.I. offerings, the vessel is of only modest speed for her size.  Despite this she is quite maneuverable and capable bringing her formidable forward armament to bear on most targets fairly easily.  While her frontal weaponry lends itself to an attack role, this frigate is often fitted in a bewildering variety of fashions to serve as a ""Jack-of-All-Trades"" frigate; while rarely as good as whatever vessel she is emulating her flexability allows her to fill holes in the battle line quite neatly.",,,
+,,,,,
+ms_seski,SHIP,"Designed with speed in mind, the Seski class corvette is among the fastest ships in the sector.  Most often used as a fast picket or blockade runner, she is occasionally put to use as a light cavalry unit.
+
+The Seski relies almost entirely upon her speed and maneuverability to survive battle; her armor is practically nonexistant and her shield array lacks the bredth to defend her from concentrated assault, and her small size has limited the amount of capacitors she can carry.  While decently armed for her diminuitive size she is not expected to be able to take on a combat frigate in a slugging match.",,,
+,,,,,
+ms_shamash,SHIP,"Sleek and deadly, the Shamash has, in large part due to her efficient and highly aggressive weapons layout, built up a formidable reputation as a hunter/killer frigate.
+
+Her phase cloak system, while significantly less efficient than those of the Domain, is far less costly to activate, and represents a significant improvement over her larger sister, the Enthalpy experimental phase destroyer. While of somewhat more dubious use, the Shamash also carries a rack of mines launched from ports in the rear wings; most often these are used to confound enemy captains seeking to sieze objectives but are occasionally put to more creative use by adventurous captains.
+
+For those willing to entertain a somewhat more aggressive hunting style, this ship brings a formidable advantage, always playing on the knifes edge, phasing in and out to avoid and deliver critical harm.",,,
+,,,,,
+ms_inanna,SHIP,"Sometimes referred to as the 'Left Hook,' the Inanna is the oldest vessel of Shadowyards manufacture still in common use by S.H.I.
+
+Despite what many agree is a somewhat flawed concept, the vessel has been the recipient of an aggressive upgrade program, leaving it far in advance of other Shadowyards designs of comparable age. As a result the Inanna is, on paper at least, one of the more deadly small craft in the sector.
+
+Though her highly unusual design means she is quite difficult to use, her heavy firepower and output increasing machanisms have nevertheless granted her a rather exaggerated reputation as a 'giant killer.'",,,
+,,,,,
+ms_sargasso,SHIP,"The Sargasso is one of the more effective small carriers in the Sector, providing a combination of speed and hangar space in an economical package.
+
+The Sargassos most notable feature is her 'moon pool,' the open area encased by the ships hull which acts as the vessels hangar area.
+
+While highly innovative, the design itself was plagued by problems early in the vessels career, as the far less predictable nature and more complicated docking arrangements confounded normal deck procedures; after several fatal accidents, S.H.I. resorted to a line of dedicated beta level personality constructs specially made to handle the pool.  While this solved the crashes, an unexpected emergent behavior arose; instances where the constructs started relaying combat information to pilots assigned to the ship.
+
+While unintended, the resultant boost of combat efficiency in fighter craft has seen the class refitted with systems specifically to boost the quality of this interference.  A side effect is that, among flight crews, vessels of this class are known not by their official designation, but rather by their cantankerous AI flight comptrollers.",,,
+,,,,,
+ms_elysium,SHIP,"Built around the fearsome 'Pandora Array,' the Elysium is a swift and efficient light cruiser, the most recent vessel to enter Shadowyards service.
+
+While theoretically her main armament, the Pandora is a tremendously unpredictable weapon, and so most prudent captains rely more heavily on her powerful broadsides.  However, some consider her most formidable weapon to be her speed; the Elysium is tremendously close to that tactical ideal of being able outfight anything she can outrun, and outrun anything she can't outfight.",,,
+,,,,,
+ms_tartarus,SHIP,"The Tartarus is Shadowyards Heavy Industries preferred ship of the line, intended to be the Anvil to the hammer of other, faster moving Shadowyards vessels.
+
+One of their older designs, the Tartarus is far from the most heavily armed cruiser available, but is noted for being quite sturdy, particulalry by SHI's standards.  Her hull is thick and amply armored and her shielding systems are both resiliant and efficient.  Beyond this, her flux capacity gives her a significant reserve of defensive and offensive power.
+
+Despite the trio of hardpoints at her bow being Universal type mounts, the vessel is noted as being somewhat less flexible than most other SHI designs, and her power systems and gravitic shunts regularly have trouble handling the most fearsome weapons the sector has to offer.",,,
+,,,,,
+ms_scylla,SHIP,"In many ways the culmination of Shadowyards design philosophy in regards to Phase ships, the Scylla-class Phase Cruiser possesses an almost disproportionately heavy armament for her size.
+
+Much like her smaller cousins, the Scylla is able to enter phase relatively inexpensively but the distributed nature of Shadowyards phase anchoring systems introduces much higher inefficiency in maintaining dives as opposed to standard Domain equipment.  As such the best captains and crews at using these vessels tend to wait until the last possible moment the engage the cloaking systems.
+
+Her heavy weapons banks, combined with two 'Hydra' phase drones have given her a reputation as an especially fearsome opponent, and vessels of this class are hated and lusted after by privateers across the sector.   Shadowyards considers the vessel to be an extremely valuable asset, however, and as such they are only rarely seen outside of their control.",,,
+,,,,,
+ms_mimir,SHIP,"The largest purely combat vessel manufactured by Shadowyards Heavy Industries, the Mimir is a formidable and versatile battlecruiser, which like most current S.H.I. vessels is capable of extended operations without support.
+
+For her size the vessel is unusually swift and has had particular effort put in to ensuring that her maneuvering ability is a cut above other Battlecruisers or Battleships; in particular this is suspected to be due to the super-heavy phase energy cannon occupying much of the Mimir's bow.  This 'Níðhöggr Lance' is capable punching through the heaviest armor, though it is less effective against shield systems.
+
+Her unusual appearance, even by S.H.I's standards, combined with her unprecendented main cannon, has caused some to speculate that the vessel is in fact based off of an alien derelict rather than being of human origin, much to the consternation of Shadowyards scientists and engineers.",,,
+,,,,,
+ms_mimirBaus,SHIP,"The Mimir XV is the testbed vessel for a series of proposed upgrades to the Mimir BCV, primarily focused on increasing the ships flux capacity as well as the vessels ability to recieve field modifications.
+
+If rumor is to be believed, the sole example of the class has been absconded with by a renegade Shadowyards operative.",,,
+,,,,,
+ms_lambent,SHIP,"A mid sized fueling ship built by Shadowyards Heavy Industries, the Lambent is mostly notable for being almost entirely automated, only occasionally requiring crew to provide periodic maintenance.
+
+Offering a slightly less capacious fuel bunker than it's more common cousin the Phaeton, it is the Lambents extraordinarily light maintenace requirements that most commonly see it selected.  A small berth is maintained aboard the vessel in case more extensive repairs than the automated systems can provide are needed, but this has most famously been used to transform a Lambent into an impromptu, and highly explosive, lifeboat.",,,
+,,,,,
+ms_solidarity,SHIP,"The Solidarity class Armed Frieghter is a capable transport ship, designed to be able to deliver cargo to any port of call through all but the most adverse conditions.
+
+A bit less capable in prolonged engagement than her ideological cousin the Mule, due to her more fragile hull and fewer turreted weapons emplacements, the Solidarity is nonetheless fairly formidable for a frieght hauler and is typically ignored in favor of easier prey by pirates and other malcontents.
+
+The vessel has an enlarged shuttle landing platform on her starbord flank, and there has been some speculation that the Solidarity could be converted into a light carrier relatively easily, but the ubiquity of the Tarsus and its sister the Condor, to say nothing of the Sargasso, has resulted in such speculation rarely seeing any serious pursuit.",,,
+,,,,,
+ms_skinwalker,SHIP,"The Skinwalker is a highly mobile, advanced fighter design intended to provide top cover against enemy fighter craft; utilizing a small particle cannon and its blackcap missile system, it presents a serious threat to enemy fighter wings.
+
+While not exceptionally heavily armed, it possesses a unique high-density flux capacitor, which, combined with it's speed, agility and broad shielding make it difficult to overwhelm; should these fail, the skinwalker is still quite tough, giving the pilot time to elude her harrasers and return to base.",,,
+,,,,,
+ms_neriad,SHIP,"Designed to be launched from planetary bases, the Neriad is a rare aerospace fighter design amongst the more commonly space based fighter craft encountered in the sector.
+
+A light assault cannon gives it mixed utility against fighters and frigates, and its single 'Shrike' class anti-ship missile theoretically allows it to threaten larger craft.  Low cost and ease of maintenance were key design goals for the craft, as they were intended to maintain a cheap garrison force for local planetary governors.  While they doubtlessly succeeded, the craft can only barely be considered a modern generation fighter.  S.H.I. has spread these fighters to near ubiquity across underdefended worlds throughout the sector, and its low price point have made it reasonably popular among independent spacers as well.",,,
+,,,,,
+ms_raksasha,SHIP,"The primary bomber craft in use by Shadowyards renegades and associated privateers, the Raksasha is a capable attack craft centered around the D-14 'Tusk' torpedo.
+
+The Raksashas primary defense against hostile fast movers and anti-fighter missiles is a small in built 'mini-flak' package, which fires a spread of four explosive shells, as well as a decent shield system.  Though not nearly so well protected as the Trident, the Raksasha is nevertheless a formidable bomber craft.",,,
+,,,,,
+ms_blackcap_3x,WEAPON,"The Blackcap is a short ranged anti-fighter missile with an excellent guidance package.
+
+An integrated missile system produced almost exclusively by Shadowyards Heavy Industry, 'revolver' style autoloader increases speed and mechanical reliability.  Armament is typically 90mm; the missiles launched by the system are quite fast and noticeably more agile than the more ubiquitous ""Swarmer"" missile common in the sector, with a potent warhead capable of destroying or significantly damanging most fighters.
+
+This tiny version, intented for fighter use, holds only three missiles.",Anti-Fighter,,
+,,,,,
+ms_blackcap_6x,WEAPON,"The Blackcap is a short ranged anti-fighter missile with an excellent guidance package.
+
+An integrated missile system produced almost exclusively by Shadowyards Heavy Industry, 'revolver' style autoloader increases speed and mechanical reliability.  Armament is typically 90mm; the missiles launched by the system are quite fast and noticeably more agile than the more ubiquitous ""Swarmer"" missile common in the sector, with a potent warhead capable of destroying or significantly damanging most fighters.
+
+Standard launcher system, carrying 6 missiles.",Anti-Fighter,,
+,,,,,
+ms_blackcap_pod,WEAPON,"The Blackcap is a short ranged anti-fighter missile with an excellent guidance package.
+
+An integrated missile system produced almost exclusively by Shadowyards Heavy Industry, this larger version does away with the 'Revolver' style autoloaders favored by smaller versions for a belt fed system.  Armament is typically 90mm; the missiles launched by the system are quite fast and noticeably more agile than the more ubiquitous ""Swarmer"" missile common in the sector, with a potent warhead capable of destroying or significantly damanging most fighters.
+
+A medium sized launcher system, carrying 20 missiles.",Anti-Fighter,,
+,,,,,
+ms_shrike_rack,WEAPON,"Triple-racked ultra-fast, short ranged semi-guided missiles, intended to bypass active defenses by virtue of sheer velocity.
+
+Railgun assisted kinetic penetrator.  Propulsion is very potent, but fuel supply quite short, giving almost no chance of recovery if the shot misses.  Effective primarily against shields.  It is fitted with a small explosive charge, which is set to go off when it senses it is surrounded by a targeted ships hull; while the damage to the hull is typically small, this can damage and disrupt shipboard systems.",Close Support,,
+,,,,,
+ms_shrike_single,WEAPON,"An ultra-fast, short ranged semi-guided missile, intended to bypass active defenses by virtue of sheer velocity.
+
+Railgun assisted kinetic penetrator.  Propulsion is very potent, but fuel supply quite short, giving almost no chance of recovery if the shot misses.  Effective primarily against shields.  It is fitted with a small explosive charge, which is set to go off when it senses it is surrounded by a targeted ships hull; while the damage to the hull is typically small, this can damage and disrupt shipboard systems.
+
+System consists of a single mount launch rack and missile.",Close Support,,
+,,,,,
+ms_shrike_pod,WEAPON,"An ultra-fast, short ranged semi-guided missile system launched from a Shadowyards custom built magazine fed twin pod-style launcher, intended to bypass active defenses by virtue of sheer velocity.
+
+Railgun assisted kinetic penetrator.  Propulsion is very potent, but fuel supply quite short, giving almost no chance of recovery if the shot misses.  Effective primarily against shields.  It is fitted with a small explosive charge, which is set to go off when it senses it is surrounded by a targeted ships hull; while the damage to the hull is typically small, this can damage and disrupt shipboard systems..",Close Support,,
+,,,,,
+ms_cepc,WEAPON,"The CECP, or Carried Energy Pulse Cannon, is a Shadowyards Heavy Industries made weapon system capable of significant, if front loaded, damage.
+
+Rather than fire the bolt through a typical lasing medium or projector, SHI's researchers opted to utilize a physical medium to act as a carrier for the energy pulse.  While the method has proven to be somewhat more efficient than many other methods and can produce highly damaging bolts, the Charge Carrier Medium (CCM) must be charged before firing, resulting in a limited capacity of available shots at any given time.  The CECP's fire rate is more than sufficient for this to lead to noticeable drops in combat efficiency in fairly short time frames.",Close Support,,
+,,,,,
+ms_pdcepc,WEAPON,"The Light variant of the CEPC is the most recent version to enter service, focused on maintaining a high fire rate with excellent accuracy.
+
+Cyclic loading chambers allow the weapon to maintain an extremely high rate of fire; charge carriers are small but capable of reasonable damage at short range.  High accuracy and limited engagement envelope leave it most effective for providing Close Weapons Support against enemy fighters and missiles.",Point Defense,,
+,,,,,
+ms_mcepc,WEAPON,"The Medium CEPC is a starndard combat weapon amongst Shadowyards Heavy Industry forces, well regarded as a reliable and deadly weapons platform.
+
+Twin cannons ensure a high rate of fire with good accuracy while extended accelerator rails give it superior range.  An improved charging system allows it to fire larger CCM pellets safely, which has greatly improved the weapons damage at some cost in efficiency.",Strike,,
+,,,,,
+ms_scattercepc,WEAPON,"The Scatter CEPC, sometimes affectionately referred to as the 'Space Shotgun,' is a potent weapon capable of extreme damage at close range.
+
+Consisting of an array of 20 scaled back CEPC accelerators, the Scatter CECP is at home in all manner of attack roles but is most ideal for quick, overwhelming strikes.  Efficient loading system ensures new charges are cycled rapidly, though this hampered by a limited charge capacity and the sheer quantity of fire it can produce. The number of barrels used by the weapon requires a sophisticated, if simple, computer to ensure that the barrels are fired in tandem to prevent misfires.  Reasonably tight spread allows enhanced odds of hitting a target while still maintaining the weapons damage.",Assault,,
+,,,,,
+ms_chaingang,WEAPON,"Recognizing their relatively weak point defense, SHI engineers eventually settled on an uncharacteristically blunt solution; more gun.
+
+Essentially four Light CEPC's in a tandem mounted medium turret, the 'Chaingang' produces staggering amounts of firepower, albeit for very brief periods.  Despite a greatly upgraded cyclic feeding mechanism for charging the carrier medium and feeding it into the weapons magazines, the weapon tears through it's reserves of carrier medium at a prodigious rate.  The Chaingang is capable of depleting it's reserve to the dregs, even with recharging, in under three seconds.",,,
+,,,,,
+ms_tusk_single,WEAPON,"Typical of Shadowyards missile design philosophy, the D14 'Tusk' class Torpedo is primarly intended to defeat active defensive measures and deliver considerable damage.  Unlike it's little sister, the Shrike, the Tusk relies not on speed but on overwhelming Point Defense; each tusk carries numerous smaller warheads, each with their own small engine and guidance system.  While some are likely to be shot down, against all but the heaviest defensive measures the Tusk is likely to inflict at least some damage.
+
+This launcher system can carry a single torpedo into battle.",Strike,,
+,,,,,
+ms_tusk_rack,WEAPON,"Twin racked heavy anti-ship torpedo delivery system.
+
+Typical of Shadowyards missile design philosophy, the D14 'Tusk' class Torpedo is primarly intended to defeat active defensive measures and deliver considerable damage.  Unlike it's little sister, the Shrike, the Tusk relies not on speed but on overwhelming Point Defense; each tusk carries numerous smaller warheads, each with their own small engine and guidance system.  While some are likely to be shot down, against all but the heaviest defensive measures the Tusk is likely to inflict at least some damage.",Strike,,
+,,,,,
+ms_wamgun,WEAPON,"Named for the distinctively crescent shaped bolts of energy the weapon fires, the so-called Wavebeam is a general purpose weapon with good output.
+
+Ultimately a simple weapon, the wavebeam is actually numerous smaller particle cannons, horizontally aligned firing in sequence to produce a much larger blast of energy.  Of only middling efficiency, the configuration of particle projectors is nevertheless quite effective at producing localized stress to shields and armor, and the weapon is noted for leaving distinctive 'scars' on damaged hull plating.",Close Support,,
+,,,,,
+ms_pandora,WEAPON,"A development of the Phasegun, the Pandora Array is a frightfully complicated system which releases a carefully modulated pulse of phase energy.
+
+The pulse itself is only modestly damaging, and combined with it's significant charging cycle and the time taken to reset the weappon for another shot it would hardly be worth the expense.  However, when the phase energy pulse collapses, either by reaching the limits of it range or by colliding with a physical mass, it collapses, producing a number of tiny singularities.
+
+These singulatities, often described as 'sparks' or 'cinders,' will wander, aimlessly; no method has been discovered to direct their behavior.  While shields will prematurely, and quietly, collapse those cinders which collide with them, they otherwise ignore matter they come in contact with in 'real' space.
+
+Highly unstable, the singularites tend to collapse catastrohpically after a short period, generating a large explosion and dense waves of high energy, rapidly decaying foreign particles.",Special Weapon,,
+,,,,,
+ms_phasegun,WEAPON,"The Phase Energy Projector, or more commonly just the 'Phasegun' is essentially just a shunt directly connected to the frigates cloaking system.
+
+An unusual but very blunt weapon, it's operating principles in practice are highly simple - direct a potent disruptive p-space bubble at the target.",Assault,,
+,,,,,
+ms_rhpbc,WEAPON,"The Nidhoggr Lance is one of the heaviest particle weapons fitted to a warship, and possesses a peculiarly strong ability to pierce hull and armor.
+
+More technically known as the Reciprocating Heavy Particle Drill, the Nidhoggr Lance system is, from this acronym, believed to actually be some manner of super heavy mining beam adapted for combat use.  On firing it releases several high powered particle beams in a helical pattern, allowing it to 'drill' through physical objects.
+
+Such as the hulls of hostile spacecraft.",Heavy Assault,,
+,,,,,
+ms_phasedrones,SHIP_SYSTEM,"The Hydra is a sophisticated combat drone, designed specifically with Scylla in mind.  Equipped with a compact Shadowyards ""anchor"" style phase cloak system and a small afterburner, the Hydra is swift and survivable.  Each drone is armed with a small infernium flechette cannon and a 'lancet' anti-missile missile pod.
+
+Two of these formidable battle drones can be deployed by the Scylla at a time, and their sophisticated beta level personality constructs allow them to wander a considerable distance from their mother ship.",Drones (high tech),,
+,,,,,
+ms_fighterdrones,SHIP_SYSTEM,"Deploys four 'Thetis' class combat drones.  They are capable of attacking at a not insignificant range, and their secondary mini-flak weapons system provides their host carrier with additional point defense, an area in which Shadowyards vessels are often lacking.",Drones (high tech),,
+,,,,,
+planet_euripides,CUSTOM,"Believed to have forcibly lost much of its surface water to asteroid impacts millions of years ago, Euripides has since been partially terraformed by importing vast quantities of cometary ice, and a shallow sea now covers much of it's northern hemisphere.  Shadowyards Heavy Industries calls this planet home, and it serves as their capitol and main center of operations; unsurprisingly much of Euripides rather unconventional economy is centered around manufacturing, though a number of exotic goods and services are offered on this rather libertine world as well.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+pack_ripsaw,WEAPON,"A light autocannon, built in to the frame of the Pitbull with increased cooling, ammunition feed and fire rate.",Close Support,,
+,,,,,
+pack_bedlington,SHIP,"A lightweight mobile frigate outfitted with a small drone bay, carrying an ion-drone.
+
+Limited offensive capabilities, but an excellent harasser in support of heavier ships.",,,
+pack_wirefox,SHIP,"The Wirefox is capable of meeting foes head-on, biting with some dangerous front-facing weaponry, and not letting go.
+
+Needs support when outgunned due to its typical P.A.C.K. flimsy hull, but mobile enough to choose her battles.",,,
+pack_pitbull,SHIP,"Fierce, hardy and unrepetant. The Pitbull has been designed around the overclocked and brutal front-facing Ripsaw, a kinetic bombardment weapon based on the light autocannon.
+
+All-round light ballistic protection and four wing-mounted missile mounts complete the payload of this dangerous and heavily armoured light destroyer.",,,
+pack_ridgeback,SHIP,"The lifeblood of the P.A.C.K. fleet, the Ridgeback is capable of many roles, and an expert in none. 
+
+Flexible weapon mountings allow this craft to perform adequately in a combat environment, although in catering for so many diverse supporting roles, with large cargo bays and complicated life-support systems, the hull is extraordinarily fragile for a ship of its size.",,,
+pack_ridgeback_x,SHIP,"A variant of the Ridgeback, the Ridgeback X is smaller, and being designed for operation in more extreme environments - with better flux management and heavier armour - is generally more suitable for a direct combat role.",,,
+pack_BRT,SHIP,"The Black Russian Terrier, more commonly known as the BRT seems to be designed around primarily an escort or point defense role.
+
+The versatile mounts and reasonable flux management allow it to prosper in other more offensive roles. The large bridge structure allows for a relatively high personnel capacity.",,,
+,,,,,
+pack_drone_ion,SHIP_SYSTEM,The Ion Drone of the Bedlington allows the ship to act as a very effective harasser,,,
+pack_engine_divert,SHIP_SYSTEM,Crew divert their attention from major ship systems to augment the engines whilst this system is active.,,,
+pack_flux_divert,SHIP_SYSTEM,"The crew divert their attention from engine related issues towards the shield, allowing the shield flux management systems to operate more efficiently.",,,
+,,,,,
+planet_canisIII,CUSTOM,"This gas giant gives off an iridescent green glow, atypical of the mainly hydrogen and helium gases that make up the planet. The atmosphere has been filled with teratonnes of radioactive heavy metals due to P.A.C.K. activity, and is now becoming dangerously toxic to the hidden arcologies floating amongst her gaseous shroud.",,,
+,,,,,
+pack_samoyed,SHIP,"A light freighter, capable of running loads at decent speeds and good fuel economy. Reasonably well armed but with poor manoeuvrability, is of limited value in combat scenarios.",,,
+pack_samoyed_decoupled,SHIP,"The Samoyed freighter has been detached from the primary cargo vessel, increasing combat viability markedly.",,,
+pack_komondor,SHIP,"The Komondor guard destroyer appears to be of a higher technological level than the bulk of the P.A.C.K. fleet, and carries a very versatile set of generally forward facing weapon mounts.
+
+Blessed with a thick suit of armour, lower crew levels and an uncharacteristically thick hull, it has decent staying power at the cost of some agility in combat.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+junk_pirates_cutlass,WEAPON,"The cases of two seperate tactical lasers have seemingly been pulled apart and put back together again.
+
+A capacitive circuit from a pulse laser and the controls from a Talon interceptor flight computer have turned these two previously innocuous light defense lasers in to a deadly spitting cobra. Relatively short range and energy hungry, but deadly in a brawl.",Assault,,
+junk_pirates_scatterpd,WEAPON,"What appears at first sight to be a normal point defense laser, the laser delivery chamber has been heavily modified.
+
+Several rotating refractive industrial emeralds inside a gas-filled magnetic containment field.
+
+Upon operation, a salvo of plasma and high energy laser pulses leave this chamber in approximately the direction of the chosen target.",Point Defense,,
+junk_pirates_lexcimer,WEAPON,"A high frequency excimer laser, used by the Junk Pirates' to etch travel directions, shopping lists and floral patterns on to layabout space debris.",Assault,,
+junk_pirates_grapeshot,WEAPON,"Hot shrapnel is released from a guided canister at high speeds, designed to give a warm welcome to overzealous fighter fleets.
+
+The cannon fires a pair of canisters at once before reloading.",Assault,,
+junk_pirates_grapeshot_m,WEAPON,"Hot shrapnel is released from a guided canister at high speeds, designed to give a warm welcome to overzealous fighter fleets.
+
+The launcher fires a single canister at once before reloading.",Assault,,
+junk_pirates_grapeshot_s,WEAPON,"Hot shrapnel is released from a guided canister at high speeds, designed to give a warm welcome to overzealous fighter fleets.
+
+This small mount carries a single guided canister.",Assault,,
+junk_pirates_sickle,SHIP,"A fast frigate designed for getting in and out of trouble quickly, delivering some decent firepower with the medium energy turret mounted high above the bridge.
+
+Decent flux reserves complement the main weapon and the omnidirectional shield, but it is relatively light and difficult to control, so can stand up poorly in a dogfight against a more nimble ship.",,,
+junk_pirates_hammer,SHIP,"A mobile heavy ordnance platform. Slow for a small frigate, but highly manouvreable.
+
+Due to its simple construction it is cheap yet reasonably robust, with front facing shields further improving it's survivability.
+
+Dangerous when encountered as part of a group due to it's potentially lethal payload, but otherwise not particularly extraordinary..",,,
+junk_pirates_dugong,SHIP,"The battle ready command platform for the Junk Pirate nobility.
+
+With a high capacity for fuel and energy reserves supplementing the large omnidirectional shield ﾖ and generous armour plating, the ship is deceptively tough to kill.
+
+If the captain can swing this ship round in time to deliver his devastating ballistics-heavy broadside onto your direction, you need to think carefully  about whether you want to stick around to watch the fireworks. Four missile hardpoints to the rear allow the ship to operate as a fire support platform.",,,
+junk_pirates_octopus,SHIP,"A civilian freighter used by the Junk Pirates to transport goods, materials and people throughout the system.
+
+One wing of the craft is complete with a fully functional, combat ready flight deck.",,,
+junk_pirates_spike,SHIP,"Hardy, fast and heavy hitting. A shortage of a shield makes it easier to kill than it looks, but it's cheap to produce, and not to be underestimated in the depths of a melee.",,,
+junk_pirates_cleat,SHIP,"Lightning quick in a straight line, and capable of delivering her mother's finest home-baked torpedoes with little remorse.
+
+Expensive, complex technologically and difficult to field in a battle, but a pair of cleats can be deadly as part of a coordinated strike force.",,,
+junk_pirates_boxer,SHIP,"The Boxer is characterised by thick armor plates around an inefficient but effective engine and controls system.
+
+A powerful, fixed shield and some capable ballistic weaponry looking straight forward means it is a ship that you don't want to get caught in front of, but it's sheer weight makes it unwieldy and slow.
+
+Three mixed missile hardpoints and an additional ballistic turret with good coverage make the boxer capable of diverse roles.",,,
+junk_pirates_boxenstein,SHIP,"An unholy fusion of the best parts of two Boxer class destroyers cut and welded together to create this hulk of a superdestroyer.
+
+Controls and flux systems have been upgraded heavily, and this ship now relies largely on energy weaponry.",,,
+junk_pirates_clam,SHIP,"A heavy frigate blessed with a very useful, full coverage shield and some reasonable armor.
+
+All this high technology has placed an unfortunate limit on the offensive capabilities of the craft, with the main capabilities coming from its missile payload.
+
+Created in response to protestations from the Kingdom that the other frigates were too exposed and leading to too many premature deaths. The King is looking forward to the time when the same people are complaining about this frigates lack of teeth.",,,
+junk_pirates_orca,SHIP,"Heavily armed, slow and modestly armoured but with an advanced shield and systems, the Orca represents the pinnacle of the Junk Pirates bizarre breed of technology.
+
+Versatile ballistic and energy mounts all around the perimeter of the craft allow for effective assault or defensive variants. It is unwise to engage this craft in a frontal assault, but if outnumbered or flanked by surprise, the relatively weak rear can be taken advantage of.",,,
+junk_pirates_shard,SHIP,"The preferred escort craft for the Junk Pirates' fleet, produced largely within the region of the second planet of the Breh'inni system.
+
+Breh'inni 2 is the spiritual home of the fighter pilots of the Junk Pirates' fleet, and as such the planet's orbit is thick with scarred, spinning hulls of the staple death-bucket, the Spike. Most of these are as a result of the training exercises, but some are returned hulls brought back by sentimental types.
+
+For the fighter pilots lucky, or skilful enough, to show a degree of survivability in this oft-maligned entry model, they will be promoted to a far more expensive, but less easily aerated craft, the Shard.
+
+More armour and better armaments in a slightly bulkier frame means more hot dinners at the post-sortie ho-down, and more business for opposition funeral directors.",,,
+junk_pirates_stoatA,SHIP,"A light freighter, ostensibly a couple of small engines attached to a frame, with the means to carry any of a number of cargo canisters or crates.
+
+Very weak offensively and defensively, but it suits the Junk Pirates for inter-system logistics.
+
+This model carries a small energy turret.",,,
+junk_pirates_stoatB,SHIP,"A light freighter, ostensibly a couple of small engines attached to a frame, with the means to carry any of a number of cargo canisters or crates.
+
+Very weak offensively and defensively, but it suits the Junk Pirates for inter-system logistics.
+
+This model has a small fixed missile point to the front.",,,
+junk_pirates_langoustine,SHIP,"A quick destroyer with a front-facing shield and some strong forward weaponry.
+
+Dreamt up by ship-building prodigy, Graj Krell, as she sat in the bridge of her Boxer following a hard-fought battle, watching a Valkyrie loaded with precious goods limp away from her near-immobile fleet.
+
+A brief meeting with the catering staff and a couple of afternoons later, she had come up with the basis of the Langoustine, a genuine attack destroyer.",,,
+junk_pirates_scythe,SHIP,"A modestly armed, quick freighter, often used for intra-system cargo runs near to the Breh'inni system.
+
+The front-concentrated ballistic and missile mounts can allow for an effective combat vessel as part of a fleet, but a lightweight frame can make it vulnerable if caught alone.",,,
+junk_pirates_goat,SHIP,"A hardy and versatile explorer, designed for those times when the Junk Pirates need to go a bit further from home.
+
+Not designed primarily as a combat vessel, however thick armour and the capability to mount a large energy weapon has meant that the Goat has been used in battle often enough.",,,
+junk_pirates_kraken,SHIP,"The Junk Pirates battleship, created only for warfare. With a fearsome ballistic broadside and versatile energy emplacements, this is not to be trifled with.
+
+Heavy armour and a good shield allows it great staying power while the armaments deliver the pain.",,,
+junk_pirates_turbot,SHIP,"Phase technology is taken to the next step by the increasingly insane Junk Pirates philosopher, 'Angry' Jake Maddra.
+
+Phase capable drones are held by the craft ready for deployment to supplement the strike weaponry. Only 'Angry' Jake knows how this works, but his paranoia won't allow him to explain.",,,
+junk_pirates_haymaker,WEAPON,"The devastating right hook of the Junk Pirates' Orca Combat Carrier.
+
+This weapon fires a modified thermal pulse, causing high damage and scrambling systems.
+
+This built in weapon is capable of significant initial burst damage making it very dangerous against slow frigates and destroyers. The reactors on the Orca only recharge the Haymaker relatively slowly, so the weapon loses utility in extended battles against superior sustained firepower.",Assault,,
+junk_pirates_scorpion,WEAPON,"The sting in the tail of the Junk Pirates' Langoustine.
+
+Based on the Haymaker of the Orca, this weapon has a reduced damage but a much increased rate of fire.",Assault,,
+junk_pirates_welder,WEAPON,"the Drill of Styx (or Stygian Drill) is an inefficient and immensely powerful stream of heavy particles, designed to cut ship hulls or asteroids alike in half.
+
+Named after classical musicians from the mythical land of Chicago, the only other problem is that the accelerators and reactors necessary to create such power is housed in something about the same size as a Hammerhead destroyer bolted on to the bottom of 'The Reaper', the Junk Pirates' gargantuan construction and mining vessel.
+
+Limited options for the thinking Commander, but if chance should put the enemy in front of one of these things then they had better start saying prayers to their Gods.",,,
+junk_pirates_splinter,SHIP,"Quick, durable, and heavy hitting. This represents the best effort yet the Junk Pirates' have made in achieving an effective fighter technology.",,,
+junk_pirates_the_reaper,SHIP,"Big, ugly, and angry. The Reaper is designed for cutting big chunks out of things using its powerful accelerated particle drill.
+
+An on-board manufactory allows it to repair fighter wings in the field, and also provides it with a replenishing supply of supporting TNT Drones, should it require a hand making holes in things.
+
+Each of the TNT Drones themselves are supported by a pair of AI welding bots, which perform admirably either repairing ships or damaging them.",,,
+junk_pirates_drone_phase,SHIP_SYSTEM,"The Turbot carries around a number of small high tech drones capable of entering p-space via the Turbot's main phase device, independently of the main craft.
+
+Armed with a single point defense laser each, the drones provide invaluable support against missile and fighter threats.",Drone (high tech),,
+junk_pirates_tnt_drone,SHIP_SYSTEM,"The on-board workshops and manufacturing facilities located within the sweaty depths of The Reaper mining vessel are used for any number of things.
+
+High stakes poker games and Chilli competitions entertain the crowds, the crushing and packing of ore feeds the growth of the Kingdom, and the constant replenishment of assault gun wielding drones allows the mothership to effectively break apart asteroids at dangerously close ranges, without worrying too much about asset losses.
+
+The TNT drones provide a reasonable threat to attacking craft should The Reaper find itself without further support. Each TNT drone carries a pair of smaller welding drones to the mining face.",Drone (mining),,
+junk_pirates_welding_drones,SHIP_SYSTEM,"The partner drone to the assault gun wielding TNT drone. A standard point defense laser is used to interrogate cracks and fissures in the faces of ore-rich asteroids, where its bigger sister will follow with some explosive ordnance.
+
+Provides useful point defense support in a combat situation.",Drone (mining),,
+planet_brehinniI,CUSTOM,"A rocky-metallic husk-world. The endless fractured loop of chasms around this world are littered to an unknown depth with rejected metallic material. The planet is devoid of all life, and can not hope to sustain it.",,,
+planet_brehinniII,CUSTOM,"Primarily composed of hydrogen and helium gases. The temperature and pressure at the core are extreme, but not enough to sustain the deuterium fusion that would turn the planet into a brown dwarf star. The upper atmosphere of this planet carries in orbit many empty husks of useless fighter craft.",,,
+planet_brehinniIII,CUSTOM,"A frozen world of methane and ammonia, water-ice is like rock and may be found in mountainous outcroppings and boulders. A thin atmosphere of volatiles is formed on the starward side of the planet only to freeze again on the dark side. Most craters are filled in over time as this ""snow"" is deposited.",,,
+planet_brehinniIV,CUSTOM,"A gas giant composed mostly of water, ammonia and methane. Within the depths, gravity generates enough pressure to form a core of metallic hydrogen.",,,
+planet_brehinniV,CUSTOM,"A frozen world of methane and ammonia, water-ice is like rock and may be found in mountainous outcroppings and boulders. A thin atmosphere of volatiles is formed on the starward side of the planet only to freeze again on the dark side. Most craters are filled in over time as this ""snow"" is deposited.",,,
+planet_brehinniVI,CUSTOM,"Primarily composed of hydrogen and helium gases. The temperature and pressure at the core are extreme, but not enough to sustain the deuterium fusion that would turn the planet into a brown dwarf star.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+syndicate_asp_copperhead,SHIP,"Destroyer-sized freighter, built around the speedy delivery of cargo.
+
+Flight deck and hangar space allows for a versatile fighter escort, but low ordnance capability means the on-board armaments can be limited.",,,
+syndicate_asp_gigantophis,SHIP,"Large and relatively fast cargo craft, with a reasonable combat capability.
+
+Still needs heavy support when operating outside the more civilized sectors, but a shrewd captain can move a lot of cargo, and get very rich, very fast. The on-board flight deck means that these are quite often escorted by a significant fighter force.",,,
+syndicate_asp_diamondback,SHIP,"Quick and lightly armed courier craft.
+
+Good speed and fair manoeuvrability still make it a capable combat craft, but low ordnance potential means the captain needs to be selective in the choice of weaponry.",,,
+syndicate_asp_constrictor,SHIP,"Fighter-bomber designed with shield-killing in mind.
+
+Two packs of Sabot SRMs and an IR Pulse can mean the Constrictor is dangerous, but it won't worry armour and is mainly used in support of other craft.",,,
+syndicate_asp_venom,SHIP,"Capable and versatile fighter craft, designed to combat other fighter and bomber threats.
+
+Sporting a couple of mining lasers and a pack of swarmers, the Venom struggles against anything bigger.",,,
+syndicate_asp_bite,SHIP,"Lightweight drone that carries a low support profile, and is cheap.
+
+Often deployed to escort the ASP syndicate fleet in civilized space, where a deterrent is more important than a genuine combat threat.",,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+nom_ultralight_electron_maser,WEAPON,"A miniaturized version of the electron maser, specifically designed to hit faster-moving targets, and equipped only on nomad interceptor-class fighters.",Assault,,
+nom_light_electron_maser,WEAPON,"A low-energy pulse beam turret, good for harassing enemy fighters and frigates. Their low OP cost and high efficiency makes them a staple of any Nomad fleet.",Assault,,
+nom_heavy_electron_maser,WEAPON,"Higher-yield Nomad-style pulse electron maser, requires more flux than the light electron maser but also causes more mayhem. Extraordinarily high efficiency for this type of weapon makes these Nomad favourites.",Assault,,
+nom_twin_electron_maser,WEAPON,"A large slot provides the heat dissipation needed to field a pair of matched electron masers. This weapon fires in a burst, each barrel firing before initiating a short cooling cycle.",,,
+nom_doom_cannon,WEAPON,"A highly-specialized Nomad pulse wave cannon, designed exclusively for mounting directly onto the internal skeleton that forms the keel of the Gila Monster craft. Absurdly high ordnance and infastructure are required to support it, and has a limited ammunition capacity. If it can be brought to bear on anything slow-moving and unlucky enough to be in its path, the Nomad Doom Cannon will simply tear it to smoking bits.",Assault,,
+nom_scarab,SHIP,"Scarabs are light and cheap to build, and most effectively used as short-range scouts.",,,
+nom_iguana,SHIP,"Iguana have unusually high flux capacity, but with a crew requirement to match. They are classed as Corvettes, yet fly in three-ship wings and can be field-refitted like fighters.",,,
+nom_wurm,SHIP,"The standard Nomad assault frigate, equipped with that staple of Nomad design: the electron maser. Excels at no task in particular, but requires little maintenance, and can be field-refitted for long journeys.",,,
+nom_yellowjacket,SHIP,Employs a single devastating long-range support maser. Lightly armed and armored otherwise.,,,
+nom_komodo,SHIP,"Equipped with a good mix of light and medium Nomad weaponry to engage faster-moving fighters and frigates, yet able to hold its own against other destroyers for brief periods.",,,
+nom_scorpion,SHIP,"A specialized long-range missile support destroyer. This ship, while expensive to maintain and to field, can bring to bear a frightening volume of long-range ordnance.",,,
+nom_sandstorm,SHIP,"The Sandstorm is designed to charge into a fight with frontal weaponry blazing, and take out its target in a single pass. Prolonged engagements usually expose its high flux requirements.",,,
+nom_gila_monster,SHIP,"The Gila Monster was invented to take on ancient battleships, which are then be looted for supplies and spare parts to refit the rest of the fleet. It utilizes its Doom Cannon for fierce but brief encounters. Like the sandstorm it is ill-equipped for long-term engagements.",,,
+nom_planet_naera,CUSTOM,"Naera is an oddity among habitable planets. It is a poor candidate for conlonization due to its immense size, low density atmosphere and high surface temperature. Despite these difficulties a bold group of ancient pre-travel-drive explorers wound up in orbit around Naera. Their cryo-preservation systems had failed on a mission to another planet and they were forced to take refuge there. Using the remains of their vessel and technology, they settled on the surface and gradually adapted to its extreme conditions. This civilization eventually returned to the stars and earned themselves the title ""Nomads.""  They now spend most of their time off-planet, only to occasionally return during times of critical emergency.",,,

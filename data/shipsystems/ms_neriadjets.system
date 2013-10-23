@@ -1,0 +1,26 @@
+{
+	"id":"ms_neriadjets",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.ms_neriadjetstats",
+	
+	"engineGlowColor":[207,123,103,125],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":1.8,
+	"engineGlowWidthMult":0.55,
+	"engineGlowGlowMult":2.4,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":100,
+	}
+}

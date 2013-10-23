@@ -1,0 +1,47 @@
+{
+  "displayName": "Beam",
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "hullId": "ms_scylla",
+  "hullMods": [
+      "advancedoptics",
+      "turretgyros"
+  ],
+  "variantId": "ms_scylla_Beam",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ms_phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hil",
+        "WS0005": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "phasebeam",
+        "WS0003": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavyburst",
+        "WS0007": "heavyburst",
+        "WS0008": "pdburst",
+        "WS0009": "pdburst",
+        "WS0010": "pdburst"
+      }
+    }
+  ]
+}

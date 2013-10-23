@@ -1,0 +1,43 @@
+{
+    "displayName": "Balanced P",
+    "fluxCapacitors": 7,
+    "fluxVents": 20,
+    "hullId": "enforcer",
+    "hullMods": ["unstable_injector"],
+    "variantId": "enforcerp_bal",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "harpoon",
+                "WS 008": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "reaper",
+                "WS 009": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "arbalest",
+                "WS 003": "arbalest",
+                "WS 005": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "chaingun",
+                "WS 004": "chaingun"
+            }
+        }
+    ]
+}

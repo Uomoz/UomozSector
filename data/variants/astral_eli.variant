@@ -1,0 +1,52 @@
+{
+    "displayName": "Elite T",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "hullId": "astral",
+    "hullMods": [
+        "fluxbreakers",
+        "advancedoptics"
+    ],
+    "variantId": "astral_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 011": "hurricane",
+                "WS 012": "hurricane"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "swarmer",
+                "WS 010": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "phasebeam",
+                "WS 014": "phasebeam",
+                "WS 015": "phasebeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst",
+                "WS 006": "pdburst",
+                "WS 007": "pdlaser",
+                "WS 008": "pdlaser"
+            }
+        }
+    ]
+}

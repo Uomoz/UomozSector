@@ -1,0 +1,56 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "hullId": "junk_pirates_dugong",
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "variantId": "junk_pirates_dugong_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg",
+        "WS 005": "lightmg",
+        "WS 006": "lightmg",
+        "WS 007": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "arbalest",
+        "WS 009": "arbalest",
+        "WS 010": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightag",
+        "WS 004": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 011": "harpoon",
+        "WS 012": "harpoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 013": "junk_pirates_grapeshot_m",
+        "WS 014": "hurricane"
+      }
+    }
+  ]
+}
