@@ -15,11 +15,6 @@
     -15,
     7.5
   ],
-  "builtInWeapons": {
-    "left_gun": "nom_light_electron_maser",
-    "right_gun": "nom_light_electron_maser",
-    "missile_1": "swarmer",
-  },
   "center": [
     25.5,
     18
@@ -118,12 +113,12 @@
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 135,
+      "angle": 0,
       "arc": 0,
       "id": "missile_1",
       "locations": [
-        -7,
-        6.5
+        5,
+        0
       ],
       "mount": "HIDDEN",
       "size": "SMALL",
@@ -154,5 +149,10 @@
       "type": "BUILT_IN"
     }
   ],
-  "width": 54
+  "width": 54,
+  "builtInWeapons": {
+    "left_gun": "nom_light_electron_maser",
+    "right_gun": "nom_light_electron_maser",
+    "missile_1": "nom_self_sustained_fusion_torpedo_mini",
+  },
 }

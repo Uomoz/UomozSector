@@ -24,7 +24,9 @@ public class TheNomadsDoomCannonEffect implements EveryFrameWeaponEffectPlugin
 		for( Iterator p = projectiles.iterator(); p.hasNext(); )
 		{
 			DamagingProjectileAPI proj = (DamagingProjectileAPI)p.next();
-			if( ! "nom_doom_cannon_shot".equals( proj.getProjectileSpecId() ))
+			//if( ! "nom_doom_cannon_shot".equals( proj.getProjectileSpecId() ))
+			//	continue;
+			if( weapon != proj.getWeapon() )
 				continue;
 			Vector2f p_loc = proj.getLocation();
 			for( Iterator m = missiles.iterator(); m.hasNext(); )

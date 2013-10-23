@@ -3,6 +3,7 @@ import com.fs.starfarer.api.FactoryAPI;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CargoAPI;
 import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
+import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.FleetDataAPI;
 import com.fs.starfarer.api.campaign.JumpPointAPI;
 import com.fs.starfarer.api.campaign.JumpPointAPI.JumpDestination;
@@ -130,9 +131,24 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 			);
 		
 		// armada composition data (references faction definition data)
-		String[] escort_pool = { "scout", "longRangeScout", "battleGroup", "assassin", "royalGuard", "jihadFleet", "carrierGroup" };
-		int[] escort_weights = {    220,              200,           230,        185,          175,          125,            100  };
-		
+		String[] escort_pool = { 
+			"scout", 
+			"longRangeScout", 
+			"battleGroup", 
+			"assassin", 
+			"royalGuard", 
+			"jihadFleet", 
+			"carrierGroup"
+		};
+		int[] escort_weights = {    
+			220,
+			200,
+			230,
+			185,
+			175,
+			125,
+			100
+		};
 		// armada waypoint controller script
 		CampaignArmadaController nomad_armada =
 			new CampaignArmadaController(
@@ -208,8 +224,8 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		update_hyperspace_jump_point_location( hyperspace_jump_point, system, system_root, local_jump_point );
 		return hyperspace_jump_point;
 	}
-	
-	private void init_station_cargo( SectorEntityToken station )
+        
+        private void init_station_cargo( SectorEntityToken station )
 	{
 		CargoAPI cargo = station.getCargo();
 		FleetDataAPI station_ships = cargo.getMothballedShips();

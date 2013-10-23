@@ -1,30 +1,30 @@
 {
-	"displayName":"Assault",
-	"hullId":"nom_wurm",
-	"variantId":"nom_wurm_assault",
-	"fluxVents":7,
-	"fluxCapacitors":0,
-	"hullMods": [
-		"naeran_flux_shunts",
-		"fluxbreakers",
-		"targetingunit"
-	],
-	"weaponGroups":[
-		{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "hullId": "nom_wurm",
+  "hullMods": [
+    "naeran_flux_shunts",
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "variantId": "nom_wurm_assault",
+  "weaponGroups": [
+    {
       "autofire": false,
-      "mode":"LINKED",
-      "weapons":{
-        "WS 001":"nom_heavy_electron_maser",
-		  },
-		},
-		{
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "nom_heavy_electron_maser",
+        "WS 002": "nom_light_electron_maser"
+      }
+    },
+    {
       "autofire": true,
-      "mode":"LINKED",
-      "weapons":{
-        "WS 002":"nom_light_electron_maser",
-        "WS 003":"nom_light_electron_maser",
-        "WS 004":"nom_light_electron_maser",
-      },
-		},
-	],
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "nom_twin_ultralight_electron_maser",
+        "WS 004": "nom_firecracker"
+      }
+    }
+  ]
 }

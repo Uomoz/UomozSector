@@ -21,7 +21,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "PD1": "nom_twin_ultralight_electron_maser"
+        "PD1": "nom_firecracker"
       }
     }
   ]

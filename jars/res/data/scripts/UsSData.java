@@ -802,6 +802,7 @@ public class UsSData {
     NOM_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
+    C.put("nom_rattlesnake_assault", 1f);
     NOM_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
@@ -812,7 +813,8 @@ public class UsSData {
     Map W = new HashMap();
     W.put("nom_iguana_wing", 1f);
     W.put("nom_scarab_wing", 1f);
-    W.put("nom_toad_wing", 1f);
+    W.put("nom_toad_wing", 0.5f);
+    W.put("nom_fang_wing", 0.5f);
     NOM_W = Collections.unmodifiableMap(W);
     }
     

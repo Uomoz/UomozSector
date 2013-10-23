@@ -5,9 +5,13 @@
 	"maxBattleSize":1000, # in deployment points. max value for settings slider
 	
 	"graphics":{
+		"nomads":{
+			"nom_fang_empty":"graphics/nom/ships/nom_fang_empty.png",
+		},
 		"illustrations":{
 			"fly_away":"graphics/illustrations/fly_away.jpg",
 			"nanshe_desert":"graphics/shi/illustrations/nanshe_desert_game.jpg",
+			"desert_moons_ruins":"graphics/illustrations/desert_moons_ruins.jpg",
 		},
 	}
 }

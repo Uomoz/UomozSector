@@ -14,39 +14,39 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "nom_doom_cannon"
+        "WS0001": "nom_doom_cannon",
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0025": "nom_twin_electron_maser",
-        "WS0026": "nom_twin_electron_maser"
+        "WS0026": "nom_twin_electron_maser",
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "nom_light_electron_maser",
+        "WS0002": "nom_firecracker",
+        "WS0006": "nom_firecracker",
+        "WS0009": "nom_firecracker",
+        "WS0013": "nom_firecracker",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "nom_light_electron_maser",
         "WS0004": "nom_light_electron_maser",
         "WS0005": "nom_light_electron_maser",
-        "WS0006": "nom_light_electron_maser",
         "WS0007": "nom_light_electron_maser",
         "WS0008": "nom_light_electron_maser",
-        "WS0009": "nom_light_electron_maser",
-        "WS0010": "nom_light_electron_maser"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0010": "nom_light_electron_maser",
         "WS0011": "nom_ultralight_electron_maser",
         "WS0012": "nom_ultralight_electron_maser",
-        "WS0013": "nom_ultralight_electron_maser",
         "WS0014": "nom_ultralight_electron_maser",
         "WS0015": "nom_ultralight_electron_maser",
         "WS0016": "nom_ultralight_electron_maser",
@@ -57,7 +57,7 @@
         "WS0021": "nom_ultralight_electron_maser",
         "WS0022": "nom_ultralight_electron_maser",
         "WS0023": "nom_ultralight_electron_maser",
-        "WS0024": "nom_ultralight_electron_maser"
+        "WS0024": "nom_ultralight_electron_maser",
       }
     }
   ]

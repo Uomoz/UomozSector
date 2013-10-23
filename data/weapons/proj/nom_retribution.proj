@@ -1,0 +1,52 @@
+{
+	"id":"nom_retribution",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/nom/missiles/nom_retribution_missile_02.png",
+	"size":[17,43],	
+	"center":[8.5,20],
+	"collisionRadius":20,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[230,230,55,255],
+	"explosionRadius":350,
+	"explosionSpec":{
+		"duration":0.1,
+		"radius":175,
+		"coreRadius":75,
+		"collisionClass": "HITS_SHIPS_AND_ASTEROIDS",
+		"collisionClassByFighter": "HITS_SHIPS_AND_ASTEROIDS",
+		"particleSizeMin":5.0,
+		"particleSizeRange":15.0,
+		"particleDuration":1,
+		"particleCount":200,
+		"particleColor":[230,230,55,255]
+	},
+	"engineSpec":{
+		"turnAcc":150,
+		"turnRate":80,
+		"acc":250,
+		"dec":1
+	},
+	"engineSlots":[{
+		"id":"e_main",
+		"loc":[-21, 0],
+		"style":"ANCIENT_NAERAN",
+		"width":10.0,
+		"length":50.0,
+		"angle":180.0
+	},{
+		"id":"e_aux_thruster_R",
+		"loc":[-15, 5],
+		"style":"ANCIENT_NAERAN",
+		"width":4.0,
+		"length":15.0,
+		"angle":156.89
+	},{
+		"id":"e_aux_thruster_L",
+		"loc":[-15, -5],
+		"style":"ANCIENT_NAERAN",
+		"width":5.0,
+		"length":15.0,
+		"angle":-156.89
+	}],
+}

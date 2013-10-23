@@ -1,0 +1,18 @@
+{
+	"id":"nom_retribution_postmortem_launcher",
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/nom/missiles/nom_retribution_missile_00.png", # completely hidden
+	"hardpointSprite":"graphics/nom/missiles/nom_retribution_missile_00.png", # completely hidden
+	"numFrames":3, #  0:hidden  1:dormant  2:armed
+	"frameRate":0.0000001,
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"NONE",
+	"interruptibleBurst":false,
+	"projectileSpecId":"nom_retribution",
+}

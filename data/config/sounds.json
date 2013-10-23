@@ -103,6 +103,42 @@
 		{"file":"sounds/nom/fx/maserpls1.ogg","pitch":2.28,"volume":0.32},
 		{"file":"sounds/nom/fx/maserpls2.ogg","pitch":2.27,"volume":0.32},
 		{"file":"sounds/nom/fx/maserpls3.ogg","pitch":2.30,"volume":0.32},		
+	],		
+
+	##  Sounds by Trylobot
+
+	"nom_self_sustained_fusion_torpedo_fire":
+	[
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":0.98,"volume":0.9},
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":1.02,"volume":0.9},
+	],
+	"nom_self_sustained_fusion_torpedo_mini_fire":
+	[
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":1.5,"volume":0.5},
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":1.48,"volume":0.5},
+		{"file":"sounds/nom/fx/nom_self_sustained_fusion_torpedo_fire.ogg","pitch":1.52,"volume":0.5},
+	],
+
+	"nom_firecracker_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/mining_blaster_fire_01.ogg","pitch":1.25,"volume":0.40},
+	],
+	"nom_firecracker_explosion":
+	[
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.00,"volume":1.20},
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.01,"volume":1.16},
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.02,"volume":1.12},
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.04,"volume":1.08},
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.08,"volume":1.02},
+		{"file":"sounds/nom/fx/freesound.org/62547__sparrer__fireworks4__edited.wav","pitch":1.15,"volume":1.00},
+	],
+
+	"nom_retribution_launch":
+	[
+		{"file":"sounds/nom/fx/freesound.org/67544__qubodup__mim-23-hawk-missile-launch-1.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/nom/fx/freesound.org/67544__qubodup__mim-23-hawk-missile-launch-1.ogg","pitch":0.9,"volume":0.9},
+		{"file":"sounds/nom/fx/freesound.org/67544__qubodup__mim-23-hawk-missile-launch-1.ogg","pitch":1.1,"volume":0.9},
 	],
 
 	"sword_of_damocles_start":[

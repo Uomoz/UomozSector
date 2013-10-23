@@ -40,4 +40,14 @@
 		"contrailMaxSpeedMult":0.45,
 		"contrailAngularVelocityMult":0.45,
 	},
+	"FUSION_TORPEDO":{
+		"type":"SMOKE", # GLOW or SMOKE
+		"engineColor":   [255,255,255,  0],
+		"contrailColor": [100, 50, 50, 50],
+		"contrailParticleSizeMult":3.0,
+		"contrailParticleDuration":1.00,
+		"contrailParticleFinalSizeMult":1.00,
+		"contrailMaxSpeedMult":0.45,
+		"contrailAngularVelocityMult":0.45,
+	},
 }

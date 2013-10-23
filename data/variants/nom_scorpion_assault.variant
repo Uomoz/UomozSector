@@ -12,36 +12,36 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS 4": "pilum",
-        "WS 5": "pilum",
-        "WS 6": "hurricane"
+        "Large 1": "nom_self_sustained_fusion_torpedo_bank", 
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS 1": "harpoonpod",
-        "WS 7": "salamanderpod"
+        "Med 2": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 3": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 4": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 5": "nom_self_sustained_fusion_torpedo_pod",
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS 2": "swarmer",
-        "WS 3": "swarmer"
+        "Small 6": "nom_self_sustained_fusion_torpedo_mini",
+        "Small 7": "nom_self_sustained_fusion_torpedo_mini",
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 8": "nom_ultralight_electron_maser",
-        "WS 9": "nom_ultralight_electron_maser"
+        "Small 8": "nom_firecracker",
+        "Small 9": "nom_ultralight_electron_maser",
       }
     }
   ]

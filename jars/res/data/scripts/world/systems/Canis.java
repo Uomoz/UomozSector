@@ -110,13 +110,13 @@ public class Canis {
                 
                 FactionSpawnPoint packArmada = new FactionSpawnPoint(sector, system, 1, 3, station, "pack", "miners", "Kollective Mass", "patrol", 50, 90, UsSData.Variants_PCK,
                         UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.PCK_W, UsSData.PCK_TR, "",
-                        0f,0f,75f,0f,0f,
+                        0f,0f,66f,0f,0f,
                         15, 20, "combat", "technology", "leadership");
 		system.addScript(packArmada);
                 
                 FactionSpawnPoint packMiner = new FactionSpawnPoint(sector, system, 1, 2, station, "pack", "miners", "Miner", "mine", 30, 50, UsSData.Variants_PCK,
                         UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.CIV_W, UsSData.PCK_TR, "",
-                        0f,0f,75f,25f,50f,
+                        0f,0f,66f,25f,50f,
                         5, 15, "technology", "leadership", "combat");
 		system.addScript(packMiner);
                 

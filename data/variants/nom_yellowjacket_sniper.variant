@@ -1,15 +1,15 @@
 {
   "displayName": "Sniper",
-  "hullId": "nom_yellowjacket",
-  "variantId": "nom_yellowjacket_sniper",
-  "fluxVents": 10,
   "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "hullId": "nom_yellowjacket",
   "hullMods": [
     "naeran_flux_shunts",
     "fluxbreakers",
     "targetingunit",
     "auxiliarythrusters"
   ],
+  "variantId": "nom_yellowjacket_sniper",
   "weaponGroups": [
     {
       "autofire": false,
@@ -22,7 +22,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 2": "nom_ultralight_electron_maser"
+        "WS 2": "nom_ultralight_electron_maser",
+        "WS0001": "nom_firecracker"
       }
     }
   ]

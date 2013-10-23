@@ -62,15 +62,16 @@
     7
   ],
   "builtInWeapons": {
-    "PD1": "nom_twin_ultralight_electron_maser",
-    "PD2": "nom_twin_ultralight_electron_maser",
+    "PD1": "nom_firecracker",
+    "PD2": "nom_firecracker",
     "WS 001": "nom_heavy_electron_maser",
     "WS 002": "nom_twin_electron_maser",
     "WS 003": "nom_heavy_electron_maser",
     "WS 005": "nom_heavy_electron_maser",
     "WS 006": "nom_light_electron_maser",
     "WS 007": "nom_light_electron_maser",
-    "WS 1": "nom_heavy_electron_maser"
+    "WS 1": "nom_heavy_electron_maser",
+    "WS0001": "nom_ultralight_electron_maser"
   },
   "center": [
     67,
@@ -229,7 +230,7 @@
     },
     {
       "angle": 128.659805,
-      "arc": 279.270935,
+      "arc": 358,
       "id": "PD1",
       "locations": [
         -52,
@@ -277,7 +278,7 @@
     },
     {
       "angle": -138.366455,
-      "arc": 279.170654,
+      "arc": 358,
       "id": "PD2",
       "locations": [
         -60.5,
@@ -297,6 +298,18 @@
       ],
       "mount": "TURRET",
       "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 148.109207,
+      "id": "WS0001",
+      "locations": [
+        -43.5,
+        -8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
       "type": "BUILT_IN"
     }
   ],

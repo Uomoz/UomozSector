@@ -1,0 +1,26 @@
+{
+  "displayName": "Bomber",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "nom_fang",
+  "hullMods": [
+    "naeran_flux_shunts"
+  ],
+  "variantId": "nom_fang_bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "gun": "nom_ultralight_electron_maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "missile": "nom_self_sustained_fusion_torpedo_mini"
+      }
+    }
+  ]
+}

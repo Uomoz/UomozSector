@@ -259,67 +259,7 @@
     {
       "angle": 0.0,
       "arc": 0.0,
-      "id": "WS 4",
-      "locations": [
-        1.5,
-        48.0
-      ],
-      "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0.0,
-      "arc": 0.0,
-      "id": "WS 1",
-      "locations": [
-        39.5,
-        26.0
-      ],
-      "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0.0,
-      "arc": 0.0,
-      "id": "WS 2",
-      "locations": [
-        39.5,
-        -13.0
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0.0,
-      "arc": 0.0,
-      "id": "WS 3",
-      "locations": [
-        39.5,
-        -34.5
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0.0,
-      "arc": 0.0,
-      "id": "WS 7",
-      "locations": [
-        -1.0,
-        -51.0
-      ],
-      "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": 0.0,
-      "arc": 0.0,
-      "id": "WS 6",
+      "id": "Large 1",
       "locations": [
         -4.0,
         -20.5
@@ -331,7 +271,19 @@
     {
       "angle": 0.0,
       "arc": 0.0,
-      "id": "WS 5",
+      "id": "Med 2",
+      "locations": [
+        1.5,
+        48.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0.0,
+      "arc": 0.0,
+      "id": "Med 3",
       "locations": [
         1.0,
         25.0
@@ -341,9 +293,57 @@
       "type": "BUILT_IN"
     },
     {
+      "angle": 0.0,
+      "arc": 0.0,
+      "id": "Med 4",
+      "locations": [
+        39.5,
+        26.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0.0,
+      "arc": 0.0,
+      "id": "Med 5",
+      "locations": [
+        -1.0,
+        -51.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0.0,
+      "arc": 0.0,
+      "id": "Small 6",
+      "locations": [
+        39.5,
+        -13.0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0.0,
+      "arc": 0.0,
+      "id": "Small 7",
+      "locations": [
+        39.5,
+        -34.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
       "angle": -112.6,
       "arc": 316.4,
-      "id": "WS 8",
+      "id": "Small 8",
       "locations": [
         -10.5,
         0.0
@@ -355,7 +355,7 @@
     {
       "angle": 119.1,
       "arc": 326.6,
-      "id": "WS 9",
+      "id": "Small 9",
       "locations": [
         -24.0,
         2.0
@@ -365,15 +365,15 @@
       "type": "BUILT_IN"
     }
   ],
-  "builtInWeapons":{
-        "WS 4": "pilum",
-        "WS 5": "pilum",
-        "WS 6": "hurricane",
-        "WS 1": "harpoonpod",
-        "WS 7": "salamanderpod",
-        "WS 2": "swarmer",
-        "WS 3": "swarmer",
-        "WS 8": "nom_ultralight_electron_maser",
-        "WS 9": "nom_ultralight_electron_maser",
+  "builtInWeapons": {
+        "Large 1": "nom_self_sustained_fusion_torpedo_bank", 
+        "Med 2": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 3": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 4": "nom_self_sustained_fusion_torpedo_pod",
+        "Med 5": "nom_self_sustained_fusion_torpedo_pod",
+        "Small 6": "nom_self_sustained_fusion_torpedo_mini",
+        "Small 7": "nom_self_sustained_fusion_torpedo_mini",
+        "Small 8": "nom_firecracker",
+        "Small 9": "nom_ultralight_electron_maser",
   }
 }

@@ -1,0 +1,11 @@
+{
+	"id":"nom_effect_faux_plasma_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"NONE",
+	"collisionClassByFighter":"NONE",
+	"width": 35.0,
+	"fadeTime": 1.0,
+	"fringeColor":[255,100,0,255],
+	"coreColor":[0,0,0,0],
+}

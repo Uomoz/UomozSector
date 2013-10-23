@@ -1,9 +1,8 @@
 {
   "displayName": "Assault",
-  "hullId": "nom_komodo_mk2",
-  "variantId": "nom_komodo_mk2_assault",
-  "fluxVents": 10,
   "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "hullId": "nom_komodo_mk2",
   "hullMods": [
     "naeran_flux_shunts",
     "fluxbreakers",
@@ -11,6 +10,7 @@
     "armoredweapons",
     "turretgyros"
   ],
+  "variantId": "nom_komodo_mk2_assault",
   "weaponGroups": [
     {
       "autofire": false,
@@ -29,8 +29,9 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "PD1": "nom_twin_ultralight_electron_maser",
-        "PD2": "nom_twin_ultralight_electron_maser"
+        "PD1": "nom_firecracker",
+        "PD2": "nom_firecracker",
+        "WS0001": "nom_ultralight_electron_maser"
       }
     }
   ]

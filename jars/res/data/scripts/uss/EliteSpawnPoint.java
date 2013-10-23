@@ -164,7 +164,7 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
                 new_station = station;
                 Global.getSector().addMessage("Elite Assignment NULL new station");
             }
-            
+            fleet.setPreferredResupplyLocation(new_station);
             fleet.addAssignment(FleetAssignment.RESUPPLY, station, 100);
             int duration = (int) (Math.random()*3 + lvl/2);
             if (getFleetType() == "defender")   {

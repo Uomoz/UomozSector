@@ -94,32 +94,32 @@
     26.5
   ],
   "builtInWeapons": {
-    "WS0001": "nom_doom_cannon",
-    "WS0002": "nom_light_electron_maser",
-    "WS0003": "nom_light_electron_maser",
-    "WS0004": "nom_light_electron_maser",
-    "WS0005": "nom_light_electron_maser",
-    "WS0006": "nom_light_electron_maser",
-    "WS0007": "nom_light_electron_maser",
-    "WS0008": "nom_light_electron_maser",
-    "WS0009": "nom_light_electron_maser",
-    "WS0010": "nom_light_electron_maser",
-    "WS0011": "nom_ultralight_electron_maser",
-    "WS0012": "nom_ultralight_electron_maser",
-    "WS0013": "nom_ultralight_electron_maser",
-    "WS0014": "nom_ultralight_electron_maser",
-    "WS0015": "nom_ultralight_electron_maser",
-    "WS0016": "nom_ultralight_electron_maser",
-    "WS0017": "nom_ultralight_electron_maser",
-    "WS0018": "nom_ultralight_electron_maser",
-    "WS0019": "nom_ultralight_electron_maser",
-    "WS0020": "nom_ultralight_electron_maser",
-    "WS0021": "nom_ultralight_electron_maser",
-    "WS0022": "nom_ultralight_electron_maser",
-    "WS0023": "nom_ultralight_electron_maser",
-    "WS0024": "nom_ultralight_electron_maser",
-    "WS0025": "nom_twin_electron_maser",
-    "WS0026": "nom_twin_electron_maser"
+        "WS0001": "nom_doom_cannon",
+        "WS0002": "nom_firecracker",
+        "WS0003": "nom_light_electron_maser",
+        "WS0004": "nom_light_electron_maser",
+        "WS0005": "nom_light_electron_maser",
+        "WS0006": "nom_firecracker",
+        "WS0007": "nom_light_electron_maser",
+        "WS0008": "nom_light_electron_maser",
+        "WS0009": "nom_firecracker",
+        "WS0010": "nom_light_electron_maser",
+        "WS0011": "nom_ultralight_electron_maser",
+        "WS0012": "nom_ultralight_electron_maser",
+        "WS0013": "nom_firecracker",
+        "WS0014": "nom_ultralight_electron_maser",
+        "WS0015": "nom_ultralight_electron_maser",
+        "WS0016": "nom_ultralight_electron_maser",
+        "WS0017": "nom_ultralight_electron_maser",
+        "WS0018": "nom_ultralight_electron_maser",
+        "WS0019": "nom_ultralight_electron_maser",
+        "WS0020": "nom_ultralight_electron_maser",
+        "WS0021": "nom_ultralight_electron_maser",
+        "WS0022": "nom_ultralight_electron_maser",
+        "WS0023": "nom_ultralight_electron_maser",
+        "WS0024": "nom_ultralight_electron_maser",
+        "WS0025": "nom_twin_electron_maser",
+        "WS0026": "nom_twin_electron_maser"
   },
   "center": [
     191,
@@ -322,7 +322,7 @@
       "arc": 3.8,
       "id": "WS0001",
       "locations": [
-        22,
+        11,
         43
       ],
       "mount": "HARDPOINT",
@@ -330,8 +330,8 @@
       "type": "BUILT_IN"
     },
     {
-      "angle": 72,
-      "arc": 230,
+      "angle": 104.349335,
+      "arc": 318.076233,
       "id": "WS0002",
       "locations": [
         -34,
@@ -379,7 +379,7 @@
     },
     {
       "angle": -55,
-      "arc": 230,
+      "arc": 331.544495,
       "id": "WS0006",
       "locations": [
         83,
@@ -415,7 +415,7 @@
     },
     {
       "angle": -120,
-      "arc": 230,
+      "arc": 302.727844,
       "id": "WS0009",
       "locations": [
         -171,

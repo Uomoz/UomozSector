@@ -150,13 +150,26 @@ Lens Flare,brlensflaresmall,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lens Flare,brlensflaresmall2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ultralight Electron Maser,nom_ultralight_electron_maser,1,150,280,,12,,10,75,2,,,ENERGY,17,,,0.18,,,,,,,,1050,,,75,PD,1337103
-Twin Ultralight Electron Maser,nom_twin_ultralight_electron_maser,1,310,295,,15,,10,75,3,,,ENERGY,17,,,0.1,2,0.07,,,,,,1050,,,75,PD,1337106
-Light Electron Maser,nom_light_electron_maser,1,350,400,,33,,15,65,4,,,ENERGY,32,,,0.3,,,,,,,,820,,,100,PD,1337100
-Heavy Electron Maser,nom_heavy_electron_maser,1,1100,600,,60,,30,45,8,,,ENERGY,60,,,0.435,,,,,,,,675,,,200,,1337101
-Twin Electron Maser,nom_twin_electron_maser,1,4000,815,,68,,30,45,18,,,ENERGY,60,,,0.289,2,0.2,,,,,,675,,,200,,1337104
-Maser Pulse Beam,nom_maser_pulse_beam,1,3000,1250,,240,,80,15,20,,,ENERGY,800,,,1.8,,,,,,,,3000,,,100,,1337105
-Solar Crucible,nom_solar_crucible,1,5500,800,1100,,20,0,5,30,,,ENERGY,,2500,0.05,2,1,3,,,,,10000,,,,,,1337999
-Doom Cannon,nom_doom_cannon,1,12500,1100,,1750,,6000,5,75,30,,ENERGY,2000,,0.12,0.35,,,,,,,,360,,,99999,,1337102
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ultralight Electron Maser,nom_ultralight_electron_maser,1,150,280,,13,,10,80,2,,,ENERGY,16,,,0.175,,,,,,,,1200,,,75,"PD, ANTI_FTR",1337103
+Twin Ultralight Electron Maser,nom_twin_ultralight_electron_maser,1,310,295,,15,,10,78,3,,,ENERGY,17,,,0.095,2,0.068,,,,,,1200,,,75,"PD, ANTI_FTR",1337106
+Light Electron Maser,nom_light_electron_maser,1,350,400,,33,,15,65,4,,,ENERGY,32,,,0.3,,,,,,,,820,,,100,ANTI_FTR,1337100
+Heavy Electron Maser,nom_heavy_electron_maser,1,1100,600,,59,,30,45,8,,,ENERGY,60,,,0.435,,,,,,,,675,,,200,,1337101
+Twin Electron Maser,nom_twin_electron_maser,1,4000,815,,64,,30,45,18,,,ENERGY,62,,,0.3,2,0.2,,,,,,675,,,200,,1337104
+Ripper Triple Maser,nom_triple_electron_maser,1,6500,800,,68,,30,45,26,,,ENERGY,64,,,0.2,3,0.095,,,,,,675,,,200,,1337113
+Firecracker Burster,nom_firecracker,1,1500,400,,88,,10,40,8,,,ENERGY,80,,,1.75,,,,,,,,700,,,30,"PD, ANTI_FTR",1337112
+Maser Pulse Beam,nom_maser_pulse_beam,1,3000,1250,,250,,80,15,20,,,ENERGY,800,,,1.8,,,,,,,,3000,,,100,SYSTEM,1337105
+Mini Fusion Torpedo,nom_self_sustained_fusion_torpedo_mini,1,300,1000,,80,15,10,10,4,10,0.2,ENERGY,10,,0,2,,,,,,,,300,20,8,50,"ANTI_FTR, DO_NOT_AIM",1337109
+Fusion Torpedo Pod,nom_self_sustained_fusion_torpedo_pod,1,1500,2000,,280,50,50,10,6,5,0.1,ENERGY,50,,0,6,,,,,,,,275,40,10,125,"DO_NOT_AIM, HEATSEEKER",1337107
+Fusion Torpedo Battery,nom_self_sustained_fusion_torpedo_bank,1,3500,2000,,280,50,50,10,12,20,0.3,ENERGY,125,,0,6,3,0.315,,,,,,275,40,10,125,"DO_NOT_AIM, HEATSEEKER",1337108
+Solar Crucible,nom_solar_crucible,1,5500,800,1250,,30,0,5,30,,,ENERGY,,2500,0.05,2,1,3,,,,,10000,,,,,SYSTEM,1337999
+Doom Cannon,nom_doom_cannon,1,12500,1100,,1750,,300,5,75,30,,ENERGY,2000,,0.12,0.35,,,,,,,,360,,,99999,SYSTEM,1337102
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Faux Plasma Mini,nom_effect_faux_plasma_mini,0,0,2500,,0,,0,0,0,0,0,ENERGY,0,,0,0,,,,,,,,1,0,99999,1,SYSTEM,1337111
+Faux Plasma,nom_effect_faux_plasma,0,0,2500,,0,,0,0,0,0,0,ENERGY,0,,0,0,,,,,,,,1,0,99999,1,SYSTEM,1337110
+Retribution Launch System,nom_retribution_postmortem_launcher,0,0,999999,,3250,,300,5,0,0,0,ENERGY,0,,0,0,,,,,,,,2000,25,50,650,SYSTEM,1337114
 Habitat Ring,nom_decorative_oasis_habitat_ring,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337099
 Structural Support,nom_decorative_oasis_habitat_ring_structural_support_beam,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337098

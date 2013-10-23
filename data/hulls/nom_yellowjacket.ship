@@ -59,6 +59,11 @@
     25,
     7.5
   ],
+  "builtInWeapons": {
+    "WS 1": "nom_maser_pulse_beam",
+    "WS 2": "nom_ultralight_electron_maser",
+    "WS0001": "nom_firecracker"
+  },
   "center": [
     93,
     74
@@ -201,11 +206,19 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 342.340515,
+      "id": "WS0001",
+      "locations": [
+        -11.5,
+        -22.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
     }
   ],
-  "width": 147,
-  "builtInWeapons": {
-    "WS 1": "nom_maser_pulse_beam",
-    "WS 2": "nom_ultralight_electron_maser"
-  },
+  "width": 147
 }

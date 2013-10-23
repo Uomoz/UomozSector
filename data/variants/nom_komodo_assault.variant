@@ -1,14 +1,14 @@
 {
   "displayName": "Assault",
-  "hullId": "nom_komodo",
-  "variantId": "nom_komodo_assault",
-  "fluxVents": 19,
   "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "hullId": "nom_komodo",
   "hullMods": [
     "naeran_flux_shunts",
     "fluxbreakers",
     "targetingunit"
   ],
+  "variantId": "nom_komodo_assault",
   "weaponGroups": [
     {
       "autofire": false,
@@ -25,9 +25,9 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 004": "nom_ultralight_electron_maser",
+        "WS 004": "nom_firecracker",
         "WS 007": "nom_light_electron_maser",
-        "WS 008": "nom_ultralight_electron_maser",
+        "WS 008": "nom_firecracker",
         "WS 1": "nom_light_electron_maser"
       }
     }

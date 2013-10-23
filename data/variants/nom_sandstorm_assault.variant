@@ -1,14 +1,14 @@
 {
   "displayName": "Assault",
-  "hullId": "nom_sandstorm",
-  "variantId": "nom_sandstorm_assault",
-  "fluxVents": 15,
   "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "hullId": "nom_sandstorm",
   "hullMods": [
     "naeran_flux_shunts",
     "fluxbreakers",
     "targetingunit"
   ],
+  "variantId": "nom_sandstorm_assault",
   "weaponGroups": [
     {
       "autofire": false,
@@ -16,8 +16,8 @@
       "weapons": {
         "WS 10": "nom_twin_electron_maser",
         "WS 11": "nom_twin_electron_maser",
-        "WS 2": "nom_twin_electron_maser",
-        "WS 3": "nom_twin_electron_maser",
+        "WS 2": "nom_triple_electron_maser",
+        "WS 3": "nom_triple_electron_maser",
         "WS 6": "nom_twin_electron_maser",
         "WS 7": "nom_twin_electron_maser",
         "WS 8": "nom_twin_electron_maser",
@@ -47,17 +47,11 @@
         "WS 20": "nom_light_electron_maser",
         "WS 21": "nom_light_electron_maser",
         "WS 22": "nom_light_electron_maser",
-        "WS 23": "nom_light_electron_maser"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS 24": "nom_ultralight_electron_maser",
-        "WS 25": "nom_ultralight_electron_maser",
-        "WS 26": "nom_ultralight_electron_maser",
-        "WS 27": "nom_ultralight_electron_maser"
+        "WS 23": "nom_light_electron_maser",
+        "WS 24": "nom_twin_ultralight_electron_maser",
+        "WS 25": "nom_twin_ultralight_electron_maser",
+        "WS 26": "nom_firecracker",
+        "WS 27": "nom_firecracker"
       }
     }
   ]

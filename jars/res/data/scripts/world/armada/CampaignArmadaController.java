@@ -1,6 +1,5 @@
 package data.scripts.world.armada;
 import com.fs.starfarer.api.EveryFrameScript;
-import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignClockAPI;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.FleetAssignment;
@@ -9,7 +8,6 @@ import com.fs.starfarer.api.campaign.LocationAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
-import com.fs.starfarer.api.mission.FleetSide;
 import data.scripts.world.armada.CampaignArmadaWaypointController.CampaignArmadaWaypoint;
 import data.scripts.world.armada.api.CampaignArmadaAPI;
 import data.scripts.world.armada.api.CampaignArmadaEscortFleetPositionerAPI;

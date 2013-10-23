@@ -38,11 +38,12 @@
     -9
   ],
   "builtInWeapons": {
-    "WS0001": "nom_light_electron_maser",
+    "WS0001": "nom_firecracker",
     "WS0002": "nom_twin_ultralight_electron_maser",
     "WS0003": "nom_twin_ultralight_electron_maser",
-    "WS0004": "swarmer",
-    "WS0005": "swarmer"
+    "WS0004": "nom_self_sustained_fusion_torpedo_mini",
+    "WS0005": "nom_self_sustained_fusion_torpedo_mini",
+    "WS0006": "nom_firecracker"
   },
   "center": [
     39,
@@ -224,6 +225,18 @@
         17
       ],
       "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 278.797424,
+      "id": "WS0006",
+      "locations": [
+        -24.5,
+        -3.5
+      ],
+      "mount": "TURRET",
       "size": "SMALL",
       "type": "BUILT_IN"
     }

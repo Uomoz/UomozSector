@@ -1,0 +1,56 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "hullId": "nom_rattlesnake",
+  "hullMods": [
+    "naeran_flux_shunts",
+    "heavyarmor",
+    "fluxbreakers"
+  ],
+  "variantId": "nom_rattlesnake_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS_M1_U": "heavyac",
+        "WS_M6_U": "heavyac",
+        "WS_S1_U": "lightdualac",
+        "WS_S2_U": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS_L1": "nom_twin_electron_maser",
+        "WS_L2": "nom_triple_electron_maser",
+        "WS_L3": "nom_triple_electron_maser",
+        "WS_L4": "nom_twin_electron_maser",
+        "WS_M2": "nom_heavy_electron_maser",
+        "WS_M3": "nom_heavy_electron_maser",
+        "WS_M4": "nom_heavy_electron_maser",
+        "WS_M5": "nom_heavy_electron_maser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS_T1": "nom_self_sustained_fusion_torpedo_bank",
+        "WS_T2": "nom_self_sustained_fusion_torpedo_bank"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS_PD1": "nom_firecracker",
+        "WS_PD2": "nom_firecracker",
+        "WS_PD3": "nom_firecracker",
+        "WS_PD4": "nom_firecracker"
+      }
+    }
+  ]
+}

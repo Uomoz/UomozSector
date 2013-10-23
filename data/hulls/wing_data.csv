@@ -28,6 +28,7 @@ brdy_squilla_wing,squilla_variant,7,,V,3,BOMBER,8,6700,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 brdy_serket_wing,brdy_serket,10,,V,2,FIGHTER,14,12000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
+nom_fang_wing,nom_fang_bomber,8,,CLAW,3,FIGHTER,15,15000,,,,,,,,,,,,,1337109
 nom_toad_wing,nom_toad_assault,7,,V,2,FIGHTER,15,12000,,,,,,,,,,,,,1337108
 nom_iguana_wing,nom_iguana_assault,5,,V,3,FIGHTER,15,6500,,,,,,,,,,,,,1337107
 nom_scarab_wing,nom_scarab_assault,3,,CLAW,4,INTERCEPTOR,10,2500,,,,,,,,,,,,,1337106

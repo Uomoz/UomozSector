@@ -1,0 +1,26 @@
+{
+	"id":"nom_self_sustained_fusion_torpedo_projectile",
+	"specClass":"missile",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/nom/weapons/missiles/trans_1x1.png",
+	"size":[25,25],	
+	"center":[12.5,12.5],
+	"collisionRadius":12.5,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[240,128,128,255],
+	"explosionRadius":150,
+	"engineSpec":{
+		"turnAcc":600,
+		"turnRate":400,
+		"acc":1250,
+		"dec":400
+	},
+	"engineSlots":[{
+		"id":"ES1",
+		"loc":[0, 0],
+		"style":"FUSION_TORPEDO",
+		"width":6.0,
+		"length":6.0,
+		"angle":180.0
+	},],
+}
