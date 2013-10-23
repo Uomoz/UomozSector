@@ -3,7 +3,7 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 Phase Anchors,ms_phaseanchor,,,,,,,,,0.5,,0.5,0,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,graphics/icons/hullsys/phase_cloak.png
 ,,,,,,,,,,,,,,,,,,,,,,,
 Phase Mines,ms_phasemine,,,,,,,20,,0,,4,5,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
-Drive Plasma Relay,ms_drivecharger,,,,,,,3,0.1,0.25,3,2,1,TRUE,,,,,,,TRUE,,graphics/icons/hullsys/infernium_injector.png
+Drive Plasma Relay,ms_drivecharger,,,,,,,3,0.1,0.25,3,2,1,TRUE,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
 Fighter Control Relay,ms_swacs,150,,,,,,,,1.5,,3,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 Phase Skimmer,ms_displacer,,,,,,0.05,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
 Heavy Phase Skimmer,ms_mimirskimmir,,,,,,0.2,4,0.075,0.5,,0.5,0,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
@@ -11,6 +11,7 @@ Hydra Phase Drones,ms_phasedrones,,,,,,,2,0.0333,0,,0,0,,,,,,,,,,graphics/icons/
 Thetis Drones,ms_fighterdrones,,,,,,,4,0.0333,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
 Siege Mode,ms_siegemode,,0.02,,,,,,,1,,0,2,TRUE,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
 Booster Jets,ms_booster,,,,,,,,,1,5,1,6,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Targeting Jammer,ms_jammer,100,,,,,,,,1,,,10,TRUE,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 ,,,,,,,,,,,,,,,,,,,,,,,
 Dreamcatcher Flare system,ms_swflares,,,,,,,5,,,,,5,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
 Afterburner,ms_neriadjets,,,,,,,,,0.15,3,1,5,TRUE,,,,,,TRUE,,,graphics/icons/hullsys/burn_drive.png

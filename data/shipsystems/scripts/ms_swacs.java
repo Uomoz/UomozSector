@@ -1,21 +1,13 @@
 package data.shipsystems.scripts;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
-
-import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
-import com.fs.starfarer.api.combat.ShipSystemAIScript;
-import com.fs.starfarer.api.combat.ShipSystemAPI;
-import com.fs.starfarer.api.combat.ShipwideAIFlags;
-import com.fs.starfarer.api.combat.DamagingProjectileAPI;
-import org.lazywizard.lazylib.MathUtils;
-import org.lazywizard.lazylib.combat.*;
-import java.util.Iterator;
-import org.lwjgl.util.vector.Vector2f;
-
+import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import org.lazywizard.lazylib.MathUtils;
 
 public class ms_swacs implements ShipSystemStatsScript {
 
@@ -37,7 +29,7 @@ public class ms_swacs implements ShipSystemStatsScript {
 		ShipAPI host_ship = (ShipAPI) stats.getEntity();	
 		
 		//This loop iterates through all ships active on the field.
-		for (Iterator iter = CombatUtils.getCombatEngine().getShips().iterator(); iter.hasNext();)
+		for (Iterator iter = Global.getCombatEngine().getShips().iterator(); iter.hasNext();)
 		{
 			
 			ship = (ShipAPI) iter.next(); //Loads the current ship the iterator is on into 'ship'
@@ -49,7 +41,7 @@ public class ms_swacs implements ShipSystemStatsScript {
 			if ((host_ship.getOwner() == ship.getOwner()) && ship.isFighter() && ship.isDrone() && (MathUtils.getDistance(ship, host_ship) <= (RANGE)))  {
 				
 				//Modify this ship's stats.
-                                ship.getWingMembers();
+                                ship.getWing();
 				ship.getMutableStats().getAutofireAimAccuracy().modifyFlat(id, ACCURACY_BONUS);
 				ship.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id, RANGE_BONUS);	
 				ship.getMutableStats().getEnergyWeaponRangeBonus().modifyPercent(id, RANGE_BONUS);	
@@ -121,7 +113,7 @@ public class ms_swacs implements ShipSystemStatsScript {
 	public StatusData getStatusData(int index, State state, float effectLevel) {
 
 		if (index == 0) {
-			return new StatusData("Forwarding tactical feed.", false);
+			return new StatusData("forwarding tactical feed", false);
 		}
 		return null;
 	}

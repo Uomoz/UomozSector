@@ -1,0 +1,14 @@
+{
+	"id":"ms_jammer",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.ms_jammerAI",
+	
+	"statsScript":"data.shipsystems.scripts.ms_jammer",
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop",	
+}

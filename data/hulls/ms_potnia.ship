@@ -1,0 +1,320 @@
+{
+  "bounds": [
+    -59.5,
+    -8,
+    -55.5,
+    -24.5,
+    -40.5,
+    -28,
+    -40.5,
+    -39.5,
+    -33.5,
+    -65,
+    -16,
+    -69,
+    -12.5,
+    -87,
+    8,
+    -97.5,
+    18.5,
+    -50.5,
+    29.5,
+    -4.5,
+    29.5,
+    4.5,
+    18.5,
+    50.5,
+    8,
+    97.5,
+    -12.5,
+    87,
+    -16,
+    69,
+    -33.5,
+    65,
+    -40.5,
+    39.5,
+    -40.5,
+    28,
+    -55.5,
+    24.5,
+    -59.5,
+    8,
+    -36,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0004": "ms_blinkyB",
+    "WS0005": "ms_blinkyB",
+    "WS0006": "ms_blinky",
+    "WS0007": "ms_blinky",
+    "WS0008": "ms_blinkyB",
+    "WS0009": "ms_blinkyB",
+    "WS0010": "ms_blinky",
+    "WS0011": "ms_blinky",
+    "WS0012": "ms_blinky"
+  },
+  "center": [
+    102.5,
+    68
+  ],
+  "collisionRadius": 109,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 60,
+      "location": [
+        -42,
+        -37.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 50,
+      "length": 60,
+      "location": [
+        -42,
+        37.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 40,
+      "location": [
+        -37,
+        42.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 40,
+      "location": [
+        -37,
+        -42.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 50,
+      "length": 60,
+      "location": [
+        -36,
+        59
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 50,
+      "length": 60,
+      "location": [
+        -36,
+        -59
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 40,
+      "location": [
+        -31.5,
+        63
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 40,
+      "location": [
+        -31.5,
+        -63
+      ],
+      "style": "CUSTOM",
+      "styleId": "ShadowyardsFlare",
+      "width": 10
+    }
+  ],
+  "height": 110,
+  "hullId": "ms_potnia",
+  "hullName": "Potnia",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 129,
+  "spriteName": "graphics/shadow_ships/ships/ms_potnia.png",
+  "style": "SHADOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 50,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        14,
+        21.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 135,
+      "arc": 195,
+      "id": "WS0002",
+      "locations": [
+        -2,
+        56.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -75,
+      "arc": 160,
+      "id": "WS0003",
+      "locations": [
+        2,
+        -66.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        40.5,
+        -21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        37.5,
+        12
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -54.5,
+        -22.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        -54.5,
+        22.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -59.5,
+        -8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -59.5,
+        8.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -14,
+        -87.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -180,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -14,
+        87.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        39,
+        41.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 205,
+  "builtInMods":["ms_marcom"],
+}

@@ -2,17 +2,16 @@
 //Credit goes to Psiyon for his firecontrol AI script.
 package data.shipsystems.scripts.ai;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAIScript;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
-import com.fs.starfarer.api.combat.DamagingProjectileAPI;
-import org.lazywizard.lazylib.MathUtils;
-import org.lazywizard.lazylib.combat.*;
-import java.util.Iterator;
-import org.lwjgl.util.vector.Vector2f;
 import com.fs.starfarer.api.util.IntervalUtil;
+import java.util.Iterator;
+import org.lazywizard.lazylib.MathUtils;
+import org.lwjgl.util.vector.Vector2f;
 
 public class ms_swacsai implements ShipSystemAIScript {
     private ShipSystemAPI system;
@@ -55,7 +54,7 @@ public class ms_swacsai implements ShipSystemAIScript {
 		
 		
 		//Iterates through all ships on the map.
-        for (Iterator iter = CombatUtils.getCombatEngine().getShips().iterator();
+        for (Iterator iter = Global.getCombatEngine().getShips().iterator();
                 iter.hasNext();)
         {
 			//Loads the current ship the iterator is on into ship_tmp

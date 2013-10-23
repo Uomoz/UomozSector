@@ -1,0 +1,45 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 5,
+    "hullId": "ms_potniaBis",
+    "hullMods": [
+        "missleracks",
+        "reinforcedhull"
+    ],
+    "variantId": "ms_potniaBis_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "irpulse",
+                "WS0007": "lightac",
+                "WS0008": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "chaingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lrpdlaser",
+                "WS0003": "lrpdlaser",
+                "WS0005": "lightdualmg"
+            }
+        }
+    ]
+}

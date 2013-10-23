@@ -1,0 +1,45 @@
+{
+    "displayName": "Fleet Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "hullId": "ms_potniaBis",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "turretgyros"
+    ],
+    "variantId": "ms_potniaBis_FS",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdlaser",
+                "WS0006": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ioncannon",
+                "WS0003": "taclaser",
+                "WS0005": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "lightdualac",
+                "WS0008": "lightdualac"
+            }
+        }
+    ]
+}

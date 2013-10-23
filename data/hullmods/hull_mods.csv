@@ -1,6 +1,7 @@
 name,id,unlocked,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,sprite
 Blackrock Flux Core (Built-in),brfluxmod,,0,0,0,0,data.hullmods.BlackrockFlux,"Blackrock hulls are built around semi-ejectable powerplants and capacitor arrays, favoring active removal of flux instead of passive dissipation. Doubles the ship's active flux vent rate.",graphics/BR/hullmods/br_fluxcore.png
 Enhanced Ejector System,ms_enjector,,0,0,0,0,data.hullmods.ms_enjector,"Nearly universal on shadowyards fighters, this ejection system provides additional crew protection through strategically placed buffer plates and a somewhat improved auto-ejector, increasing crew survival rates by 66%%.",graphics/hullmods/armored_weapon_emplacements.png
+Marine Command Relay,ms_marcom,,0,0,0,0,data.hullmods.ms_marcom,An advanced C3I system that improves the effectiveness of Marines operating from this ship by 20%%.,graphics/hullmods/advanced_optics.png
 Biosphere,biosphere,,100,100,100,100,data.hullmods.TheNomadsBiosphere,"An onboard closed ecosystem used to grow assorted flora and fauna, and provide necessities for long-term journeys. Reduces externally-sourced supply consumption to near-zero.
 
 Can only be installed on capital ships.",graphics/nom/hullmods/biosphere.png

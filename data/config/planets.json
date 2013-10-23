@@ -18,7 +18,6 @@
 		"cloudRotation":-10, # degrees/second, optional
 		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
 	},
-
 	"star_brstar":{
 		"name":"Yellow Star",
 		"tilt":0, # left-right (>0 tilts to the left)

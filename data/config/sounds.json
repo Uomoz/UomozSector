@@ -52,6 +52,7 @@
         ],
     },
 
+
   "nom_doom_cannon_chargeup":[
 		{"file":"sounds/nom/fx/Starfarer_0.54a/fire_beam_heavy_intro01a.ogg","pitch":2.000,"volume":1.250},
 	],
