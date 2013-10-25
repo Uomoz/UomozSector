@@ -101,7 +101,7 @@ public class Anar { //implements SectorGeneratorPlugin {
                 
                 //---------------------------------------------------
                 
-                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, shadowResearchBase, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
+                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, shadowResearchBase, "pirates", "scout", "Scavengers", "raid", 0, 15, UsSData.Variants_PIR,
                         UsSData.PPSHI_CS, UsSData.PPSHI_C, UsSData.PPSHI_D, UsSData.PPSHI_F, UsSData.PPSHI_W, UsSData.PP_B, "",
                         0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
@@ -109,15 +109,21 @@ public class Anar { //implements SectorGeneratorPlugin {
                 
                 FactionSpawnPoint PIRmediumRaiders = new FactionSpawnPoint(sector, system, 1, 4, shadowResearchBase, "pirates", "scout", "Raiders", "raid", 30, 50, UsSData.Variants_PIR,
                         UsSData.PPSHI_CS, UsSData.PPSHI_C, UsSData.PPSHI_D, UsSData.PPSHI_F, UsSData.PPSHI_W, UsSData.PPSHI_CRR, "",
-                        0f,25f,75f,10f,33f,
+                        0f,25f,50f,50f,0f,
                         5, 10, "combat", "leadership", "technology");
 		system.addScript(PIRmediumRaiders);
                 
                 FactionSpawnPoint PIRdefense = new FactionSpawnPoint(sector, system, 1, 2, shadowResearchBase, "pirates", "scout", "Armada", "defend", 60, 120, UsSData.Variants_PIR,
                         UsSData.PPSHI_CS, UsSData.PP_C, UsSData.PPSHI_D, UsSData.PPSHI_F, UsSData.PPSHI_W, UsSData.PPSHI_CRR, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         10, 15, "combat", "leadership", "technology");
 		system.addScript(PIRdefense);
+                
+                FactionSpawnPoint plunder = new FactionSpawnPoint(sector, system, 1, 1, shadowResearchBase, "pirates", "scout", "Plunder Fleet", "trade", 20, 80, UsSData.Variants_PIR,
+                        UsSData.PPSHI_CS, UsSData.PP_C, UsSData.PPSHI_D, UsSData.PPSHI_F, UsSData.PPSHI_W, UsSData.PPSHI_TR, "",
+                        0f,25f,50f,25f,50f,
+                        5, 10, "combat", "leadership", "technology");
+		system.addScript(plunder);
                 
                 //---------------------------------------------------
                 

@@ -71,7 +71,7 @@ public class Corvus {
                 
                 FactionSpawnPoint HEGsdf = new FactionSpawnPoint(sector, system, 1, 1, hegemonyStation, "hegemony", "patrol", "SDF", "defend", 200, 300, UsSData.Variants_HEG,
                         UsSData.HE_CS, UsSData.HE_C, UsSData.HE_D, UsSData.HE_F, UsSData.HE_W, UsSData.CIV_LG, "onslaught_Hull",
-                        33f,50f,66f,5f,5f,
+                        25f,50f,66f,5f,5f,
                         20, 30, "leadership", "combat", "technology");
 		system.addScript(HEGsdf);
                 
@@ -97,7 +97,7 @@ public class Corvus {
                 
                 //---------------------------------------------------
                 
-                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 8, pirateStation, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
+                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 8, pirateStation, "pirates", "scout", "Scavengers", "raid", 0, 15, UsSData.Variants_PIR,
                         UsSData.PP_CS, UsSData.PP_C, UsSData.PP_D, UsSData.PP_F, UsSData.PP_W, UsSData.PP_B, "",
                         0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
@@ -105,15 +105,21 @@ public class Corvus {
                 
                 FactionSpawnPoint PIRmediumRaiders = new FactionSpawnPoint(sector, system, 1, 3, pirateStation, "pirates", "scout", "Raiders", "raid", 30, 50, UsSData.Variants_PIR,
                         UsSData.PP_CS, UsSData.PP_C, UsSData.PP_D, UsSData.PP_F, UsSData.PP_W, UsSData.PP_CRR, "",
-                        0f,25f,75f,10f,33f,
+                        0f,25f,50f,50f,0f,
                         5, 10, "combat", "leadership", "technology");
 		system.addScript(PIRmediumRaiders);
                 
                 FactionSpawnPoint PIRdefense = new FactionSpawnPoint(sector, system, 1, 3, pirateStation, "pirates", "scout", "Armada", "defend", 60, 120, UsSData.Variants_PIR,
                         UsSData.PP_CS, UsSData.PP_C, UsSData.PP_D, UsSData.PP_F, UsSData.PP_W, UsSData.PP_CRR, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         10, 15, "combat", "leadership", "technology");
 		system.addScript(PIRdefense);
+                                
+                FactionSpawnPoint plunder = new FactionSpawnPoint(sector, system, 1, 1, pirateStation, "pirates", "scout", "Plunder Fleet", "trade", 20, 80, UsSData.Variants_PIR,
+                        UsSData.PP_CS, UsSData.PP_C, UsSData.PP_D, UsSData.PP_F, UsSData.PP_W, UsSData.PP_TR, "",
+                        0f,25f,50f,25f,50f,
+                        5, 10, "combat", "leadership", "technology");
+		system.addScript(plunder);
                 
                 //---------------------------------------------------
                 

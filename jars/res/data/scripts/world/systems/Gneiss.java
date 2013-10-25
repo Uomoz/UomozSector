@@ -120,7 +120,7 @@ public class Gneiss {
                 
                 //---------------------------------------------------
                 
-                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, pirateBase, "pirates", "scout", "Scavengers", "raid", 0, 20, UsSData.Variants_PIR,
+                FactionSpawnPoint PIRsmallRaiders = new FactionSpawnPoint(sector, system, 1, 6, pirateBase, "pirates", "scout", "Scavengers", "raid", 0, 15, UsSData.Variants_PIR,
                         UsSData.PPBR_CS, UsSData.PPBR_C, UsSData.PPBR_D, UsSData.PPBR_F, UsSData.PPBR_W, UsSData.PP_B, "",
                         0f,0f,50f,25f,33f,
                         1, 5, "combat", "leadership", "technology");
@@ -128,15 +128,22 @@ public class Gneiss {
                 
                 FactionSpawnPoint PIRmediumRaiders = new FactionSpawnPoint(sector, system, 1, 4, pirateBase, "pirates", "scout", "Raiders", "raid", 30, 50, UsSData.Variants_PIR,
                         UsSData.PPBR_CS, UsSData.PPBR_C, UsSData.PPBR_D, UsSData.PPBR_F, UsSData.PPBR_W, UsSData.PPBR_CRR, "",
-                        0f,25f,75f,10f,33f,
+                        0f,25f,50f,50f,0f,
                         5, 10, "combat", "leadership", "technology");
 		system.addScript(PIRmediumRaiders);
                 
                 FactionSpawnPoint PIRdefense = new FactionSpawnPoint(sector, system, 1, 2, pirateBase, "pirates", "scout", "Armada", "defend", 60, 120, UsSData.Variants_PIR,
                         UsSData.PPBR_CS, UsSData.PPBR_C, UsSData.PPBR_D, UsSData.PPBR_F, UsSData.PPBR_W, UsSData.PPBR_CRR, "",
-                        25f,50f,75f,33f,0f,
+                        25f,50f,50f,33f,0f,
                         10, 15, "combat", "leadership", "technology");
 		system.addScript(PIRdefense);
+                
+                                FactionSpawnPoint plunder = new FactionSpawnPoint(sector, system, 1, 1, pirateBase, "pirates", "scout", "Plunder Fleet", "trade", 20, 80, UsSData.Variants_PIR,
+                        UsSData.PPBR_CS, UsSData.PPBR_C, UsSData.PPBR_D, UsSData.PPBR_F, UsSData.PPBR_W, UsSData.PPBR_TR, "",
+                        0f,25f,50f,25f,50f,
+                        5, 10, "combat", "leadership", "technology");
+		system.addScript(plunder);
+                
                 
                 //--------------------------------------------------- 
                 
