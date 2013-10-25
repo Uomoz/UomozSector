@@ -1,0 +1,60 @@
+{
+    "displayName": "Pillager",
+    "fluxCapacitors": 0,
+    "fluxVents": 36,
+    "hullId": "pp_renegade",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "eccm",
+        "magazines",
+        "insulatedengine"
+    ],
+    "variantId": "pp_renegade_pillager",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "salamanderpod",
+                "WS0002": "salamanderpod",
+                "WS0018": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "hellbore"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "arbalest",
+                "WS0012": "arbalest",
+                "WS0013": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0014": "dualflak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightag",
+                "WS0006": "lightag",
+                "WS0007": "lightag",
+                "WS0008": "lightag",
+                "WS0009": "lightdualac",
+                "WS0010": "lightac",
+                "WS0011": "lightac",
+                "WS0015": "lightdualac",
+                "WS0016": "lightac",
+                "WS0017": "lightdualac"
+            }
+        }
+    ]
+}

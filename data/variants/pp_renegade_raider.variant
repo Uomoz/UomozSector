@@ -1,0 +1,62 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "hullId": "pp_renegade",
+    "hullMods": [
+        "missleracks",
+        "targetingunit",
+        "armoredweapons",
+        "turretgyros",
+        "magazines"
+    ],
+    "variantId": "pp_renegade_raider",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "hurricane"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "pilum",
+                "WS0018": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mark9",
+                "WS0004": "shredder",
+                "WS0012": "arbalest",
+                "WS0014": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightdualac",
+                "WS0006": "lightdualac",
+                "WS0007": "lightdualac",
+                "WS0008": "lightdualac",
+                "WS0016": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lightag",
+                "WS0010": "lightdualmg",
+                "WS0011": "lightdualmg",
+                "WS0013": "dualflak",
+                "WS0015": "lightdualmg",
+                "WS0017": "lightag"
+            }
+        }
+    ]
+}

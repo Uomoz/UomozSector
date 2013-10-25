@@ -1,0 +1,59 @@
+{
+    "displayName": "Flagship",
+    "fluxCapacitors": 14,
+    "fluxVents": 34,
+    "hullId": "pp_renegade",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "variantId": "pp_renegade_flagship",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pilum",
+                "WS0002": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0018": "reaper"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mark9",
+                "WS0005": "lightneedler",
+                "WS0006": "lightneedler",
+                "WS0007": "lightneedler",
+                "WS0008": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heavymauler",
+                "WS0014": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lightac",
+                "WS0010": "lightac",
+                "WS0011": "lightac",
+                "WS0012": "flak",
+                "WS0013": "flak",
+                "WS0015": "lightac",
+                "WS0016": "lightdualmg",
+                "WS0017": "lightac"
+            }
+        }
+    ]
+}

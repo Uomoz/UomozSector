@@ -1,0 +1,28 @@
+{
+	"id":"inferniumdrive",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.TorchDriveStats",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":3.5,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":3,
+	
+	"flameoutOnImpactChance":0.7,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"torchdrive_start",
+	"loopSound":"torchdrive_loop",
+	"deactivateSound":"torchdrive_end",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"averageSpeedIncrease":200,
+	}
+}

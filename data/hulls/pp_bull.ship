@@ -1,0 +1,236 @@
+{
+  "bounds": [
+    90.5,
+    -29.5,
+    82,
+    -6.5,
+    66.5,
+    -3,
+    65.5,
+    19,
+    49.5,
+    36,
+    7,
+    36.5,
+    -31.5,
+    58.5,
+    -66,
+    57.5,
+    -72.5,
+    49,
+    -68.5,
+    36,
+    -76,
+    -1,
+    -65,
+    -27,
+    -72,
+    -45.5,
+    -61.5,
+    -56,
+    -29,
+    -54,
+    4,
+    -32,
+    35,
+    -30.5,
+    35.5,
+    -40,
+    87,
+    -39
+  ],
+  "center": [
+    74.5,
+    112.5
+  ],
+  "collisionRadius": 133.271347,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -72.5,
+        25
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -72.5,
+        -25
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -73.5,
+        16
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -73.5,
+        -16
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -75.5,
+        6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -75.5,
+        -6.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 128,
+      "length": 58,
+      "location": [
+        -75,
+        46.5
+      ],
+      "style": "LOW_TECH",
+      "width": 17
+    },
+    {
+      "angle": -180,
+      "contrailSize": 128,
+      "length": 58,
+      "location": [
+        -75,
+        -45
+      ],
+      "style": "LOW_TECH",
+      "width": 17
+    }
+  ],
+  "height": 225,
+  "hullId": "pp_bull",
+  "hullName": "Bull",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 130.208481,
+  "spriteName": "graphics/PP/ships/pp_bull.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 6,
+      "id": "WS0001",
+      "locations": [
+        45,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -4,
+        38.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        57,
+        36
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -70,
+      "arc": 200,
+      "id": "WS0004",
+      "locations": [
+        -18,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        26.5,
+        25.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 220,
+      "id": "WS0006",
+      "locations": [
+        -39.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        27.5,
+        -26.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 150
+}

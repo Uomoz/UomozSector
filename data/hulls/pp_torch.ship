@@ -1,0 +1,249 @@
+{
+  "bounds": [
+    -57,
+    27,
+    -45.5,
+    27,
+    -40.5,
+    33.5,
+    -19,
+    24.5,
+    22.5,
+    23.5,
+    57,
+    11.5,
+    57,
+    -11.5,
+    22.5,
+    -23.5,
+    -19,
+    -24.5,
+    -40.5,
+    -33.5,
+    -45.5,
+    -27,
+    -57,
+    -27,
+    -52.5,
+    -0
+  ],
+  "center": [
+    50,
+    75
+  ],
+  "collisionRadius": 79.690025,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 79,
+      "location": [
+        -53.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 39,
+      "location": [
+        -70,
+        8
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 39,
+      "location": [
+        -70,
+        -8
+      ],
+      "style": "LOW_TECH",
+      "width": 9
+    },
+    {
+      "angle": 173.157227,
+      "contrailSize": 8,
+      "length": 29.5,
+      "location": [
+        -59,
+        22
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": -173.157227,
+      "contrailSize": 8,
+      "length": 29.5,
+      "location": [
+        -59,
+        -22
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 163.300751,
+      "contrailSize": 128,
+      "length": 22.995027,
+      "location": [
+        -42.5,
+        30
+      ],
+      "style": "LOW_TECH",
+      "width": 5.56011
+    },
+    {
+      "angle": -163.300751,
+      "contrailSize": 128,
+      "length": 22.995027,
+      "location": [
+        -42.5,
+        -30
+      ],
+      "style": "LOW_TECH",
+      "width": 5.56011
+    }
+  ],
+  "height": 150,
+  "hullId": "pp_torch",
+  "hullName": "Torch",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 77.810669,
+  "spriteName": "graphics/PP/ships/pp_torch.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 260,
+      "id": "WS0001",
+      "locations": [
+        34,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 90,
+      "arc": 90,
+      "id": "WS0002",
+      "locations": [
+        21.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 90,
+      "id": "WS0003",
+      "locations": [
+        21.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 90,
+      "id": "WS0004",
+      "locations": [
+        7,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 90,
+      "id": "WS0005",
+      "locations": [
+        7,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 90,
+      "id": "WS0006",
+      "locations": [
+        -8.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 90,
+      "id": "WS0007",
+      "locations": [
+        -8.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 90,
+      "id": "WS0008",
+      "locations": [
+        -23.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 90,
+      "id": "WS0009",
+      "locations": [
+        -23.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 214.20546,
+      "id": "WS0010",
+      "locations": [
+        -27.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 100
+}

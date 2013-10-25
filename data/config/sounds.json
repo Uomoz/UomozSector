@@ -53,6 +53,18 @@
     },
 
 
+	"torchdrive_start":[
+		{"file":"sounds/PP/torchdrivestart.ogg","pitch":1,"volume":0.9},
+	],
+	
+	"torchdrive_end":[
+		{"file":"sounds/PP/torchdriveend.ogg","pitch":1,"volume":1},
+	],	
+	
+	"torchdrive_loop":[
+		{"file":"sounds/PP/torchdriveloop.ogg","pitch":1,"volume":1},
+	],
+
   "nom_doom_cannon_chargeup":[
 		{"file":"sounds/nom/fx/Starfarer_0.54a/fire_beam_heavy_intro01a.ogg","pitch":2.000,"volume":1.250},
 	],

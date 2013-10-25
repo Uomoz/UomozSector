@@ -1,0 +1,34 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "pp_torch",
+    "hullMods": ["targetingunit"],
+    "variantId": "pp_torch_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "arbalest"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightag",
+                "WS0003": "lightag",
+                "WS0004": "lightag",
+                "WS0005": "lightag",
+                "WS0006": "lightag",
+                "WS0007": "lightag",
+                "WS0008": "lightag",
+                "WS0009": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "lightdualmg"}
+        }
+    ]
+}

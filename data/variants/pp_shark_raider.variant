@@ -1,0 +1,54 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 9,
+    "fluxVents": 16,
+    "hullId": "pp_shark",
+    "hullMods": [
+        "targetingunit",
+        "insulatedengine",
+        "magazines"
+    ],
+    "variantId": "pp_shark_raider",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS0001": "salamanderpod"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "annihilator",
+                "WS0009": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "shredder",
+                "WS0007": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightmortar",
+                "WS0003": "lightmortar",
+                "WS0010": "lightmortar",
+                "WS0011": "lightmortar",
+                "WS0012": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "vulcan",
+                "WS0005": "vulcan"
+            }
+        }
+    ]
+}
