@@ -258,216 +258,183 @@ public class UsSData {
     static 
     {
     Map F = new HashMap();
-    F.put("hound_Hull", 1f);
-    F.put("lasher_Hull", 1f);
+    F.put("hound_Hull", 10f);
+    F.put("lasher_Hull", 10f);
     HE_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("enforcer_Hull", 2f);
-    D.put("condor_Hull", 1f);
-    D.put("mule_Hull", 0.5f);
+    D.put("enforcer_Hull", 10f);
+    D.put("condor_Hull", 5f);
+    D.put("mule_Hull", 2.5f);
     HE_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("dominator_Hull", 1f);
+    C.put("dominator_Hull", 10f);
     HE_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("onslaught_Hull", 1f);
+    CS.put("onslaught_Hull", 10f);
     HE_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("broadsword_wing", 2f);
-    W.put("piranha_wing", 1f);
-    W.put("talon_wing", 1f);
-    W.put("warthog_wing", 2f);
+    W.put("broadsword_wing", 5f);
+    W.put("piranha_wing", 2.5f);
+    W.put("talon_wing", 2.5f);
+    W.put("warthog_wing", 5f);
     HE_W = Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("condor_Hull", 1f);
+    CRR.put("condor_Hull", 10f);
     HE_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("mule_Hull", 1f);
-    TR.put("phaeton_Hull", 1f);
-    TR.put("tarsus_Hull", 2f);
-    TR.put("atlas_Hull", 0.33f);
-    TR.put("dram_Hull", 2f);
-    TR.put("valkyrie_Hull", 1f);
+    TR.put("mule_Hull", 7.5f);
+    TR.put("phaeton_Hull", 5f);
+    TR.put("tarsus_Hull", 10f);
+    TR.put("atlas_Hull", 2.5f);
+    TR.put("dram_Hull", 10f);
+    TR.put("valkyrie_Hull", 5f);
     HE_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("hound_Hull", 1f);
-    F.put("lasher_Hull", 1f);
+    F.put("hound_Hull", 10f);
+    F.put("lasher_Hull", 10f);
+    F.put("pp_torch_Hull", 7.5f);
     PP_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("enforcer_Hull", 1f);
-    D.put("condor_Hull", 1f);
-    D.put("mule_Hull", 2f);
-    D.put("buffalo2_Hull", 3f);
+    D.put("enforcer_Hull", 5f);
+    D.put("condor_Hull", 5f);
+    D.put("mule_Hull", 7.5f);
+    D.put("buffalo2_Hull", 10f);
+    D.put("pp_bull_Hull", 10f);
     PP_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("dominator_Hull", 1f);
-    C.put("venture_Hull", 3f);
+    C.put("dominator_Hull", 5f);
+    C.put("venture_Hull", 7.5f);
+    C.put("pp_shark_Hull", 10f);
     PP_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("conquest_Hull", 1f);
+    CS.put("pp_renegade_Hull", 10f);
     PP_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("piranha_wing", 1f);
-    W.put("talon_wing", 1.5f);
+    W.put("piranha_wing", 5f);
+    W.put("talon_wing", 10f);
     PP_W = Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("condor_Hull", 2f);
-    CRR.put("venture_Hull", 1f);
+    CRR.put("condor_Hull", 10f);
+    CRR.put("venture_Hull", 5f);
     PP_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("mule_Hull", 2f);
-    TR.put("venture_Hull", 1f);
-    TR.put("tarsus_Hull", 1f);
-    TR.put("buffalo2_Hull", 2f);
+    TR.put("tarsus_Hull", 10f);
     PP_TR = Collections.unmodifiableMap(TR);
     
     Map B = new HashMap();
-    B.put("buffalo2_Hull", 1f);
+    B.put("buffalo2_Hull", 10f);
     PP_B = Collections.unmodifiableMap(B);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("hound_Hull", 1f);
-    F.put("lasher_Hull", 1f);
-    F.put("ms_seski_Hull", 0.25f);
-    F.put("ms_enlil_Hull", 0.375f);
-    F.put("ms_shamash_Hull", 0.125f);
-    F.put("ms_inanna_Hull", 0.25f);
+    F.putAll(PP_F);
+    F.put("ms_seski_Hull", 3.5f);
+    F.put("ms_enlil_Hull", 6.5f);
     PPSHI_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("enforcer_Hull", 1f);
-    D.put("condor_Hull", 1f);
-    D.put("mule_Hull", 2f);
-    D.put("buffalo2_Hull", 3f);
-    D.put("ms_morningstar_Hull", 1.5f);
-    D.put("ms_sargasso_Hull", 0.5f);
-    D.put("ms_potniaBis_Hull", 3f);
+    D.putAll(PP_D);
+    D.put("ms_sargasso_Hull", 2.5f);
+    D.put("ms_potniaBis_Hull", 10f);
     PPSHI_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("dominator_Hull", 1f);
-    C.put("venture_Hull", 3f);
+    C.putAll(PP_C);
     PPSHI_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("conquest_Hull", 1f);
+    CS.putAll(PP_CS);
     PPSHI_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("piranha_wing", 1f);
-    W.put("talon_wing", 1.5f);
-    W.put("ms_skinwalker_wing", 0.25f);
-    W.put("ms_neriad_wing", 0.5f);
-    W.put("ms_raksasha_wing", 0.25f);
+    W.putAll(PP_W);
     PPSHI_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("condor_Hull", 2f);
-    CRR.put("venture_Hull", 1f);
-    CRR.put("ms_sargasso_Hull", 1f);
+    CRR.putAll(PP_CRR);
+    CRR.put("ms_sargasso_Hull", 7.5f);
     PPSHI_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("mule_Hull", 2f);
-    TR.put("venture_Hull", 1f);
-    TR.put("tarsus_Hull", 1f);
-    TR.put("buffalo2_Hull", 2f);
-    TR.put("ms_lambent_Hull", 1f);
-    TR.put("ms_solidarity_Hull", 1f);
+    TR.putAll(PP_TR);
+    TR.put("ms_potniaBis_Hull", 10f);
+    TR.put("ms_solidarity_Hull", 5f);
     PPSHI_TR = Collections.unmodifiableMap(TR);
     } 
     
     static 
     {
     Map F = new HashMap();
-    F.put("hound_Hull", 1f);
-    F.put("lasher_Hull", 1f);
-    F.put("brdy_scarab_Hull", 0.25f);
-    F.put("brdy_mantis_Hull", 0.125f);
-    F.put("brdy_locust_Hull", 0.25f);
-    F.put("brdy_robberfly_Hull", 0.25f);
+    F.putAll(PP_F);
+    F.put("brdy_robberfly_Hull", 10f);
     PPBR_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("enforcer_Hull", 1f);
-    D.put("condor_Hull", 1f);
-    D.put("mule_Hull", 2f);
-    D.put("buffalo2_Hull", 3f);
-    D.put("brdy_cetonia_Hull", 0.25f);
-    D.put("brdy_desdinova_Hull", 0.75f);
-    D.put("brdy_gonodactylus_Hull", 0.5f);
-    D.put("brdy_typheus_Hull", 0.5f);
+    D.putAll(PP_D);
+    D.put("brdy_gonodactylus_Hull", 7.5f);
+    D.put("brdy_typheus_Hull", 2.5f);
     PPBR_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("dominator_Hull", 1f);
-    C.put("venture_Hull", 3f);
+    C.putAll(PP_C);
     PPBR_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("conquest_Hull", 1f);
+    CS.putAll(PP_CS);
     PPBR_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("piranha_wing", 1f);
-    W.put("talon_wing", 1.5f);
-    W.put("brdy_krait_wing", 0.375f);
-    W.put("brdy_squilla_wing", 0.375f);
-    W.put("brdy_serket_wing", 0.125f);
+    W.putAll(PP_W);
+    W.put("brdy_krait_wing", 10f);
     PPBR_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("condor_Hull", 2f);
-    CRR.put("venture_Hull", 1f);
-    CRR.put("brdy_typheus_Hull", 1f);
+    CRR.putAll(PP_CRR);
+    CRR.put("brdy_typheus_Hull", 7.5f);
     PPBR_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("mule_Hull", 2f);
-    TR.put("venture_Hull", 1f);
-    TR.put("tarsus_Hull", 1f);
-    TR.put("buffalo2_Hull", 2f);
-    TR.put("brdy_cetonia_Hull", 1f);
+    TR.putAll(PP_TR);
+    TR.put("brdy_cetonia_Hull", 10f);
     PPBR_TR = Collections.unmodifiableMap(TR);
     } 
     
     static 
     {
     Map F = new HashMap();
-    F.put("shade_Hull", 2f);
-    F.put("afflictor_Hull", 2f);
-    F.put("omen_Hull", 3f);
-    F.put("tempest_Hull", 3f);
+    F.put("shade_Hull", 2.5f);
+    F.put("afflictor_Hull", 2.5f);
+    F.put("omen_Hull", 5f);
+    F.put("tempest_Hull", 5f);
     F.put("hyperion_Hull", 1f);
-    F.put("wolf_Hull", 2f);
+    F.put("wolf_Hull", 2.5f);
     TT_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("medusa_Hull", 2f);
+    D.put("medusa_Hull", 2.5f);
     D.put("sunder_Hull", 1f);
     TT_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("aurora_Hull", 2f);
+    C.put("aurora_Hull", 2.5f);
     C.put("doom_Hull", 1f);
     TT_C = Collections.unmodifiableMap(C);
     
@@ -478,161 +445,161 @@ public class UsSData {
     TT_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("longbow_wing", 0.5f);
-    W.put("trident_wing", 0.33f);
-    W.put("dagger_wing", 0.33f);
-    W.put("wasp_wing", 1f);
-    W.put("xyphos_wing", 0.5f);
+    W.put("longbow_wing", 2.5f);
+    W.put("trident_wing", 1.5f);
+    W.put("dagger_wing", 1.5f);
+    W.put("wasp_wing", 5f);
+    W.put("xyphos_wing", 2.5f);
     TT_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("astral_Hull", 1f);
+    CRR.put("astral_Hull", 2.5f);
     TT_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("buffalo_Hull", 1f);
+    TR.put("buffalo_Hull", 10f);
     TT_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("brawler_Hull", 2f);
-    F.put("vigilance_Hull", 2f);
-    F.put("lasher_Hull", 1f);
-    F.put("wolf_Hull", 1f);
+    F.put("brawler_Hull", 5f);
+    F.put("vigilance_Hull", 5f);
+    F.put("lasher_Hull", 2.5f);
+    F.put("wolf_Hull", 2.5f);
     SIN_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("medusa_Hull", 1f);
-    D.put("sunder_Hull", 1f);
-    D.put("hammerhead_Hull", 2f);
-    D.put("gemini_Hull", 1.5f);
+    D.put("medusa_Hull", 2.5f);
+    D.put("sunder_Hull", 2.5f);
+    D.put("hammerhead_Hull", 5f);
+    D.put("gemini_Hull", 3f);
     SIN_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("eagle_Hull", 2f);
-    C.put("falcon_Hull", 2f);
-    C.put("apogee_Hull", 1f);
+    C.put("eagle_Hull", 5f);
+    C.put("falcon_Hull", 5f);
+    C.put("apogee_Hull", 2.5f);
     SIN_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("conquest_Hull", 1f);
+    CS.put("conquest_Hull", 5f);
     SIN_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("gladius_wing", 1f);
-    W.put("warthog_wing", 1f);
-    W.put("thunder_wing", 1f);
+    W.put("gladius_wing", 5f);
+    W.put("warthog_wing", 5f);
+    W.put("thunder_wing", 5f);
     SIN_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("gemini_Hull", 1f);
+    CRR.put("gemini_Hull", 5f);
     SIN_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("valkyrie_Hull", 1f);
-    TR.put("dram_Hull", 2f);
+    TR.put("valkyrie_Hull", 5f);
+    TR.put("dram_Hull", 10f);
     SIN_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("brawler_Hull", 1f);
-    F.put("vigilance_Hull", 1f);
-    F.put("lasher_Hull", 1f);
-    F.put("wolf_Hull", 1f);
-    F.put("hound_Hull", 1f);
-    F.put("shade_Hull", 0.33f);
-    F.put("afflictor_Hull", 0.33f);
-    F.put("syndicate_asp_diamondback_Hull", 1f);
+    F.put("brawler_Hull", 5f);
+    F.put("vigilance_Hull", 5f);
+    F.put("lasher_Hull", 5f);
+    F.put("wolf_Hull", 5f);
+    F.put("hound_Hull", 5f);
+    F.put("shade_Hull", 1f);
+    F.put("afflictor_Hull", 1f);
+    F.put("syndicate_asp_diamondback_Hull", 5f);
     IND_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("medusa_Hull", 1f);
-    D.put("sunder_Hull", 1f);
-    D.put("hammerhead_Hull", 2f);
-    D.put("gemini_Hull", 2f);
-    D.put("mule_Hull", 2f);
-    D.put("syndicate_asp_copperhead_Hull", 2f);
+    D.put("medusa_Hull", 2.5f);
+    D.put("sunder_Hull", 2.5f);
+    D.put("hammerhead_Hull", 5f);
+    D.put("gemini_Hull", 5f);
+    D.put("mule_Hull", 5f);
+    D.put("syndicate_asp_copperhead_Hull", 5f);
     IND_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("eagle_Hull", 2f);
-    C.put("falcon_Hull", 2f);
-    C.put("apogee_Hull", 1f);
-    C.put("doom_Hull", 1f);
-    C.put("aurora_Hull", 1f);
-    C.put("dominator_Hull", 1f);
-    C.put("venture_Hull", 1f);
-    C.put("syndicate_asp_gigantophis_Hull", 2f);
+    C.put("eagle_Hull", 5f);
+    C.put("falcon_Hull", 5f);
+    C.put("apogee_Hull", 2.5f);
+    C.put("doom_Hull", 2.5f);
+    C.put("aurora_Hull", 2.5f);
+    C.put("dominator_Hull", 2.5f);
+    C.put("venture_Hull", 2.5f);
+    C.put("syndicate_asp_gigantophis_Hull", 5f);
     IND_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("conquest_Hull", 1f);
-    CS.put("odyssey_Hull", 1f);
+    CS.put("conquest_Hull", 5f);
+    CS.put("odyssey_Hull", 5f);
     IND_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("gladius_wing", 2f);
-    W.put("warthog_wing", 2f);
-    W.put("thunder_wing", 2f);
-    W.put("xyphos_wing", 0.5f);
-    W.put("talon_wing", 1f);
-    W.put("wasp_wing", 0.5f);
-    W.put("syndicate_asp_bite_wing", 1f);
-    W.put("syndicate_asp_venom_wing", 1f);
-    W.put("syndicate_asp_constrictor_wing", 1f);
+    W.put("gladius_wing", 5f);
+    W.put("warthog_wing", 5f);
+    W.put("thunder_wing", 5f);
+    W.put("xyphos_wing", 1f);
+    W.put("talon_wing", 2.5f);
+    W.put("wasp_wing", 1f);
+    W.put("syndicate_asp_bite_wing", 2.5f);
+    W.put("syndicate_asp_venom_wing", 2.5f);
+    W.put("syndicate_asp_constrictor_wing", 2.5f);
     IND_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("gemini_Hull", 2f);
-    CRR.put("condor_Hull", 1f);
-    CRR.put("venture_Hull", 1f);
+    CRR.put("gemini_Hull", 5f);
+    CRR.put("condor_Hull", 2.5f);
+    CRR.put("venture_Hull", 2.5f);
     IND_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("valkyrie_Hull", 1f);
-    TR.put("dram_Hull", 1f);
-    TR.put("buffalo_Hull", 0.5f);
-    TR.put("mule_Hull", 1f);
-    TR.put("venture_Hull", 1f);
-    TR.put("tarsus_Hull", 1f);
-    TR.put("phaeton_Hull", 0.5f);
-    TR.put("shuttle_Hull", 1f);
-    TR.put("gemini_Hull", 1f);
-    TR.put("syndicate_asp_gigantophis_Hull", 1f);
-    TR.put("syndicate_asp_copperhead_Hull", 1f);
-    TR.put("syndicate_asp_diamondback_Hull", 1f);
+    TR.put("valkyrie_Hull", 5f);
+    TR.put("dram_Hull", 5f);
+    TR.put("buffalo_Hull", 1f);
+    TR.put("mule_Hull", 2.5f);
+    TR.put("venture_Hull", 2.5f);
+    TR.put("tarsus_Hull", 2.5f);
+    TR.put("phaeton_Hull", 1f);
+    TR.put("shuttle_Hull", 2.5f);
+    TR.put("gemini_Hull", 2.5f);
+    TR.put("syndicate_asp_gigantophis_Hull", 2.5f);
+    TR.put("syndicate_asp_copperhead_Hull", 2.5f);
+    TR.put("syndicate_asp_diamondback_Hull", 2.5f);
     IND_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map LG = new HashMap();
-    LG.put("crig_Standard", 1f);
-    LG.put("ox_Standard", 2f);
+    LG.put("crig_Standard", 5f);
+    LG.put("ox_Standard", 10f);
     CIV_LG = Collections.unmodifiableMap(LG);
     
     Map W = new HashMap();
-    W.put("mining_drone_wing", 1f);
+    W.put("mining_drone_wing", 10f);
     CIV_W= Collections.unmodifiableMap(W);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("pack_wirefox_Hull", 1f);
-    F.put("pack_bedlington_Hull", 0.75f);
+    F.put("pack_wirefox_Hull", 5f);
+    F.put("pack_bedlington_Hull", 3.5f);
     PCK_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("pack_ridgeback_Hull", 0.5f);
-    D.put("pack_ridgeback_x_Hull", 0.75f);
-    D.put("pack_pitbull_Hull", 0.5f);
-    D.put("pack_BRT_Hull", 1f);
-    D.put("pack_komondor_Hull", 1f);
+    D.put("pack_ridgeback_Hull", 2.5f);
+    D.put("pack_ridgeback_x_Hull", 3.5f);
+    D.put("pack_pitbull_Hull", 2.5f);
+    D.put("pack_BRT_Hull", 5f);
+    D.put("pack_komondor_Hull", 5f);
     PCK_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
@@ -645,113 +612,112 @@ public class UsSData {
     PCK_W= Collections.unmodifiableMap(W);
     
     Map TR = new HashMap();
-    TR.put("pack_samoyed_Hull", 1f);
-    TR.put("pack_samoyed_decoupled_Hull", 0.5f);
+    TR.put("pack_samoyed_Hull", 5f);
+    TR.put("pack_samoyed_decoupled_Hull", 2.5f);
     PCK_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("junk_pirates_clam_Hull", 1f);
-    F.put("junk_pirates_hammer_Hull", 1f);
-    F.put("junk_pirates_sickle_Hull", 1f);
+    F.put("junk_pirates_clam_Hull", 5f);
+    F.put("junk_pirates_hammer_Hull", 5f);
+    F.put("junk_pirates_sickle_Hull", 5f);
     JP_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("junk_pirates_octopus_Hull", 1f);
-    D.put("junk_pirates_boxer_Hull", 1f);
-    D.put("junk_pirates_boxenstein_Hull", 1f);
-    D.put("junk_pirates_scythe_Hull", 1f);
-    D.put("junk_pirates_langoustine_Hull", 1f);
-    D.put("junk_pirates_turbot_Hull", 0.5f);
+    D.put("junk_pirates_octopus_Hull", 5f);
+    D.put("junk_pirates_boxer_Hull", 5f);
+    D.put("junk_pirates_boxenstein_Hull", 5f);
+    D.put("junk_pirates_scythe_Hull", 5f);
+    D.put("junk_pirates_langoustine_Hull", 5f);
+    D.put("junk_pirates_turbot_Hull", 2.5f);
     JP_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("junk_pirates_dugong_Hull", 1f);
-    C.put("junk_pirates_goat_Hull", 1f);
-    C.put("junk_pirates_orca_Hull", 1f);
+    C.put("junk_pirates_dugong_Hull", 5f);
+    C.put("junk_pirates_goat_Hull", 5f);
+    C.put("junk_pirates_orca_Hull", 5f);
     JP_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("junk_pirates_kraken_Hull", 1f);
+    CS.put("junk_pirates_kraken_Hull", 5f);
     JP_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("junk_pirates_cleat_wing", 1f);
-    W.put("junk_pirates_spike_wing", 1f);
-    W.put("junk_pirates_shard_wing", 1f);
-    W.put("junk_pirates_splinter_wing", 1f);
+    W.put("junk_pirates_cleat_wing", 5f);
+    W.put("junk_pirates_spike_wing", 5f);
+    W.put("junk_pirates_shard_wing", 5f);
+    W.put("junk_pirates_splinter_wing", 5f);
     JP_W= Collections.unmodifiableMap(W);
     
     Map U = new HashMap();
-    U.put("junk_pirates_the_reaper_Hull", 1f);
+    U.put("junk_pirates_the_reaper_Hull", 5f);
     JP_U = Collections.unmodifiableMap(U);
     
     Map TR = new HashMap();
-    TR.put("junk_pirates_stoatB_Hull", 1f);
-    TR.put("junk_pirates_stoatA_Hull", 1f);
+    TR.put("junk_pirates_stoatB_Hull", 5f);
+    TR.put("junk_pirates_stoatA_Hull", 5f);
     JP_TR = Collections.unmodifiableMap(TR);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("ms_seski_Hull", 1f);
-    F.put("ms_enlil_Hull", 2f);
-    F.put("ms_shamash_Hull", 0.5f);
-    F.put("ms_inanna_Hull", 1f);
+    F.put("ms_seski_Hull", 2.5f);
+    F.put("ms_enlil_Hull", 5f);
+    F.put("ms_shamash_Hull", 1f);
+    F.put("ms_inanna_Hull", 2.5f);
     SHI_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("ms_morningstar_Hull", 2f);
-    D.put("ms_sargasso_Hull", 1f);
+    D.put("ms_morningstar_Hull", 5f);
+    D.put("ms_sargasso_Hull", 2.5f);
     SHI_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("ms_charybdis_Hull", 2f);
-    C.put("ms_elysium_Hull", 1f);
-    C.put("ms_tartarus_Hull", 1f);
-    C.put("ms_scylla_Hull", 1f);
+    C.put("ms_charybdis_Hull", 5f);
+    C.put("ms_elysium_Hull", 2.5f);
+    C.put("ms_tartarus_Hull", 2.5f);
+    C.put("ms_scylla_Hull", 2.5f);
     SHI_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("ms_mimir_Hull", 1f);
+    CS.put("ms_mimir_Hull", 5f);
     SHI_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("ms_skinwalker_wing", 1f);
-    W.put("ms_neriad_wing", 2f);
-    W.put("ms_raksasha_wing", 1f);
+    W.put("ms_skinwalker_wing", 2.5f);
+    W.put("ms_neriad_wing", 5f);
+    W.put("ms_raksasha_wing", 2.5f);
     SHI_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("ms_sargasso_Hull", 1f);
+    CRR.put("ms_sargasso_Hull", 5f);
     SHI_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("ms_lambent_Hull", 1f);
-    TR.put("ms_solidarity_Hull", 1f);
-    TR.put("ms_potnia_Hull", 1f);
+    TR.put("ms_lambent_Hull", 5f);
+    TR.put("ms_solidarity_Hull", 5f);
+    TR.put("ms_potnia_Hull", 5f);
     SHI_TR = Collections.unmodifiableMap(TR);
     
     Map U = new HashMap();
-    U.put("ms_mimirBaus_Hull", 1f);
+    U.put("ms_mimirBaus_Hull", 5f);
     SHI_U = Collections.unmodifiableMap(U);
     }
     
     static 
     {
     Map F = new HashMap();
-    F.put("brdy_scarab_Hull", 2f);
+    F.put("brdy_scarab_Hull", 2.5f);
     F.put("brdy_mantis_Hull", 1f);
-    F.put("brdy_locust_Hull", 2f);
-    F.put("brdy_robberfly_Hull", 2f);
+    F.put("brdy_locust_Hull", 2.5f);
+    F.put("brdy_robberfly_Hull", 2.5f);
     BR_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("brdy_cetonia_Hull", 0.5f);
-    D.put("brdy_desdinova_Hull", 2f);
+    D.put("brdy_desdinova_Hull", 1.5f);
     D.put("brdy_gonodactylus_Hull", 1f);
     D.put("brdy_typheus_Hull", 1f);
     BR_D = Collections.unmodifiableMap(D);
@@ -759,27 +725,27 @@ public class UsSData {
     Map C = new HashMap();
     C.put("brdy_stenos_Hull", 1f);
     C.put("brdy_revenant_Hull", 1f);
-    C.put("brdy_nevermore_Hull", 2f);
+    C.put("brdy_nevermore_Hull", 1.5f);
     BR_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("brdy_kurmaraja_Hull", 1f);
+    CS.put("brdy_kurmaraja_Hull", 2.5f);
     CS.put("brdy_karkinos_Hull", 1f);
     BR_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("brdy_krait_wing", 2f);
-    W.put("brdy_squilla_wing", 2f);
+    W.put("brdy_krait_wing", 2.5f);
+    W.put("brdy_squilla_wing", 2.5f);
     W.put("brdy_serket_wing", 1f);
     BR_W= Collections.unmodifiableMap(W);
     
     Map CRR = new HashMap();
-    CRR.put("brdy_typheus_Hull", 2f);
+    CRR.put("brdy_typheus_Hull", 2.5f);
     CRR.put("brdy_revenant_Hull", 1f);
     BR_CRR = Collections.unmodifiableMap(CRR);
     
     Map TR = new HashMap();
-    TR.put("brdy_cetonia_Hull", 1f);
+    TR.put("brdy_cetonia_Hull", 2.5f);
     BR_TR = Collections.unmodifiableMap(TR);
     
     Map U = new HashMap();
@@ -791,32 +757,32 @@ public class UsSData {
     static 
     {
     Map F = new HashMap();
-    F.put("nom_wurm_assault", 2f);
-    F.put("nom_yellowjacket_sniper", 1f);
-    F.put("nom_death_bloom_strike", 0.5f);
+    F.put("nom_wurm_assault", 2.5f);
+    F.put("nom_yellowjacket_sniper", 1.5f);
+    F.put("nom_death_bloom_strike", 1f);
     NOM_F = Collections.unmodifiableMap(F);
     
     Map D = new HashMap();
-    D.put("nom_scorpion_assault", 1f);
-    D.put("nom_komodo_mk2_assault", 0.5f);
-    D.put("nom_komodo_assault", 2f);
-    D.put("nom_flycatcher_carrier", 1f);
+    D.put("nom_scorpion_assault", 1.5f);
+    D.put("nom_komodo_mk2_assault", 1f);
+    D.put("nom_komodo_assault", 2.5f);
+    D.put("nom_flycatcher_carrier", 1.5f);
     NOM_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();
-    C.put("nom_rattlesnake_assault", 1f);
+    C.put("nom_rattlesnake_assault", 2.5f);
     NOM_C = Collections.unmodifiableMap(C);
     
     Map CS = new HashMap();
-    CS.put("nom_sandstorm_assault", 2f);
+    CS.put("nom_sandstorm_assault", 2.5f);
     CS.put("nom_gila_monster_antibattleship", 1f);
     NOM_CS = Collections.unmodifiableMap(CS);
     
     Map W = new HashMap();
-    W.put("nom_iguana_wing", 1f);
-    W.put("nom_scarab_wing", 1f);
-    W.put("nom_toad_wing", 0.5f);
-    W.put("nom_fang_wing", 0.5f);
+    W.put("nom_iguana_wing", 2.5f);
+    W.put("nom_scarab_wing", 2.5f);
+    W.put("nom_toad_wing", 1.5f);
+    W.put("nom_fang_wing", 1.5f);
     NOM_W = Collections.unmodifiableMap(W);
     }
     
@@ -1029,14 +995,10 @@ public class UsSData {
     {
         Map allVariantsTemp = new HashMap();
         allVariantsTemp.put("brdy_cetonia",createVariantList(new String[]{"brdy_cetonia_standard"}));
-        allVariantsTemp.put("brdy_locust",createVariantList(new String[]{"brdy_locust_patrol", "brdy_locust_strike", "brdy_locust_wing"}));
-	allVariantsTemp.put("brdy_mantis",createVariantList(new String[]{"brdy_mantis_elite", "brdy_mantis_attack", "brdy_mantis_strike"}));
         allVariantsTemp.put("brdy_robberfly",createVariantList(new String[]{"brdy_robberfly_cs", "brdy_robberfly_light", "brdy_robberfly_strike"}));
         allVariantsTemp.put("brdy_typheus",createVariantList(new String[]{"brdy_typheus_elite", "brdy_typheus_support"}));
         allVariantsTemp.put("brdy_gonodactylus",createVariantList(new String[]{"gonodactylus_assault", "gonodactylus_CS"}));
-        allVariantsTemp.put("brdy_desdinova",createVariantList(new String[]{"desdinova_assault", "desdinova_cs", "desdinova_fastattack","desdinova_HK"}));
-        allVariantsTemp.put("brdy_scarab",createVariantList(new String[]{"scarab_closesupport", "scarab_firesupport", "scarab_pd","scarab_strike","scarab_attack"}));
-        allVariantsTemp.put("conquest",createVariantList(new String[]{"conquesti_ass", "conquesti_bul", "conquesti_eli", "conquesti_out", "conquesti_sho", "conquesti_sni", "conquesti_sto"}));
+        
         allVariantsTemp.put("condor",createVariantList(new String[]{"condorp_ass", "condorp_fis", "condorp_pd", "condorp_str", "condorp_sup"}));
         allVariantsTemp.put("buffalo2",createVariantList(new String[]{"buffalo2p_ass", "buffalo2p_har", "buffalo2p_spa", "buffalo2p_str", "buffalo2p_sup"}));
         allVariantsTemp.put("enforcer",createVariantList(new String[]{"enforcerp_ass", "enforcerp_bal", "enforcerp_cs", "enforcerp_eli", "enforcerp_hun", "enforcerp_out", "enforcerp_str","enforcerpe_blb", "enforcerpe_heh"}));
@@ -1046,15 +1008,17 @@ public class UsSData {
         allVariantsTemp.put("tarsus",createVariantList(new String[]{"tarsusp_ass", "tarsusp_out", "tarsusp_pd", "tarsusp_sta", "tarsusp_str"}));
         allVariantsTemp.put("dominator",createVariantList(new String[]{"dominatorp_ass", "dominatorp_che", "dominatorp_hun", "dominatorp_out", "dominatorp_sho", "dominatorp_str", "dominatorp_sup","dominatorpe_dev", "dominatorpe_rin"}));
         allVariantsTemp.put("venture",createVariantList(new String[]{"venturep_ass", "venturep_bal", "venturep_out", "venturep_pun", "venturep_sup"}));
+        
         allVariantsTemp.put("ms_enlil",createVariantList(new String[]{"ms_enlil_AF", "ms_enlil_Attack", "ms_enlil_Balanced", "ms_enlil_CS", "ms_enlil_LRM", "ms_enlil_PD", "ms_enlil_Standard", "ms_enlil_Strike"}));
-        allVariantsTemp.put("ms_inanna",createVariantList(new String[]{"ms_inanna_Assault", "ms_inanna_CS", "ms_inanna_EMP", "ms_inanna_Standard", "ms_inanna_Strike"}));
-        allVariantsTemp.put("ms_lambent",createVariantList(new String[]{"ms_lambent_Standard"}));
-        allVariantsTemp.put("ms_morningstar",createVariantList(new String[]{"ms_morningstar_AF", "ms_morningstar_Assault", "ms_morningstar_CS", "ms_morningstar_PD", "ms_morningstar_Standard", "ms_morningstar_Strike"}));
         allVariantsTemp.put("ms_sargasso",createVariantList(new String[]{"ms_sargasso_Assault", "ms_sargasso_Balanced", "ms_sargasso_EMP", "ms_sargasso_LRM", "ms_sargasso_Standard"}));
         allVariantsTemp.put("ms_seski",createVariantList(new String[]{"ms_seski_Attack", "ms_seski_BR", "ms_seski_CS", "ms_seski_Standard"}));
-        allVariantsTemp.put("ms_shamash",createVariantList(new String[]{"ms_shamash_Attack", "ms_shamash_CS", "ms_shamash_EMP", "ms_shamash_Standard"}));
         allVariantsTemp.put("ms_solidarity",createVariantList(new String[]{"ms_solidarity_Standard"}));
         allVariantsTemp.put("ms_potniaBis",createVariantList(new String[]{"ms_potniaBis_AS", "ms_potniaBis_Attack", "ms_potniaBis_CS", "ms_potniaBis_FS"}));
+        
+        allVariantsTemp.put("pp_bull_Hull",createVariantList(new String[]{"pp_bull_assault", "pp_bull_cs", "pp_bull_raider"}));
+        allVariantsTemp.put("pp_renegade_Hull",createVariantList(new String[]{"pp_renegade_flagship", "pp_renegade_pillager", "pp_renegade_raider"}));
+        allVariantsTemp.put("pp_shark_Hull",createVariantList(new String[]{"pp_shark_balanced", "pp_shark_fs", "pp_shark_raider"}));
+        allVariantsTemp.put("pp_torch_Hull",createVariantList(new String[]{"pp_torch_assault"}));
         Variants_PIR = Collections.unmodifiableMap(allVariantsTemp);
     }
         
