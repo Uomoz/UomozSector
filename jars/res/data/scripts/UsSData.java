@@ -1015,10 +1015,10 @@ public class UsSData {
         allVariantsTemp.put("ms_solidarity",createVariantList(new String[]{"ms_solidarity_Standard"}));
         allVariantsTemp.put("ms_potniaBis",createVariantList(new String[]{"ms_potniaBis_AS", "ms_potniaBis_Attack", "ms_potniaBis_CS", "ms_potniaBis_FS"}));
         
-        allVariantsTemp.put("pp_bull_Hull",createVariantList(new String[]{"pp_bull_assault", "pp_bull_cs", "pp_bull_raider"}));
-        allVariantsTemp.put("pp_renegade_Hull",createVariantList(new String[]{"pp_renegade_flagship", "pp_renegade_pillager", "pp_renegade_raider"}));
-        allVariantsTemp.put("pp_shark_Hull",createVariantList(new String[]{"pp_shark_balanced", "pp_shark_fs", "pp_shark_raider"}));
-        allVariantsTemp.put("pp_torch_Hull",createVariantList(new String[]{"pp_torch_assault"}));
+        allVariantsTemp.put("pp_bull",createVariantList(new String[]{"pp_bull_assault", "pp_bull_cs", "pp_bull_raider"}));
+        allVariantsTemp.put("pp_renegade",createVariantList(new String[]{"pp_renegade_flagship", "pp_renegade_pillager", "pp_renegade_raider"}));
+        allVariantsTemp.put("pp_shark",createVariantList(new String[]{"pp_shark_balanced", "pp_shark_fs", "pp_shark_raider"}));
+        allVariantsTemp.put("pp_torch",createVariantList(new String[]{"pp_torch_assault"}));
         Variants_PIR = Collections.unmodifiableMap(allVariantsTemp);
     }
         
