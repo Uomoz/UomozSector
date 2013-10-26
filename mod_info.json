@@ -2,7 +2,7 @@
   	"id":"UomozSector", # internal id
 	"name":"Uomoz's Sector", # displayed to the player
 	"author":"Uomoz",
-	"version":"RC 3 Journey",
+	"version":"RC 4 Journey",
 	"description":"WIP",
         "gameVersion":"0.6.1a",
 	"utility":"false",
