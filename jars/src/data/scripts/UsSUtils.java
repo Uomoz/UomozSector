@@ -1,4 +1,4 @@
-package data.scripts.uss;
+package data.scripts;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;

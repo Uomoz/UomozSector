@@ -3,7 +3,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.uss.UsSUtils;
+import data.scripts.UsSUtils;
 import java.awt.Color;
 import org.lwjgl.util.vector.Vector2f;
 

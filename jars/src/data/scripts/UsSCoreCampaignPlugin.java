@@ -1,4 +1,4 @@
-package data.scripts.uss;
+package data.scripts;
 
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.BaseCampaignPlugin;

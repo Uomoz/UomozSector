@@ -7,7 +7,7 @@ import com.fs.starfarer.api.combat.EveryFrameCombatPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
-import data.scripts.uss.UsSUtils;
+import data.scripts.UsSUtils;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
