@@ -1,0 +1,280 @@
+{
+  "bounds": [
+    -3.5,
+    -45,
+    -28.5,
+    -34.5,
+    -24.5,
+    -49,
+    -49.5,
+    -46,
+    -43.5,
+    -35.5,
+    -100.5,
+    -22.5,
+    -100.5,
+    22.5,
+    -49,
+    36,
+    -31.5,
+    44,
+    -26.5,
+    26,
+    -13.5,
+    48.5,
+    -2.5,
+    50.5,
+    4.5,
+    62.5,
+    23,
+    59,
+    33.5,
+    43,
+    57,
+    30,
+    42,
+    28,
+    78,
+    20.5,
+    82.5,
+    16,
+    70,
+    7.5,
+    70,
+    -4,
+    99.5,
+    -5.5,
+    92.5,
+    -12.5,
+    66,
+    -17.5,
+    65.5,
+    -26.5,
+    62,
+    -32,
+    41,
+    -37,
+    18.5,
+    -51.5,
+    2.5,
+    -51.5,
+    5.5,
+    -39
+  ],
+  "center": [
+    69,
+    102.5
+  ],
+  "collisionRadius": 106.542244,
+  "engineSlots": [
+    ### BIGGIE
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 110,
+      "location": [
+        -103.5,
+        14.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 50
+    },
+    ### BIGGIE
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 110,
+      "location": [
+        -103.5,
+        -14.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 50
+    },
+    {
+      "angle": 165,
+      "contrailSize": 5,
+      "length": 14,
+      "location": [
+        -76,
+        29.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    },
+    {
+      "angle": 195,
+      "contrailSize": 5,
+      "length": 14,
+      "location": [
+        -76,
+        -29.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 9
+    }
+  ],
+  "height": 204,
+  "hullId": "nom_roadrunner",
+  "hullName": "Roadrunner",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    9,
+    -0
+  ],
+  "shieldRadius": 95.532715,
+  "spriteName": "graphics/nom/ships/nom_roadrunner.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -5.194429,
+      "arc": 125,
+      "id": "WS0001",
+      "locations": [
+        41,
+        -1.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 6.340192,
+      "arc": 125,
+      "id": "WS0002",
+      "locations": [
+        12,
+        -40
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -6.709837,
+      "arc": 95.425468,
+      "id": "WS0003",
+      "locations": [
+        -2,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 116.565048,
+      "arc": 267.562225,
+      "id": "WS0004",
+      "locations": [
+        -22,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -120.465546,
+      "arc": 267.562225,
+      "id": "WS0005",
+      "locations": [
+        -47.5,
+        -33
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -2.489553,
+      "arc": 227.924973,
+      "id": "WS0006",
+      "locations": [
+        67.5,
+        2.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 4.763642,
+      "arc": 234.767014,
+      "id": "WS0007",
+      "locations": [
+        57,
+        -22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    ### drones pop out here
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "DRONE_LAUNCHER",
+      "locations": [
+        26,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    ### this is for the engine fx
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "engine_fx",
+      "locations": [
+        -50.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    ### there must be a separate anchor defined for each active damselfly drone
+    ### and the slots must be named according to the convention "tow_anchor_N"
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "tow_anchor_0", # LEFT
+      "locations": [
+        38,
+        47.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "tow_anchor_1", # RIGHT
+      "locations": [
+        38,
+        -47.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+  ],
+  "builtInWeapons": {
+    "WS0001": "nom_gamma_pulse_emp",
+    "WS0002": "nom_gamma_pulse_emp",
+    "WS0003": "nom_twin_electron_maser",
+    "WS0004": "nom_firecracker",
+    "WS0005": "nom_firecracker",
+    "WS0006": "nom_light_electron_maser",
+    "WS0007": "nom_light_electron_maser",
+    "engine_fx": "nom_roadrunner_engine_fx",
+    "tow_anchor_0": "nom_tow_cable_anchor",
+    "tow_anchor_1": "nom_tow_cable_anchor",
+  },
+  "width": 138
+}

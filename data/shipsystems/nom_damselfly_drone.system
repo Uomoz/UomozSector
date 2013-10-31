@@ -1,0 +1,39 @@
+{
+	"id":"nom_damselfly_drone",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_STANDARD",
+	"statsScript":"data.shipsystems.scripts.TheNomadsDamselflyDroneStats",
+	"droneVariant":"nom_damselfly_tug",
+	"allowFreeRoam":false,
+	"launchSpeed":300,
+	"launchDelay":0.125,
+	"maxDrones":2,
+	"droneBehavior":[{
+		"droneIndex": [0],
+			"defaultFacing":"MATCH_SHIP_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+			"faceEnemy":false,
+			"holdRoamRange":100,
+			"freeRoamRange":500,
+			"targetPriority":[MISSILE, FIGHTER, SHIP],
+			"initialOrbitAngle":55,
+			"orbitRadius":100, 				# plus ship radius
+			"orbitDir":-1, 					# -1 or 1
+			"orbitSpeed":0, 				# pixels/second
+		},{
+		"droneIndex": [1],
+			"defaultFacing":"MATCH_SHIP_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+			"faceEnemy":false,
+			"holdRoamRange":100,
+			"freeRoamRange":500,
+			"targetPriority":[MISSILE, FIGHTER, SHIP],
+			"initialOrbitAngle":-55,
+			"orbitRadius":100, 				# plus ship radius
+			"orbitDir":1, 					# -1 or 1
+			"orbitSpeed":0, 				# pixels/second
+		}
+	],
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"aiHints":{}
+}
+

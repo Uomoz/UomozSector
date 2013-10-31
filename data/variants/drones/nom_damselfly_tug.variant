@@ -1,0 +1,11 @@
+{
+  "displayName": "Tug",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "nom_damselfly",
+  "hullMods": [
+    "naeran_flux_shunts"
+  ],
+  "variantId": "nom_damselfly_tug",
+  "weaponGroups": []
+}

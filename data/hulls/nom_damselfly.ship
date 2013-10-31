@@ -1,0 +1,77 @@
+{
+  "bounds": [
+    9,
+    3,
+    4,
+    -6,
+    -9,
+    -0,
+    -2.5,
+    7
+  ],
+  "center": [
+    9,
+    12
+  ],
+  "collisionRadius": 14.008925,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 18,
+      "location": [
+        -11,
+        -0
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -7,
+        -3.5
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 7,
+      "location": [
+        -7.5,
+        4
+      ],
+      "style": "ANCIENT_NAERAN",
+      "width": 4
+    }
+  ],
+  "height": 24,
+  "hullId": "nom_damselfly",
+  "hullName": "Damselfly",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 13.009612,
+  "spriteName": "graphics/nom/ships/nom_damselfly.png",
+  "style": "ANCIENT_NAERAN",
+  "viewOffset": 0,
+  "weaponSlots": [{
+    "angle":0,
+    "arc":360,
+    "id":"TOW_CABLE",
+    "locations":[0,0],
+    "mount":"TURRET",
+    "size":"SMALL",
+    "type":"SYSTEM"
+  }],
+  "width": 19,
+  "builtInWeapons":{
+    "TOW_CABLE":"nom_damselfly_tow_cable"
+  }
+}
