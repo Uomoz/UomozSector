@@ -146,6 +146,7 @@ Lens Flare,brlensflaresmall2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
 Ultralight Electron Maser,nom_ultralight_electron_maser,1,150,280,,13,,10,80,2,,,ENERGY,16,,,0.175,,,,,,,,1200,,,75,"PD, ANTI_FTR",1337103
 Twin Ultralight Electron Maser,nom_twin_ultralight_electron_maser,1,310,295,,15,,10,78,3,,,ENERGY,17,,,0.095,2,0.068,,,,,,1200,,,75,"PD, ANTI_FTR",1337106
 Light Electron Maser,nom_light_electron_maser,1,350,400,,33,,15,65,4,,,ENERGY,32,,,0.3,,,,,,,,820,,,100,ANTI_FTR,1337100
+Gamma Pulse EMP,nom_gamma_pulse_emp,1,480,800,,30,95,30,40,10,,,ENERGY,80,,,0.3,2,0.15,,,,,,700,,,100,,1337115
 Heavy Electron Maser,nom_heavy_electron_maser,1,1100,600,,59,,30,45,8,,,ENERGY,60,,,0.435,,,,,,,,675,,,200,,1337101
 Twin Electron Maser,nom_twin_electron_maser,1,4000,815,,64,,30,45,18,,,ENERGY,62,,,0.3,2,0.2,,,,,,675,,,200,,1337104
 Ripper Triple Maser,nom_triple_electron_maser,1,6500,800,,68,,30,45,26,,,ENERGY,64,,,0.2,3,0.095,,,,,,675,,,200,,1337113
@@ -162,3 +163,6 @@ Faux Plasma,nom_effect_faux_plasma,0,0,2500,,0,,0,0,0,0,0,ENERGY,0,,0,0,,,,,,,,1
 Retribution Launch System,nom_retribution_postmortem_launcher,0,0,999999,,3250,,300,5,0,0,0,ENERGY,0,,0,0,,,,,,,,2000,25,50,650,SYSTEM,1337114
 Habitat Ring,nom_decorative_oasis_habitat_ring,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337099
 Structural Support,nom_decorative_oasis_habitat_ring_structural_support_beam,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337098
+V24 Thunderdome Engine,nom_roadrunner_engine_fx,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337118
+Tow Cable,nom_damselfly_tow_cable,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337116
+Tow Cable Anchor,nom_tow_cable_anchor,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337117

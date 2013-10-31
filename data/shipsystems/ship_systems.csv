@@ -45,5 +45,8 @@ Spark Drive,sparkdrive,,,,,,0.05,5,0.3,0.05,,0.15,0,,TRUE,,TRUE,,,,,,graphics/ic
 ,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
 Gecko Defense Drones,nom_gecko_drone,,,,,,,50,0.05,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Damselfly Tug Drones,nom_damselfly_drone,,,,,,,2,0,0,0,0,0,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
 Infernium Drive,inferniumdrive,1,,,,,,,,0.3,3.2,2.3,11,,,,,,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png

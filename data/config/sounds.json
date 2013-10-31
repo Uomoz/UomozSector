@@ -154,6 +154,25 @@
 		{"file":"sounds/nom/fx/freesound.org/67544__qubodup__mim-23-hawk-missile-launch-1.ogg","pitch":1.1,"volume":0.9},
 	],
 
+	"nom_gamma_pulse_emp_fire":
+	[
+		{"file":"sounds/nom/fx/maserpulsebeam1.ogg","pitch":0.40,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam2.ogg","pitch":0.40,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam3.ogg","pitch":0.40,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam1.ogg","pitch":0.39,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam2.ogg","pitch":0.39,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam3.ogg","pitch":0.39,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam1.ogg","pitch":0.38,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam2.ogg","pitch":0.38,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam3.ogg","pitch":0.38,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam1.ogg","pitch":0.37,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam2.ogg","pitch":0.37,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam3.ogg","pitch":0.37,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam1.ogg","pitch":0.36,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam2.ogg","pitch":0.36,"volume":0.30},
+		{"file":"sounds/nom/fx/maserpulsebeam3.ogg","pitch":0.36,"volume":0.30},
+	],
+
 	"sword_of_damocles_start":[
 		{"file":"sounds/BR/fx/brdyweapons/damoclesstart.ogg","pitch":1,"volume":0.9},
 	],		

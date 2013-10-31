@@ -3,7 +3,9 @@
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "hullId": "nom_gecko",
-  "hullMods": [],
+  "hullMods": [
+    "naeran_flux_shunts",
+  ],
   "variantId": "nom_gecko_drone",
   "weaponGroups": [
     {

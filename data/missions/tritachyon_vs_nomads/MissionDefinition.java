@@ -18,7 +18,7 @@ public class MissionDefinition implements MissionDefinitionPlugin
 		api.initFleet(FleetSide.PLAYER, "TTS", FleetGoal.ATTACK, false);
 		api.setFleetTagline(FleetSide.PLAYER, "Tri-Tachyon Security Outpost Ambush Fleet");
 		
-		// 518 point fleet
+		// 528 point fleet
 		api.addToFleet(FleetSide.ENEMY, "nom_oasis_standard", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_gila_monster_antibattleship", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_gila_monster_antibattleship", FleetMemberType.SHIP, true);
@@ -41,6 +41,7 @@ public class MissionDefinition implements MissionDefinitionPlugin
 		api.addToFleet(FleetSide.ENEMY, "nom_komodo_assault", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_komodo_assault", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_komodo_assault", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.ENEMY, "nom_roadrunner_pursuit", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_flycatcher_carrier", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_flycatcher_carrier", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.ENEMY, "nom_flycatcher_carrier", FleetMemberType.SHIP, true);
