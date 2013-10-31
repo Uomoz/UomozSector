@@ -2,9 +2,9 @@ package data.scripts.plugins;
 
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameCombatPlugin;
-import com.fs.starfarer.api.combat.ShieldAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
+import com.fs.starfarer.api.combat.ShieldAPI;
 import java.util.Iterator;
 import java.util.List;
 

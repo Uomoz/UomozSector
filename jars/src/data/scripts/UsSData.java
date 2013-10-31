@@ -767,6 +767,7 @@ public class UsSData {
     D.put("nom_komodo_mk2_assault", 1f);
     D.put("nom_komodo_assault", 2.5f);
     D.put("nom_flycatcher_carrier", 1.5f);
+    D.put("nom_roadrunner_pursuit", 1.5f);
     NOM_D = Collections.unmodifiableMap(D);
     
     Map C = new HashMap();

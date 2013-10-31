@@ -26,8 +26,7 @@ import java.util.Iterator;
 import org.lwjgl.util.vector.Vector2f;
 
 @SuppressWarnings( "unchecked" )
-public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEventListener
-{
+public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEventListener    {
 	private FactoryAPI factory;
 	
 	private SectorAPI sector;
@@ -47,8 +46,7 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 	
 	private SectorEntityToken station;
 	
-	public void generate( SectorAPI sector )
-	{
+	public void generate( SectorAPI sector )    {
 		// globals
 		this.sector = sector;
 		factory = Global.getFactory();
@@ -75,8 +73,7 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 	private static final float star_jump_dist_factor_min = 0.8f;
 	private static final float star_jump_dist_factor_max = 1.2f;
 	
-	private void init_celestial_bodies( StarSystemAPI system )
-	{
+	private void init_celestial_bodies( StarSystemAPI system )  {
 		// stars, planets and moons
 		system_center_of_mass = system.createToken( 0f, 0f );
 		star_A = system.addPlanet( system_center_of_mass, "Nur-A", "star_blue", 90f, 1000f, 1500f, 30f );
@@ -118,8 +115,7 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		planet_I.setCustomDescriptionId("nom_planet_naera");
 	}
 	
-	private void init_scripts( SectorAPI sector, StarSystemAPI system )
-	{
+	private void init_scripts( SectorAPI sector, StarSystemAPI system ) {
 		// armada formation type
 		CampaignArmadaEscortFleetPositionerAPI armada_formation =
 			new CampaignArmadaFormationOrbit(
@@ -137,7 +133,8 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 			"assassin", 
 			"royalGuard", 
 			"jihadFleet", 
-			"carrierGroup"
+			"carrierGroup",
+			"royalCommandFleet"
 		};
 		int[] escort_weights = {    
 			220,
@@ -146,7 +143,8 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 			185,
 			175,
 			125,
-			100
+			100,
+			75
 		};
 		// armada waypoint controller script
 		CampaignArmadaController nomad_armada =
@@ -180,10 +178,9 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 				20.0f // 15 light-years worth of fuel at fleet's current fuel consumption rate
 			);
 		sector.addScript( armada_resource_pool );
-	}	
+	}
 	
-	private JumpPointAPI init_star_gravitywell_jump_point( StarSystemAPI system, SectorEntityToken system_root, PlanetAPI star, float dist_ratio_min, float dist_ratio_max )
-	{
+	private JumpPointAPI init_star_gravitywell_jump_point( StarSystemAPI system, SectorEntityToken system_root, PlanetAPI star, float dist_ratio_min, float dist_ratio_max )    {
 		FactoryAPI factory = Global.getFactory();
 		LocationAPI hyper = Global.getSector().getHyperspace();
 		
@@ -200,8 +197,7 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		return jump_point;
 	}
 	
-	private JumpPointAPI init_jump_anchor_near_planet( StarSystemAPI system, SectorEntityToken system_root, PlanetAPI planet, String name, float angle, float orbitRadius, float orbitDays )
-	{
+            private JumpPointAPI init_jump_anchor_near_planet( StarSystemAPI system, SectorEntityToken system_root, PlanetAPI planet, String name, float angle, float orbitRadius, float orbitDays )    {
 		FactoryAPI factory = Global.getFactory();
 		LocationAPI hyper = Global.getSector().getHyperspace();
 
@@ -223,37 +219,8 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		update_hyperspace_jump_point_location( hyperspace_jump_point, system, system_root, local_jump_point );
 		return hyperspace_jump_point;
 	}
-        
-        private void init_station_cargo( SectorEntityToken station )
-	{
-		CargoAPI cargo = station.getCargo();
-		FleetDataAPI station_ships = cargo.getMothballedShips();
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_gila_monster_antibattleship" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_sandstorm_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_scorpion_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_mk2_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_flycatcher_carrier" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_yellowjacket_sniper" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_death_bloom_strike" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_iguana_wing" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_scarab_wing" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_iguana_wing" ));
-		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_scarab_wing" ));
-                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_toad_wing" ));
-		cargo.addCrew( CrewXPLevel.ELITE, 20 );
-		cargo.addCrew( CrewXPLevel.VETERAN, 100 );
-		cargo.addCrew( CrewXPLevel.REGULAR, 1000 );
-		cargo.addSupplies( 3000.0f );
-		cargo.addFuel( 3000.0f );
-	}
 	
-	public void handle_event( CampaignArmadaControllerEvent event )
-	{
+	public void handle_event( CampaignArmadaControllerEvent event ) {
 		// Oasis is not in play; put it for sale at the station (yay!)
 		if( "NON_EXISTENT".equals( event.controller_state ))
 		{
@@ -287,13 +254,11 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		}
 	}
 	
-	
 	// this ratio is an observed ratio between the distances from Corvus to its third planet
 	// in hyperspace vs. normal space
 	private static final float hyperspace_compression = 0.0612f; // (459f / 7500f) // in pixels at default zoom
 	
-	private void update_hyperspace_jump_point_location( JumpPointAPI jump_point, StarSystemAPI system, SectorEntityToken system_root, SectorEntityToken system_entity )
-	{
+	private void update_hyperspace_jump_point_location( JumpPointAPI jump_point, StarSystemAPI system, SectorEntityToken system_root, SectorEntityToken system_entity ) {
 		Vector2f system_location = new Vector2f( system.getLocation() );
 		Vector2f local_entity_absolute_location = 
 		  calculate_absolute_location( system_root, system_entity, hyperspace_compression );
@@ -305,8 +270,7 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 	
 	// resolves orbits of an entity until the given root object is encountered
 	// if entity does not orbit around anything relative to the root, the result is undefined
-	private Vector2f calculate_absolute_location( SectorEntityToken root, SectorEntityToken entity, float scale )
-	{
+	private Vector2f calculate_absolute_location( SectorEntityToken root, SectorEntityToken entity, float scale )   {
 		Vector2f location = new Vector2f();
 		if( root == null || entity == null )
 			return location;
@@ -327,5 +291,31 @@ public class Nur implements SectorGeneratorPlugin, CampaignArmadaControllerEvent
 		}
 		return location;
 	}
-
+        
+        private void init_station_cargo( SectorEntityToken station )    {
+		CargoAPI cargo = station.getCargo();
+		FleetDataAPI station_ships = cargo.getMothballedShips();
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_gila_monster_antibattleship" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_sandstorm_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_scorpion_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_mk2_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_komodo_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_flycatcher_carrier" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_yellowjacket_sniper" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_death_bloom_strike" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.SHIP, "nom_wurm_assault" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_iguana_wing" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_scarab_wing" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_iguana_wing" ));
+		station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_scarab_wing" ));
+                station_ships.addFleetMember( factory.createFleetMember( FleetMemberType.FIGHTER_WING, "nom_toad_wing" ));
+		cargo.addCrew( CrewXPLevel.ELITE, 20 );
+		cargo.addCrew( CrewXPLevel.VETERAN, 100 );
+		cargo.addCrew( CrewXPLevel.REGULAR, 1000 );
+		cargo.addSupplies( 3000.0f );
+		cargo.addFuel( 3000.0f );
+	}
 }
