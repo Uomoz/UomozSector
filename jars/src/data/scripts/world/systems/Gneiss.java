@@ -11,9 +11,9 @@ import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.impl.campaign.CoreCampaignPluginImpl;
 import data.scripts.UsSData;
+import data.scripts.UsSUtils;
 import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
-import data.scripts.uss.UsSUtils;
 import java.awt.Color;
 
 @SuppressWarnings("unchecked")
