@@ -9,7 +9,7 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
-import data.scripts.UsSData;
+import data.scripts.UsSUtils;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -62,7 +62,7 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
         
         private void initAI () {  
             Script script = EliteAI(fleet, getAnchor());
-                fleet.addAssignment(FleetAssignment.RESUPPLY, getAnchor(), 1000);
+                fleet.setPreferredResupplyLocation(getAnchor());
                 fleet.addAssignment(FleetAssignment.DEFEND_LOCATION, getAnchor(), 1);
                 fleet.addAssignment(FleetAssignment.GO_TO_LOCATION, getAnchor(), 100, script);                
         }
