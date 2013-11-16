@@ -1,0 +1,37 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 4,
+  "fluxVents": 7,
+  "hullId": "khs_hauberk",
+  "hullMods": [
+    "eccm"
+  ],
+  "variantId": "khs_hauberk_EWAR",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_assault_penetrator",
+        "WS0002": "khs_assault_penetrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0003": "khs_sling",
+        "WS0004": "khs_sling",
+        "WS0005": "khs_volley_cannon",
+        "WS0006": "khs_volley_cannon",
+        "WS0007": "khs_sling",
+        "WS0008": "khs_sling"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

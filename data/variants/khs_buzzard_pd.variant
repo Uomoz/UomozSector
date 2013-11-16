@@ -1,0 +1,19 @@
+{
+  "displayName": "Point Defense",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_buzzard",
+  "hullMods": [
+    "armoredweapons"
+  ],
+  "variantId": "khs_buzzard_pd",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "guardian"
+      }
+    }
+  ]
+}

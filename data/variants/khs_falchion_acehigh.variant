@@ -1,0 +1,28 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 0,
+  "fluxVents": 19,
+  "hullId": "khs_falchion",
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "variantId": "khs_falchion_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "miningblaster",
+        "WS0002": "sabotpod",
+        "WS0003": "annihilatorpod",
+        "WS0004": "arbalest",
+        "WS0005": "heavyac",
+        "WS0006": "lrpdlaser",
+        "WS0007": "amblaster",
+        "WS0008": "lightdualmg",
+        "WS0009": "vulcan",
+        "WS0010": "reaper"
+      }
+    }
+  ]
+}

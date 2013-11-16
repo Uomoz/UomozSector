@@ -1,0 +1,27 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 6,
+  "fluxVents": 3,
+  "hullId": "khs_sirocco",
+  "hullMods": [],
+  "variantId": "khs_sirocco_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "khs_sling",
+        "WS 002": "khs_sling",
+        "WS 003": "khs_sling",
+        "WS 004": "khs_sling"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_lance_vlrms"	  
+	  }
+    }
+  ]
+}

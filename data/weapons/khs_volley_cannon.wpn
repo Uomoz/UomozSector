@@ -1,0 +1,25 @@
+{
+	"id":"khs_volley_cannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"khs_graphics/weapons/small/volley_cannon.png",
+	"hardpointSprite":"khs_graphics/weapons/small/volley_cannon_hp.png",	
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[],
+	"turretOffsets":[9, -1.5, 9, 2.5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[9, -1.5, 9, 2.5],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":4.0,
+					   "particleSizeMin":3.0,
+					   "particleSizeRange":4.0,
+					   "particleDuration":0.25,
+					   "particleCount":10,
+					   "particleColor":[170,180,255,255]},	
+	"projectileSpecId":"khs_volley_shot",  # projectile that will be fired
+	"fireSoundTwo":"needler_fire",
+}

@@ -1,0 +1,45 @@
+{
+  "displayName": "Command",
+  "fluxCapacitors": 22,
+  "fluxVents": 14,
+  "hullId": "khs_seraph",
+  "hullMods": [
+    "missleracks"
+  ],
+  "variantId": "khs_seraph_Command",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "khs_partisan",
+        "WS0009": "khs_sling",
+        "WS0010": "khs_sling",
+        "WS0011": "khs_sling",
+        "WS0012": "khs_sling",
+        "WS0013": "khs_volley_cannon",
+        "WS0014": "khs_sling",
+        "WS0015": "khs_volley_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "khs_lance_vlrms",
+        "WS0007": "khs_javelin_vlrms",
+        "WS0008": "khs_javelin_vlrms"	  
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_kinetic_demolisher",
+        "WS0002": "khs_kinetic_demolisher",
+        "WS0003": "khs_kinetic_demolisher",
+        "WS0004": "khs_assault_demolisher"
+	  }
+    }
+  ]
+}

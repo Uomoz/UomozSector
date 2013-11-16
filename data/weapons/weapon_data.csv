@@ -141,8 +141,6 @@ Lens Flare,brlensflaresmall2,,,1,1,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,666
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Ultralight Electron Maser,nom_ultralight_electron_maser,1,150,280,,13,,10,80,2,,,ENERGY,16,,,0.175,,,,,,,,1200,,,75,"PD, ANTI_FTR",1337103
 Twin Ultralight Electron Maser,nom_twin_ultralight_electron_maser,1,310,295,,15,,10,78,3,,,ENERGY,17,,,0.095,2,0.068,,,,,,1200,,,75,"PD, ANTI_FTR",1337106
 Light Electron Maser,nom_light_electron_maser,1,350,400,,33,,15,65,4,,,ENERGY,32,,,0.3,,,,,,,,820,,,100,ANTI_FTR,1337100
@@ -166,3 +164,31 @@ Structural Support,nom_decorative_oasis_habitat_ring_structural_support_beam,,,,
 V24 Thunderdome Engine,nom_roadrunner_engine_fx,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337118
 Tow Cable,nom_damselfly_tow_cable,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337116
 Tow Cable Anchor,nom_tow_cable_anchor,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,1337117
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Martyr Cannon,khs_martyrcannon,0,200,200,,50,,2,30,2,200,,ENERGY,100,,0,1,1,,0,20,5,5,,400,,,10,PD,
+Strike Cannon,khs_strike_cannon,1,400,400,,35,,5,40,3,500,,HIGH_EXPLOSIVE,35,,0,0.25,1,,0,20,5,5,,650,,,10,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Railgun Array,khs_volley_cannon,2,800,525,,30,,50,60,6,1000,,KINETIC,15,,0,1,6,0.1,0,2,3,30,,1200,,,10,PD,
+Sling ABM Pod,khs_sling,1,400,450,,65,,5,60,4,280,,FRAGMENTATION,10,,0,1,4,0.1,0,0,0,0,,1500,250,0.6,30,"PD, PD_ONLY, GUIDED_POOR",
+Partisan ABM System,khs_partisan,2,2000,550,,125,,12,75,12,440,,FRAGMENTATION,20,,0,1,4,0.1,0,0,0,0,,2000,375,0.7,60,"PD, ANTI_FTR, GUIDED_POOR",
+Hoplite ABM System,khs_hoplite,2,7500,650,,250,,20,90,25,180,,FRAGMENTATION,30,,0,1,4,0.1,0,0,0,0,,3000,500,0.9,90,"PD, ANTI_FTR, GUIDED_POOR",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assault Coilgun,khs_assault_penetrator,2,1000,1100,,250,,100,9,9,90,,HIGH_EXPLOSIVE,300,,0,2,1,,0,1,1,5,,1250,,,35,,
+Heavy Railgun,khs_kinetic_penetrator,2,1000,1200,,225,,100,9,9,90,,KINETIC,300,,0,2,1,,0,1,1,5,,1350,,,65,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Twinned Assault Coilgun,khs_assault_violator,2,3000,1100,,250,,100,6,12,180,,HIGH_EXPLOSIVE,300,,0,2,2,0.2,0,1,1,5,,1200,,,35,,
+Twinned Heavy Railgun,khs_kinetic_violator,2,3000,1200,,225,,100,6,12,180,,KINETIC,300,,0,2,2,0.2,0,1,1,5,,1300,,,65,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Redemptor Assault Coilgun,khs_assault_demolisher,2,8000,1600,,1100,,300,2,25,35,,HIGH_EXPLOSIVE,1500,,0,4,1,,0,1,1,5,,1400,,,300,"STRIKE, USE_VS_FRIGATES",
+Demolisher Rail Cannon,khs_kinetic_demolisher,2,8000,1700,,1000,,300,2,25,45,,KINETIC,1500,,0,4,1,,0,1,1,5,,1500,,,450,"STRIKE, USE_VS_FRIGATES",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Javelin VLRMS-2,khs_javelin_vlrms,1,750,10000,,300,,75,5,6,10,,HIGH_EXPLOSIVE,0,,0,15,2,0.2,0,0,0,0,,300,50,30,100,DO_NOT_AIM,
+Lance VLRMS-4,khs_lance_vlrms,2,2500,10000,,300,,75,5,10,40,,HIGH_EXPLOSIVE,0,,0,15,4,0.2,0,0,0,0,,300,50,30,100,DO_NOT_AIM,
+Francisca VLRMS-8,khs_francisca_vlrms,2,5500,10000,,300,,75,5,18,80,,HIGH_EXPLOSIVE,0,,0,15,8,0.2,0,0,0,0,,300,50,30,100,DO_NOT_AIM,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lance of Longinus,khs_longinus,3,100000,3500,,5000,,2000,0,,10,,KINETIC,4000,,0,15,1,,0,0,0,5,,1750,,,500,SYSTEM,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Running Light (Blue),khs_runninglightblue,,,0,1,,,,,,,,,,,,1,,,,,,,,,,,,SYSTEM,666
+Running Light (Yellow),khs_runninglightyellow,,,0,1,,,,,,,,,,,,1,,,,,,,,,,,,SYSTEM,666

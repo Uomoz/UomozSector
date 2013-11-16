@@ -1,0 +1,22 @@
+{
+	"id":"khs_sling",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"khs_graphics/missiles/sling.png",
+	"size":[7,16],	
+	"center":[3,8],
+	"collisionRadius":25,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,220],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":25, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":600,
+				  "acc":800,
+				  "dec":400},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"MISSILE_LOW_TECH",
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

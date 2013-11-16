@@ -1,0 +1,27 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 1,
+  "hullId": "khs_djinn",
+  "hullMods": [],
+  "variantId": "khs_djinn_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "khs_sling",
+        "WS 002": "khs_sling",
+        "WS 003": "khs_sling",
+        "WS 004": "khs_sling"
+      }
+    },
+	{
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0001": "khs_francisca_vlrms"
+	  }
+    },
+  ]
+}

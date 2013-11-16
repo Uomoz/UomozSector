@@ -1,0 +1,19 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "hullId": "khs_mistral",
+  "hullMods": [],
+  "variantId": "khs_mistral_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "annihilator",
+        "WS 002": "sabot_single",
+        "WS 003": "phasecl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "bounds": [
+    49.5,
+    5.5,
+    6,
+    20.5,
+    2,
+    29,
+    -32.5,
+    30,
+    -38,
+    22.5,
+    -32.5,
+    14.5,
+    -47.5,
+    4,
+    -47.5,
+    -4,
+    -32.5,
+    -14.5,
+    -38,
+    -22.5,
+    -32.5,
+    -30,
+    2,
+    -29,
+    6,
+    -20.5,
+    49.5,
+    -5.5
+  ],
+  "center": [
+    33,
+    48.5
+  ],
+  "collisionRadius": 74.082725,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 88,
+      "location": [
+        -37.5,
+        23
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 88,
+      "location": [
+        -37.5,
+        -23
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    }
+  ],
+  "height": 101,
+  "hullId": "khs_vulture",
+  "hullName": "Vulture",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 72.006943,
+  "spriteName": "khs_graphics/hulls/vulture.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 110,
+      "id": "WS0001",
+      "locations": [
+        -12.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -23,
+        5.5,
+        -23,
+        -7,
+        -23,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0002",
+      "locations": [
+        26,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 66
+}

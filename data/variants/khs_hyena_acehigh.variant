@@ -1,0 +1,21 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "hullId": "khs_hyena",
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "variantId": "khs_hyena_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shredder",
+        "WS0002": "swarmer"
+      }
+    }
+  ]
+}

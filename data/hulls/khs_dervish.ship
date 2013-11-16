@@ -1,0 +1,112 @@
+{
+  "bounds": [
+    4.5,
+    -2,
+    -2,
+    -4,
+    9,
+    -7,
+    17.5,
+    -5,
+    14.5,
+    -10,
+    -4.5,
+    -15.5,
+    -11,
+    -3.5,
+    -11,
+    3.5,
+    -4.5,
+    15.5,
+    14.5,
+    10,
+    17.5,
+    5,
+    9,
+    7,
+    -2,
+    4,
+    4.5,
+    2
+  ],
+  "center": [
+    16.5,
+    14
+  ],
+  "collisionRadius": 26.400757,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 44,
+      "location": [
+        -11.5,
+        8
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 44,
+      "location": [
+        -11.5,
+        -8
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "height": 34,
+  "hullId": "khs_dervish",
+  "hullName": "Dervish",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0.5,
+    -0
+  ],
+  "shieldRadius": 25.10478,
+  "spriteName": "khs_graphics/hulls/dervish.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        7.5,
+        9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        7.5,
+        -9.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -7,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 33
+}

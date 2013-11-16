@@ -1,0 +1,131 @@
+{
+  "bounds": [
+    24,
+    10.5,
+    12.5,
+    11.5,
+    6,
+    19,
+    -14.5,
+    17.5,
+    -11.5,
+    13,
+    -22,
+    6.5,
+    -22,
+    -6.5,
+    -11.5,
+    -13,
+    -14.5,
+    -17.5,
+    6,
+    -19,
+    12.5,
+    -11.5,
+    24,
+    -10.5
+  ],
+  "center": [
+    20.5,
+    23
+  ],
+  "collisionRadius": 28.363709,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 54.5,
+      "location": [
+        -22,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": 146.309937,
+      "contrailSize": 6.1017,
+      "length": 13.590155,
+      "location": [
+        -16,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.1017
+    },
+    {
+      "angle": -146.309937,
+      "contrailSize": 6.1017,
+      "length": 13.590155,
+      "location": [
+        -16,
+        -9.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.1017
+    }
+  ],
+  "height": 50,
+  "hullId": "khs_myrmidon",
+  "hullName": "Myrmidon",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 28.30636,
+  "spriteName": "khs_graphics/hulls/myrmidon.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -7.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        12,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        12,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0004",
+      "locations": [
+        3,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 41
+}

@@ -1,0 +1,33 @@
+{
+	"id":"khs_martyrdrones",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"khs_martyrdrones",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":300,
+	"launchDelay":0.5,
+	"maxDrones":5,
+	"droneBehavior":[
+		{"droneIndex":[0,1,2,3,4,5],
+		 "defaultFacing":"MATCH_SHIP_FACING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":100,
+		 "freeRoamRange":800,
+		 "targetPriority":[MISSILE, SHIP_TARGET, SHIP, FIGHTER], # also SHIP_TARGET to prefer targeting the mothership's target
+		 "initialOrbitAngle":0,
+		 "orbitRadius":100, 				# plus ship radius
+		 "orbitDir":1, 						# -1 or 1
+		 "orbitSpeed":100, 					# pixels/second
+		}
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+
+	}
+}

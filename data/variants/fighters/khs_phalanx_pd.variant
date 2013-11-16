@@ -1,0 +1,25 @@
+{
+  "displayName": "Point Defense Corvette",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_phalanx",
+  "hullMods": [],
+  "variantId": "khs_phalanx_pd",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "khs_volley_cannon",
+        "WS0004": "khs_volley_cannon",
+        "WS0001": "khs_sling",
+        "WS0002": "khs_sling"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

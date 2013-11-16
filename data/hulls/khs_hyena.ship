@@ -1,0 +1,141 @@
+{
+  "bounds": [
+    -34,
+    -22,
+    -35,
+    -7.5,
+    -42,
+    -8,
+    -42,
+    8,
+    -35,
+    7.5,
+    -29.5,
+    32.5,
+    55,
+    9,
+    47.5,
+    6,
+    47.5,
+    -5,
+    56.5,
+    -8.5,
+    30.5,
+    -16.5,
+    36.5,
+    -22,
+    11.5,
+    -22,
+    -12,
+    -27.5,
+    -18.5,
+    -22
+  ],
+  "builtInWeapons": {
+    "WS0004": "khs_runninglightblue",
+    "WS0005": "khs_runninglightyellow"
+  },
+  "center": [
+    34,
+    44.5
+  ],
+  "collisionRadius": 86.297447,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 22,
+      "length": 68,
+      "location": [
+        -43,
+        0
+      ],
+      "style": "MIDLINE",
+      "width": 22
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 56,
+      "location": [
+        -35.5,
+        16
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 45,
+      "location": [
+        -35.5,
+        -17
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    }
+  ],
+  "height": 101,
+  "hullId": "khs_hyena",
+  "hullName": "Hyena",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 85.146935,
+  "spriteName": "khs_graphics/hulls/hyena.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        35.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 280,
+      "id": "WS0002",
+      "locations": [
+        -10,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        53.5,
+        9
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -13,
+        -27
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 68
+}

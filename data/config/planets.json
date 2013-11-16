@@ -18,6 +18,60 @@
 		"cloudRotation":-10, # degrees/second, optional
 		"cloudOffset":2, # optional, this is how much bigger the cloud sphere is than the planet.  Good values are 2-10		
 	},
+	"khs_star_blue":{
+		"name":"Blue Subgiant",
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":10, # towards-away from the viewer (>0 pitches towards)
+		"rotation":5, # degrees/second
+		"planetColor":[255,255,255,255],	
+		"atmosphereThickness":0.7, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[180,180,255,212],
+		"texture":"khs_graphics/planets/star_blue.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[180,180,255,255],
+		"isStar":true,
+		"lightPosition":[0,0,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[180,180,255,100], # optional, defaults to white
+		"starCoronaSizeMult":5.6, # required, multiplier for star's radius
+	},
+	"khs_star_brown":{
+		"name":"Brown Dwarf",
+		"tilt":180, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":1, # degrees/second
+		"planetColor":[255,255,255,255],	
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":0, #  minimum thickness in pixels
+		"atmosphereColor":[180,90,120,150],
+		"texture":"khs_graphics/planets/star_brown.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[180,90,120,255],
+		"isStar":true,
+		"lightPosition":[0,0,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[90,45,60,50], # optional, defaults to white
+		"starCoronaSizeMult":4.5, # required, multiplier for star's radius
+	},
+		"khs_star_yellow_white":{
+		"name":"Yellow-White Dwarf Binary",
+		"tilt":60, # left-right (>0 tilts to the left)
+		"pitch":350, # towards-away from the viewer (>0 pitches towards)
+		"rotation":6, # degrees/second
+		"planetColor":[255,255,255,255],	
+		"atmosphereThickness":0.4, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[255,255,180,212],
+		"texture":"khs_graphics/planets/star_yellow_white.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[255,255,180,255],
+		"isStar":true,
+		"lightPosition":[0,0,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[255,255,220,100], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+	},
 	"star_brstar":{
 		"name":"Yellow Star",
 		"tilt":0, # left-right (>0 tilts to the left)

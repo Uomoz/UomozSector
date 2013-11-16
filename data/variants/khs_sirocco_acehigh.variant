@@ -1,0 +1,23 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_sirocco",
+  "hullMods": [
+    "missleracks"
+  ],
+  "variantId": "khs_sirocco_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "swarmer",
+        "WS 002": "swarmer",
+        "WS 003": "sabot",
+        "WS 004": "sabot",
+        "WS0001": "typhoon"
+      }
+    }
+  ]
+}

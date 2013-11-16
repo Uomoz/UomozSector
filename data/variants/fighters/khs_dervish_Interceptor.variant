@@ -1,0 +1,19 @@
+{
+  "displayName": "Phase Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_dervish",
+  "hullMods": [],
+  "variantId": "khs_dervish_Interceptor",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_volley_cannon",
+        "WS0002": "khs_strike_cannon",
+        "WS0003": "khs_sling"
+      }
+    }
+  ]
+}

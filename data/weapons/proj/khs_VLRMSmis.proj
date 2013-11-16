@@ -1,0 +1,22 @@
+{
+	"id":"khs_VLRMSmis",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"khs_graphics/missiles/VLRMSmis.png",
+	"size":[10,31],	
+	"center":[5,15],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{"turnAcc":70,
+				  "turnRate":45,
+				  "acc":250,
+				  "dec":125},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    "style":"MISSILE_LOW_TECH",
+				    "width":6.0,
+				    "length":40.0,
+				    "angle":180.0}]
+}

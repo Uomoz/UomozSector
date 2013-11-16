@@ -1,0 +1,23 @@
+{
+  "displayName": "Strike Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_scimitar",
+  "hullMods": [],
+  "variantId": "khs_scimitar_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_strike_cannon",
+        "WS0002": "khs_strike_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

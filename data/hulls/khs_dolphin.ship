@@ -1,0 +1,231 @@
+{
+  "bounds": [
+    70.5,
+    -13.5,
+    23,
+    -28,
+    13.5,
+    -39.5,
+    -17.5,
+    -38.5,
+    -23.5,
+    -43,
+    -62,
+    -40,
+    -62,
+    40,
+    -23.5,
+    43,
+    -17.5,
+    38.5,
+    13.5,
+    39.5,
+    23,
+    28,
+    70.5,
+    13.5,
+    78,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0002": "khs_runninglightyellow",
+    "WS0003": "khs_runninglightyellow",
+    "WS0004": "khs_runninglightyellow",
+    "WS0005": "khs_runninglightyellow",
+    "WS0006": "khs_runninglightyellow"
+  },
+  "center": [
+    45,
+    66.5
+  ],
+  "collisionRadius": 92.803558,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 98.5,
+      "location": [
+        -65.5,
+        -0.5
+      ],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 95,
+      "location": [
+        -65,
+        9
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 95,
+      "location": [
+        -65,
+        -9
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 90.5,
+      "location": [
+        -65.5,
+        15
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 90.5,
+      "location": [
+        -65.5,
+        -15
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 99,
+      "location": [
+        -65.5,
+        27.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 99,
+      "location": [
+        -65.5,
+        -27.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 85.5,
+      "location": [
+        -65.5,
+        35
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 85.5,
+      "location": [
+        -65.5,
+        -35
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    }
+  ],
+  "height": 148,
+  "hullId": "khs_dolphin",
+  "hullName": "Dolphin",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 91.701965,
+  "spriteName": "khs_graphics/hulls/dolphin.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -33.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        41.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        10.5,
+        24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        10.5,
+        -24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -13.5,
+        24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        -13.5,
+        -24
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 90,
+  "builtInMods":["tow_cable"],
+}

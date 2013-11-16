@@ -1,0 +1,43 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
+  "hullId": "khs_behemoth",
+  "hullMods": [
+    "missleracks",
+    "reinforcedhull",
+    "unstable_injector"
+  ],
+  "variantId": "khs_behemoth_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_longinus",
+        "WS0002": "mark9",
+        "WS0003": "dualflak",
+        "WS0004": "arbalest",
+        "WS0005": "swarmer",
+        "WS0006": "harpoon",
+        "WS0007": "railgun",
+        "WS0008": "lightdualac",
+        "WS0009": "annihilator",
+        "WS0010": "atropos",
+        "WS0011": "lightmortar",
+        "WS0012": "harpoon_single",
+        "WS0013": "harpoon",
+        "WS0014": "heatseeker",
+        "WS0015": "sabot_single",
+        "WS0016": "arbalest",
+        "WS0017": "lightag",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightneedler",
+        "WS0020": "hveldriver",
+        "WS0021": "hellbore",
+        "WS0022": "heatseeker",
+        "WS0023": "harpoon"
+      }
+    }
+  ]
+}

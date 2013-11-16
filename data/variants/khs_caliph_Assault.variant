@@ -1,0 +1,74 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 36,
+  "hullId": "khs_caliph",
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "variantId": "khs_caliph_Assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_hoplite",
+        "WS0002": "khs_sling",
+        "WS0003": "khs_sling",
+        "WS0004": "khs_sling",
+        "WS0005": "khs_sling",
+        "WS0006": "khs_sling",
+        "WS0007": "khs_sling",
+        "WS0008": "khs_sling",
+        "WS0009": "khs_sling",
+        "WS0010": "khs_sling",
+        "WS0011": "khs_sling",
+        "WS0012": "khs_sling",
+        "WS0013": "khs_sling",
+        "WS0014": "khs_sling",
+        "WS0015": "khs_sling",
+        "WS0016": "khs_sling",
+        "WS0017": "khs_sling",
+        "WS0020": "khs_volley_cannon",
+        "WS0021": "khs_volley_cannon",
+        "WS0022": "khs_volley_cannon",
+        "WS0023": "khs_volley_cannon",
+        "WS0024": "khs_volley_cannon",
+        "WS0025": "khs_volley_cannon",
+        "WS0033": "khs_partisan",
+        "WS0034": "khs_partisan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "khs_kinetic_penetrator",
+        "WS0019": "khs_kinetic_penetrator",
+		"WS0029": "khs_kinetic_demolisher",
+        "WS0031": "khs_kinetic_violator",
+        "WS0032": "khs_kinetic_violator",       
+		"WS0041": "khs_kinetic_demolisher",
+        "WS0042": "khs_kinetic_demolisher",
+        "WS0043": "khs_kinetic_violator",
+        "WS0044": "khs_kinetic_violator"	  
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0035": "khs_assault_violator",
+        "WS0036": "khs_assault_violator",
+        "WS0037": "khs_assault_violator",
+        "WS0038": "khs_assault_violator",
+        "WS0039": "khs_assault_demolisher",
+        "WS0040": "khs_assault_demolisher",	 
+        "WS0026": "khs_assault_violator",
+        "WS0027": "khs_assault_violator",
+        "WS0028": "khs_assault_violator",
+        "WS0030": "khs_assault_demolisher"		
+	  }
+    }
+  ]
+}

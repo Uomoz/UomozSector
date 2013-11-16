@@ -1,0 +1,33 @@
+{
+  "displayName": "Fast Attack",
+  "fluxCapacitors": 21,
+  "fluxVents": 0,
+  "hullId": "khs_rukh",
+  "hullMods": [
+    "unstable_injector",
+    "pointdefenseai"
+  ],
+  "variantId": "khs_rukh_Fast_Attack",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_sling",
+        "WS0002": "khs_sling",
+        "WS0003": "khs_sling",
+        "WS0004": "khs_sling",
+        "WS0005": "khs_sling",
+        "WS0006": "khs_sling",
+        "WS0007": "khs_sling"
+      }
+    },
+	    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "khs_kinetic_penetrator"	  
+	  }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "displayName": "Hunter-Killer",
+  "fluxCapacitors": 5,
+  "fluxVents": 1,
+  "hullId": "khs_hyena",
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "variantId": "khs_hyena_Picket",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_kinetic_violator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "khs_sling"	  
+	  }
+    }
+  ]
+}

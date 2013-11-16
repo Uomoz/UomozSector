@@ -1,0 +1,149 @@
+{
+  "bounds": [
+    27.5,
+    4.5,
+    16,
+    13.5,
+    14.5,
+    18.5,
+    -16.5,
+    25,
+    -12.5,
+    16.5,
+    -19.5,
+    18,
+    -16,
+    9.5,
+    -18.5,
+    7.5,
+    -18.5,
+    -7.5,
+    -16,
+    -9.5,
+    -19.5,
+    -18,
+    -12.5,
+    -16.5,
+    -16.5,
+    -25,
+    14.5,
+    -18.5,
+    16,
+    -13.5,
+    27.5,
+    -4.5
+  ],
+  "center": [
+    26.5,
+    20.5
+  ],
+  "collisionRadius": 42.573467,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 54.5,
+      "location": [
+        -18.5,
+        -0.5
+      ],
+      "style": "MIDLINE",
+      "width": 18
+    },
+    {
+      "angle": 146.309937,
+      "contrailSize": 6.656401,
+      "length": 14.00618,
+      "location": [
+        -15.5,
+        9.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.656401
+    },
+    {
+      "angle": -146.309937,
+      "contrailSize": 6.656401,
+      "length": 14.00618,
+      "location": [
+        -15.5,
+        -9.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.656401
+    },
+    {
+      "angle": 146.309937,
+      "contrailSize": 6.656401,
+      "length": 14.00618,
+      "location": [
+        -12.5,
+        18.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.656401
+    },
+    {
+      "angle": -146.309937,
+      "contrailSize": 6.656401,
+      "length": 14.00618,
+      "location": [
+        -12.5,
+        -18.5
+      ],
+      "style": "MIDLINE",
+      "width": 6.656401
+    }
+  ],
+  "height": 51,
+  "hullId": "khs_immortal",
+  "hullName": "Immortal",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 40.917599,
+  "spriteName": "khs_graphics/hulls/immortal.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        12,
+        15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        12,
+        -15
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 53
+}

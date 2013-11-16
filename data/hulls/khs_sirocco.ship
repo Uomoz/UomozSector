@@ -1,0 +1,241 @@
+{
+  "bounds": [
+    -42,
+    33.5,
+    73,
+    37.5,
+    98,
+    15.5,
+    54,
+    10,
+    53.5,
+    -9,
+    92,
+    -15,
+    73.5,
+    -37,
+    -20,
+    -35.5,
+    -63,
+    -35.5,
+    -84,
+    -24.5,
+    -83,
+    27.5,
+    -64,
+    35.5
+  ],
+  "builtInWeapons": {
+    "WS0002": "khs_runninglightblue",
+    "WS0003": "khs_runninglightyellow",
+    "WS0004": "khs_runninglightyellow",
+    "WS0005": "khs_runninglightblue"
+  },
+  "center": [
+    45.5,
+    88
+  ],
+  "collisionRadius": 128.25853,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -86,
+        23.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -86,
+        16.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -85,
+        9.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -86,
+        0.5
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -85,
+        -8.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -86,
+        -15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -86,
+        -23.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    }
+  ],
+  "height": 191,
+  "hullId": "khs_sirocco",
+  "hullName": "Sirocco",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    6.5,
+    -0.5
+  ],
+  "shieldRadius": 119.85408,
+  "spriteName": "khs_graphics/hulls/sirocco.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 135,
+      "arc": 250,
+      "id": "WS 001",
+      "locations": [
+        -58.5,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 225,
+      "arc": 250,
+      "id": "WS 002",
+      "locations": [
+        -58.5,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 250,
+      "id": "WS 003",
+      "locations": [
+        86,
+        21.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -45,
+      "arc": 250,
+      "id": "WS 004",
+      "locations": [
+        85.5,
+        -20.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        45,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        30,
+        41
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        30,
+        -41
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        100.5,
+        13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        92.5,
+        -13.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 91
+}

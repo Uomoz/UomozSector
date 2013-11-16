@@ -1,0 +1,312 @@
+{
+  "bounds": [
+    135,
+    -11.5,
+    125,
+    -18.5,
+    120.5,
+    -28.5,
+    109.5,
+    -28.5,
+    101.5,
+    -33.5,
+    13,
+    -56.5,
+    6.5,
+    -63.5,
+    -32,
+    -63,
+    -42.5,
+    -73.5,
+    -63,
+    -72,
+    -93,
+    -53,
+    -111,
+    -49.5,
+    -110.5,
+    -10,
+    -90.5,
+    -8,
+    -91.5,
+    7.5,
+    -111.5,
+    12,
+    -111,
+    49.5,
+    -93,
+    53,
+    -63,
+    72,
+    -42.5,
+    73.5,
+    -32,
+    63,
+    6.5,
+    63.5,
+    13,
+    56.5,
+    101.5,
+    33.5,
+    109.5,
+    28.5,
+    120.5,
+    28.5,
+    125,
+    18.5,
+    135,
+    11.5
+  ],
+  "builtInWeapons": {
+    "WS0009": "khs_runninglightblue",
+    "WS0010": "khs_runninglightyellow",
+    "WS0011": "khs_runninglightblue",
+    "WS0012": "khs_runninglightyellow"
+  },
+  "center": [
+    86,
+    133
+  ],
+  "collisionRadius": 136.953461,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 17,
+      "length": 107,
+      "location": [
+        -111.5,
+        43
+      ],
+      "style": "MIDLINE",
+      "width": 17
+    },
+    {
+      "angle": -180,
+      "contrailSize": 17,
+      "length": 107,
+      "location": [
+        -111.5,
+        -43
+      ],
+      "style": "MIDLINE",
+      "width": 17
+    },
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 97,
+      "location": [
+        -112,
+        18.5
+      ],
+      "style": "MIDLINE",
+      "width": 21
+    },
+    {
+      "angle": -180,
+      "contrailSize": 21,
+      "length": 97,
+      "location": [
+        -112,
+        -18.5
+      ],
+      "style": "MIDLINE",
+      "width": 21
+    }
+  ],
+  "height": 298,
+  "hullId": "khs_rukh",
+  "hullName": "Rukh",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 180,
+  "spriteName": "khs_graphics/hulls/rukh.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0001",
+      "locations": [
+        7,
+        42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0002",
+      "locations": [
+        7,
+        -42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0003",
+      "locations": [
+        96.5,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 280,
+      "id": "WS0004",
+      "locations": [
+        96.5,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 280,
+      "id": "WS0005",
+      "locations": [
+        -12,
+        46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 280,
+      "id": "WS0006",
+      "locations": [
+        -12,
+        -46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 280,
+      "id": "WS0007",
+      "locations": [
+        -61.5,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 280,
+      "id": "WS0008",
+      "locations": [
+        29,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        84.5,
+        16.5,
+        68,
+        17,
+        52.5,
+        17,
+        48,
+        8
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        48.5,
+        -3,
+        51,
+        -15,
+        66,
+        -15.5,
+        82,
+        -15.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        -44,
+        47
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        -44,
+        -47
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        38.5,
+        49.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0012",
+      "locations": [
+        38.5,
+        -49.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 173
+}

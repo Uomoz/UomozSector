@@ -1,0 +1,16 @@
+{
+	"id":"khs_s_m_shell",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":100.0,
+	"width":7.5,
+	"fadeTime":0.3,
+	"fringeColor":[255,200,200,140],
+	"coreColor":[255,235,235,235],
+	"hitGlowRadius":150,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"khs_graphics/missiles/ashell_medium.png"	
+}

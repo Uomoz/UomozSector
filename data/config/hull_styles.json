@@ -13,7 +13,17 @@
 		"fluxVentCoreColor":[95,205,140,255],
 		"fluxVentFringeColor":[50,110,74,255],
     },
-
+	"KADUR_TECH":{
+		"hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,175],
+		"shieldInnerColor":[255,145,75,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[255,145,75,255],
+	},
 	"BLACKROCKHULL":{
 		"hyperspaceJitterColor":[135,145,125,200],
 		"baseCampaignExplosionColor":[135,145,125,255],

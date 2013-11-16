@@ -1,0 +1,80 @@
+{
+  "bounds": [
+    -7.5,
+    13.5,
+    21,
+    -0,
+    -8,
+    -12.5,
+    -14.5,
+    1
+  ],
+  "center": [
+    15,
+    17.5
+  ],
+  "collisionRadius": 21.272047,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 33.5,
+      "location": [
+        -16,
+        8.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 33,
+      "location": [
+        -16,
+        -7.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 38,
+  "hullId": "khs_scimitar",
+  "hullName": "Scimitar",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 21.476732,
+  "spriteName": "khs_graphics/hulls/scimitar.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        5,
+        5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        5,
+        -4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 29
+}

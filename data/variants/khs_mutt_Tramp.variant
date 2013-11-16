@@ -1,0 +1,25 @@
+{
+  "displayName": "Tramp",
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "hullId": "khs_mutt",
+  "hullMods": [
+    "auxiliarythrusters",
+    "reinforcedhull"
+  ],
+  "variantId": "khs_mutt_Tramp",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "khs_volley_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

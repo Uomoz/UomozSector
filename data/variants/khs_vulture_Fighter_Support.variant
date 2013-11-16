@@ -1,0 +1,21 @@
+{
+  "displayName": "Fighter Support",
+  "fluxCapacitors": 8,
+  "fluxVents": 4,
+  "hullId": "khs_vulture",
+  "hullMods": [
+    "extendedshieldemitter",
+    "turretgyros"
+  ],
+  "variantId": "khs_vulture_Fighter_Support",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_sling",
+        "WS0002": "khs_volley_cannon"
+      }
+    }
+  ]
+}

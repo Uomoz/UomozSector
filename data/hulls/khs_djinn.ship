@@ -1,0 +1,256 @@
+{
+  "bounds": [
+    -42,
+    58,
+    -29,
+    35,
+    23,
+    39,
+    32.5,
+    51,
+    50,
+    36,
+    92,
+    34,
+    101,
+    52,
+    136,
+    15,
+    120,
+    -11,
+    129,
+    -21,
+    118,
+    -33,
+    105,
+    -39,
+    52,
+    -31,
+    34,
+    -43,
+    24,
+    -30,
+    -27,
+    -33,
+    -41,
+    -58,
+    -58,
+    -52,
+    -59,
+    -20,
+    -73,
+    -48,
+    -91,
+    -41,
+    -92,
+    39,
+    -74,
+    49,
+    -60,
+    19,
+    -58,
+    53
+  ],
+  "builtInWeapons": {
+    "WS0002": "khs_runninglightyellow",
+    "WS0003": "khs_runninglightblue",
+    "WS0004": "khs_runninglightblue",
+    "WS0005": "khs_runninglightyellow"
+  },
+  "center": [
+    60,
+    94
+  ],
+  "collisionRadius": 182,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -94,
+        36
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -94,
+        24
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -94,
+        9
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -94,
+        -9
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -94,
+        -24
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -94,
+        -36
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    }
+  ],
+  "height": 234,
+  "hullId": "khs_djinn",
+  "hullName": "Djinn",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    20,
+    0
+  ],
+  "shieldRadius": 160,
+  "spriteName": "khs_graphics/hulls/djinn.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 150,
+      "id": "WS 001",
+      "locations": [
+        -76,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS 002",
+      "locations": [
+        37,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS 003",
+      "locations": [
+        35,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS 004",
+      "locations": [
+        125,
+        13
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 260,
+      "id": "WS0001",
+      "locations": [
+        81.5,
+        3
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -44.5,
+        57.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -44.5,
+        -57.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        116.5,
+        46
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        128.5,
+        -29
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 120
+}

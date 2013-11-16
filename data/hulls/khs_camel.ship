@@ -1,0 +1,222 @@
+{
+  "bounds": [
+    76.5,
+    9,
+    5.5,
+    34.5,
+    5,
+    43.5,
+    -31,
+    42.5,
+    -22,
+    30.5,
+    -50.5,
+    31.5,
+    -63,
+    -0,
+    -50.5,
+    -31.5,
+    -22,
+    -30.5,
+    -31,
+    -42.5,
+    5,
+    -43.5,
+    5.5,
+    -34.5,
+    76.5,
+    -9
+  ],
+  "builtInWeapons": {
+    "WS0008": "khs_runninglightyellow",
+    "WS0009": "khs_runninglightblue",
+    "WS0010": "khs_runninglightblue",
+    "WS0011": "khs_runninglightyellow"
+  },
+  "center": [
+    45,
+    67
+  ],
+  "collisionRadius": 116.34539,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 76.5,
+      "location": [
+        -66,
+        9
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 76.5,
+      "location": [
+        -66,
+        -9
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 60.5,
+      "location": [
+        -63,
+        20
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 60.5,
+      "location": [
+        -63,
+        -20
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    }
+  ],
+  "height": 151,
+  "hullId": "khs_camel",
+  "hullName": "Camel",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 115.027168,
+  "spriteName": "khs_graphics/hulls/camel.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        -0.5,
+        21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -0.5,
+        -21
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 220,
+      "id": "WS0006",
+      "locations": [
+        71,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        -1,
+        38
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0004",
+      "locations": [
+        -1,
+        -38
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        -40,
+        36
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        -40,
+        -36
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0010",
+      "locations": [
+        57.5,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0011",
+      "locations": [
+        57.5,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 90
+}

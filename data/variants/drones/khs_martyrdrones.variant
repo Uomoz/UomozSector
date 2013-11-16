@@ -1,0 +1,17 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_martyrdrones",
+  "hullMods": [],
+  "variantId": "khs_martyrdrones",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "khs_martyrcannon"
+      }
+    }
+  ]
+}

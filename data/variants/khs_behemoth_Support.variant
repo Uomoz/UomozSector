@@ -1,0 +1,58 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 23,
+  "fluxVents": 4,
+  "hullId": "khs_behemoth",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "variantId": "khs_behemoth_Support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_longinus",
+        "WS0002": "khs_kinetic_demolisher",
+        "WS0003": "khs_assault_violator",
+        "WS0004": "khs_assault_violator",
+        "WS0005": "khs_javelin_vlrms",
+        "WS0006": "khs_javelin_vlrms",
+        "WS0007": "khs_volley_cannon",
+        "WS0008": "khs_volley_cannon",
+        "WS0009": "khs_sling",
+        "WS0010": "khs_sling",
+        "WS0011": "khs_kinetic_penetrator",
+        "WS0013": "khs_javelin_vlrms",
+        "WS0014": "khs_javelin_vlrms",
+        "WS0015": "khs_javelin_vlrms",
+        "WS0017": "khs_kinetic_penetrator",
+        "WS0018": "khs_volley_cannon",
+        "WS0019": "khs_kinetic_penetrator",
+        "WS0020": "khs_assault_violator",
+        "WS0021": "khs_assault_demolisher",
+        "WS0022": "khs_sling",
+        "WS0023": "khs_sling"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "khs_kinetic_violator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "khs_sling"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "bounds": [
+    66,
+    9.5,
+    66.5,
+    20,
+    51,
+    27.5,
+    45,
+    15.5,
+    40,
+    17,
+    44.5,
+    31,
+    -44.5,
+    97,
+    -56.5,
+    85.5,
+    -35.5,
+    61.5,
+    -53,
+    40,
+    -39,
+    23.5,
+    -54,
+    11.5,
+    -54,
+    -11.5,
+    -39,
+    -23.5,
+    -53,
+    -40,
+    -35.5,
+    -61.5,
+    -56.5,
+    -85.5,
+    -44.5,
+    -97,
+    44.5,
+    -31,
+    40,
+    -17,
+    45,
+    -15.5,
+    51,
+    -27.5,
+    66.5,
+    -20,
+    66,
+    -9.5,
+    58.5,
+    -0.5
+  ],
+  "center": [
+    96,
+    55.5
+  ],
+  "collisionRadius": 127.008858,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 21,
+      "length": 105.5,
+      "location": [
+        -55,
+        -0.5
+      ],
+      "style": "MIDLINE",
+      "width": 21
+    },
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 57,
+      "location": [
+        -42,
+        25
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    },
+    {
+      "angle": -180,
+      "contrailSize": 13,
+      "length": 57,
+      "location": [
+        -42,
+        -25
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    },
+    {
+      "angle": -140.599335,
+      "contrailSize": 20.284073,
+      "length": 59.61031,
+      "location": [
+        -47,
+        30.5
+      ],
+      "style": "MIDLINE",
+      "width": 20.284073
+    },
+    {
+      "angle": 140.599335,
+      "contrailSize": 20.284073,
+      "length": 59.61031,
+      "location": [
+        -47,
+        -30.5
+      ],
+      "style": "MIDLINE",
+      "width": 20.284073
+    }
+  ],
+  "height": 124,
+  "hullId": "khs_hauberk",
+  "hullName": "Hauberk",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    1,
+    -0
+  ],
+  "shieldRadius": 124.214531,
+  "spriteName": "khs_graphics/hulls/hauberk.PNG",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -65,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        -1,
+        -21.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 65,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        -1,
+        21.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 280,
+      "id": "WS0003",
+      "locations": [
+        -27,
+        69
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 280,
+      "id": "WS0004",
+      "locations": [
+        -27,
+        -69
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 65,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        34,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -65,
+      "arc": 220,
+      "id": "WS0006",
+      "locations": [
+        34,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 65,
+      "arc": 220,
+      "id": "WS0007",
+      "locations": [
+        54.5,
+        9
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -65,
+      "arc": 220,
+      "id": "WS0008",
+      "locations": [
+        54.5,
+        -9
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 192
+}

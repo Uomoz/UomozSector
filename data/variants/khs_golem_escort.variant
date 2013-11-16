@@ -1,0 +1,46 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "hullId": "khs_golem",
+  "hullMods": [
+    "turretgyros"
+  ],
+  "variantId": "khs_golem_escort",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "khs_kinetic_violator",
+        "WS0010": "khs_kinetic_violator",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_sling",
+        "WS0002": "khs_sling",
+        "WS0003": "khs_volley_cannon",
+        "WS0004": "khs_volley_cannon",
+        "WS0005": "khs_sling",
+        "WS0006": "khs_sling",
+        "WS0007": "khs_sling",
+        "WS0008": "khs_partisan",
+        "WS0011": "khs_hoplite",
+        "WS0012": "khs_hoplite"		
+	  }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "bounds": [
+    -7,
+    24,
+    -12.5,
+    32.5,
+    -37.5,
+    32.5,
+    -32,
+    25,
+    -42.5,
+    19,
+    -42.5,
+    -20,
+    -32,
+    -26,
+    -37.5,
+    -33.5,
+    -12.5,
+    -33.5,
+    -7,
+    -25,
+    37,
+    -14,
+    40,
+    -8,
+    40,
+    6.5,
+    45,
+    18.5,
+    22,
+    21,
+    22,
+    27,
+    12.5,
+    27.5,
+    12.5,
+    37,
+    4.5,
+    36.5,
+    5,
+    25
+  ],
+  "builtInWeapons": {
+    "WS0002": "khs_runninglightblue",
+    "WS0003": "khs_runninglightyellow"
+  },
+  "center": [
+    38,
+    45.5
+  ],
+  "collisionRadius": 85.2071,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -42,
+        19.5
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -42,
+        -19.5
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44,
+        -16.5
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44,
+        16.5
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44.5,
+        -12
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44.5,
+        12
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44,
+        -6
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 49.5,
+      "location": [
+        -44,
+        6
+      ],
+      "style": "MIDLINE",
+      "width": 6
+    }
+  ],
+  "height": 98,
+  "hullId": "khs_buzzard",
+  "hullName": "Buzzard",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 83.006027,
+  "spriteName": "khs_graphics/hulls/buzzard.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -18,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        13,
+        33
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        50,
+        -7.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 73
+}

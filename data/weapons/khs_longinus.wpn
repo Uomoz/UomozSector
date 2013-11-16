@@ -1,0 +1,25 @@
+{
+	"id":"khs_longinus",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"khs_graphics/weapons/large/trans.png",
+	"hardpointSprite":"khs_graphics/weapons/large/trans.png",
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[],
+	"turretOffsets":[2, -2],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[2, -2],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":90.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":1.2,
+					   "particleCount":80,
+					   "particleColor":[200,210,255,200]},	
+	"projectileSpecId":"khs_longinus",  # projectile that will be fired
+	"fireSoundTwo":"gauss_cannon_fire",
+}

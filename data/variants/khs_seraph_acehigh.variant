@@ -1,0 +1,33 @@
+{
+  "displayName": "Ace High",
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "hullId": "khs_seraph",
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "variantId": "khs_seraph_acehigh",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "mjolnir",
+        "WS0003": "hephag",
+        "WS0004": "hil",
+        "WS0005": "phasebeam",
+        "WS0006": "gravitonbeam",
+        "WS0007": "pdburst",
+        "WS0008": "ioncannon",
+        "WS0009": "taclaser",
+        "WS0010": "vulcan",
+        "WS0011": "irpulse",
+        "WS0012": "lightmortar",
+        "WS0013": "lightag",
+        "WS0014": "pdlaser",
+        "WS0015": "railgun"
+      }
+    }
+  ]
+}

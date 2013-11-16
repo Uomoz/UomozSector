@@ -1,0 +1,25 @@
+{
+  "displayName": "Heavy Escort Corvette",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "khs_myrmidon",
+  "hullMods": [],
+  "variantId": "khs_myrmidon_escort",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_kinetic_penetrator",
+        "WS0002": "khs_strike_cannon",
+        "WS0003": "khs_strike_cannon",
+        "WS0004": "khs_partisan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+	"id":"khs_phaseshunt2",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER",
+	
+	"jitterColor":[200,100,255,150],
+	"jitterCopies":30,
+	"jitterRange":45,
+	"jitterRangeRadiusFraction":0,
+	
+	"weaponGlowColor":[255,100,255,0],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	"engineGlowLengthMult":4,
+	"engineGlowWidthMult":4,
+	"engineGlowGlowMult":4,
+	
+	"range":300,
+	"randomRange":0,
+	
+	"useSound":"system_phase_teleporter",	
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"averageSpeedIncrease":150,
+	}
+}

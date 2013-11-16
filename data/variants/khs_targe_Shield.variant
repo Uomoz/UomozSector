@@ -1,0 +1,37 @@
+{
+  "displayName": "Point Defense",
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "hullId": "khs_targe",
+  "hullMods": [
+    "missleracks"
+  ],
+  "variantId": "khs_targe_Shield",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_partisan",
+        "WS0002": "khs_partisan",
+        "WS0003": "khs_volley_cannon",
+        "WS0004": "khs_volley_cannon",
+        "WS0007": "khs_sling",
+        "WS0008": "khs_sling"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "khs_kinetic_violator",
+        "WS0006": "khs_kinetic_violator"	  
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

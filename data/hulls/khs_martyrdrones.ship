@@ -1,0 +1,61 @@
+{
+  "bounds": [
+    7.5,
+    9,
+    -1.5,
+    10,
+    -10.5,
+    3,
+    -10.5,
+    -3.5,
+    -1.5,
+    -10,
+    7.5,
+    -9
+  ],
+  "center": [
+    11.5,
+    15.5
+  ],
+  "collisionRadius": 12.419743,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 18.5,
+      "location": [
+        -6,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    }
+  ],
+  "height": 26,
+  "hullId": "khs_martyrdrones",
+  "hullName": "Martyr Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    -0.5,
+    -0
+  ],
+  "shieldRadius": 12.727922,
+  "spriteName": "khs_graphics/hulls/martyrdrone.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 001",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 23
+}

@@ -1,0 +1,43 @@
+{
+  "displayName": "Fire Support",
+  "fluxCapacitors": 0,
+  "fluxVents": 14,
+  "hullId": "khs_falchion",
+  "hullMods": [],
+  "variantId": "khs_falchion_firesupport",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_assault_violator",
+        "WS0004": "khs_kinetic_violator",
+        "WS0005": "khs_kinetic_violator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	    "WS0006": "khs_volley_cannon",
+        "WS0007": "khs_volley_cannon",
+		"WS0002": "khs_partisan",
+        "WS0003": "khs_partisan",
+        "WS0008": "khs_sling",
+        "WS0009": "khs_sling"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+	  "WS0010": "khs_javelin_vlrms"
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ]
+}

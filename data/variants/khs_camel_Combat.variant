@@ -1,0 +1,22 @@
+{
+  "displayName": "Combat",
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "hullId": "khs_camel",
+  "hullMods": [],
+  "variantId": "khs_camel_Combat",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_sling",
+        "WS0002": "khs_sling",
+        "WS0003": "khs_javelin_vlrms",
+        "WS0004": "khs_javelin_vlrms",
+        "WS0005": "khs_assault_violator",
+        "WS0006": "khs_volley_cannon"
+      }
+    }
+  ]
+}

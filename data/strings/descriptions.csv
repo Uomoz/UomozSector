@@ -1,4 +1,31 @@
 id,type,text1,text2,text3,notes
+,,,,,
+electronics,RESOURCE,"Basic electronic components with very high value given they were mostly produced during before the collapse.
+
+They can be to be used to produce almost every ship's electonic parts.",,,
+LTscraps,RESOURCE,Structural parts belonging to the long gone Mastery Epoch. Used mostly to produce so called “Low Tech” ships.,,,
+MTscraps,RESOURCE,Structural parts belonging to the long gone Core Epoch. Used mostly to produce so called “Mid Tech” ships.,,,
+HTscraps,RESOURCE,Structural parts belonging to the Expansion Epoch. Used mostly to produce so called “High Tech” ships.,,,
+LTarmor,RESOURCE,Armor parts belonging to the long gone Mastery Epoch. Used mostly to produce so called “Low Tech” ships.,,,
+MTarmor,RESOURCE,Armor parts belonging to the long gone Core Epoch. Used mostly to produce so called “Mid Tech” ships.,,,
+HTarmor,RESOURCE,Armor parts belonging to the Expansion Epoch. Used mostly to produce so called “High Tech” ships.,,,
+LTengines,RESOURCE,Engine parts belonging to the long gone Mastery Epoch. Used mostly to produce so called “Low Tech” ships.,,,
+MTengines,RESOURCE,Engine parts belonging to the long gone Core Epoch. Used mostly to produce so called “Mid Tech” ships.,,,
+HTengines,RESOURCE,Engine parts belonging to the Expansion Epoch. Used mostly to produce so called “High Tech” ships.,,,
+LTflux,RESOURCE,Flux conduits belonging to the long gone Mastery Epoch. Used mostly to produce so called “Low Tech” ships.,,,
+MTflux,RESOURCE,Flux conduits belonging to the long gone Core Epoch. Used mostly to produce so called “Mid Tech” ships.,,,
+HTflux,RESOURCE,Flux conduits belonging to the Expansion Epoch. Used mostly to produce so called “High Tech” ships.,,,
+BRengines,RESOURCE,Engine core belonging to the Blackrock Driveyards. Necessary to produce Blackrock ships .,,,
+SHIflux,RESOURCE,Complex flux relay belonging to the Shadowyards Industries. Necessary to produce Shadowyards ships .,,,
+PCKarmor,RESOURCE,Armor parts belonging to the Canis Yards. Necessary to produce PACK ships .,,,
+JPflux,RESOURCE,Dynamic flux inverter belonging to the Breh'Inni Yards. Necessary to produce “Junked” ships .,,,
+KADarmor,RESOURCE,Armor parts belonging to the Kadur Yards. Necessary to produce Kadur ships .,,,
+NOMscraps,RESOURCE,Metal parts belonging to the foreign Nur technology. Necessary to produce Nomads ships.,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
 brdy_squallgun,WEAPON,"A chemical/magnetic co-propellant cannon by Blackrock, designed to threaten ships at close range with large caliber rounds.
 
 Most of the turret house consists of recoil-absorbing servoes and gel reservoirs, making it feasible to mount the cannon on fairly small-sized vessels without impairing their maneuvering ability.",Strike,,
@@ -65,7 +92,8 @@ br_lodestone,PLANET,"Verdant Lodestone posesses an extremely compact interior th
 br_nanoplanet,PLANET,"Verge is a gas giant whose entire atmosphere is permeated by a rampant, competitive ecosystem of nanocellular pseudolife. Its orbit is clogged with the debris of warships, coffin vessels from the Exodus, and semi-active void-compatible pseudolife. Blackrock security sentries surround the planet and obliterate anything trying to exit or enter low orbit.",,,
 brdy_karkinos,SHIP,"Laid out in immaculate secrecy, the Karkinos is Blackrock's final stake in the struggle for Sector dominance. Its Scalar Deracinator can rip a hole in the dimensional grid of the universe and bathe enemy fleets in the raw ether of phase space.
 
-The corona of energy that surrounds the main flux sink of the Karkinos is bleedthrough from phase space: it forms a permanent link, similar to a common drive anchor, but massively upscaled. Each Karkinos is laid down when this link is first created; the rest of the ship then has to be carefully built around it. Only one in nine projects lead to spaceworthy stages. The rest fail, either because they do not meet safety spacifications, or ending in a disaster involving the destruction and disappearance of an entire dry dock. These incidents are publicly reported by Blackrock Drive Yards, branded as a ""necessary evil"" -  which, of course, does nothing to change the fate met by the involved engineers and workers, their minds and bodies rent asunder on the trillion invisible fractal blades of an imploding scalar gateway.",,,
+The corona of energy that surrounds the main flux sink of the Karkinos is bleedthrough from phase space: it forms a permanent link, similar to a common drive anchor, but massively upscaled. Each Karkinos is laid down when this link is first created; the rest of the ship then has to be carefully built around it. Only one in nine projects lead to spaceworthy stages.
+The rest fail, either because they do not meet safety spacifications, or ending in a disaster involving the destruction and disappearance of an entire dry dock. These incidents are publicly reported by Blackrock Drive Yards, branded as a ""necessary evil"" -  which, of course, does nothing to change the fate met by the involved engineers and workers, their minds and bodies rent asunder on the trillion invisible fractal blades of an imploding scalar gateway.",,,
 ,,,,,
 burstjets,SHIP_SYSTEM,Engages auxiliary thrust nozzles that generate enormous temporary acceleration. Compensatory thrust is automatically applied afterward to stabilize the ship's heading.,Mobility,,
 arcjetburner,SHIP_SYSTEM,"By disengaging the shield emitter and aux thrusters and feeding the resulting power into the main torch, the ship can attain an enormous speed without having to run through the travel drive coupling routine.",Mobility,,
@@ -498,3 +526,81 @@ nom_sandstorm,SHIP,"The Sandstorm is designed to charge into a fight with fronta
 nom_gila_monster,SHIP,"The Gila Monster was invented to take on ancient battleships, which are then be looted for supplies and spare parts to refit the rest of the fleet. It utilizes its Doom Cannon for fierce but brief encounters. Like the sandstorm it is ill-equipped for long-term engagements.",,,
 nom_oasis,SHIP,"Central to the survival of the Nomads in the present day, this behemoth civilian transport also aids its escort armada with custom logistical systems to enable indefinite away-journeys with no need to dock.",,,
 nom_planet_naera,CUSTOM,"Naera is an oddity among habitable planets. It is a poor candidate for conlonization due to its immense size, low density atmosphere and high surface temperature. Despite these difficulties a bold group of ancient pre-travel-drive explorers wound up in orbit around Naera. Their cryo-preservation systems had failed on a mission to another planet and they were forced to take refuge there. Using the remains of their vessel and technology, they settled on the surface and gradually adapted to its extreme conditions. This civilization eventually returned to the stars and earned themselves the title ""Nomads.""  They now spend most of their time off-planet, only to occasionally return during times of critical emergency.",,,
+,,,,,
+,,,,,
+,,,,,
+khs_mutt,SHIP,"A civilian version of the Hound-class freighter common to the sector, the Mutt still finds use in some fleets as a scout craft or blockade runner.",,,
+khs_caliph,SHIP,The Caliph-class is the premier capital ship of the Kadur navy. It is primarily used as a mobile strongpoint around which their battle formations are built.,,,
+khs_dervish,SHIP,A next-generation phase interceptor resulting from a series of top-secret technology deals with a mysterious corporation.,,,
+khs_hyena,SHIP,"The Hyena is the light picket frigate of the Kadur navy, forming the majority of their combat patrols.",,,
+khs_jackal,SHIP,"The Jackal is often left entirely unarmed, relying solely on its drone complement for protection. It serves as a light reconnaissance vessel.",,,
+khs_rukh,SHIP,"The Rukh-class carrier is a light cruiser built around a set of extremely powerful engines. They provide mobile rearming and repair support for fighters and corvettes. Due to their lack of any heavy weapon mounting space, they rely on their small craft and drone escorts for protection.",,,
+khs_dirk,SHIP,"The Dirk-class interceptor is very quick, and its light railgun array is quite effective against both other fighters and the shields of heavier enemy craft.",,,
+khs_seraph,SHIP,"Seraph-class battle carriers are the backbone of Kadur fleets, providing support for fighter and corvette wings while their broadsides contribute incredible firepower.",,,
+khs_targe,SHIP,"Targe-class destroyers are plated with heavy armor and boast a unique long-projection shield generator capable of sheltering nearby ships from enemy fire. Although the shield has a small projection arc width, individual captains have been known to modify it for greater use in a support role.",,,
+khs_buzzard,SHIP,"Buzzard-class frigates are essentially heavy armor and engines built around a single oversized weapon mount, providing unparalleled firepower for such a small craft.",,,
+khs_vulture,SHIP,"A light frigate, built by the Kadur navy to serve as an ultra-mobile support vessel for fighter or corvette wings. It also hosts a complement of defensive drones.",,,
+khs_sphinx,SHIP,The Sphinx-class heavy cruiser was built to provide a fire support and assault platform for Kadur fast attack groups without sacrificing speed or protection.,,,
+khs_hauberk,SHIP,Hauberk-class Electronic Warfare destroyers boast an impressive array of equipment designed to jam enemy targeting sensors while enhancing those of their allies.,,,
+khs_falchion,SHIP,"Falchion-class destroyers are the mainstay of most Kadur combat fleets, with devastating firepower for their class, albeit all concentrated in the forward arc.",,,
+khs_leviathan,SHIP,"The aging Leviathan-class cruiser is a lumbering, inefficient hull still sometimes seen in service as a support vessel. They require large crew complements.",,,
+khs_golem,SHIP,"Golem-class escort cruisers were designed as fast-moving picket ships, intended to either support destroyer fleets or provide a defensive screen for heavier vessels.",,,
+khs_behemoth,SHIP,"Behemoth-class battlecruisers are armed with a superheavy kinetic projectile accelerator running the entire length of the ship, built to provide long-range fire support. Lacking the phase shunting array common to Kadur vessels and mounting instead an experimental main reactor weapons redirect system, they are commonly deployed as system defense vessels by the Kadur navy.",,,
+khs_scimitar,SHIP,Scimitar-class strike fighters are armed with twin forward-facing Kadur strike cannons designed to ravage light armor. They are also effective against other fighters.,,,
+khs_immortal,SHIP,"The earliest built Kadur corvette, the Immortal boasts an impressive shield generator designed before the Kadur shipyards lost the knowledge of effective shielding.",,,
+khs_phalanx,SHIP,"Phalanx-class corvettes bristle with light point defense weaponry, providing an effective anti-missile escort for larger ships.",,,
+khs_myrmidon,SHIP,"The Myrmidon pushes the line between frigate and corvette, barely fitting on most flight decks. It boasts a wide variety of weapons systems for different roles.",,,
+khs_djinn,SHIP,Djinn-class vessels begin their service life as Phaeton tankers before being heavily refitted. They sacrifice a little fuel capacity for a heavy missile system.,,,
+khs_sirocco,SHIP,The Sirocco is the product of a corrupted Tarsus freighter blueprint and decades of jury-rigging by Kadur technicians. It mounts defensive missile systems.,,,
+khs_mistral,SHIP,Mistral-class tankers are a missile-based refit of the common Dram light tanker. The Kadur navy uses them to supply crusade fleets.,,,
+khs_dolphin,SHIP,Dolphin-class tugships are the Kadur Theocracy's means of ensuring even their heaviest vessels are able to keep pace within their crusade fleets.,,,
+khs_camel,SHIP,"The Camel-class, named after a legendary creature of great strength from Old Earth, is one of the heaviest combat vessels still classified as a frigate.",,,
+,,,,,
+khs_martyrcannon,WEAPON,"A low-velocity cannon that is extremely simple and inexpensive to produce. The energized shells are equally ineffective against shields and armor.
+
+Commonly seen mounted on Kadur Theocracy 'Martyr' Unmanned Combat Space Vehicles, the weapon integrates a sophisticated targeting system designed to interface with onboard virtual intelligence programs. This allows it to engage even difficult to acquire targets such as missiles and low-speed dumb ordnance, though it lacks the projectile velocity to do so effectively.",Assault,,
+khs_strike_cannon,WEAPON,"Kadur strike cannons auto-load explosive shells at a rate of four per second, providing an effective assault weapon for small craft.
+
+The strike cannon features a rotary chamber and autoloader assembly, allowing its rate of fire to be sustained as long as the weapon can be kept on target. The 20x138mm high explosive shells it fires are significantly more compact than those used in competing assault weapon systems, allowing more ammunition to be carried.",Assault,,
+khs_volley_cannon,WEAPON,"The volley-fire capacitors in this dual-mounted 10mm light railgun allow it to fire short bursts at the expense of range and damage.
+
+The inert flechettes fired by the weapon are composed of high-density conductive metals, making them very effective against shields. Sadly, the railgun technology used by the Kadur is still fairly flux inefficient even when used in such a system, at least compared to most point defense weapons.",Point Defense,,
+khs_kinetic_penetrator,WEAPON,"The most ubiquitous weapon in the Kadur arsenal, the heavy railgun fires a large-caliber depleted infernium penetrator. Effective against shields and small craft.
+
+Unlike the weapons commonly called 'railguns' in the sector, the weapon makes use of a Lorentz force to propel a conductive sabot armature containing the 40mm kinetic projectile along two parallel rails.",Close Support,,
+khs_assault_penetrator,WEAPON,"This assault coilgun fires 120mm solid-state explosive shells equipped with fail-proof chemical detonators at extremely high velocities.
+
+Using a series of electromagnetic coils to propel non-conductive heavy shells jacketed in magnetic sabots gives the weapon truly impressive projectile velocities, while the rounds themselves are also incredibly destructive thanks to advanced Kadur solid-state explosive technology.",Assault,,
+khs_kinetic_violator,WEAPON,"A dual-mount of the Kadur heavy railgun, doubling its rate of fire. Combined feed devices and targeting mainframes significantly lower required infrastructure.",Close Support,,
+khs_assault_violator,WEAPON,"A twin-mounted rebuild of the assault coilgun, firing 120mm solid-explosive chemically detonated shells at incredible velocities.",Assault,,
+khs_kinetic_demolisher,WEAPON,"Capable of overloading shields with a single impact from well beyond visual range, the Demolisher's only drawback is the long charge time between shots.
+
+The pinnacle of Kadur electromagnetic projectile accelerator technology, the Demolisher railgun propels 16-inch diameter depleted infernium projectiles in a hybrid conductive armature along two heavily reinforced parallel rails by means of a Lorentz electromagnetic force. The exterior of the weapon is covered with heavy armor plates to avoid compromising the mounting vessel's defensive posture due to the large size of the turret.",Close Support,,
+khs_assault_demolisher,WEAPON,"The Redemptor fires immense solid-state explosive shells with such velocity that they are capable of punching through most shields.
+
+Rarely encountered on any but the heaviest of capital ships, the Redemptor is designed for a very specific mission: utter destruction of armored targets from extreme ranges. While the heavy turret required to house the 500mm cannon barrel and associated electromagenetic coil acceleration system is bulky and slow to orient towards a target, no weapon can match the sheer explosive force of its projectiles.",Strike,,
+khs_sling,WEAPON,"In service since well before the Collapse, this lightweight mini-missile system relies on tried and tested technology to intercept incoming projectiles.",Point Defense,,
+khs_partisan,WEAPON,"Based on successful Sling ABM technology, this enhanced missile defense system uses higher velocity launch tubes and better turret tracking.",Point Defense,,
+khs_hoplite,WEAPON,The Hoplite ABMS is the pinnacle of Kadur missile defense. It fires volleys of high-speed interceptor misiles from specially designed pressurized launch tubes.,Point Defense,,
+khs_longinus,WEAPON,"The 'Lance of Longinus' superheavy kinetic projectile accelerator uses multiple coil arrays to propel a fighter-sized depleted infernium slug.
+
+Designed as a brute-force counter to high-technology capital ship shielding, gunnery officers aboard the first Behemoths in combat situations quickly realized the projectiles have enough force to obliterate even the heaviest of armor and destroy small craft outright if they could score a direct hit. The gigantic depleted infernium slugs are forged in microgravity orbital environments and equal the size of some small fighter craft. While their potential destructive energy is immense, this severely limits the possible ammunition capacity and means the flux (and credit) costs of firing the weapon are similarly absurd.",Fire Support,,
+khs_javelin_vlrms,WEAPON,The Javelin VLRMS fires long-range missiles with a sophisticated tracking system. It is commonly used as a support weapon on non-combatant craft.,Fire Support,,
+khs_lance_vlrms,WEAPON,"The Lance VLRMS is an advanced version of the popular Javelin support missile system, upgraded to launch volleys of up to four missiles at once.",Fire Support,,
+khs_francisca_vlrms,WEAPON,"Francisca VLRM Systems are designed to launch up to eight guided missiles at once, inundating the designated target with firepower from standoff ranges.",Fire Support,,
+,,,,,
+khs_martyrdrones,SHIP_SYSTEM,The 'Martyr' UCSV is little more than a light weapon mounted to a powerful engine and slaved to a simple drive control and combat intelligence.,Drones,Deploys a small force of lightly armed and armored defensive drones.,
+khs_martyrdrones2,SHIP_SYSTEM,The 'Martyr' UCSV is little more than a light weapon mounted to a powerful engine and slaved to a simple drive control and combat intelligence.,Drones,Deploys a pair of lightly armed and armored defensive drones.,
+khs_martyrdrones3,SHIP_SYSTEM,The 'Martyr' UCSV is little more than a light weapon mounted to a powerful engine and slaved to a simple drive control and combat intelligence.,Drones,Deploys a large force of lightly armed and armored defensive drones.,
+khs_phaseshunt,SHIP_SYSTEM,"Kadur phase arrays function by 'shunting' the vessel into P-space for a split second, allowing them to immediately change headings at the cost of some flux.",Movement,"Instantly teleports a miniscule distance, taking on a new heading. Generates flux when used. Can hold up to two charges.",
+khs_phaseshunt2,SHIP_SYSTEM,"Though prohibitively expensive to miniaturize to the degree required for them to be mounted on small craft, Kadur phase shunt arrays can move such low mass vessels much more easily. This allows the fighter to translate out of P-space a significant distance from the location where they started, giving them mobility to rival even the most advanced of competitors.",Movement,Instantly teleports a short distance and changes heading. Generates flux when used.,
+khs_hauberk_field,SHIP_SYSTEM,"A sophisticated electronic warfare system designed to boost the sensor and weapon ranges of nearby allied vessels while jamming enemy capabilities.
+
+The EWAR array uses the shield generator to project phased pulse waves in rapid succession, essentially turning it into a gigantic radar sensor and jamming device. Unfortunately, this means that the shield generator cannot function in its regular capacity while the field is active.",Electronic Warfare,Boosts nearby allies' sensor and weapon ranges while reducing those of the enemy.,
+khs_weaponsdriveredirect,SHIP_SYSTEM,"Engages an experimental and very unstable system to feed the entire output of the ship's main reactor core into the weapon systems. While this provides an incredible short-term boost to firepower, the abrupt cutoff of power to the engines invariably damages them upon engaging the system. In addition, the vessel's flux vent arrays are incapable of keeping up with the increased generation and will overload upon completion of the firing sequence.",Offensive,Disables engines while increasing weapon fire rates to 400% and reducing flux costs to 25% for a few seconds. Overloads the ship upon completion.,
+khs_augmentedturretsystem,SHIP_SYSTEM,"Directs extra power to turret motors, increasing their ability to track targets exponentially for a short time. The turret motors bleed excess flux back into the main venting system while in overdrive, though this effect is minimal. The system may only be engaged for a brief period, or there is a risk of irreparable damage to the turret controls.",Offensive,Increases turret turn speed and autofire accuracy dramatically for a short time at the cost of a little flux.,
+khs_ramdrive,SHIP_SYSTEM,"Releases energy stored in experimental special-purpose flux capacitors and temporarily diverts all power to the travel drive of the ship, allowing an incredible burst of forward speed at the expense of all defenses. While hardy, the vessel's flux distribution ducts are utterly incapable of dissipating that amount of energy and are guaranteed to overload shortly after activating the power redirect. The ship's engines must also be taken offline following the use of the system, both to allow flux to dissipate and to repair the inevitable damage that results from the use of the ram drive. The system can only be engaged for a brief period of time, or it risks destroying the ship altogether.",Movement,Redirects all power to engines for a massive burst of forward speed. Causes engine flameout and ship overload upon completion.,
+,,,,,
+khs_star_blue,PLANET,"In the process of transforming into a true 'giant', blue subgiants are typically much brighter than primary-sequence stars and about four times as large. Surface temperatures range around 15 thousand degrees.",,,
+khs_star_brown,PLANET,"Brown dwarfs are substellar objects too low in mass to sustain hydrogen reactions in their cores. They occupy the mass range between the heaviest gas giants and the lightest stars. Typically fusing deuterium and lithium, they burn at a much lower temperature than primary-sequence stars and give off very little light.",,,
+khs_star_yellow_white,PLANET,"A primary sequence star technically classified as a 'white dwarf', though it appears more yellow to the eye. It burns very hot, with a core temperature exceeding fifteen million degrees.",,,

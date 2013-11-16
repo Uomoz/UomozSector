@@ -1,0 +1,109 @@
+{
+  "bounds": [
+    33,
+    -10,
+    3.5,
+    -17,
+    -8.5,
+    -18,
+    -11.5,
+    -22,
+    -24,
+    -16.5,
+    -31,
+    -7.5,
+    -31,
+    7.5,
+    -24,
+    16.5,
+    -11.5,
+    22,
+    -8.5,
+    18,
+    3.5,
+    17,
+    33,
+    10,
+    24.5,
+    0.5
+  ],
+  "center": [
+    31.5,
+    43.5
+  ],
+  "collisionRadius": 60.897453,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 93,
+      "location": [
+        -35,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 69,
+      "location": [
+        -28,
+        13.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 69,
+      "location": [
+        -28,
+        -13.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 8
+    }
+  ],
+  "height": 83,
+  "hullId": "khs_jackal",
+  "hullName": "Jackal",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    1.5,
+    -0
+  ],
+  "shieldRadius": 58.485043,
+  "spriteName": "khs_graphics/hulls/jackal.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 2",
+      "locations": [
+        22.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        -12,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 67
+}

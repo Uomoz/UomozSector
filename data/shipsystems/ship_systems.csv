@@ -50,3 +50,15 @@ Damselfly Tug Drones,nom_damselfly_drone,,,,,,,2,0,0,0,0,0,,,,,,,,,,graphics/ico
 ,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
 Infernium Drive,inferniumdrive,1,,,,,,,,0.3,3.2,2.3,11,,,,,,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Martyr Drones,khs_martyrdrones,,,,,,,5,0.08,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Martyr Drones,khs_martyrdrones2,,,,,,,2,0.08,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Martyr Drones,khs_martyrdrones3,,,,,,,20,0.16,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Phase Shunt Array,khs_phaseshunt,,,,,,0.2,2,0.1,0.1,0,0.1,0,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
+Phase Shunt Drive,khs_phaseshunt2,,,,,,0.2,1,0.1,0.1,0,0.1,0,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
+Hauberk EWAR Field,khs_hauberk_field,,,0.01,,,,,,,,,,TRUE,TRUE,,,,,,,TRUE,graphics/icons/hullsys/fortress_shield.png
+Ram Drive,khs_ramdrive,,,0.1,,,,,,0.75,1,0.5,10,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+Weapons Drive Redirect,khs_weaponsdriveredirect,,,,,,,,,1,2,0,17,,,,,,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/ammo_feeder.png
+Augmented Turret System,khs_augmentedturretsystem,,,0.05,,,,,,1,5,1,10,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png

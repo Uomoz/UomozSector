@@ -1,0 +1,20 @@
+{
+    "id":"khs_hauberk_field",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.hauberk_fieldai",
+
+	"jitterColor":[200,100,255,80],
+	"jitterCopies":3,
+	"jitterRange":1,
+	"jitterRangeRadiusFraction":0.5,
+	
+	"weaponGlowColor":[255,100,255,0],
+	"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+
+    "statsScript":"data.shipsystems.scripts.hauberk_field",
+
+	"useSound":"system_emp_emitter_activate",
+	"loopSound":"system_emp_emitter_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

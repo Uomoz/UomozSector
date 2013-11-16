@@ -1,0 +1,25 @@
+{
+	"id":"khs_kinetic_demolisher",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"khs_graphics/weapons/large/kinetic_demolisher.png",
+	"hardpointSprite":"khs_graphics/weapons/large/kinetic_demolisher_hp.png",
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[],
+	"turretOffsets":[9, -0.5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[9, -0.5],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[170,180,255,190]},	
+	"projectileSpecId":"khs_l_flechette",  # projectile that will be fired
+	"fireSoundTwo":"gauss_cannon_fire",	
+}

@@ -1,0 +1,171 @@
+{
+  "bounds": [
+    -26,
+    41.5,
+    -22,
+    30.5,
+    18,
+    29.5,
+    20,
+    39.5,
+    54,
+    41.5,
+    56,
+    -0.5,
+    52,
+    -14.5,
+    52,
+    -32.5,
+    32.5,
+    -32,
+    18,
+    -21.5,
+    -20,
+    -20.5,
+    -21,
+    -33.5,
+    -50,
+    -32.5,
+    -49,
+    -26.5,
+    -64,
+    -26.5,
+    -64,
+    15.5,
+    -54,
+    19.5,
+    -65,
+    22.5,
+    -64,
+    31.5,
+    -52,
+    31.5,
+    -50,
+    40.5
+  ],
+  "center": [
+    46,
+    67.5
+  ],
+  "collisionRadius": 91.392014,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -65.5,
+        25.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -65.5,
+        9.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -65.5,
+        -3.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -65.5,
+        -15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -65.5,
+        -24.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    }
+  ],
+  "height": 127,
+  "hullId": "khs_mistral",
+  "hullName": "Mistral",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0.5,
+    -0
+  ],
+  "shieldRadius": 88.092277,
+  "spriteName": "khs_graphics/hulls/mistral.png",
+  "style": "KADUR_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 275,
+      "id": "WS 001",
+      "locations": [
+        38.5,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 225,
+      "arc": 275,
+      "id": "WS 002",
+      "locations": [
+        -48.5,
+        -17
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 003",
+      "locations": [
+        41.5,
+        -23
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 155,
+      "arc": 5,
+      "id": "WS 004",
+      "locations": [
+        -48,
+        31.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 83
+}

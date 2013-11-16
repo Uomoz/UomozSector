@@ -1,0 +1,56 @@
+{
+  "displayName": "Fast Attack",
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "hullId": "khs_sphinx",
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "variantId": "khs_sphinx_fastattack",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "khs_sling",
+        "WS0002": "khs_sling",
+        "WS0003": "khs_sling",
+        "WS0004": "khs_sling",
+        "WS0005": "khs_sling",
+        "WS0006": "khs_volley_cannon",
+        "WS0007": "khs_volley_cannon",
+        "WS0008": "khs_volley_cannon",
+        "WS0009": "khs_volley_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "khs_javelin_vlrms",
+        "WS0013": "khs_javelin_vlrms",
+        "WS0014": "khs_javelin_vlrms",
+        "WS0015": "khs_javelin_vlrms"	  
+	  }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+		"WS0018": "khs_assault_violator",
+        "WS0019": "khs_assault_demolisher",
+        "WS0020": "khs_assault_violator"
+		}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "khs_kinetic_penetrator",
+        "WS0011": "khs_kinetic_penetrator",
+        "WS0016": "khs_kinetic_violator",
+        "WS0017": "khs_kinetic_violator"	  
+	  }
+    }
+  ]
+}

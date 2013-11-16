@@ -1,0 +1,25 @@
+{
+  "displayName": "Light",
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "hullId": "khs_mistral",
+  "hullMods": [],
+  "variantId": "khs_mistral_Light",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "khs_sling",
+        "WS 002": "khs_sling"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "khs_lance_vlrms"	  
+	  }
+    }
+  ]
+}
