@@ -1,0 +1,20 @@
+name,id,cargo space,base value,stack size,icon,order
+Electronics,electronics,0,100,1000,graphics/UsS/Electronics.png,1
+Mastery Epoch Scraps,LTscraps,0.5,100,1000,graphics/UsS/LTscraps.png,1
+Core Epoch Scraps,MTscraps,0.5,200,1000,graphics/UsS/MTscraps.png,1
+Expansion Epoch Scraps,HTscraps,0.5,400,1000,graphics/UsS/HTscraps.png,1
+Mastery Epoch Armor Plates,LTarmor,0.5,100,1000,graphics/UsS/LTarmor.png,1
+Core Epoch Armor Plates,MTarmor,0.5,200,1000,graphics/UsS/MTarmor.png,1
+Expansion Epoch Armor Plates,HTarmor,0.5,400,1000,graphics/UsS/HTarmor.png,1
+Mastery Epoch Engine Parts,LTengines,0.5,100,1000,graphics/UsS/LTengines.png,1
+Core Epoch Engine Parts,MTengines,0.5,200,1000,graphics/UsS/MTengines.png,1
+Expansion Epoch Engine Parts,HTengines,0.5,400,1000,graphics/UsS/HTengines.png,1
+Mastery Epoch Flux Conduits,LTflux,0.5,100,1000,graphics/UsS/LTflux.png,1
+Core Epoch Flux Conduits,MTflux,0.5,200,1000,graphics/UsS/MTflux.png,1
+Expansion Epoch Flux Conduits,HTflux,0.5,400,1000,graphics/UsS/HTflux.png,1
+BlackRock Drive Core,BRengines,0.5,1000,1000,graphics/UsS/BRengines.png,1
+Shadow Flux Relay,SHIflux,0.5,1000,1000,graphics/UsS/SHIflux.png,1
+Light Prismatic Alloy Plates,PCKarmor,0.5,1000,1000,graphics/UsS/PCKarmor.png,1
+Junked Dynamic Flux Inverter Set,JPflux,0.5,1000,1000,graphics/UsS/JPflux.png,1
+SuperHeavy Diamonium Alloy Plates,KADarmor,0.5,1000,1000,graphics/UsS/KADarmor.png,1
+Nurrian Polar-Shifted Metal Scraps,NOMscraps,0.5,1000,1000,graphics/UsS/NOMscraps.png,1
