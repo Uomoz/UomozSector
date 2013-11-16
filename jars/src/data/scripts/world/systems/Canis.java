@@ -10,10 +10,9 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
-import data.scripts.UsSData;
-import data.scripts.UsSUtils;
-import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
+import data.scripts.uss.UsSData;
+import data.scripts.uss.UsSUtils;
 import java.awt.Color;
 
 public class Canis {
@@ -67,65 +66,65 @@ public class Canis {
                 SectorEntityToken indStation = system.addOrbitalStation(canis2, 45, 240, 50, "Canis Trade Hub", "independent");
                 UsSUtils.addRandomStuffToStation(sector, indStation.getCargo());
 
-		FactionSpawnPoint trader = new FactionSpawnPoint(sector, system, 1, 3, indStation, "independent", "miner", "Trader", "trade", 0, 10, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "",
+		FactionSpawnPoint trader = new FactionSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "Trader", "trade", 0, 10, UsSData.Variants_IND,
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,0f,0f,100f,
                         1, 5, "leadership", "technology", "combat");
 		system.addScript(trader);
                 
                 FactionSpawnPoint trader2 = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Trader", "trade", 15, 35, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,50f,25f,50f,
                         3, 8, "technology", "leadership", "combat");
 		system.addScript(trader2);
                 
                 FactionSpawnPoint trader3 = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Trader", "trade", 50, 80, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,25f,50f,25f,50f,
                         5, 10, "technology", "leadership", "combat");
 		system.addScript(trader3);
                 
                 FactionSpawnPoint miner = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Miner", "mine", 20, 35, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,0f,50f,50f,
                         3, 5, "technology", "leadership", "combat");
 		system.addScript(miner);
 		
                 //---------------------------------------------------
 
-                EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,50f,33f,0f,
-                        "combat", "technology", "leadership");
-		system.addScript(indeMerc);
+//                EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
+//                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+//                        25f,50f,50f,33f,0f,
+//                        "combat", "technology", "leadership");
+//		system.addScript(indeMerc);
                 
                 //---------------------------------------------------
                 
                 FactionSpawnPoint packFlank = new FactionSpawnPoint(sector, system, 1, 4, station, "pack", "miners", "Flank", "raid", 15, 35, UsSData.Variants_PCK,
-                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.PCK_W, UsSData.PCK_TR, "",
+                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.PCK_W, UsSData.PCK_TR, "", UsSData.PCK_SW_FINAL, UsSData.PCK_MW_FINAL, UsSData.PCK_LW_FINAL,
                         0f,0f,50f,0f,0f,
                         3, 8, "combat", "technology", "leadership");
 		system.addScript(packFlank);
                 
                 FactionSpawnPoint packArmada = new FactionSpawnPoint(sector, system, 1, 3, station, "pack", "miners", "Kollective Mass", "patrol", 50, 90, UsSData.Variants_PCK,
-                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.PCK_W, UsSData.PCK_TR, "",
+                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.PCK_W, UsSData.PCK_TR, "", UsSData.PCK_SW_FINAL, UsSData.PCK_MW_FINAL, UsSData.PCK_LW_FINAL,
                         0f,0f,66f,0f,0f,
                         15, 20, "combat", "technology", "leadership");
 		system.addScript(packArmada);
                 
                 FactionSpawnPoint packMiner = new FactionSpawnPoint(sector, system, 1, 2, station, "pack", "miners", "Miner", "mine", 30, 50, UsSData.Variants_PCK,
-                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.CIV_W, UsSData.PCK_TR, "",
+                        UsSData.PCK_CS, UsSData.PCK_C, UsSData.PCK_D, UsSData.PCK_F, UsSData.CIV_W, UsSData.PCK_TR, "", UsSData.PCK_SW_FINAL, UsSData.PCK_MW_FINAL, UsSData.PCK_LW_FINAL,
                         0f,0f,66f,25f,50f,
                         5, 15, "technology", "leadership", "combat");
 		system.addScript(packMiner);
                 
                 //---------------------------------------------------
                 
-                EliteSpawnPoint packboss = new EliteSpawnPoint(sector, system, 1, 2, station, "pack", "miners", "Wolf", "defender", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PCK_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        0f,0f,50f,33f,0f,
-                        "combat", "technology", "leadership");
-		system.addScript(packboss);
+//                EliteSpawnPoint packboss = new EliteSpawnPoint(sector, system, 1, 2, station, "pack", "miners", "Wolf", "defender", "station", 150, UsSData.All_Variants,
+//                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.PCK_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+//                        0f,0f,50f,33f,0f,
+//                        "combat", "technology", "leadership");
+//		system.addScript(packboss);
                 
 		
     }

@@ -10,10 +10,9 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
-import data.scripts.UsSData;
-import data.scripts.UsSUtils;
-import data.scripts.uss.EliteSpawnPoint;
 import data.scripts.uss.FactionSpawnPoint;
+import data.scripts.uss.UsSData;
+import data.scripts.uss.UsSUtils;
 import java.awt.Color;
 
 public class Breh_Inni {
@@ -89,70 +88,76 @@ public class Breh_Inni {
                 UsSUtils.addRandomStuffToStation(sector, indStation.getCargo());
                 
                 FactionSpawnPoint JPsmallRaiders = new FactionSpawnPoint(sector, system, 1, 5, station, "junk_pirates", "scout", "Salvage Team", "raid", 0, 25, UsSData.Variants_JP,
-                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "",
+                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "", UsSData.JP_SW_FINAL, UsSData.JP_MW_FINAL, UsSData.JP_LW_FINAL,
                         0f,0f,40f,25f,0f,
                         3, 8, "combat", "leadership", "technology");
 		system.addScript(JPsmallRaiders);
                 
-                FactionSpawnPoint JPdefense = new FactionSpawnPoint(sector, system, 1, 3, station, "junk_pirates", "scout", "Retained Fleet", "defend", 80, 120, UsSData.Variants_JP,
-                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "",
+                FactionSpawnPoint JPdefense = new FactionSpawnPoint(sector, system, 1, 2, station, "junk_pirates", "scout", "Retained Fleet", "defend", 80, 120, UsSData.Variants_JP,
+                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "", UsSData.JP_SW_FINAL, UsSData.JP_MW_FINAL, UsSData.JP_LW_FINAL,
                         25f,50f,66f,33f,0f,
                         13, 18, "combat", "leadership", "technology");
 		system.addScript(JPdefense);
                 
-                FactionSpawnPoint JPmediumRaiders = new FactionSpawnPoint(sector, system, 1, 5, station, "junk_pirates", "scout", "Salvage Expedition", "raid", 35, 60, UsSData.Variants_JP,
-                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "",
+                FactionSpawnPoint JPmediumRaiders = new FactionSpawnPoint(sector, system, 1, 3, station, "junk_pirates", "scout", "Salvage Expedition", "raid", 35, 60, UsSData.Variants_JP,
+                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "", UsSData.JP_SW_FINAL, UsSData.JP_MW_FINAL, UsSData.JP_LW_FINAL,
                         10f,40f,66f,25f,0f,
                         8, 13, "combat", "leadership", "technology");
 		system.addScript(JPmediumRaiders);
                 
                 FactionSpawnPoint JPminer = new FactionSpawnPoint(sector, system, 1, 2, station, "junk_pirates", "scout", "Miner", "mine", 40, 70, UsSData.Variants_JP,
-                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "junk_pirates_the_reaper_Hull",
+                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "junk_pirates_the_reaper_Hull", UsSData.JP_SW_FINAL, UsSData.JP_MW_FINAL, UsSData.JP_LW_FINAL,
                         0f,0f,50f,0f,25f,
                         3, 5, "leadership", "combat", "combat");
 		system.addScript(JPminer);
                 
-                //---------------------------------------------------
-                
-                EliteSpawnPoint jpboss = new EliteSpawnPoint(sector, system, 1, 1, station, "junk_pirates", "scout", "Mendonca", "hunter", "station", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.JP_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,50f,33f,0f,
-                        "combat", "technology", "leadership");
-		system.addScript(jpboss);
+                FactionSpawnPoint JPtrader = new FactionSpawnPoint(sector, system, 1, 1, station, "junk_pirates", "scout", "Plunder Fleet", "trade", 20, 80, UsSData.Variants_JP,
+                        UsSData.JP_CS, UsSData.JP_C, UsSData.JP_D, UsSData.JP_F, UsSData.JP_W, UsSData.JP_TR, "", UsSData.JP_SW_FINAL, UsSData.JP_MW_FINAL, UsSData.JP_LW_FINAL,
+                        0f,25f,50f,25f,50f,
+                        5, 10, "technology", "leadership", "combat");
+		system.addScript(JPtrader);
                 
                 //---------------------------------------------------
                 
-                FactionSpawnPoint trader = new FactionSpawnPoint(sector, system, 1, 3, indStation, "independent", "miner", "Trader", "trade", 0, 10, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "",
+//                EliteSpawnPoint jpboss = new EliteSpawnPoint(sector, system, 1, 1, station, "junk_pirates", "scout", "Mendonca", "hunter", "station", 150, UsSData.All_Variants,
+//                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.JP_D, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+//                        25f,50f,50f,33f,0f,
+//                        "combat", "technology", "leadership");
+//		system.addScript(jpboss);
+                
+                //---------------------------------------------------
+                
+                FactionSpawnPoint trader = new FactionSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "Trader", "trade", 0, 10, UsSData.Variants_IND,
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,0f,0f,100f,
                         1, 5, "leadership", "technology", "combat");
 		system.addScript(trader);
                 
                 FactionSpawnPoint trader2 = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Trader", "trade", 15, 35, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,50f,25f,50f,
                         3, 8, "technology", "leadership", "combat");
 		system.addScript(trader2);
                 
                 FactionSpawnPoint trader3 = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Trader", "trade", 50, 80, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.IND_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,25f,50f,25f,50f,
                         5, 10, "technology", "leadership", "combat");
 		system.addScript(trader3);
                 
                 FactionSpawnPoint miner = new FactionSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "Miner", "mine", 20, 35, UsSData.Variants_IND,
-                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "",
+                        UsSData.IND_CS, UsSData.IND_C, UsSData.IND_D, UsSData.IND_F, UsSData.CIV_W, UsSData.IND_TR, "", UsSData.ALL_SW_FINAL, UsSData.ALL_MW_FINAL, UsSData.ALL_LW_FINAL,
                         0f,0f,0f,50f,50f,
                         3, 5, "technology", "leadership", "combat");
 		system.addScript(miner);
                 
                 //---------------------------------------------------
 
-                EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 2, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
-                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
-                        25f,50f,50f,33f,0f,
-                        "combat", "technology", "leadership");
-		system.addScript(indeMerc);
+//                EliteSpawnPoint indeMerc = new EliteSpawnPoint(sector, system, 1, 1, indStation, "independent", "miner", "merc", "defender", "neutral", 150, UsSData.All_Variants,
+//                        UsSData.ALL_CS_FINAL, UsSData.ALL_C_FINAL, UsSData.ALL_D_FINAL, UsSData.ALL_F_FINAL, UsSData.ALL_W_FINAL, UsSData.CIV_LG, "",
+//                        25f,50f,50f,33f,0f,
+//                        "combat", "technology", "leadership");
+//		system.addScript(indeMerc);
                 
     }
     
