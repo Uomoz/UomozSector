@@ -2,8 +2,8 @@
   	"id":"UomozSector", # internal id
 	"name":"Uomoz's Sector", # displayed to the player
 	"author":"Uomoz",
-	"version":"RC 6 Journey",
-	"description":"WIP",
+	"version":"Journey 1.0",
+	"description":"Collection of the best (imho) Mods, in both quality and lore, in a single Mod. All the Factions are perfectly integrated and have relations with each other. I tried not disrupting the vanilla Starsector feel, enhancing some aspect of it for greater difficulty and achievement. The selection of Mods is based on overall balance, sprite quality and lore quality, compared to vanilla.",
         "gameVersion":"0.6.1a",
 	"utility":"false",
 	"modPlugin":"data.scripts.UsSModPlugin",
