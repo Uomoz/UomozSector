@@ -9,7 +9,6 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
-import data.scripts.UsSUtils;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -111,7 +110,7 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
                 }
             }
             FleetMemberAPI stationMothShip;
-            if ((FP > (90 + (15 * Math.random()) - (getCapitalsChance() * 0.30f)))     & (Math.random() < (getCapitalsChance()/100))   & (!Capitals.isEmpty()))   {
+            if ((FP > 90)     & (Math.random() < (getCapitalsChance()/100))   & (!Capitals.isEmpty()))   {
                 stationMothShip = (FleetMemberAPI)Capitals.get((int) (Math.random() * (Capitals.size())));
                 AddShip(stationMothShip.getSpecId());
                 station.getCargo().getMothballedShips().removeFleetMember(stationMothShip);
@@ -119,14 +118,14 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
                 UsSUtils.removeRandomWeapon(station.getCargo());
                 UsSUtils.removeRandomWeapon(station.getCargo());
             } else
-            if ((FP > (60 + (10 * Math.random()) - (getCruisersChance() * 0.20f)))     & (Math.random() < (getCruisersChance()/100))   & (!Cruisers.isEmpty()))  {
+            if ((FP > 60)     & (Math.random() < (getCruisersChance()/100))   & (!Cruisers.isEmpty()))  {
                 stationMothShip = (FleetMemberAPI)Cruisers.get((int) (Math.random() * (Cruisers.size())));
                 AddShip(stationMothShip.getSpecId());
                 station.getCargo().getMothballedShips().removeFleetMember(stationMothShip);
                 UsSUtils.removeRandomWeapon(station.getCargo());
                 UsSUtils.removeRandomWeapon(station.getCargo());
             } else 
-            if ((FP > (25 + (5 * Math.random()) -  (getDestroyersChance() * 0.10f)))   & (Math.random() < (getDestroyersChance()/100)) & (!Destroyers.isEmpty()))  {
+            if ((FP > 25)   & (Math.random() < (getDestroyersChance()/100)) & (!Destroyers.isEmpty()))  {
                 stationMothShip = (FleetMemberAPI)Destroyers.get((int) (Math.random() * (Destroyers.size())));
                 AddShip(stationMothShip.getSpecId());
                 station.getCargo().getMothballedShips().removeFleetMember(stationMothShip);
@@ -152,12 +151,12 @@ public class EliteSpawnPoint extends GeneralEliteSpawnPoint {
             if (getRange().equals("station")) {
                 new_station = station;
             } else if (getRange().equals("friendly")) {
-                new_station = UsSUtils.getRandomStationByRelationship(fleet, "friendly");
+                new_station = UsSUtils.getRandomStationByParam(fleet, "friendly");
             } else if (getRange().equals("neutral")) {
                 if (Math.random() > 0.50) {
-                    new_station = UsSUtils.getRandomStationByRelationship(fleet, "neutral"); 
+                    new_station = UsSUtils.getRandomStationByParam(fleet, "neutral"); 
                 } else {
-                    new_station = UsSUtils.getRandomStationByRelationship(fleet, "friendly");
+                    new_station = UsSUtils.getRandomStationByParam(fleet, "friendly");
                 }
             }
             if (new_station == null) {
