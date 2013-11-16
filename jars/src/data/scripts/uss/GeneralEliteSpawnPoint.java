@@ -21,6 +21,7 @@ public abstract class GeneralEliteSpawnPoint implements EveryFrameScript {
 	
 	private List fleets = new ArrayList();
 	private long lastSpawnTime = Long.MIN_VALUE;
+        private long firstSpawnTime = Long.MIN_VALUE;
         
         Map variants, capitals, cruisers, destroyers, frigates, wings, specials;
 	
@@ -61,13 +62,20 @@ public abstract class GeneralEliteSpawnPoint implements EveryFrameScript {
                 this.rnd_faction_fleet = rnd_faction_fleet;
 		
 		lastSpawnTime = (long) (Global.getSector().getClock().getTimestamp());
-                random = (float) Math.random();
+                firstSpawnTime = (long) (Global.getSector().getClock().getTimestamp());
+                random = (float) (Math.random() * 5);
 	}
 
 	public void advance(float amount) {
 		CampaignClockAPI clock = sector.getClock();
 		
-		if (clock.getElapsedDaysSince(lastSpawnTime) >= (daysInterval + random)) {
+	if (clock.getElapsedDaysSince(firstSpawnTime) <= 1) {
+			if (fleets.size() < maxFleets) {
+				CampaignFleetAPI fleet = spawnElite();
+				if (fleet != null) fleets.add(fleet);
+			}
+		}
+                if (clock.getElapsedDaysSince(lastSpawnTime) >= (daysInterval + random)) {
 			lastSpawnTime = clock.getTimestamp();
 			random = (float) (Math.random() * 2);
 			Iterator iter = fleets.iterator();

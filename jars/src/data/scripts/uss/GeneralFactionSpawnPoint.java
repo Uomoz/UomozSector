@@ -21,15 +21,17 @@ public abstract class GeneralFactionSpawnPoint implements EveryFrameScript {
 	
 	private List fleets = new ArrayList();
 	private long lastSpawnTime = Long.MIN_VALUE;
+        private long firstSpawnTime = Long.MIN_VALUE;
         
         Map variants, capitals, cruisers, destroyers, frigates, wings, specials;
+        List SW, MW, LW;
 	
 	private SectorAPI sector;
 	private LocationAPI location;
         private String faction, fleetType, fleet_name, A_focus1, A_focus2, A_focus3, baseship, rnd_faction_fleet;
 	
 	public GeneralFactionSpawnPoint(SectorAPI sector, LocationAPI location, int daysInterval, int maxFleets, SectorEntityToken anchor, String faction, String rnd_faction_fleet, String fleet_name, String fleetType, int minFP, int maxFP, Map variants,
-                        Map capitals, Map cruisers, Map destroyers, Map frigates, Map wings, Map specials, String baseship,
+                        Map capitals, Map cruisers, Map destroyers, Map frigates, Map wings, Map specials, String baseship, List SW, List MW, List LW,
                         float CS_chance, float C_chance, float D_chance, float W_chance, float S_chance,
                         int minAP, int maxAP, String A_focus1, String A_focus2, String A_focus3) {
 		this.daysInterval = daysInterval;
@@ -46,6 +48,9 @@ public abstract class GeneralFactionSpawnPoint implements EveryFrameScript {
                 this.destroyers = destroyers;
                 this.frigates = frigates;
                 this.wings = wings;
+                this.SW = SW;
+                this.MW = MW;
+                this.LW = LW;
                 this.faction = faction;
                 this.fleetType = fleetType;
                 this.fleet_name = fleet_name;
@@ -63,13 +68,20 @@ public abstract class GeneralFactionSpawnPoint implements EveryFrameScript {
                 this.rnd_faction_fleet = rnd_faction_fleet;
 		
 		lastSpawnTime = (long) (Global.getSector().getClock().getTimestamp());
-                random = (float) Math.random();
+                firstSpawnTime = (long) (Global.getSector().getClock().getTimestamp());
+                random = (float) (Math.random() * 2);
 	}
 
 	public void advance(float amount) {
 		CampaignClockAPI clock = sector.getClock();
 		
-		if (clock.getElapsedDaysSince(lastSpawnTime) >= (daysInterval + random)) {
+		if (clock.getElapsedDaysSince(firstSpawnTime) <= 1) {
+			if (fleets.size() < maxFleets) {
+				CampaignFleetAPI fleet = spawnFleet();
+				if (fleet != null) fleets.add(fleet);
+			}
+		}
+                if (clock.getElapsedDaysSince(lastSpawnTime) >= (daysInterval + random)) {
 			lastSpawnTime = clock.getTimestamp();
 			random = (float) (Math.random() * 2);
 			Iterator iter = fleets.iterator();
@@ -171,6 +183,19 @@ public abstract class GeneralFactionSpawnPoint implements EveryFrameScript {
         public Map getWings() {
 		return wings;
 	}
+        
+        public List getSW() {
+		return SW;
+	}
+        
+        public List getMW() {
+		return MW;
+	}
+        
+        public List getLW() {
+		return LW;
+	}
+        
         public float getWingsChance() {
 		return W_chance;
 	}
