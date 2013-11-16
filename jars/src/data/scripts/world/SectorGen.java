@@ -11,7 +11,10 @@ import data.scripts.world.systems.Canis;
 import data.scripts.world.systems.Corvus;
 import data.scripts.world.systems.Gneiss;
 import data.scripts.world.systems.Hyper;
+import data.scripts.world.systems.Kadur;
+import data.scripts.world.systems.Mirage;
 import data.scripts.world.systems.Nur;
+import data.scripts.world.systems.Oasis;
 
 
 public class SectorGen implements SectorGeneratorPlugin {
@@ -27,6 +30,9 @@ public class SectorGen implements SectorGeneratorPlugin {
                 new Anar().generate(sector);
                 new Gneiss().generate(sector);
                 new Nur().generate(sector);
+                new Kadur().generate(sector);
+                new Mirage().generate(sector);
+                new Oasis().generate(sector);
                         
                 new Hyper().generate(sector);
                 
@@ -37,7 +43,6 @@ public class SectorGen implements SectorGeneratorPlugin {
 		FactionAPI hegemony = sector.getFaction("hegemony");
 		FactionAPI tritachyon = sector.getFaction("tritachyon");
 		FactionAPI pirates = sector.getFaction("pirates");
-		FactionAPI independent = sector.getFaction("independent");
 		FactionAPI player = sector.getFaction("player");
 		FactionAPI pack = sector.getFaction("pack");
                 FactionAPI junk_pirates = sector.getFaction("junk_pirates");
@@ -45,6 +50,27 @@ public class SectorGen implements SectorGeneratorPlugin {
                 FactionAPI blackrock_driveyards = sector.getFaction("blackrock_driveyards");
                 FactionAPI shadow_industry = sector.getFaction("shadow_industry");
                 FactionAPI nomads = sector.getFaction("nomads");
+                FactionAPI regime = sector.getFaction("regime");
+                FactionAPI insurgency = sector.getFaction("insurgency");
+                
+		regime.setRelationship("hegemony", -1);
+		regime.setRelationship("tritachyon", -1);
+		regime.setRelationship("pirates", -1);
+		regime.setRelationship("sindrian_diktat", -1);
+		regime.setRelationship("junk_pirates", -1);
+		regime.setRelationship("nomads", -1);
+                regime.setRelationship("pack", -1);
+                
+                insurgency.setRelationship("regime", -1);
+		insurgency.setRelationship("hegemony", -1);
+		insurgency.setRelationship("tritachyon", -1);
+		insurgency.setRelationship("sindrian_diktat", -1);
+		insurgency.setRelationship("independent", -1);
+		insurgency.setRelationship("player", -1);   
+		insurgency.setRelationship("blackrock_driveyards", -1);
+		insurgency.setRelationship("shadow_industry", -1);
+		insurgency.setRelationship("nomads", -1);
+                insurgency.setRelationship("pack", -1);
                 
                 nomads.setRelationship("hegemony", -1);
                 nomads.setRelationship("tritachyon", -1);
