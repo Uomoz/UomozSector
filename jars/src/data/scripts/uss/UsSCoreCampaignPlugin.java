@@ -1,4 +1,4 @@
-package data.scripts;
+package data.scripts.uss;
 
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.BaseCampaignPlugin;
@@ -7,9 +7,6 @@ import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.InteractionDialogPlugin;
 import com.fs.starfarer.api.campaign.OrbitalStationAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
-import data.scripts.UsSBattleAutoresolverPluginImpl;
-import data.scripts.UsSFleetInteractionDialogPluginImpl;
-import data.scripts.UsSOrbitalStationInteractionDialogPluginImpl;
 
 public class UsSCoreCampaignPlugin extends BaseCampaignPlugin {
 

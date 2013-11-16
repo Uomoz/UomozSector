@@ -1,8 +1,4 @@
-package data.scripts;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package data.scripts.uss;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.BattleAutoresolverPlugin;
@@ -12,11 +8,14 @@ import com.fs.starfarer.api.campaign.ai.CampaignFleetAIAPI.EncounterOption;
 import com.fs.starfarer.api.combat.DeployedFleetMemberAPI;
 import com.fs.starfarer.api.combat.EngagementResultAPI;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.combat.ShieldAPI.ShieldType;
+import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class UsSBattleAutoresolverPluginImpl implements BattleAutoresolverPlugin {
 

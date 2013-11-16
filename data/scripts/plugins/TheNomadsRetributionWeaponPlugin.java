@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.UsSUtils;
+import data.scripts.uss.UsSUtils;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;

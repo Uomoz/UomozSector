@@ -1,24 +1,20 @@
-package data.scripts;
-
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.List;
+package data.scripts.uss;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
+import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
 import com.fs.starfarer.api.campaign.CoreInteractionListener;
+import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.DataForEncounterSide;
+import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.DisengageHarryAvailability;
+import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.EngagementOutcome;
+import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.PursueAvailability;
+import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.Status;
 import com.fs.starfarer.api.campaign.FleetMemberPickerListener;
 import com.fs.starfarer.api.campaign.InteractionDialogAPI;
 import com.fs.starfarer.api.campaign.InteractionDialogPlugin;
 import com.fs.starfarer.api.campaign.OptionPanelAPI;
 import com.fs.starfarer.api.campaign.TextPanelAPI;
 import com.fs.starfarer.api.campaign.VisualPanelAPI;
-import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
-import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.DataForEncounterSide;
-import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.DisengageHarryAvailability;
-import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.EngagementOutcome;
-import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.PursueAvailability;
-import com.fs.starfarer.api.campaign.FleetEncounterContextPlugin.Status;
 import com.fs.starfarer.api.campaign.ai.CampaignFleetAIAPI;
 import com.fs.starfarer.api.campaign.ai.CampaignFleetAIAPI.EncounterOption;
 import com.fs.starfarer.api.campaign.ai.CampaignFleetAIAPI.InitialBoardingResponse;
@@ -31,10 +27,13 @@ import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.ExampleCustomUIPanel;
 import com.fs.starfarer.api.ui.ValueDisplayMode;
-import data.scripts.UsSFleetEncounterContext.BoardingAttackType;
-import data.scripts.UsSFleetEncounterContext.BoardingOutcome;
-import data.scripts.UsSFleetEncounterContext.BoardingResult;
-import data.scripts.UsSFleetEncounterContext.EngageBoardableOutcome;
+import data.scripts.uss.UsSFleetEncounterContext.BoardingAttackType;
+import data.scripts.uss.UsSFleetEncounterContext.BoardingOutcome;
+import data.scripts.uss.UsSFleetEncounterContext.BoardingResult;
+import data.scripts.uss.UsSFleetEncounterContext.EngageBoardableOutcome;
+import java.awt.Color;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UsSFleetInteractionDialogPluginImpl implements InteractionDialogPlugin {
 
@@ -1003,18 +1002,18 @@ public class UsSFleetInteractionDialogPluginImpl implements InteractionDialogPlu
 		if (pickedMemberToBoard) {
 			visual.showFleetInfo((String)null, playerFleet, (String)null, otherFleet, context);
 		}
-		
-		if (!lootedCredits) {
-			lootedCredits = true;
-			
-			float credits = + context.computeCreditsLooted();
-			creditsLooted = "" + (int) credits;
-			if (credits > 0) {
-				addText(getString("creditsLootedReport"));
-				textPanel.highlightLastInLastPara(creditsLooted, HIGHLIGHT_COLOR);
-				playerFleet.getCargo().getCredits().add(credits);
-			}
-		}
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////DITCHED
+//		if (!lootedCredits) {
+//			lootedCredits = true;
+//			
+//			float credits = + context.computeCreditsLooted();
+//			creditsLooted = "" + (int) credits;
+//			if (credits > 0) {
+//				addText(getString("creditsLootedReport"));
+//				textPanel.highlightLastInLastPara(creditsLooted, HIGHLIGHT_COLOR);
+//				playerFleet.getCargo().getCredits().add(credits);
+//			}
+//		}
 		
 		context.scrapDisabledShipsAndGenerateLoot();
 		if (!context.getLoot().isEmpty() && playerFleet.isValidPlayerFleet()) {

@@ -1,4 +1,4 @@
-package data.scripts;
+package data.scripts.uss;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
@@ -525,30 +525,27 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 			float mult = getSalvageMult(data.getStatus());
 			fp += (float) data.getMember().getFleetPointCost() * mult;
 		}
-		
-		return (int)(fp * 130f * (1.5f + 0.5f * (float) Math.random())* 4);
+		return (int)(fp * 130f * (1.5f + 0.5f * (float) Math.random()));
 	}
-        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE*4
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE\2
 	public float getSalvageMult(Status status) {
-		float mult = 0.5f;
+		float mult = 1f;
 		switch (status) {
 		case DESTROYED:
-			mult = 0.125f;
-			break;
-		case DISABLED:
-			mult = 0.5f;
-			break;
-		case SALVAGE_DESTROYED:
 			mult = 0.25f;
 			break;
+		case DISABLED:
+			mult = 1f;
+			break;
+		case SALVAGE_DESTROYED:
+			mult = 0.5f;
+			break;
 		case SALVAGE_DISABLED:
-			mult = 1.0f;
+			mult = 2.0f;
 			break;
 		case REPAIRED:
-			mult = 1f;
+			mult = 2f;
 		case CAPTURED:
-			mult = 1f;
+			mult = 2f;
 			break;
 		}
 		return mult;
@@ -685,7 +682,7 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 							defenderCrew.getRegular() * regularMult +
 							defenderCrew.getVeteran() * veteranMult +
 							defenderCrew.getElite() * eliteMult +
-							defenderCrew.getMarines() * eliteMult;
+							defenderCrew.getMarines() * marineMult;
 		defenderStr *= defenderMarineMult;
 
 		if (attackType == BoardingAttackType.LAUNCH_FROM_DISTANCE) {
@@ -1129,7 +1126,8 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 			
 			float mult = getSalvageMult(data.getStatus());
 			lootWeapons(data.getMember(), mult);
-			suppliesSalvaged += data.getMember().getRepairTracker().getSuppliesFromSalvage() * mult;
+			//suppliesSalvaged += data.getMember().getRepairTracker().getSuppliesFromSalvage() * mult;
+                        UsSUtils.Loot(data, loot, mult);
 			
 			maxCapacity += data.getMember().getCargoCapacity();
 		}
@@ -1138,13 +1136,17 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 				continue;
 			}
 			
-			float mult = getSalvageMult(data.getStatus());
+                        float mult = getSalvageMult(data.getStatus());
 			lootWeapons(data.getMember(), mult);
-			suppliesSalvaged += data.getMember().getRepairTracker().getSuppliesFromSalvage() * mult;
+			//suppliesSalvaged += data.getMember().getRepairTracker().getSuppliesFromSalvage() * mult;
+                        UsSUtils.Loot(data, loot, mult);
 		}
-		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE\2
-		loot.addSupplies((int)suppliesSalvaged/2);
-		
+                if ((!getDataFor(Global.getSector().getPlayerFleet()).disengaged()) && winner.getFleet().isPlayerFleet() && !loser.getFleet().isPlayerFleet()) {
+                    UsSUtils.BlueprintGain(loot, loser);
+                }
+                //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////DITCHED and UsSUtilsLoot and UsSUtilsBlueprintGain
+		//loot.addSupplies((int)suppliesSalvaged);
+                loot.addItems(CargoAPI.CargoItemType.RESOURCES, "electronics", (int)computeCreditsLooted()/50);		
  
 		float scrappedCapacity = 0f;
 		float lootedCapacity = 0f;
@@ -1163,9 +1165,9 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 		
 		loserCargo.removeFuel(fuelLost);
 		loserCargo.removeSupplies(suppliesLost);
-		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE\2
-		float lootedFraction = 0.25f;
-		loot.addFuel(Math.round(fuelLost * lootedFraction));
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE/4 & removed fuel
+		float lootedFraction = 0.125f;
+		//loot.addFuel(Math.round(fuelLost * lootedFraction));
 		loot.addSupplies(Math.round(suppliesLost * lootedFraction));
 		
 		for (CargoStackAPI stack : loserCargo.getStacksCopy()) {
@@ -1197,7 +1199,8 @@ public class UsSFleetEncounterContext implements FleetEncounterContextPlugin {
 		ShipVariantAPI variant = member.getVariant();
 		List<String> remove = new ArrayList<String>();
 		for (String slotId : variant.getNonBuiltInWeaponSlots()) {
-			if ((float) Math.random() * mult > 0.75f) {
+                    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////HERE/2 mult
+			if ((float) Math.random() * mult/2 > 0.75f) {
 				String weaponId = variant.getWeaponId(slotId);
 				loot.addItems(CargoAPI.CargoItemType.WEAPONS, weaponId, 1);
 				remove.add(slotId);

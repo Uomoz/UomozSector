@@ -1,7 +1,7 @@
 package data.scripts.world.armada;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
-import data.scripts.UsSUtils;
+import data.scripts.uss.UsSUtils;
 import data.scripts.world.armada.api.CampaignArmadaAPI;
 import data.scripts.world.armada.api.CampaignArmadaEscortFleetPositionerAPI;
 import org.lwjgl.util.vector.Vector2f;
